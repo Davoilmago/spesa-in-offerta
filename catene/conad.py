@@ -37,14 +37,13 @@ def url_conad(negozio):
 
 
 def trova_pulsante(pagina):
-    """Trova il pulsante 'Download PDF'."""
+    """Trova il pulsante 'Download PDF' (solo quello: nel resto della pagina ci sono altri PDF, come i documenti aziendali)."""
     nome = re.compile(r"download\s*pdf|scarica\s*(il\s*)?pdf", re.I)
     for frame in comune.tutti_i_frame(pagina):
         candidati = [
             ("pulsante 'Download PDF'", frame.get_by_role("button", name=nome)),
             ("link 'Download PDF'", frame.get_by_role("link", name=nome)),
             ("testo 'Download PDF'", frame.get_by_text(nome)),
-            ("link a un file .pdf", frame.locator('a[href*=".pdf"]')),
         ]
         for come, loc in candidati:
             try:
