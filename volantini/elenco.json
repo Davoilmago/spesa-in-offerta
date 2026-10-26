@@ -95,20 +95,6 @@
     "scaricato_il": "2026-10-26T11:26:14"
   },
   {
-    "file": "lazio/anzio/lidl.pdf",
-    "regione": "Lazio",
-    "citta": "Anzio",
-    "cap": "00042",
-    "catena": "lidl",
-    "negozio": "volantino nazionale",
-    "sha256": "82bb4f33a27ece3d229efd971969017404dd031d24d028d7b62f2a03e86fb76f",
-    "byte": 18907126,
-    "scaricato_il": "2026-10-26T11:27:01",
-    "valido_dal": "2026-10-22",
-    "valido_al": "2026-10-28",
-    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1"
-  },
-  {
     "file": "lazio/anzio/todis.pdf",
     "regione": "Lazio",
     "citta": "Anzio",
