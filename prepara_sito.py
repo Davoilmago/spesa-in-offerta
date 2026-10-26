@@ -34,12 +34,12 @@ GIORNO = r"(?:lun|mar|mer|gio|ven|sab|dom)[a-zì]*"
 
 # "da venerdì 30 ottobre a giovedì 12 novembre 2026"
 RE_DA_A = re.compile(
-    rf"\bda\s+{GIORNO}\s+(\d{{1,2}})\s+({NOMI_MESI})(?:\s+(\d{{4}}))?\s+a\s+{GIORNO}\s+(\d{{1,2}})\s+({NOMI_MESI})(?:\s+(\d{{4}}))?",
+    rf"\bda\s+{GIORNO}\s+(\d{{1,2}})[°º]?\s+({NOMI_MESI})(?:\s+(\d{{4}}))?\s+a\s+{GIORNO}\s+(\d{{1,2}})[°º]?\s+({NOMI_MESI})(?:\s+(\d{{4}}))?",
     re.I,
 )
 # "dal 15 al 28 ottobre" / "dal 28 ottobre al 3 novembre 2026"
 RE_DAL_AL = re.compile(
-    rf"\bdal\s+(\d{{1,2}})(?:\s+({NOMI_MESI}))?(?:\s+(\d{{4}}))?\s+al\s+(\d{{1,2}})\s+({NOMI_MESI})(?:\s+(\d{{4}}))?",
+    rf"\bdal\s+(\d{{1,2}})[°º]?(?:\s+({NOMI_MESI}))?(?:\s+(\d{{4}}))?\s+al\s+(\d{{1,2}})[°º]?\s+({NOMI_MESI})(?:\s+(\d{{4}}))?",
     re.I,
 )
 # "dal 15/10 al 28/10"
