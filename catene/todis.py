@@ -34,14 +34,16 @@ def url_todis(zona_todis):
     return f"https://www.todis.it/volantini/{zona_todis}/"
 
 
-def trova_pulsante(pagina):
-    """Trova il link 'Scarica il volantino in PDF' (non quello 'accessibile')."""
+def trova_pulsante(pagina, anche_qualsiasi_pdf=False):
+    """Trova il link 'Scarica il volantino in PDF' (non quello 'accessibile').
+    Solo come ultima possibilita' ripiega su un qualsiasi link a un PDF."""
     for frame in comune.tutti_i_frame(pagina):
         candidati = [
             ("testo 'Scarica il volantino in PDF'", frame.get_by_role("link", name=re.compile(r"scarica il volantino in pdf", re.I))),
             ("testo 'Scarica il volantino in PDF'", frame.get_by_text(re.compile(r"scarica il volantino in pdf", re.I))),
-            ("link a un file .pdf", frame.locator('a[href*=".pdf"]:not([href*="access" i])')),
         ]
+        if anche_qualsiasi_pdf:
+            candidati.append(("link a un file .pdf", frame.locator('a[href*=".pdf"]:not([href*="access" i])')))
         for come, loc in candidati:
             try:
                 el = loc.first
@@ -68,7 +70,7 @@ def apri(pagina, negozio):
     comune.prova_chiudi_cookie(pagina)
 
     for giro in range(10):
-        pulsante, come = trova_pulsante(pagina)
+        pulsante, come = trova_pulsante(pagina, anche_qualsiasi_pdf=(giro >= 7))
         if pulsante is not None:
             return pulsante, come, {"indirizzo": indirizzo}
         if giro == 3:
