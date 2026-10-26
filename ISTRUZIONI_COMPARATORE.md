@@ -2,7 +2,7 @@
 
 Il comparatore legge TUTTO da `sito/offerte.js` (prodotti, offerte, date, foto incorporate).
 Formato: `window.OFFERTE={aggiornato, prodotti:[{id,e,n,cat,sub,u}], offerte:[{p,s,prezzo,q,l,z,c,dal,al,img}]}`
-- `s` = catena (eurospin, lidl, todis, conad); `z` = zone: A (Anzio), N (Nettuno), AN (entrambe)
+- `s` = catena (eurospin, lidl, todis, conad, pam); `z` = zone: A (Anzio), N (Nettuno), AN (entrambe)
 - `prezzo` = prezzo della confezione; `q` = quantita' nell'unita' del prodotto (`u`: kg, l, etto, pezzo...)
   Il confronto e' prezzo/q. Per i volantini "1+1" o "2 pezzi" il prezzo e' quello dei 2 pezzi e q raddoppia.
 - `c` = 0 normale, 1 serve la carta fedelta', 2 serve l'app. `dal`/`al` = date ISO di validita'.
@@ -23,3 +23,8 @@ Formato: `window.OFFERTE={aggiornato, prodotti:[{id,e,n,cat,sub,u}], offerte:[{p
 5. Salva con `salva(dati)`, verifica che il file si carichi, fai commit e push su `main`
    (il push di `sito/offerte.js` fa ripubblicare il sito da solo).
 6. Controlla in Actions che la pubblicazione finisca con successo.
+
+## Note Pam (Nettuno)
+- I PDF sono due: `pam.pdf` (volantino principale) e `pam_2.pdf` ("Occasioni Extra"), pagine alte con il testo estraibile (`pdftotext`) utile per controllare i prezzi.
+- "con APP" / "Pam Perte Plus" = `c` 2 (serve l'app). Prezzi "all'etto": prezzo = prezzo all'etto, q = 1 se l'unita' del prodotto e' `etto` (o q = 0.1 se e' `kg`).
+- Ignora gli "sconto X% alla cassa" senza prezzo finale, vini/liquori e cosmesi non presenti nel comparatore.
