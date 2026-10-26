@@ -46,6 +46,12 @@
         "scheda": "https://www.conad.it/ricerca-negozi/conad-via-aldo-moro-19-00048-nettuno--010694",
         "nota": "Conad Via Aldo Moro 19"
       }
+    ],
+    "pam": [
+      {
+        "id": "roma-nettuno",
+        "nota": "Pam Via Ugo La Malfa 48"
+      }
     ]
   }
 }
