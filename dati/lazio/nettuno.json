@@ -1,0 +1,13 @@
+{
+  "regione": "Lazio",
+  "citta": "Nettuno",
+  "cap": "00048",
+  "negozi": {
+    "eurospin": [
+      {"id": "nettuno", "nota": "Via Scipione Borghese 35"}
+    ],
+    "lidl": [
+      {"nota": "volantino nazionale"}
+    ]
+  }
+}
