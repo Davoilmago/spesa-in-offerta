@@ -23,6 +23,18 @@
         "zona": "lazio",
         "nota": "volantino Lazio"
       }
+    ],
+    "conad": [
+      {
+        "id": "008625",
+        "volantino": "Spazio-Conad-Fascia2",
+        "nota": "Spazio Conad, Viale Antium 4"
+      },
+      {
+        "id": "008625",
+        "volantino": "Spazio-Conad-Fascia2-Bis",
+        "nota": "Spazio Conad, Viale Antium 4 (secondo volantino)"
+      }
     ]
   }
 }
