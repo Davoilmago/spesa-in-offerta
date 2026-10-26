@@ -146,46 +146,53 @@ def main(argv=None):
                 chiave = modulo.chiave_condivisione(negozio)
 
             if chiave is not None and (catena, chiave) in cache:
-                temporaneo, info = cache[(catena, chiave)]
+                risultati = cache[(catena, chiave)]
                 print(f"[condiviso] {catena} {lavoro['citta']}: uso il volantino gia' scaricato ({chiave})")
             else:
                 etichetta = f"{catena}_{chiave or negozio.get('id') or 'unico'}"
-                temporaneo, info = modulo.scarica(contesto, negozio, etichetta)
+                risultato = modulo.scarica(contesto, negozio, etichetta)
+                # una catena puo' restituire un solo volantino (file, info) oppure una lista di volantini
+                risultati = risultato if isinstance(risultato, list) else [risultato]
                 if chiave is not None:
-                    cache[(catena, chiave)] = (temporaneo, info)
+                    cache[(catena, chiave)] = risultati
 
-            if temporaneo is None:
-                errori += 1
-                gruppi_con_errori.add(gruppo)
+            if not risultati:
+                print(f"[nessun volantino] {lavoro['citta']} {catena} ({nota}): il negozio non ha volantini pubblicati")
                 continue
 
-            gia_salvati = tenuti.setdefault(gruppo, {})
-            firma = comune.impronta(temporaneo)
-            if firma in gia_salvati:
-                print(f"[uguale] {lavoro['citta']} {catena} ({nota}): stesso volantino di {gia_salvati[firma]}, non lo duplico")
-                continue
+            for temporaneo, info in risultati:
+                if temporaneo is None:
+                    errori += 1
+                    gruppi_con_errori.add(gruppo)
+                    continue
 
-            cartella = cartella_zona(lavoro["regione"], lavoro["citta"])
-            cartella.mkdir(parents=True, exist_ok=True)
-            nome_file = f"{catena}.pdf" if not gia_salvati else f"{catena}_{len(gia_salvati) + 1}.pdf"
-            destinazione = cartella / nome_file
-            shutil.copyfile(temporaneo, destinazione)
-            gia_salvati[firma] = nome_file
+                gia_salvati = tenuti.setdefault(gruppo, {})
+                firma = comune.impronta(temporaneo)
+                if firma in gia_salvati:
+                    print(f"[uguale] {lavoro['citta']} {catena} ({nota}): stesso volantino di {gia_salvati[firma]}, non lo duplico")
+                    continue
 
-            voce = {
-                "file": destinazione.relative_to(comune.CARTELLA_PDF).as_posix(),
-                "regione": lavoro["regione"],
-                "citta": lavoro["citta"],
-                "cap": lavoro["cap"],
-                "catena": catena,
-                "negozio": nota,
-                "sha256": firma,
-                "byte": destinazione.stat().st_size,
-                "scaricato_il": datetime.now().isoformat(timespec="seconds"),
-            }
-            voce.update(info or {})
-            nuove_voci.append(voce)
-            print(f"[salvato] {voce['file']} ({nota})")
+                cartella = cartella_zona(lavoro["regione"], lavoro["citta"])
+                cartella.mkdir(parents=True, exist_ok=True)
+                nome_file = f"{catena}.pdf" if not gia_salvati else f"{catena}_{len(gia_salvati) + 1}.pdf"
+                destinazione = cartella / nome_file
+                shutil.copyfile(temporaneo, destinazione)
+                gia_salvati[firma] = nome_file
+
+                voce = {
+                    "file": destinazione.relative_to(comune.CARTELLA_PDF).as_posix(),
+                    "regione": lavoro["regione"],
+                    "citta": lavoro["citta"],
+                    "cap": lavoro["cap"],
+                    "catena": catena,
+                    "negozio": nota,
+                    "sha256": firma,
+                    "byte": destinazione.stat().st_size,
+                    "scaricato_il": datetime.now().isoformat(timespec="seconds"),
+                }
+                voce.update(info or {})
+                nuove_voci.append(voce)
+                print(f"[salvato] {voce['file']} ({nota})")
 
         browser.close()
 
