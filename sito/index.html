@@ -228,7 +228,7 @@ dialog.pvd{width:min(440px,94vw);max-height:86vh;overflow:auto}.pvd h2{display:f
   <div class="srch"><span>🔍</span><input type="search" id="q" placeholder="Cerca prodotto (latte, pasta, olio, pollo…)" aria-label="Cerca prodotto"></div>
   <div class="city" id="city"></div>
  </div>
- <div class="tick" aria-hidden="true"><div><span>Lidl</span><span>Eurospin</span><span>Conad</span><span>Todis</span><span>Lidl</span><span>Eurospin</span><span>Conad</span><span>Todis</span><span>Lidl</span><span>Eurospin</span><span>Conad</span><span>Todis</span></div></div>
+ <div class="tick" aria-hidden="true"><div><span>Lidl</span><span>Eurospin</span><span>Conad</span><span>Todis</span><span>Pam</span><span>Lidl</span><span>Eurospin</span><span>Conad</span><span>Todis</span><span>Pam</span><span>Lidl</span><span>Eurospin</span><span>Conad</span><span>Todis</span><span>Pam</span></div></div>
  <div class="chips" id="cats" role="group" aria-label="Categorie"></div>
  <div class="chips" id="subs" role="group" aria-label="Tipo di prodotti non alimentari" hidden></div>
  <label class="sw"><input type="checkbox" id="onlyok"><span>Mostra solo le offerte che posso usare con le mie carte</span></label>
@@ -301,7 +301,7 @@ const pick=g=>{const it=cart[g.id],o=offs(g);return (it&&it.k&&o.find(x=>okey(x)
 const gone=g=>{const it=cart[g.id];return !!(it&&it.k&&!offs(g).some(x=>okey(x)===it.k))};
 const vi=x=>{const w=zn=>{const v=VIA[x.s+"|"+zn];return v?(v.length===1?v[0].via:v.length+" punti vendita"):""};if(zone){const t=w(zone);return t?" · "+t:""}const p=x.za.map(zn=>{const t=w(zn);return t?zn+": "+t:""}).filter(Boolean);return p.length?" · "+p.join(" · "):""};
 const tag=x=>x.c?`<span class="tg${cards[x.s]?" ok":""}">${cards[x.s]?"✓ hai la carta":(x.c===2?"serve l’app":"serve la carta")}</span>`:"";
-const LG={conad:["logos/conad.jpg","#fff"],todis:["logos/todis.jpg","#F5F0E1"],lidl:["logos/lidl.png","#fff"],eurospin:["logos/eurospin.png","#fff"]};
+const LG={conad:["logos/conad.jpg","#fff"],todis:["logos/todis.jpg","#F5F0E1"],lidl:["logos/lidl.png","#fff"],eurospin:["logos/eurospin.png","#fff"],pam:["logos/pam.svg","#fff"]};
 const nPV=x=>x.za.reduce((n,zn)=>n+((VIA[x.s+"|"+zn]||[]).length),0);
 const loc=x=>{if(nPV(x)>=2){const n=nPV(x),c=zone?"":cl(x)+" · ";return `<span class="lc"><button type="button" class="pvb" data-pv="${x.s}|${x.za.join(",")}"><span class="pvp" aria-hidden="true">📍</span>${c}${n} punti vendita<span class="pvg" aria-hidden="true">›</span></button></span>`}const t=((zone?"":" · "+cl(x))+vi(x)).replace(/^ · /,"");return t?`<span class="lc">${t}</span>`:""};
 function offs(g,raw){const t=today(),out=[];g.o.forEach(([s,p,q,l,z,c,f,to],oi)=>{const zs=zone?((zone==="Anzio"||zone==="Nettuno")&&z.includes(zone[0])?[zone]:[]):(z==="AN"?["Nettuno"]:[z==="A"?"Anzio":"Nettuno"]);zs.forEach(zn=>{const v=(VAL[zn]||{})[s]||[];out.push({k:g.id+"-"+oi,s,p,q,l,z,c,zn,za:zone?[zone]:(z==="AN"?["Anzio","Nettuno"]:[z==="A"?"Anzio":"Nettuno"]),f:f||v[0],t:to||v[1],u:p/q})})});return out.filter(x=>x.t>=t&&(raw||!onlyok||ok(x))).sort((a,b)=>a.u-b.u)}
