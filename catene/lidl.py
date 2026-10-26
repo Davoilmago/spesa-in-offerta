@@ -47,9 +47,11 @@ def url_lidl(dal, al):
 
 
 def apri_menu(pagina):
-    """Preme 'Menu' in alto a destra. Restituisce True se l'ha trovato."""
+    """Preme 'Menu' in alto a destra e controlla che si apra davvero.
+    Prova clic normale, forzato e con JavaScript. Restituisce True se ha premuto il Menu."""
     # "Menù", "Menu" o "Menù" con accento rovinato dalla codifica: 'men' + al massimo due caratteri
     nome_menu = re.compile(r"^\s*men\S{0,2}\s*$", re.I)
+    premuto = False
     for frame in comune.tutti_i_frame(pagina):
         candidati = [
             frame.get_by_role("button", name=nome_menu),
@@ -58,12 +60,44 @@ def apri_menu(pagina):
         for loc in candidati:
             try:
                 el = loc.first
-                if el.count() > 0 and el.is_visible():
-                    el.click(timeout=5000)
-                    return True
-            except Exception:
+                if el.count() == 0 or not el.is_visible():
+                    continue
+            except Exception as e:
+                print(f"    ricerca Menu: {str(e).splitlines()[0][:150]}")
                 continue
-    return False
+            metodi = [
+                ("clic normale", lambda: el.click(timeout=4000)),
+                ("clic forzato", lambda: el.click(timeout=3000, force=True)),
+                ("clic con JavaScript", lambda: el.evaluate("e => e.click()")),
+            ]
+            for nome, azione in metodi:
+                try:
+                    azione()
+                    premuto = True
+                except Exception as e:
+                    print(f"    Menu, {nome}: non riuscito ({str(e).splitlines()[0][:100]})")
+                    continue
+                for _ in range(3):
+                    if trova_scarica_pdf(pagina) is not None:
+                        print(f"    Menu aperto con: {nome}")
+                        return True
+                    pagina.wait_for_timeout(500)
+                print(f"    Menu, {nome}: eseguito ma il menu non si e' aperto")
+    return premuto
+
+
+def chiudi_banner_extra(pagina):
+    """Seconda possibilita' per i cookie: prova anche i pulsanti che accettano."""
+    for testo in ["Accetta tutti", "Accetta tutto", "Accetta", "OK", "Ho capito", "Chiudi"]:
+        try:
+            pulsante = pagina.get_by_role("button", name=re.compile(rf"^\s*{re.escape(testo)}\s*$", re.I)).first
+            if pulsante.is_visible(timeout=800):
+                print(f"    banner: premo '{testo}'")
+                pulsante.click(timeout=3000)
+                pagina.wait_for_timeout(500)
+                return
+        except Exception:
+            pass
 
 
 def trova_scarica_pdf(pagina):
@@ -91,16 +125,24 @@ def apri(pagina, negozio):
             print(f"    pagina non trovata (stato {risposta.status})")
             continue
         pagina.wait_for_timeout(6000)  # il lettore si carica dopo, con JavaScript
+        try:
+            print(f"    pagina aperta: {pagina.url}  titolo: {pagina.title()!r}")
+        except Exception:
+            pass
         comune.prova_chiudi_cookie(pagina)
 
         menu_aperto = False
-        for _ in range(8):
+        for giro in range(8):
             if apri_menu(pagina):
                 menu_aperto = True
                 break
+            if giro == 2:
+                chiudi_banner_extra(pagina)
             pagina.wait_for_timeout(1500)
         if not menu_aperto:
             print("    pulsante Menu non trovato")
+            comune.stampa_elementi_visibili(pagina, f"elementi visibili (volantino {dal:%d/%m})")
+            comune.salva_debug(pagina, f"lidl-{dal:%d-%m}")
             continue
 
         for _ in range(5):
@@ -110,6 +152,8 @@ def apri(pagina, negozio):
                 return pulsante, "testo 'Scarica il PDF'", info
             pagina.wait_for_timeout(1000)
         print("    'Scarica il PDF' non trovato nel menu")
+        comune.stampa_elementi_visibili(pagina, f"elementi visibili con il menu aperto (volantino {dal:%d/%m})")
+        comune.salva_debug(pagina, f"lidl-menu-{dal:%d-%m}")
     return None, None, None
 
 
