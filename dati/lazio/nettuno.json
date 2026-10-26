@@ -52,6 +52,13 @@
         "id": "roma-nettuno",
         "nota": "Pam Via Ugo La Malfa 48"
       }
+    ],
+    "carrefour": [
+      {
+        "id": "5208",
+        "nota": "Carrefour Market Via Trieste 78",
+        "url": "https://www.carrefour.it/volantino/supermercato-carrefour-market-nettuno-via-trieste-78/5208"
+      }
     ]
   }
 }
