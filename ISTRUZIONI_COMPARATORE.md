@@ -1,0 +1,25 @@
+# Come aggiornare il comparatore (sito/offerte.js)
+
+Il comparatore legge TUTTO da `sito/offerte.js` (prodotti, offerte, date, foto incorporate).
+Formato: `window.OFFERTE={aggiornato, prodotti:[{id,e,n,cat,sub,u}], offerte:[{p,s,prezzo,q,l,z,c,dal,al,img}]}`
+- `s` = catena (eurospin, lidl, todis, conad); `z` = zone: A (Anzio), N (Nettuno), AN (entrambe)
+- `prezzo` = prezzo della confezione; `q` = quantita' nell'unita' del prodotto (`u`: kg, l, etto, pezzo...)
+  Il confronto e' prezzo/q. Per i volantini "1+1" o "2 pezzi" il prezzo e' quello dei 2 pezzi e q raddoppia.
+- `c` = 0 normale, 1 serve la carta fedelta', 2 serve l'app. `dal`/`al` = date ISO di validita'.
+- Per prodotti a prezzo all'etto: prezzo = prezzo al kg e q = 10 (o prezzo all'etto e q = 1), restando coerenti con l'unita' `u`.
+- Usare i nomi prodotto gia' esistenti quando possibile (`trova_prodotto`), altrimenti `nuovo_prodotto`.
+
+## Procedura
+1. Clona il repo. Leggi `sito/offerte.js` con `strumenti.offerte_lib.carica`.
+2. Per ogni PDF nuovo in `volantini/<regione>/<citta>/<catena>*.pdf` NON ancora coperto dalle offerte (controlla le date in
+   `sito/offerte.js` e le date del volantino): converti le pagine in JPEG a 2000 px di larghezza
+   (`pdftoppm -jpeg -scale-to-x 2000 -scale-to-y -1`), disegna una griglia di coordinate sopra copie ridotte a 1000 px e LEGGI le pagine
+   guardando le immagini (molti PDF Todis/Conad sono solo immagine). Ignora cosmesi, bazar, elettronica, abbigliamento, viaggi; tieni gli alimentari
+   e i prodotti di casa/igiene/animali gia' presenti nel comparatore.
+3. Per ogni offerta ritaglia la foto con `ritaglia(pagina, (x0,y0,x1,y1))` (le coordinate della griglia vanno moltiplicate x2 sulle immagini a 2000 px;
+   scegli riquadri stretti sul solo prodotto, senza il prezzo). Aggiungi con `aggiungi_offerta(...)`.
+4. Togli le offerte di quella catena e zona scadute (`al` precedente a oggi) senza toccare quelle ancora valide di altri negozi.
+   Gli esempi completi sono in `esempi/` (esempio_eurospin.py, esempio_conad.py).
+5. Salva con `salva(dati)`, verifica che il file si carichi, fai commit e push su `main`
+   (il push di `sito/offerte.js` fa ripubblicare il sito da solo).
+6. Controlla in Actions che la pubblicazione finisca con successo.
