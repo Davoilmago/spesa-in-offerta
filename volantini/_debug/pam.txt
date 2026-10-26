@@ -1,0 +1,201 @@
+    === pagina del negozio Pam
+    url: https://www.pampanorama.it/punti-vendita/roma-nettuno  titolo: 'Nettuno - Via Ugo La Malfa, 48'
+    testo (https://www.pampanorama.it/punti-vendita/roma-nettuno): 'Menu | NegoziProdottiRubricheCarta Per TePam a casa | Parla Con NoiLavora Con Noi | Accedi o Registrati | Fornitori | Prodotti | Apri In Google Maps\xa0 | ELENCO NEGOZI | Nettuno | Aperto fino alle 21:00, vieni a trovarci » | Contatti | 06/9807386 | Indirizzo | Via Ugo La Malfa, 48 | 00048 Nettuno , RM | Metodi di pagamento: | BancomatPay | Google Pay | PostePay | Accettiamo Gift card Pam Panorama cartacee ed elettroniche | Utenze | Rateale | Satispay | Apple Pay | Altre informazioni sul punto vendita: | Pellegrini (cartacei) | Accettiamo buoni pasto da App Edenred | Wi-Fi Gratuito | Flex Non Accettati | Ticket Restaurant Card Non Accettati | City Time Plus Non Accettati | Consip Non Accettati | Al Coperto | Pellegrini (elettronici) | Day Ristoservice (elettronici) | Edenred (cartacei) | Day Ristoservice (cartacei) | Sodexo Pass Lunch (cartacei) | Spazio Neonati | Pulizia Pesce | Parafarmacia | Ordinazioni Gastronomia/Pasticceria | Edicola | Veloci | Prioritarie | Carrelli Speciali Per Disabili | Orari | Oggi | Aperture straordinarie | Chiusura | Orari e aperture Ordinarie | Lun: 08:00-21:00 | Mar: 08:00-21:00 | Mer: 08:00-21:00 | Gio: 08:00-21:00 | Ven: 08:00-21:00 | Sab: 08:00-21:00 | Dom: 08:00-21:00 | < | Ottobre 2026 | > | Lu | Ma | Me | Gi | Ve | Sa | Do | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | Questo mese non sono previste variazioni di orario | Buoni Pasto | Verific'
+    link: Accettiamo Gift card Pam Panorama cartac -> https://it-pampanorama-dev.s3.eu-west-3.amazonaws.com/pdf/documento-lista-negozi-pam-gen26-v1.pdf
+    link: NEI NEGOZI
+Pam Nazionale_2622
+Scopri dov -> https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2923600pv2380.html
+    link: NEI NEGOZI
+Pam Nazionale_2622_Catalogo
+S -> https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2924000pv2380.html
+    (link totali: 38)
+    --- pagina del negozio Pam
+    tag=BUTTON title=None aria-label='Apri Menu' testo='Menu' box={'x': 16, 'y': 29.390625, 'width': 92.234375, 'height': 50}
+    tag=A title=None aria-label=None testo='Negozi' box={'x': 124.234375, 'y': 35.390625, 'width': 45, 'height': 15}
+    tag=A title=None aria-label=None testo='Prodotti' box={'x': 185.234375, 'y': 35.390625, 'width': 53, 'height': 15}
+    tag=A title=None aria-label=None testo='Rubriche' box={'x': 254.234375, 'y': 35.390625, 'width': 56, 'height': 15}
+    tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 326.234375, 'y': 35.390625, 'width': 78, 'height': 15}
+    tag=A title=None aria-label=None testo='Pam a casa' box={'x': 124.234375, 'y': 35.390625, 'width': 339.5, 'height': 39}
+    tag=A title=None aria-label=None testo='' box={'x': 521.046875, 'y': 47.015625, 'width': 263.15625, 'height': 15}
+    tag=A title=None aria-label=None testo='Parla Con Noi' box={'x': 821, 'y': 42.390625, 'width': 111, 'height': 24}
+    tag=A title=None aria-label=None testo='Lavora Con Noi' box={'x': 948, 'y': 42.390625, 'width': 122, 'height': 24}
+    tag=BUTTON title='Cerca' aria-label='Cerca tra Prodotti, Ricette, Negozi o Articoli' testo='' box={'x': 1086, 'y': 43.15625, 'width': 20, 'height': 20}
+    tag=BUTTON title=None aria-label='Accedi o Registrati' testo='Accedi o Registrati' box={'x': 1122, 'y': 29.390625, 'width': 157.5, 'height': 50}
+    tag=A title=None aria-label=None testo='Fornitori' box={'x': 1295.5, 'y': 41.890625, 'width': 88.5, 'height': 25}
+    tag=DIV title=None aria-label=None testo='Prodotti' box={'x': 513.5, 'y': 11, 'width': 110, 'height': 32}
+    tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 820.5, 'y': 12, 'width': 40, 'height': 30}
+    tag=BUTTON title=None aria-label='Chiudi la barra di ricerca' testo='' box={'x': 860.5, 'y': 6, 'width': 36, 'height': 42}
+    tag=A title=None aria-label=None testo='Apri In Google Maps' box={'x': 10, 'y': 115, 'width': 177, 'height': 36.5}
+    tag=A title=None aria-label=None testo='ELENCO NEGOZI' box={'x': 332, 'y': 437, 'width': 155.140625, 'height': 36.5}
+    tag=A title=None aria-label=None testo='Accettiamo Gift card Pam Panorama cartac' box={'x': 492, 'y': 676.5, 'width': 360, 'height': 15}
+    tag=BUTTON title=None aria-label=None testo='<' box={'x': 470.421875, 'y': 1228.796875, 'width': 36.71875, 'height': 36.71875}
+    tag=BUTTON title=None aria-label=None testo='>' box={'x': 892.859375, 'y': 1228.796875, 'width': 36.71875, 'height': 36.71875}
+    tag=BUTTON title=None aria-label=None testo='Up Day' box={'x': 421.671875, 'y': 1907.6875, 'width': 101.359375, 'height': 50}
+    tag=BUTTON title=None aria-label=None testo='Edenred' box={'x': 533.03125, 'y': 1907.6875, 'width': 108.5, 'height': 50}
+    tag=BUTTON title=None aria-label=None testo='Sodexo' box={'x': 651.53125, 'y': 1907.6875, 'width': 102.265625, 'height': 50}
+    tag=BUTTON title=None aria-label=None testo='Pellegrini' box={'x': 763.796875, 'y': 1907.6875, 'width': 113.8125, 'height': 50}
+    tag=BUTTON title=None aria-label=None testo='BluBe' box={'x': 887.609375, 'y': 1907.6875, 'width': 90.703125, 'height': 50}
+    tag=BUTTON title=None aria-label=None testo='ACCEDI O REGISTRATI' box={'x': 618.75, 'y': 2223.6875, 'width': 162.5, 'height': 40}
+    tag=A title=None aria-label=None testo='' box={'x': 636, 'y': 2295.6875, 'width': 64, 'height': 36}
+    tag=A title=None aria-label=None testo='' box={'x': 700, 'y': 2295.6875, 'width': 64, 'height': 36}
+    tag=A title=None aria-label=None testo='NEI NEGOZI\nPam Nazionale_2622\nScopri dov' box={'x': 573, 'y': 2420.71875, 'width': 250, 'height': 391.921875}
+    tag=A title=None aria-label=None testo='NEI NEGOZI\nPam Nazionale_2622_Catalogo\nS' box={'x': 417.40838623046875, 'y': 2416.12451171875, 'width': 212.509765625, 'height': 401.1103515625}
+    tag=A title=None aria-label=None testo='Chi siamo' box={'x': 295, 'y': 3758.09375, 'width': 53, 'height': 14}
+    tag=A title=None aria-label=None testo='Prodotti' box={'x': 295, 'y': 3780.59375, 'width': 45, 'height': 14}
+    tag=A title=None aria-label=None testo='Ricette' box={'x': 295, 'y': 3803.09375, 'width': 39, 'height': 14}
+    tag=A title=None aria-label=None testo='Rubriche' box={'x': 295, 'y': 3825.59375, 'width': 49, 'height': 14}
+    tag=A title=None aria-label=None testo='Negozi' box={'x': 295, 'y': 3848.09375, 'width': 39, 'height': 14}
+    tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 295, 'y': 3870.59375, 'width': 65, 'height': 14}
+    tag=A title=None aria-label=None testo='I nostri freschi' box={'x': 295, 'y': 3893.09375, 'width': 77, 'height': 14}
+    tag=A title=None aria-label=None testo='I nostri marchi' box={'x': 295, 'y': 3915.59375, 'width': 78, 'height': 14}
+    tag=A title=None aria-label=None testo='Scopri Carta Per Te' box={'x': 570, 'y': 3780.59375, 'width': 103, 'height': 14}
+    tag=A title=None aria-label=None testo='Lavora con noi' box={'x': 570, 'y': 3849.59375, 'width': 79, 'height': 14}
+    volantini trovati: ['https://pam.volantinopiu.com/volantino2923600pv2380.html', 'https://pam.volantinopiu.com/volantino2924000pv2380.html']
+    >>> apro il volantino https://pam.volantinopiu.com/volantino2923600pv2380.html
+    === volantino ntinopiu.com/volantino2923600pv2380.html
+    url: https://pam.volantinopiu.com/volantino2923600pv2380.html  titolo: 'PAM Panorama - Offerte valide dal 22 Ottobre al 4 Novembre'
+    testo (https://pam.volantinopiu.com/volantino2923600pv2380.html): '0 | \xa0 | \xa0 | \xa0 | \xa0 | \xa0 | \xa0 | \xa0 | \xa0 | \xa0 | \xa0 | \xa0'
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#offcanvasLista
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#offcanvasCerca
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#offcanvasPagineDesktop
+    link:  -> https://resources.volantinopiu.it/flyer/2/9/2/3/6/468c2ebc5d115538c5d9f0f5eaa0ea2b.pdf?v20261020115905-26102026
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/public/share.php?wal=29236
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2923600pv2380.html#
+    (link totali: 78)
+    testo (https://t.dtscout.com/idg/?su=4C301793025009396A27888AB892CB9E): ''
+    (link totali: 0)
+    --- volantino ntinopiu.com/volantino2923600pv2380.html
+    tag=A title=None aria-label='Lista della spesa' testo='' box={'x': 5, 'y': 115.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label='Cerca' testo='' box={'x': 5, 'y': 185.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label='Anteprima pagine' testo='' box={'x': 5, 'y': 325.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label='Scarica PDF' testo='' box={'x': 5, 'y': 395.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label='Condividi' testo='' box={'x': 5, 'y': 535.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label=None testo='' box={'x': 1345, 'y': 25.203125, 'width': 54, 'height': 19}
+    tag=A title=None aria-label=None testo='' box={'x': 1353, 'y': 63, 'width': 38, 'height': 42}
+    tag=A title=None aria-label='precedente' testo='' box={'x': 183.234375, 'y': 394, 'width': 56, 'height': 56}
+    tag=A title=None aria-label='prima pagina' testo='' box={'x': 183.234375, 'y': 450, 'width': 56, 'height': 56}
+    tag=A title=None aria-label='vai a pagina 1' testo='' box={'x': 261.265625, 'y': 183.171875, 'width': 343.15625, 'height': 30.75}
+    tag=A title=None aria-label='vai a pagina 3' testo='' box={'x': 259.9375, 'y': 225.9375, 'width': 343.15625, 'height': 30.765625}
+    tag=A title=None aria-label='vai a pagina 4' testo='' box={'x': 262.609375, 'y': 267.359375, 'width': 343.15625, 'height': 30.765625}
+    tag=A title=None aria-label='vai a pagina 5' testo='' box={'x': 261.265625, 'y': 303.4375, 'width': 343.15625, 'height': 30.75}
+    tag=A title=None aria-label='vai a pagina 6' testo='' box={'x': 259.9375, 'y': 344.859375, 'width': 343.15625, 'height': 30.75}
+    tag=A title=None aria-label='vai a pagina 7' testo='' box={'x': 259.9375, 'y': 383.609375, 'width': 343.15625, 'height': 34.765625}
+    tag=A title=None aria-label='vai a pagina 7' testo='' box={'x': 257.265625, 'y': 431.71875, 'width': 343.15625, 'height': 30.75}
+    tag=A title=None aria-label='vai a pagina 8' testo='' box={'x': 257.265625, 'y': 467.796875, 'width': 343.15625, 'height': 37.4375}
+    tag=A title=None aria-label='vai a pagina 9' testo='' box={'x': 257.265625, 'y': 510.546875, 'width': 343.15625, 'height': 41.453125}
+    tag=A title=None aria-label='vai a pagina 10' testo='' box={'x': 257.265625, 'y': 555.984375, 'width': 343.15625, 'height': 41.453125}
+    tag=A title=None aria-label='vai a pagina 11' testo='' box={'x': 257.265625, 'y': 601.421875, 'width': 343.15625, 'height': 30.75}
+    tag=A title=None aria-label='visualizza le promozioni' testo='' box={'x': 352.0625, 'y': 704.296875, 'width': 243.46875, 'height': 37.890625}
+    tag=A title=None aria-label='vai a https://perteplus.pampanorama.it/' testo='' box={'x': 707.765625, 'y': 641.34375, 'width': 438.546875, 'height': 129.875}
+    tag=A title=None aria-label='successivo' testo='' box={'x': 1160.734375, 'y': 394, 'width': 56, 'height': 56}
+    tag=A title=None aria-label='ultima pagina' testo='' box={'x': 1160.734375, 'y': 450, 'width': 56, 'height': 56}
+    tag=A title=None aria-label='Vai al sito' testo='' box={'x': 420.796875, 'y': 859, 'width': 102.375, 'height': 40}
+    tag=A title='Full screen' aria-label=None testo='' box={'x': 803.171875, 'y': 867, 'width': 47, 'height': 24}
+    tag=A title=None aria-label='Vai a VolantinoPiù' testo='' box={'x': 850.171875, 'y': 859, 'width': 129.03125, 'height': 40}
+    risposta 200: https://resources.volantinopiu.it/img/poweredMobile.webp
+    risposta 200: https://s4.histats.com/stats/0.php?4762119&@f16&@g1&@h1&@i1&@j1793025009448&@k0&@l1&@mPAM%20Panorama%20-%20Offerte%20valide%20dal%2022%20Ottobre%20al%204%20Novembre&@n0&@o1000&@q0&@r0&@s0&@tit-IT&@u14
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/3/6/pagine/720p/1.webp
+    risposta 200: https://pam.volantinopiu.com//public/fontawesome/webfonts/fa-solid-900.woff2
+    risposta 200: https://pam.volantinopiu.com/src/routes.php
+    risposta 200: https://e.dtscout.com/e/?v=1a&pid=5200&site=1&l=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2923600pv2380.html&j=
+    risposta 200: https://resources.volantinopiu.it/promo/7/8/9/0/720p/207G07890P005_29.webp
+    risposta 200: https://pam.volantinopiu.com//public/image/icona-prodotto.webp
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/3/6/pagine/99.webp
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/3/6/pagine/0.webp?1792490018
+    risposta 200: https://pam.volantinopiu.com/src/stats.php
+    risposta 200: https://pam.volantinopiu.com/src/stats.php
+    risposta 200: https://t.dtscout.com/pv/?_a=v&_h=pam.volantinopiu.com&_ss=4g2nrkngfm&_pv=1&_ls=0&_u1=1&_u3=1&_cc=us&_pl=d&_cbid=499y&_cb=_dtspv.c
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/3/6/pagine/1.webp
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/3/6/pagine/2.webp
+    >>> apro il volantino https://pam.volantinopiu.com/volantino2924000pv2380.html
+    === volantino ntinopiu.com/volantino2924000pv2380.html
+    url: https://pam.volantinopiu.com/volantino2924000pv2380.html  titolo: 'PAM Panorama - Occasioni Extra'
+    testo (https://pam.volantinopiu.com/volantino2924000pv2380.html): '0'
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#offcanvasLista
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#offcanvasCerca
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#offcanvasPagineDesktop
+    link:  -> https://resources.volantinopiu.it/flyer/2/9/2/4/0/7702db7a49b3697fdd86940674257232.pdf?v20261020125346-26102026
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/public/share.php?wal=29240
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://www.volantinopiu.com/
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link: RICETTE   0 -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link: VIDEO  0 -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link: CURIOSITA  0 -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link: COLLEGAMENTI  7 -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#
+    link:  -> https://pam.volantinopiu.com/public/share.php?wav=29240
+    link:  -> https://pam.volantinopiu.com/volantino2924000pv2380.html#condividi
+    (link totali: 48)
+    --- volantino ntinopiu.com/volantino2924000pv2380.html
+    tag=A title=None aria-label='Lista della spesa' testo='' box={'x': 5, 'y': 115.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label='Cerca' testo='' box={'x': 5, 'y': 185.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label='Anteprima pagine' testo='' box={'x': 5, 'y': 325.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label='Scarica PDF' testo='' box={'x': 5, 'y': 395.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label='Condividi' testo='' box={'x': 5, 'y': 535.203125, 'width': 46, 'height': 19}
+    tag=A title=None aria-label=None testo='' box={'x': 1345, 'y': 25.203125, 'width': 54, 'height': 19}
+    tag=A title=None aria-label=None testo='' box={'x': 1353, 'y': 63, 'width': 38, 'height': 42}
+    tag=A title=None aria-label='precedente' testo='' box={'x': 63.578125, 'y': 394, 'width': 56, 'height': 56}
+    tag=A title=None aria-label='prima pagina' testo='' box={'x': 63.578125, 'y': 450, 'width': 56, 'height': 56}
+    tag=A title=None aria-label='visualizza le promozioni' testo='' box={'x': 292.8125, 'y': 668.4375, 'width': 241.546875, 'height': 35.84375}
+    tag=A title=None aria-label=None testo='' box={'x': 951.046875, 'y': 521.625, 'width': 40, 'height': 40}
+    tag=A title=None aria-label='successivo' testo='' box={'x': 1280.421875, 'y': 394, 'width': 56, 'height': 56}
+    tag=A title=None aria-label='ultima pagina' testo='' box={'x': 1280.421875, 'y': 450, 'width': 56, 'height': 56}
+    tag=A title=None aria-label='Vai al sito' testo='' box={'x': 420.796875, 'y': 859, 'width': 102.375, 'height': 40}
+    tag=A title='Full screen' aria-label=None testo='' box={'x': 803.171875, 'y': 867, 'width': 47, 'height': 24}
+    tag=A title=None aria-label='Vai a VolantinoPiù' testo='' box={'x': 850.171875, 'y': 859, 'width': 129.03125, 'height': 40}
+    risposta 200: https://pam.volantinopiu.com//public/js/custom.min.js?v10262026033022pm
+    risposta 200: https://pam.volantinopiu.com//public/js/custom.min.maps.js?v10262026033022pm
+    risposta 200: https://s4.histats.com/stats/0.php?4762119&@f16&@g0&@h2&@i1&@j1793025023196&@k13748&@l2&@mPAM%20Panorama%20-%20Occasioni%20Extra&@n0&@o1000&@q0&@r0&@s0&@tit-IT&@u1400&@b1:-54641231&@b3:1793025023&@b4:
+    risposta 200: https://e.dtscout.com/e/?v=1a&pid=5200&site=1&l=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2924000pv2380.html&j=
+    risposta 200: https://pam.volantinopiu.com/src/routes.php
+    risposta 200: https://pam.volantinopiu.com//public/image/icona-prodotto.webp
+    risposta 200: https://t.dtscout.com/pv/?_a=v&_h=pam.volantinopiu.com&_ss=4g2nrkngfm&_pv=2&_ls=14&_cc=us&_pl=d&_b=chrome%40156&_cbid=64to&_cb=_dtspv.c
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/4/0/pagine/720p/1.webp
+    risposta 200: https://pam.volantinopiu.com/src/stats.php
+    risposta 200: https://pam.volantinopiu.com/src/stats.php
+    risposta 200: https://resources.volantinopiu.it/promo/7/8/9/1/720p/207G07891P001_10.webp
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/4/0/pagine/2.webp
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/4/0/pagine/0.webp?1792490620
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/4/0/pagine/1.webp
+    risposta 200: https://resources.volantinopiu.it/flyer/2/9/2/4/0/pagine/99.webp
+    [esplorazione] nessun download tentato
