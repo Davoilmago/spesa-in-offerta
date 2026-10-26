@@ -2,84 +2,101 @@
 Carrefour: ogni punto vendita ha una pagina con i suoi volantini.
 Es. Nettuno: https://www.carrefour.it/volantino/supermercato-carrefour-market-nettuno-via-trieste-78/5208
 
-VERSIONE DI ESPLORAZIONE: scrive nel log cosa trova (link, pulsanti, risposte di rete)
-per capire come scaricare il PDF. Per ogni negozio serve "id" (es. 5208) e "url" (la pagina del negozio).
+La pagina elenca i volantini del negozio ("dal 23/10 al 5/11  Prezzi Freschi", "Speciale Aia", ...).
+Ogni volantino ha un numero (es. 57038) e il PDF si scarica da:
+https://gdodig-car.youroperator.it/api/v1/geteditions/dwnpdfedition.php?id_edizione=<numero>
+
+Teniamo solo i volantini alimentari (si escludono cataloghi di giocattoli, vini, casa, idee regalo, punti Payback).
+Nel file della citta' serve per ogni negozio: "id" (es. 5208) e "url" (la pagina del negozio).
 """
 
-import contextlib
-import io
 import re
-from pathlib import Path
+from datetime import date
 
 import comune
 
-LOG = Path("volantini/_debug/carrefour.txt")
 NOME = "carrefour"
-GIORNI = [0, 1, 2, 3, 4, 5, 6]
+GIORNI = [3, 4, 5]   # i volantini cambiano di solito il giovedi
 CONDIVISO = False
 
-
-def log(testo):
-    print(testo)
-    LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(LOG, "a", encoding="utf-8") as f:
-        f.write(testo + "\n")
+URL_PDF = "https://gdodig-car.youroperator.it/api/v1/geteditions/dwnpdfedition.php?id_edizione={}"
+ESCLUDI = re.compile(r"giocattol|vini|casa|regalo|payback|bazar|tessile|elettronic|natale", re.I)
+RE_VOCE = re.compile(r"dal\s+(\d{1,2})/(\d{1,2})\s+al\s+(\d{1,2})/(\d{1,2})\s+(.+)", re.I)
 
 
-def elementi(pagina, titolo):
-    buf = io.StringIO()
-    with contextlib.redirect_stdout(buf):
-        comune.stampa_elementi_visibili(pagina, titolo)
-    log(buf.getvalue().rstrip())
+def date_voce(g1, m1, g2, m2):
+    oggi = date.today()
+    try:
+        dal = date(oggi.year, int(m1), int(g1))
+        al = date(oggi.year, int(m2), int(g2))
+        if al < dal:
+            # volantino a cavallo d'anno: se siamo a inizio anno e' iniziato l'anno scorso
+            if oggi.month <= 6:
+                dal = date(oggi.year - 1, int(m1), int(g1))
+            else:
+                al = date(oggi.year + 1, int(m2), int(g2))
+    except ValueError:
+        return None, None
+    return dal.isoformat(), al.isoformat()
+
+
+def trova_volantini(pagina):
+    """Restituisce [(numero, titolo, dal, al)] dei volantini alimentari del negozio."""
+    voci = pagina.eval_on_selector_all(
+        "a[href]",
+        "els => els.map(e => [(e.innerText||'').trim().replace(/\\s+/g,' '), e.href])",
+    )
+    trovati = {}
+    for testo, href in voci:
+        m = RE_VOCE.match(testo)
+        n = re.search(r"/(\d{5})(?:\?|$)", href)
+        if not m or not n:
+            continue
+        titolo = m.group(5).strip()
+        if ESCLUDI.search(titolo):
+            continue
+        dal, al = date_voce(*m.group(1, 2, 3, 4))
+        trovati.setdefault(n.group(1), (titolo, dal, al))
+    return [(num, *v) for num, v in trovati.items()]
 
 
 def scarica(contesto, negozio, etichetta):
+    """Restituisce una lista di (file temporaneo, info), uno per ogni volantino alimentare."""
     pagina = contesto.new_page()
-    risposte = []
-    pagina.on("response", lambda r: risposte.append((r.status, r.request.resource_type, r.url))
-              if re.search(r"pdf|flyer|volantin|leaflet|publitas|issuu|shopfully|page", r.url, re.I) else None)
+    risultati = []
     try:
-        url = negozio["url"]
-        log(f"=== apro {url}")
-        pagina.goto(url, wait_until="domcontentloaded", timeout=60000)
+        pagina.goto(negozio["url"], wait_until="domcontentloaded", timeout=60000)
         pagina.wait_for_timeout(8000)
         comune.prova_chiudi_cookie(pagina)
-        pagina.wait_for_timeout(1500)
-        log(f"titolo: {pagina.title()!r}")
-        hrefs = pagina.eval_on_selector_all(
-            "a[href]", "els => els.map(e => (e.innerText||'').trim().replace(/\\s+/g,' ').slice(0,60) + ' -> ' + e.href)")
-        vol = [h for h in hrefs if re.search(r"/volantino/.*/\d+$|pdf", h, re.I)]
-        for h in vol[:30]:
-            log(f"link volantino: {h}")
-        links = []
-        for h in vol:
-            u = h.split(" -> ")[-1]
-            if re.search(r"/\d{5}$", u) and u not in links and "/5208/" in u:
-                links.append(u)
-        log(f"volantini: {len(links)}")
-        for u in links[:2]:
-            log(f"--- apro volantino {u[-60:]}")
-            pagina.goto(u, wait_until="domcontentloaded", timeout=60000)
-            pagina.wait_for_timeout(9000)
-            comune.prova_chiudi_cookie(pagina)
-            log(f"titolo: {pagina.title()!r}  url: {pagina.url}")
+        volantini = trova_volantini(pagina)
+        print(f"    volantini alimentari trovati per {negozio['id']}: {[(n, t) for n, t, *_ in volantini]}")
+        if not volantini:
+            print(f"[ERRORE] {etichetta}: nessun volantino trovato nella pagina del negozio")
+            comune.salva_debug(pagina, comune.slug(etichetta))
+            return [(None, None)]
+        comune.CARTELLA_TMP.mkdir(exist_ok=True)
+        for numero, titolo, dal, al in volantini:
+            nome = f"{etichetta}_{numero}"
             try:
-                log("testo: " + re.sub(r"\n+", " | ", pagina.locator("body").inner_text(timeout=5000))[:1200])
-            except Exception:
-                pass
-            hs = pagina.eval_on_selector_all(
-                "a[href], iframe[src]", "els => els.map(e => (e.innerText||e.tagName).trim().replace(/\\s+/g,' ').slice(0,50) + ' -> ' + (e.href||e.src))")
-            for h in hs:
-                if re.search(r"pdf|volantin|flyer|sfoglia|download|scarica|iframe|http", h, re.I) and "carrefour.it/it" not in h:
-                    log(f"  {h[:230]}")
-            for fr in pagina.frames:
-                log(f"  frame: {fr.url[:200]}")
-            elementi(pagina, "pulsanti visibili")
-            for st, tp, ru in risposte[-20:]:
-                log(f"  risposta {st} {tp}: {ru[:220]}")
-            comune.salva_debug(pagina, "carrefour")
-    except Exception as e:
-        log(f"errore: {str(e).splitlines()[0][:200]}")
+                risposta = contesto.request.get(URL_PDF.format(numero), timeout=120000)
+                corpo = risposta.body()
+                if not (risposta.ok and corpo[:5] == b"%PDF-"):
+                    print(f"[ERRORE] {nome}: la risposta non e' un PDF (stato {risposta.status})")
+                    risultati.append((None, None))
+                    continue
+                file = comune.CARTELLA_TMP / f"{comune.slug(nome)}.pdf"
+                file.write_bytes(corpo)
+                info = {"titolo": titolo}
+                if dal and al:
+                    info.update({"valido_dal": dal, "valido_al": al})
+                print(f"[ok] {nome}: PDF scaricato ({len(corpo) // 1024} KB) - {titolo!r} {dal}..{al}")
+                risultati.append((file, info))
+            except Exception as errore:
+                print(f"[ERRORE] {nome}: {str(errore).splitlines()[0][:200]}")
+                risultati.append((None, None))
+    except Exception as errore:
+        print(f"[ERRORE] {etichetta}: {str(errore).splitlines()[0][:200]}")
+        return [(None, None)]
     finally:
         pagina.close()
-    return [(None, None)]
+    return risultati
