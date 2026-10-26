@@ -107,6 +107,48 @@
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   },
   {
+    "file": "lazio/nettuno/carrefour.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "carrefour",
+    "negozio": "Carrefour Market Via Trieste 78",
+    "sha256": "c3409b70fcf8cdc7175755eb306ea8b4fc09d974eb78a514f32bbe94b0d08b80",
+    "byte": 16396828,
+    "scaricato_il": "2026-10-26T15:23:39",
+    "titolo": "Prezzi Freschi",
+    "valido_dal": "2026-10-23",
+    "valido_al": "2026-11-05"
+  },
+  {
+    "file": "lazio/nettuno/carrefour_2.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "carrefour",
+    "negozio": "Carrefour Market Via Trieste 78",
+    "sha256": "2baedc70bc89bc1a1595caade0d8261dcdaae94e5481d41332691989daaae8ef",
+    "byte": 3313679,
+    "scaricato_il": "2026-10-26T15:23:39",
+    "titolo": "Speciale Aia",
+    "valido_dal": "2026-09-29",
+    "valido_al": "2026-11-15"
+  },
+  {
+    "file": "lazio/nettuno/carrefour_3.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "carrefour",
+    "negozio": "Carrefour Market Via Trieste 78",
+    "sha256": "42de5bce5cfac67d028f0e197cc8fed12f1e4bccbefc9e40ca643fe4a728bf0d",
+    "byte": 1121123,
+    "scaricato_il": "2026-10-26T15:23:39",
+    "titolo": "Speciale Purina",
+    "valido_dal": "2026-10-23",
+    "valido_al": "2026-11-05"
+  },
+  {
     "file": "lazio/nettuno/conad.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",
