@@ -230,6 +230,30 @@ def pdf_da_nuova_scheda(nuova, destinazione):
     return False
 
 
+def premi_e_aspetta(pagina, pulsante, scaricati):
+    """Prova a premere il pulsante in tre modi, finche' parte il download. Restituisce True se e' partito."""
+    tentativi = [
+        ("clic normale", lambda: pulsante.click(timeout=5000)),
+        ("clic forzato", lambda: pulsante.click(timeout=5000, force=True)),
+        ("clic con JavaScript", lambda: pulsante.evaluate("e => e.click()")),
+    ]
+    primo_fallimento = True
+    for nome, azione in tentativi:
+        try:
+            azione()
+            print(f"    {nome}: eseguito")
+        except Exception as errore:
+            print(f"    {nome}: non riuscito ({str(errore)[:600]!r})")
+            if primo_fallimento:
+                primo_fallimento = False
+                stampa_elementi_visibili(pagina, "elementi visibili dopo il primo clic fallito")
+            continue
+        if aspetta(pagina, scaricati, 8):
+            print(f"    download partito con: {nome}")
+            return True
+    return bool(scaricati)
+
+
 def scarica_un_negozio(contesto, negozio):
     """Scarica il volantino di un negozio. Restituisce il percorso del file temporaneo oppure None."""
     etichetta = f"{negozio['catena']}_{negozio['negozio']}"
@@ -255,11 +279,9 @@ def scarica_un_negozio(contesto, negozio):
         CARTELLA_PDF.mkdir(exist_ok=True)
         temporaneo = CARTELLA_PDF / f"_tmp_{etichetta}.pdf"
 
-        pulsante.click(timeout=15000)
-
         # 1) il download parte subito?
-        if not aspetta(pagina, scaricati, 10):
-            print(f"    nessun download dopo 10 secondi: guardo cosa e' successo")
+        if not premi_e_aspetta(pagina, pulsante, scaricati):
+            print(f"    nessun download dopo i tentativi: guardo cosa e' successo")
             stampa_elementi_visibili(pagina, "elementi visibili dopo il clic")
             salva_debug(pagina, etichetta)
 
@@ -291,8 +313,8 @@ def scarica_un_negozio(contesto, negozio):
                 temporaneo.unlink(missing_ok=True)
                 return None
         return temporaneo
-    except PlaywrightTimeout:
-        print(f"[ERRORE] {etichetta}: tempo scaduto")
+    except PlaywrightTimeout as errore:
+        print(f"[ERRORE] {etichetta}: tempo scaduto ({str(errore)[:600]!r})")
         salva_debug(pagina, etichetta)
         return None
     except Exception as errore:
