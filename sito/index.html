@@ -42,6 +42,15 @@ main{max-width:1100px;margin:0 auto;padding:20px 16px calc(96px + env(safe-area-
 .srch input{width:100%;padding:14px 16px 14px 44px;border:0;border-radius:16px;font:inherit;background:#fff;color:#0f172a;box-shadow:0 8px 22px rgba(0,0,0,.18)}
 .srch span{position:absolute;left:15px;top:50%;transform:translateY(-50%)}
 .city{display:flex;gap:6px;margin-top:12px;position:relative;z-index:1}
+.zl{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:99px;border:2px solid var(--hard,#fff);background:#fff;color:#047857;font-weight:800}
+.zl select{border:0;background:transparent;color:inherit;font:inherit;font-weight:800;font-size:.95rem;padding:2px 4px;max-width:70vw}
+.cg{margin-top:14px;border:2px solid var(--ln);border-radius:16px;background:var(--sf)}
+.cg>summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 16px;font-weight:800;font-size:1.05rem}
+.cg>summary::-webkit-details-marker{display:none}
+.cg>summary small{font-weight:600;color:var(--mu)}
+.cg>summary::after{content:"▾";margin-left:auto;transition:transform .15s}
+.cg[open]>summary::after{transform:rotate(180deg)}
+.cg .grid{padding:0 14px 14px}
 .city button{padding:6px 14px;border-radius:99px;border:1px solid rgba(255,255,255,.45);background:transparent;color:#fff;font-weight:600;font-size:.85rem}
 .city button[aria-pressed=true]{background:#fff;color:#047857}
 .chips{display:flex;flex-wrap:wrap;gap:8px;padding:16px 0 6px}
@@ -244,7 +253,7 @@ dialog.pvd{width:min(440px,94vw);max-height:86vh;overflow:auto}.pvd h2{display:f
 <section id="t-volantini" hidden>
  <div class="panel">
   <header><div><h2>📰 Volantini e offerte</h2><p>I volantini dei supermercati della zona, in un unico posto.</p></div></header>
-  <div class="grid" id="fl" style="margin-top:18px"></div>
+  <div id="fl" style="margin-top:18px"></div>
  </div>
 </section>
 </main>
@@ -341,17 +350,19 @@ const ORD=["eurospin","lidl","conad","todis"];
 function valFly(f){return f.dal&&f.al?"Valido dal "+dm(f.dal)+" al "+dm(f.al):f.al?"Valido fino al "+dm(f.al):"Scaricato il "+dm((f.scaricato_il||today()).slice(0,10))}
 function flyers(){
  const t=today();
- const L=FL.map((f,i)=>({f,i})).filter(({f})=>(!zone||f.zn===zone)&&(!f.al||f.al>=t))
-  .sort((a,b)=>a.f.zn.localeCompare(b.f.zn)||ORD.indexOf(a.f.k)-ORD.indexOf(b.f.k)||(a.f.dal||"").localeCompare(b.f.dal||""));
+ const L=FL.map((f,i)=>({f,i})).filter(({f})=>!f.al||f.al>=t)
+  .sort((a,b)=>(a.f.zn===zone?0:1)-(b.f.zn===zone?0:1)||a.f.zn.localeCompare(b.f.zn,"it")||ORD.indexOf(a.f.k)-ORD.indexOf(b.f.k)||(a.f.dal||"").localeCompare(b.f.dal||""));
  if(!L.length){$("fl").innerHTML=`<div class="empty" style="grid-column:1/-1"><div class="e">📰</div><h3>${FLok?"Nessun volantino in corso":"Volantini in caricamento…"}</h3>${FLok?"Quando i supermercati pubblicano i nuovi volantini compaiono qui da soli.":"Se non compaiono, ricarica la pagina."}</div>`;return}
  const visti=new Set();
- $("fl").innerHTML=L.map(({f,i})=>{
+ const card=({f,i})=>{
   const k=f.k,primo=!visti.has(f.k+"|"+f.zn);visti.add(f.k+"|"+f.zn);
   const s=STORES[k]||{n:k,col:"#334155",t:"Volantino"},zn=f.zn,pv=VIA[k+"|"+zn],
-   n=primo?G.filter(g=>offs(g).some(x=>x.s===k&&x.zn===zn)).length:0,
+   zl=zn==="Anzio"?"A":zn==="Nettuno"?"N":"",n=primo&&zl?G.filter(g=>g.o.some(o=>o[0]===k&&o[4].includes(zl)&&o[7]>=t)).length:0,
    ex=pv?(pv.length===1?`<div>📍 ${pv[0].via}${pv[0].tel?" · Tel. "+pv[0].tel:""}${pv[0].h?"<br>"+pv[0].h:""}</div>`:`<div>Valido in ${pv.length} punti vendita:${pv.map(v=>`<div class="pv">📍 <span>${v.via}${v.tel?" · Tel. "+v.tel:""}</span></div>`).join("")}</div>`):(f.negozio&&!/nazionale|Lazio/i.test(f.negozio)?`<div>📍 ${esc(f.negozio)}</div>`:""),
    tit=esc(f.titolo||s.t),sub=zn+(pv?" · "+(pv.length===1?pv[0].via:pv.length+" punti vendita"):"");
-  return `<article class="fl">${LG[k]?`<div class="lplate" style="background:${LG[k][1]}"><img src="${LG[k][0]}" alt="${s.n}"></div><div class="c lb" style="background:${s.col}"><div><h3>${tit}</h3><small>${sub}</small></div></div>`:`<div class="c" style="background:${s.col}"><span>${s.n.toUpperCase()}</span><div><h3>${tit}</h3><small>${sub}</small></div></div>`}<div class="f"><div>${valFly(f)}</div>${ex}${n?`<div>${n} prodotti nel comparatore</div>`:""}<button data-fly="${i}">Sfoglia volantino · ${f.pagine} ${f.pagine===1?"pagina":"pagine"}</button></div></article>`}).join("");
+  return `<article class="fl">${LG[k]?`<div class="lplate" style="background:${LG[k][1]}"><img src="${LG[k][0]}" alt="${s.n}"></div><div class="c lb" style="background:${s.col}"><div><h3>${tit}</h3><small>${sub}</small></div></div>`:`<div class="c" style="background:${s.col}"><span>${s.n.toUpperCase()}</span><div><h3>${tit}</h3><small>${sub}</small></div></div>`}<div class="f"><div>${valFly(f)}</div>${ex}${n?`<div>${n} prodotti nel comparatore</div>`:""}<button data-fly="${i}">Sfoglia volantino · ${f.pagine} ${f.pagine===1?"pagina":"pagine"}</button></div></article>`};
+ const gr={};L.forEach(x=>(gr[x.f.zn]=gr[x.f.zn]||[]).push(x));
+ $("fl").innerHTML=Object.entries(gr).map(([zn,a])=>`<details class="cg"${zn===zone?" open":""}><summary><span>📍 ${zn}</span><small>${a.length} ${a.length===1?"volantino":"volantini"}</small></summary><div class="grid">${a.map(card).join("")}</div></details>`).join("");
 }
 async function loadFly(){try{const r=await fetch("dati/volantini.json",{cache:"no-cache"});if(!r.ok)throw new Error(r.status);const j=await r.json();FL=[];Object.entries(j.zone||{}).forEach(([zn,cc])=>Object.entries(cc).forEach(([k,list])=>list.forEach(f=>FL.push(Object.assign({k,zn},f)))));FLok=true}catch(e){FL=[]}}
 function carte(){
@@ -375,13 +386,16 @@ function fvShow(){const im=$("fvi");im.src=fv.d+"/"+pad(fv.i)+".jpg";im.alt="Pag
 function openFly(i){const f=FL[+i];if(!f){toast("Volantino non ancora disponibile");return}const s=STORES[f.k]||{n:f.k};fv={d:f.dir,n:f.pagine,i:1};$("fvt").textContent=s.n+" · "+f.zn+(f.titolo?" · "+f.titolo:"");$("fvs").classList.remove("z");$("fvz").setAttribute("aria-pressed","false");fvShow();$("fv").showModal()}
 function fvGo(d){if(!fv)return;const i=fv.i+d;if(i<1||i>fv.n)return;fv.i=i;fvShow()}
 function all(){
- const ks=Object.keys(STORES).filter(k=>!zone||VAL[zone][k]).map(k=>STORES[k].n);
+ const CITIES=[...new Set(["Anzio","Nettuno",...FL.map(f=>f.zn)])].sort((a,b)=>a.localeCompare(b,"it"));
+ if(!FLok&&zone&&!CITIES.includes(zone))CITIES.push(zone);
+ if(!CITIES.includes(zone)){zone=CITIES[0];sv("ss-zone",zone)}
  $("hh").textContent="Trova il prezzo più basso";
  
- $("city").innerHTML=[["","Tutte le città"],...[...new Set(["Anzio","Nettuno",...FL.map(f=>f.zn)])].sort().map(c=>[c,c])].map(([v,l])=>`<button data-zone="${v}" aria-pressed="${zone===v}">${l}</button>`).join("");
+ $("city").innerHTML=`<label class="zl"><span aria-hidden="true">📍</span><select id="zsel" aria-label="Scegli la tua città">${CITIES.map(c=>`<option value="${c}"${c===zone?" selected":""}>${c}</option>`).join("")}</select></label>`;
  $("cats").innerHTML=CATS.map(([c,e])=>`<button class="chip" data-cat="${c}" aria-pressed="${cat===c}">${e} ${c==="Tutti"?"Tutti i prodotti":c}</button>`).join("");
  $("subs").hidden=cat!=="Altro";$("subs").innerHTML=["Tutti",...SUBS].map(v=>`<button class="chip" data-sub="${v}" aria-pressed="${sub===v}">${v==="Tutti"?"Tutto":v}</button>`).join("");$("onlyok").checked=onlyok;carte();grid();lista();flyers();navs();TK.forEach(k=>$("t-"+k).hidden=k!==tab);
 }
+document.addEventListener("change",e=>{if(e.target.id==="zsel"){zone=e.target.value;sv("ss-zone",zone);all()}});
 document.addEventListener("click",e=>{
  const pb=e.target.closest(".pvb");if(pb){const [k,zs]=pb.dataset.pv.split("|"),d=$("pvd");d.innerHTML=`<h2><i class="dot" style="background:${STORES[k].col};margin:0"></i>${STORES[k].n}</h2><p class="cu">Punti vendita dove vale questa offerta.</p>`+zs.split(",").map(zn=>{const v=VIA[k+"|"+zn]||[];return v.length?`<div class="cty">${zn}</div>`+v.map(a=>`<div class="st"><span class="pin" aria-hidden="true">📍</span><div><b>${a.via}</b>${a.tel?`<small>Tel. ${a.tel}</small>`:""}${a.h?`<small>${a.h}</small>`:""}</div></div>`).join(""):""}).join("")+`<div class="cb"><button class="ghost" data-pvx style="flex:1">Chiudi</button></div>`;d.showModal();return}
  if(e.target.closest("[data-pvx]")||e.target===$("pvd")){$("pvd").close();return}
