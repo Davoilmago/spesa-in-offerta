@@ -206,6 +206,32 @@
     "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1"
   },
   {
+    "file": "lazio/nettuno/pam.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "pam",
+    "negozio": "Pam Via Ugo La Malfa 48",
+    "sha256": "f9675aea000bf55fb269b6f835f11305df0448bbf05b369c425e15149ee80f85",
+    "byte": 5291112,
+    "scaricato_il": "2026-10-26T14:37:22",
+    "titolo": "Offerte valide dal 22 Ottobre al 4 Novembre",
+    "valido_dal": "2026-10-22",
+    "valido_al": "2026-11-04"
+  },
+  {
+    "file": "lazio/nettuno/pam_2.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "pam",
+    "negozio": "Pam Via Ugo La Malfa 48",
+    "sha256": "32ba17964fff795f7d16a56b0b85ee6a828845d4c5b0bd086319718740343c1a",
+    "byte": 8105328,
+    "scaricato_il": "2026-10-26T14:37:22",
+    "titolo": "Occasioni Extra"
+  },
+  {
     "file": "lazio/nettuno/todis.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",
