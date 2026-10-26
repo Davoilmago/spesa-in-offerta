@@ -25,6 +25,18 @@
     "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1"
   },
   {
+    "file": "lazio/anzio/todis.pdf",
+    "regione": "Lazio",
+    "citta": "Anzio",
+    "cap": "00042",
+    "catena": "todis",
+    "negozio": "volantino Lazio",
+    "sha256": "f10530e4ab7340c9df1a1d43120b51366d06d06721b879cea6e8becf7aeed976",
+    "byte": 7638929,
+    "scaricato_il": "2026-10-26T10:16:56",
+    "indirizzo": "https://www.todis.it/volantini/lazio/"
+  },
+  {
     "file": "lazio/nettuno/eurospin.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",
@@ -48,5 +60,17 @@
     "valido_dal": "2026-10-22",
     "valido_al": "2026-10-28",
     "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1"
+  },
+  {
+    "file": "lazio/nettuno/todis.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "todis",
+    "negozio": "volantino Lazio",
+    "sha256": "f10530e4ab7340c9df1a1d43120b51366d06d06721b879cea6e8becf7aeed976",
+    "byte": 7638929,
+    "scaricato_il": "2026-10-26T10:16:56",
+    "indirizzo": "https://www.todis.it/volantini/lazio/"
   }
 ]
