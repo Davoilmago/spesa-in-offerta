@@ -4,15 +4,19 @@ Spesa in Offerta - scarico automatico dei volantini Eurospin (Anzio e Nettuno).
 Cosa fa:
   1. apre il lettore del volantino di ogni negozio con un browser automatico
   2. preme il pulsante di download (quello con la freccia verso il basso)
-  3. salva il PDF nella cartella "volantini" con il tuo schema di nomi
+  3. se compare una finestra di conferma, la conferma; se il PDF si apre in una
+     nuova scheda, lo prende da li'
+  4. salva il PDF nella cartella "volantini" con il tuo schema di nomi
      (supermercato_CAP_Citta.pdf, es. eurospin_00042_Anzio.pdf)
-  4. se due negozi della stessa citta hanno lo stesso volantino, ne tiene uno solo
+  5. se due negozi della stessa citta hanno lo stesso volantino, ne tiene uno solo
 
 Per aggiungere altre catene o altri negozi basta aggiungere voci in NEGOZI.
 """
 
+import base64
 import hashlib
 import json
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -51,6 +55,10 @@ SELETTORI_DOWNLOAD = [
     'a:has-text("Scarica")',
 ]
 
+# Possibili finestre di conferma che si aprono dopo il clic.
+CONTENITORI_FINESTRA = '[role="dialog"], [aria-modal="true"], [class*="modal" i], [class*="popup" i], [class*="overlay" i]'
+TESTI_CONFERMA = re.compile(r"^\s*(scarica.*|download.*|conferma|continua|ok|salva|procedi)\s*$", re.I)
+
 
 def prova_chiudi_cookie(pagina):
     """Se compare il banner dei cookie, sceglie l'opzione che rifiuta quelli non essenziali."""
@@ -67,6 +75,20 @@ def prova_chiudi_cookie(pagina):
 
 def tutti_i_frame(pagina):
     return [pagina.main_frame] + [f for f in pagina.frames if f != pagina.main_frame]
+
+
+def descrivi(el):
+    """Descrizione corta di un elemento, per il log."""
+    try:
+        return (
+            f"tag={el.evaluate('e => e.tagName')} "
+            f"title={el.get_attribute('title')!r} "
+            f"aria-label={el.get_attribute('aria-label')!r} "
+            f"testo={(el.inner_text() or '').strip()[:40]!r} "
+            f"box={el.bounding_box()}"
+        )
+    except Exception as errore:
+        return f"(non descrivibile: {errore})"
 
 
 def trova_pulsante_download(pagina):
@@ -101,6 +123,28 @@ def trova_pulsante_download(pagina):
     return None, None
 
 
+def stampa_elementi_visibili(pagina, titolo):
+    """Scrive nel log i pulsanti visibili, cosi' vediamo cosa c'e' sulla pagina."""
+    print(f"    --- {titolo}")
+    for frame in tutti_i_frame(pagina):
+        try:
+            elementi = frame.locator('button, a, [role="button"]')
+            mostrati = 0
+            for i in range(elementi.count()):
+                el = elementi.nth(i)
+                try:
+                    if not el.is_visible():
+                        continue
+                except Exception:
+                    continue
+                print(f"    {descrivi(el)}")
+                mostrati += 1
+                if mostrati >= 40:
+                    break
+        except Exception:
+            pass
+
+
 def salva_debug(pagina, nome):
     """Salva uno screenshot e l'elenco dei pulsanti, per capire cosa non ha funzionato."""
     CARTELLA_DEBUG.mkdir(exist_ok=True)
@@ -114,26 +158,86 @@ def salva_debug(pagina, nome):
         try:
             elementi = frame.locator('button, a, [role="button"]')
             for i in range(min(elementi.count(), 80)):
-                el = elementi.nth(i)
-                try:
-                    righe.append(
-                        f"{i}: tag={el.evaluate('e => e.tagName')} "
-                        f"aria-label={el.get_attribute('aria-label')!r} "
-                        f"title={el.get_attribute('title')!r} "
-                        f"testo={(el.inner_text() or '').strip()[:40]!r} "
-                        f"box={el.bounding_box()}"
-                    )
-                except Exception:
-                    pass
+                righe.append(f"{i}: {descrivi(elementi.nth(i))}")
         except Exception:
             pass
     (CARTELLA_DEBUG / f"{nome}.txt").write_text("\n".join(righe), encoding="utf-8")
+
+
+def aspetta(pagina, lista, secondi):
+    """Aspetta fino a 'secondi' che nella lista compaia qualcosa."""
+    for _ in range(int(secondi * 2)):
+        if lista:
+            return True
+        pagina.wait_for_timeout(500)
+    return bool(lista)
+
+
+def prova_conferma(pagina):
+    """Se dopo il clic e' comparsa una finestra, preme il pulsante di conferma. Restituisce True se ha cliccato."""
+    for frame in tutti_i_frame(pagina):
+        try:
+            finestre = frame.locator(CONTENITORI_FINESTRA)
+            for i in range(finestre.count()):
+                finestra = finestre.nth(i)
+                if not finestra.is_visible():
+                    continue
+                print(f"    finestra trovata: {descrivi(finestra)}")
+                try:
+                    print(f"    testo della finestra: {(finestra.inner_text() or '').strip()[:200]!r}")
+                except Exception:
+                    pass
+                pulsanti = finestra.locator('button, a, [role="button"]')
+                for j in range(pulsanti.count()):
+                    p = pulsanti.nth(j)
+                    try:
+                        if not p.is_visible():
+                            continue
+                        testo = (p.inner_text() or p.get_attribute("title") or p.get_attribute("aria-label") or "").strip()
+                        if TESTI_CONFERMA.match(testo):
+                            print(f"    premo '{testo}' nella finestra")
+                            p.click(timeout=10000)
+                            return True
+                    except Exception:
+                        continue
+        except Exception:
+            continue
+    return False
+
+
+def pdf_da_nuova_scheda(nuova, destinazione):
+    """Se il PDF si e' aperto in una nuova scheda, prova a leggerlo da li'."""
+    try:
+        nuova.wait_for_timeout(3000)
+        print(f"    nuova scheda: {nuova.url}")
+        dati_base64 = nuova.evaluate(
+            """async () => {
+                const r = await fetch(location.href);
+                const a = new Uint8Array(await r.arrayBuffer());
+                let s = '';
+                for (let i = 0; i < a.length; i += 0x8000) {
+                    s += String.fromCharCode.apply(null, a.subarray(i, i + 0x8000));
+                }
+                return btoa(s);
+            }"""
+        )
+        contenuto = base64.b64decode(dati_base64)
+        if contenuto[:5] == b"%PDF-":
+            destinazione.write_bytes(contenuto)
+            return True
+    except Exception as errore:
+        print(f"    lettura dalla nuova scheda non riuscita: {errore}")
+    return False
 
 
 def scarica_un_negozio(contesto, negozio):
     """Scarica il volantino di un negozio. Restituisce il percorso del file temporaneo oppure None."""
     etichetta = f"{negozio['catena']}_{negozio['negozio']}"
     pagina = contesto.new_page()
+    scaricati = []
+    nuove_schede = []
+    pagina.on("download", lambda d: scaricati.append(d))
+    contesto.on("page", lambda p: nuove_schede.append(p))
     try:
         pagina.goto(url_lettore(negozio["negozio"]), wait_until="domcontentloaded", timeout=60000)
         pagina.wait_for_timeout(6000)  # il lettore si carica dopo, con JavaScript
@@ -142,17 +246,43 @@ def scarica_un_negozio(contesto, negozio):
         pulsante, come = trova_pulsante_download(pagina)
         if pulsante is None:
             print(f"[ERRORE] {etichetta}: pulsante di download non trovato")
+            stampa_elementi_visibili(pagina, "elementi visibili")
             salva_debug(pagina, etichetta)
             return None
         print(f"[ok] {etichetta}: pulsante trovato ({come})")
-
-        with pagina.expect_download(timeout=60000) as info:
-            pulsante.click()
-        download = info.value
+        print(f"    elemento: {descrivi(pulsante)}")
 
         CARTELLA_PDF.mkdir(exist_ok=True)
         temporaneo = CARTELLA_PDF / f"_tmp_{etichetta}.pdf"
-        download.save_as(str(temporaneo))
+
+        pulsante.click(timeout=15000)
+
+        # 1) il download parte subito?
+        if not aspetta(pagina, scaricati, 10):
+            print(f"    nessun download dopo 10 secondi: guardo cosa e' successo")
+            stampa_elementi_visibili(pagina, "elementi visibili dopo il clic")
+            salva_debug(pagina, etichetta)
+
+            # 2) magari e' comparsa una finestra di conferma
+            if prova_conferma(pagina):
+                aspetta(pagina, scaricati, 90)
+
+            # 3) oppure il PDF si e' aperto in una nuova scheda
+            if not scaricati and nuove_schede:
+                for nuova in nuove_schede:
+                    if pdf_da_nuova_scheda(nuova, temporaneo):
+                        return temporaneo
+
+            # 4) ultima possibilita': aspetto ancora
+            if not scaricati:
+                aspetta(pagina, scaricati, 60)
+
+        if not scaricati:
+            print(f"[ERRORE] {etichetta}: nessun file scaricato")
+            salva_debug(pagina, etichetta)
+            return None
+
+        scaricati[0].save_as(str(temporaneo))
 
         with open(temporaneo, "rb") as f:
             if f.read(5) != b"%PDF-":
@@ -173,6 +303,11 @@ def scarica_un_negozio(contesto, negozio):
             pass
         return None
     finally:
+        for nuova in nuove_schede:
+            try:
+                nuova.close()
+            except Exception:
+                pass
         pagina.close()
 
 
