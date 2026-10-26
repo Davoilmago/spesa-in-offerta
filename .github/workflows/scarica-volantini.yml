@@ -1,0 +1,49 @@
+name: Scarica volantini
+
+on:
+  # Pulsante "Run workflow" per le prove a mano
+  workflow_dispatch:
+  # Automatico: lunedi e martedi alle 07:00 UTC (08:00 o 09:00 in Italia).
+  # Il martedi serve come secondo tentativo se il lunedi il volantino nuovo non e' ancora online.
+  schedule:
+    - cron: "0 7 * * 1,2"
+
+permissions:
+  contents: write
+
+jobs:
+  scarica:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica il progetto
+        uses: actions/checkout@v4
+
+      - name: Installa Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installa il browser automatico
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Scarica i volantini
+        run: python scarica_volantini.py
+
+      - name: Salva i volantini nel progetto
+        if: always()
+        run: |
+          git config user.name "volantini-bot"
+          git config user.email "volantini-bot@users.noreply.github.com"
+          git add volantini
+          git diff --cached --quiet || git commit -m "Volantini aggiornati"
+          git push
+
+      - name: Conserva i file di controllo se qualcosa e' andato storto
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug
+          path: debug
+          if-no-files-found: ignore
