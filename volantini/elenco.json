@@ -206,17 +206,6 @@
     "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1"
   },
   {
-    "file": "lazio/nettuno/pam.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "pam",
-    "negozio": "Pam Via Ugo La Malfa 48",
-    "sha256": "848a42c71096c505b737442797f2166c3aee3106216ac0010ae723ac26b5e2a7",
-    "byte": 382146,
-    "scaricato_il": "2026-10-26T14:23:29"
-  },
-  {
     "file": "lazio/nettuno/todis.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",

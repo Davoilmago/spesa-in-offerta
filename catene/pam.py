@@ -9,9 +9,22 @@ Per ogni negozio nel file della citta' serve "id": la parte finale dell'indirizz
 (es. roma-nettuno).
 """
 
+import contextlib
+import io
 import re
+from pathlib import Path
 
 import comune
+
+LOG = Path("volantini/_debug/pam.txt")   # il registro viene salvato nel progetto, cosi' lo posso leggere
+
+
+def log(testo):
+    print(testo)
+    LOG.parent.mkdir(parents=True, exist_ok=True)
+    with open(LOG, "a", encoding="utf-8") as f:
+        f.write(testo + "\n")
+
 
 NOME = "pam"
 GIORNI = [0, 1, 2, 3, 4, 5, 6]   # all'inizio proviamo ogni giorno (i doppioni vengono tolti)
@@ -23,35 +36,37 @@ def url_negozio(id_negozio):
 
 
 def stampa_pagina(pagina, titolo):
-    print(f"    === {titolo}")
+    log(f"    === {titolo}")
     try:
-        print(f"    url: {pagina.url}  titolo: {pagina.title()!r}")
+        log(f"    url: {pagina.url}  titolo: {pagina.title()!r}")
     except Exception:
         pass
     for frame in comune.tutti_i_frame(pagina):
         try:
             testo = frame.locator("body").inner_text(timeout=5000)
-            print(f"    testo ({frame.url[:80]}): {re.sub(chr(10)+'+', ' | ', testo)[:1500]!r}")
+            log(f"    testo ({frame.url[:80]}): {re.sub(chr(10)+'+', ' | ', testo)[:1500]!r}")
         except Exception:
             pass
         try:
             hrefs = frame.eval_on_selector_all(
                 "a[href]", "els => els.map(e => (e.innerText||'').trim().slice(0,40) + ' -> ' + e.href)"
             )
-            utili = [h for h in hrefs if re.search(r"volantin|flyer|pdf|offert|catalog", h, re.I)]
+            utili = [h for h in hrefs if re.search(r"volantin|flyer|pdf|offert|catalog|sfoglia", h, re.I)]
             for h in utili[:30]:
-                print(f"    link: {h}")
-            print(f"    (link totali: {len(hrefs)})")
+                log(f"    link: {h}")
+            log(f"    (link totali: {len(hrefs)})")
         except Exception:
             pass
-    comune.stampa_elementi_visibili(pagina, titolo)
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        comune.stampa_elementi_visibili(pagina, titolo)
+    log(buf.getvalue().rstrip())
 
 
 def trova_scarica(pagina):
     for frame in comune.tutti_i_frame(pagina):
-        for sel in ['a[href$=".pdf" i]', '[aria-label*="scarica" i]', '[title*="scarica" i]',
-                    '[aria-label*="download" i]', 'button:has-text("Scarica")', 'a:has-text("Scarica")',
-                    'a:has-text("PDF")', 'button:has-text("PDF")']:
+        for sel in ['[aria-label*="scarica" i]', '[title*="scarica" i]', '[aria-label*="download" i]',
+                    'button:has-text("Scarica il volantino")', 'a:has-text("Scarica il volantino")']:
             try:
                 loc = frame.locator(sel).first
                 if loc.count() > 0 and loc.is_visible():
@@ -68,10 +83,6 @@ def apri(pagina, negozio):
     pagina.wait_for_timeout(1500)
     stampa_pagina(pagina, "pagina del negozio Pam")
 
-    pulsante, come = trova_scarica(pagina)
-    if pulsante is not None:
-        return pulsante, come, {}
-
     # Seguo il link/pulsante del volantino, se c'e'
     for frame in comune.tutti_i_frame(pagina):
         for loc in [frame.get_by_role("link", name=re.compile(r"volantin", re.I)),
@@ -81,16 +92,14 @@ def apri(pagina, negozio):
                 el = loc.first
                 if el.count() == 0 or not el.is_visible():
                     continue
-                print(f"    clic su: {comune.descrivi(el)}")
+                log(f"    clic su: {comune.descrivi(el)}")
                 el.click(timeout=5000)
                 pagina.wait_for_timeout(8000)
                 stampa_pagina(pagina, "dopo il clic sul volantino")
-                pulsante, come = trova_scarica(pagina)
-                if pulsante is not None:
-                    return pulsante, come, {}
                 break
             except Exception as e:
-                print(f"    clic non riuscito: {str(e).splitlines()[0][:120]}")
+                log(f"    clic non riuscito: {str(e).splitlines()[0][:120]}")
+    log("    [esplorazione] nessun download tentato")
     comune.salva_debug(pagina, "pam-esplorazione")
     return None, None, None
 
