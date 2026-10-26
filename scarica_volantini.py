@@ -1,14 +1,16 @@
 """
-Spesa in Offerta - scarico automatico dei volantini Eurospin (Anzio e Nettuno).
+Spesa in Offerta - scarico automatico dei volantini (Eurospin e Lidl, Anzio e Nettuno).
 
 Cosa fa:
-  1. apre il lettore del volantino di ogni negozio con un browser automatico
-  2. preme il pulsante di download (quello con la freccia verso il basso)
+  1. apre il lettore del volantino con un browser automatico
+  2. preme il pulsante di download (Eurospin: freccia a sinistra; Lidl: Menu -> Scarica il PDF)
   3. se compare una finestra di conferma, la conferma; se il PDF si apre in una
      nuova scheda, lo prende da li'
   4. salva il PDF nella cartella "volantini" con il tuo schema di nomi
      (supermercato_CAP_Citta.pdf, es. eurospin_00042_Anzio.pdf)
   5. se due negozi della stessa citta hanno lo stesso volantino, ne tiene uno solo
+  6. se piu' citta condividono lo stesso volantino (Lidl nazionale), lo scarica una volta
+     sola e ne salva una copia per ogni citta'
 
 Per aggiungere altre catene o altri negozi basta aggiungere voci in NEGOZI.
 """
@@ -17,10 +19,12 @@ import base64
 import hashlib
 import json
 import re
+import shutil
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
 from playwright.sync_api import TimeoutError as PlaywrightTimeout
 from playwright.sync_api import sync_playwright
@@ -38,14 +42,17 @@ def url_lettore(nome_negozio):
 
 
 # Elenco dei negozi da controllare.
-# "negozio" e' la parte finale dell'indirizzo del lettore (es. .../punti-vendita/anzio-2)
+# Eurospin: "negozio" e' la parte finale dell'indirizzo del lettore (es. .../punti-vendita/anzio-2)
+# Lidl: il volantino e' nazionale, quindi "fonte" uguale = scaricato una volta sola e copiato per ogni citta'
 NEGOZI = [
     {"catena": "eurospin", "cap": "00042", "citta": "Anzio", "negozio": "anzio", "nota": "Via Nerone 15"},
     {"catena": "eurospin", "cap": "00042", "citta": "Anzio", "negozio": "anzio-2", "nota": "Via del Cinema 26"},
     {"catena": "eurospin", "cap": "00048", "citta": "Nettuno", "negozio": "nettuno", "nota": "Via Scipione Borghese 35"},
+    {"catena": "lidl", "cap": "00042", "citta": "Anzio", "negozio": "naz", "fonte": "lidl-naz", "nota": "volantino nazionale"},
+    {"catena": "lidl", "cap": "00048", "citta": "Nettuno", "negozio": "naz", "fonte": "lidl-naz", "nota": "volantino nazionale"},
 ]
 
-# Come riconoscere il pulsante di download, dal piu' preciso al meno preciso.
+# Come riconoscere il pulsante di download di Eurospin, dal piu' preciso al meno preciso.
 SELETTORI_DOWNLOAD = [
     '[aria-label*="scarica" i]',
     '[title*="scarica" i]',
@@ -62,7 +69,15 @@ TESTI_CONFERMA = re.compile(r"^\s*(scarica.*|download.*|conferma|continua|ok|sal
 
 def prova_chiudi_cookie(pagina):
     """Se compare il banner dei cookie, sceglie l'opzione che rifiuta quelli non essenziali."""
-    for testo in ["Rifiuta", "Rifiuta tutti", "Solo necessari", "Solo essenziali", "Accetta solo i necessari"]:
+    for testo in [
+        "Rifiuta",
+        "Rifiuta tutti",
+        "Solo necessari",
+        "Solo essenziali",
+        "Accetta solo i necessari",
+        "Solo i cookie necessari",
+        "Accetta solo i cookie necessari",
+    ]:
         try:
             pulsante = pagina.get_by_role("button", name=testo).first
             if pulsante.is_visible(timeout=1500):
@@ -92,7 +107,7 @@ def descrivi(el):
 
 
 def trova_pulsante_download(pagina):
-    """Cerca il pulsante in pagina e dentro i frame. Restituisce (locator, descrizione) oppure (None, None)."""
+    """Eurospin: cerca il pulsante in pagina e dentro i frame. Restituisce (locator, descrizione) oppure (None, None)."""
     for frame in tutti_i_frame(pagina):
         for selettore in SELETTORI_DOWNLOAD:
             try:
@@ -122,6 +137,113 @@ def trova_pulsante_download(pagina):
             continue
     return None, None
 
+
+# ---------------------------------------------------------------- Lidl
+
+def finestre_lidl():
+    """Date dei volantini Lidl: escono il giovedi' e valgono fino al mercoledi' successivo.
+    Restituisce prima la settimana in corso, poi la successiva e la precedente."""
+    oggi = datetime.now(ZoneInfo("Europe/Rome")).date()
+    inizio = oggi - timedelta(days=(oggi.weekday() - 3) % 7)
+    risultato = []
+    for spostamento in (0, 7, -7):
+        dal = inizio + timedelta(days=spostamento)
+        al = dal + timedelta(days=6)
+        risultato.append((dal, al))
+    return risultato
+
+
+def url_lidl(dal, al):
+    return (
+        "https://www.lidl.it/l/it/volantini/"
+        f"offerte-valide-dal-{dal:%d-%m}-al-{al:%d-%m}-volantino-settimanale-NAZ/view/flyer/page/1"
+    )
+
+
+def apri_menu_lidl(pagina):
+    """Preme 'Menu' in alto a destra. Restituisce True se l'ha trovato."""
+    for frame in tutti_i_frame(pagina):
+        candidati = [
+            frame.get_by_role("button", name=re.compile(r"^\s*men[uù]\s*$", re.I)),
+            frame.get_by_text(re.compile(r"^\s*men[uù]\s*$", re.I)),
+        ]
+        for loc in candidati:
+            try:
+                el = loc.first
+                if el.count() > 0 and el.is_visible():
+                    el.click(timeout=5000)
+                    return True
+            except Exception:
+                continue
+    return False
+
+
+def trova_scarica_pdf_lidl(pagina):
+    for frame in tutti_i_frame(pagina):
+        try:
+            el = frame.get_by_text(re.compile(r"scarica il pdf", re.I)).first
+            if el.count() > 0 and el.is_visible():
+                return el
+        except Exception:
+            continue
+    return None
+
+
+def apri_lidl(pagina):
+    """Apre il volantino Lidl in corso e il menu. Restituisce (pulsante, come, info) oppure (None, None, None)."""
+    for dal, al in finestre_lidl():
+        indirizzo = url_lidl(dal, al)
+        print(f"    provo il volantino Lidl dal {dal:%d/%m} al {al:%d/%m}")
+        try:
+            risposta = pagina.goto(indirizzo, wait_until="domcontentloaded", timeout=60000)
+        except PlaywrightTimeout:
+            print("    pagina non caricata in tempo")
+            continue
+        if risposta is not None and risposta.status >= 400:
+            print(f"    pagina non trovata (stato {risposta.status})")
+            continue
+        pagina.wait_for_timeout(6000)  # il lettore si carica dopo, con JavaScript
+        prova_chiudi_cookie(pagina)
+
+        menu_aperto = False
+        for _ in range(8):
+            if apri_menu_lidl(pagina):
+                menu_aperto = True
+                break
+            pagina.wait_for_timeout(1500)
+        if not menu_aperto:
+            print("    pulsante Menu non trovato")
+            continue
+
+        for _ in range(5):
+            pulsante = trova_scarica_pdf_lidl(pagina)
+            if pulsante is not None:
+                info = {"valido_dal": dal.isoformat(), "valido_al": al.isoformat(), "indirizzo": indirizzo}
+                return pulsante, "testo 'Scarica il PDF'", info
+            pagina.wait_for_timeout(1000)
+        print("    'Scarica il PDF' non trovato nel menu")
+    return None, None, None
+
+
+def prova_pdf_diretto(contesto, pulsante, destinazione):
+    """Se il pulsante e' un link a un file PDF, lo scarica direttamente."""
+    try:
+        href = pulsante.evaluate("e => { const a = e.closest('a'); return a ? a.href : ''; }")
+        if href and href.startswith("http"):
+            print(f"    indirizzo del pulsante: {href[:200]}")
+            risposta = contesto.request.get(href, timeout=60000)
+            corpo = risposta.body()
+            if risposta.ok and corpo[:5] == b"%PDF-":
+                destinazione.write_bytes(corpo)
+                print("    PDF scaricato direttamente dall'indirizzo")
+                return True
+            print(f"    l'indirizzo non e' un PDF (stato {risposta.status})")
+    except Exception as errore:
+        print(f"    scarico diretto non riuscito: {errore}")
+    return False
+
+
+# ---------------------------------------------------------------- strumenti comuni
 
 def stampa_elementi_visibili(pagina, titolo):
     """Scrive nel log i pulsanti visibili, cosi' vediamo cosa c'e' sulla pagina."""
@@ -255,29 +377,42 @@ def premi_e_aspetta(pagina, pulsante, scaricati):
 
 
 def scarica_un_negozio(contesto, negozio):
-    """Scarica il volantino di un negozio. Restituisce il percorso del file temporaneo oppure None."""
+    """Scarica il volantino. Restituisce (percorso del file temporaneo, info) oppure (None, None)."""
     etichetta = f"{negozio['catena']}_{negozio['negozio']}"
     pagina = contesto.new_page()
     scaricati = []
     nuove_schede = []
-    pagina.on("download", lambda d: scaricati.append(d))
-    contesto.on("page", lambda p: nuove_schede.append(p))
-    try:
-        pagina.goto(url_lettore(negozio["negozio"]), wait_until="domcontentloaded", timeout=60000)
-        pagina.wait_for_timeout(6000)  # il lettore si carica dopo, con JavaScript
-        prova_chiudi_cookie(pagina)
+    info = {}
 
-        pulsante, come = trova_pulsante_download(pagina)
+    def nuova_scheda_aperta(p):
+        nuove_schede.append(p)
+        p.on("download", lambda d: scaricati.append(d))
+
+    pagina.on("download", lambda d: scaricati.append(d))
+    contesto.on("page", nuova_scheda_aperta)
+    try:
+        if negozio["catena"] == "lidl":
+            pulsante, come, info = apri_lidl(pagina)
+        else:
+            pagina.goto(url_lettore(negozio["negozio"]), wait_until="domcontentloaded", timeout=60000)
+            pagina.wait_for_timeout(6000)  # il lettore si carica dopo, con JavaScript
+            prova_chiudi_cookie(pagina)
+            pulsante, come = trova_pulsante_download(pagina)
+
         if pulsante is None:
             print(f"[ERRORE] {etichetta}: pulsante di download non trovato")
             stampa_elementi_visibili(pagina, "elementi visibili")
             salva_debug(pagina, etichetta)
-            return None
+            return None, None
         print(f"[ok] {etichetta}: pulsante trovato ({come})")
         print(f"    elemento: {descrivi(pulsante)}")
 
         CARTELLA_PDF.mkdir(exist_ok=True)
         temporaneo = CARTELLA_PDF / f"_tmp_{etichetta}.pdf"
+
+        # Se il pulsante e' un link a un PDF, la via piu' semplice e' scaricarlo direttamente.
+        if negozio["catena"] == "lidl" and prova_pdf_diretto(contesto, pulsante, temporaneo):
+            return temporaneo, info
 
         # 1) il download parte subito?
         if not premi_e_aspetta(pagina, pulsante, scaricati):
@@ -293,7 +428,7 @@ def scarica_un_negozio(contesto, negozio):
             if not scaricati and nuove_schede:
                 for nuova in nuove_schede:
                     if pdf_da_nuova_scheda(nuova, temporaneo):
-                        return temporaneo
+                        return temporaneo, info
 
             # 4) ultima possibilita': aspetto ancora
             if not scaricati:
@@ -302,7 +437,7 @@ def scarica_un_negozio(contesto, negozio):
         if not scaricati:
             print(f"[ERRORE] {etichetta}: nessun file scaricato")
             salva_debug(pagina, etichetta)
-            return None
+            return None, None
 
         scaricati[0].save_as(str(temporaneo))
 
@@ -311,19 +446,19 @@ def scarica_un_negozio(contesto, negozio):
                 print(f"[ERRORE] {etichetta}: il file scaricato non sembra un PDF")
                 salva_debug(pagina, etichetta)
                 temporaneo.unlink(missing_ok=True)
-                return None
-        return temporaneo
+                return None, None
+        return temporaneo, info
     except PlaywrightTimeout as errore:
         print(f"[ERRORE] {etichetta}: tempo scaduto ({str(errore)[:600]!r})")
         salva_debug(pagina, etichetta)
-        return None
+        return None, None
     except Exception as errore:
         print(f"[ERRORE] {etichetta}: {errore}")
         try:
             salva_debug(pagina, etichetta)
         except Exception:
             pass
-        return None
+        return None, None
     finally:
         for nuova in nuove_schede:
             try:
@@ -342,8 +477,9 @@ def impronta(percorso):
 
 
 def main():
-    risultati = []  # un elemento per ogni file tenuto
-    visti = {}      # (catena, cap) -> impronte gia' salvate e quanti file ci sono
+    risultati = []     # un elemento per ogni file tenuto
+    visti = {}         # (catena, cap) -> impronte gia' salvate
+    cache_fonti = {}   # fonte condivisa -> (file temporaneo, info), per scaricare una volta sola
     errori = 0
 
     with sync_playwright() as p:
@@ -356,7 +492,15 @@ def main():
         )
 
         for negozio in NEGOZI:
-            temporaneo = scarica_un_negozio(contesto, negozio)
+            fonte = negozio.get("fonte")
+            if fonte and fonte in cache_fonti:
+                temporaneo, info = cache_fonti[fonte]
+                print(f"[condiviso] {negozio['catena']} {negozio['citta']}: uso il volantino gia' scaricato ({fonte})")
+            else:
+                temporaneo, info = scarica_un_negozio(contesto, negozio)
+                if fonte:
+                    cache_fonti[fonte] = (temporaneo, info)
+
             if temporaneo is None:
                 errori += 1
                 continue
@@ -367,29 +511,35 @@ def main():
 
             if firma in gia_salvati:
                 print(f"[uguale] {negozio['nota']}: stesso volantino di {gia_salvati[firma]}, non lo duplico")
-                temporaneo.unlink()
                 continue
 
             base = f"{negozio['catena']}_{negozio['cap']}_{negozio['citta']}"
             nome = f"{base}.pdf" if not gia_salvati else f"{base}_{len(gia_salvati) + 1}.pdf"
             destinazione = CARTELLA_PDF / nome
-            temporaneo.replace(destinazione)
+            shutil.copyfile(temporaneo, destinazione)
             gia_salvati[firma] = nome
 
-            risultati.append(
-                {
-                    "file": nome,
-                    "negozio": negozio["nota"],
-                    "sha256": firma,
-                    "byte": destinazione.stat().st_size,
-                    "scaricato_il": datetime.now().isoformat(timespec="seconds"),
-                }
-            )
+            voce = {
+                "file": nome,
+                "catena": negozio["catena"],
+                "citta": negozio["citta"],
+                "cap": negozio["cap"],
+                "negozio": negozio["nota"],
+                "sha256": firma,
+                "byte": destinazione.stat().st_size,
+                "scaricato_il": datetime.now().isoformat(timespec="seconds"),
+            }
+            voce.update(info or {})
+            risultati.append(voce)
             print(f"[salvato] {nome} ({negozio['nota']})")
 
         browser.close()
 
     CARTELLA_PDF.mkdir(exist_ok=True)
+    # pulizia dei file temporanei
+    for temporaneo in CARTELLA_PDF.glob("_tmp_*.pdf"):
+        temporaneo.unlink(missing_ok=True)
+
     (CARTELLA_PDF / "elenco.json").write_text(
         json.dumps(risultati, indent=2, ensure_ascii=False), encoding="utf-8"
     )
