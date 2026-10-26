@@ -19,6 +19,33 @@
         "zona": "lazio",
         "nota": "volantino Lazio"
       }
+    ],
+    "conad": [
+      {
+        "id": "010443",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-via-carlo-cattaneo-22-00048-nettuno--010443",
+        "nota": "Conad Via Carlo Cattaneo 22"
+      },
+      {
+        "id": "008451",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-via-scipione-borghese-c-o-centro-comm-le-vele-snc-00048-nettuno--008451",
+        "nota": "Conad Via Scipione Borghese (Le Vele)"
+      },
+      {
+        "id": "010683",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-via-santa-barbara-174-00048-nettuno--010683",
+        "nota": "Conad Via Santa Barbara 174"
+      },
+      {
+        "id": "005520",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-via-traunreut-44-00048-nettuno--005520",
+        "nota": "Conad Via Traunreut 44"
+      },
+      {
+        "id": "010694",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-via-aldo-moro-19-00048-nettuno--010694",
+        "nota": "Conad Via Aldo Moro 19"
+      }
     ]
   }
 }
