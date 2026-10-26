@@ -1,0 +1,14 @@
+{
+  "regione": "Lazio",
+  "citta": "Anzio",
+  "cap": "00042",
+  "negozi": {
+    "eurospin": [
+      {"id": "anzio", "nota": "Via Nerone 15"},
+      {"id": "anzio-2", "nota": "Via del Cinema 26"}
+    ],
+    "lidl": [
+      {"nota": "volantino nazionale"}
+    ]
+  }
+}
