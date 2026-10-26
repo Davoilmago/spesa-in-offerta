@@ -83,22 +83,35 @@ def apri(pagina, negozio):
     pagina.wait_for_timeout(1500)
     stampa_pagina(pagina, "pagina del negozio Pam")
 
-    # Seguo il link/pulsante del volantino, se c'e'
-    for frame in comune.tutti_i_frame(pagina):
-        for loc in [frame.get_by_role("link", name=re.compile(r"volantin", re.I)),
-                    frame.get_by_role("button", name=re.compile(r"volantin", re.I)),
-                    frame.get_by_text(re.compile(r"sfoglia|vedi il volantino|volantino", re.I))]:
-            try:
-                el = loc.first
-                if el.count() == 0 or not el.is_visible():
-                    continue
-                log(f"    clic su: {comune.descrivi(el)}")
-                el.click(timeout=5000)
-                pagina.wait_for_timeout(8000)
-                stampa_pagina(pagina, "dopo il clic sul volantino")
-                break
-            except Exception as e:
-                log(f"    clic non riuscito: {str(e).splitlines()[0][:120]}")
+    # Trovo i link ai volantini (si aprono sul sito volantinopiu.com) e li esploro uno per uno
+    link = []
+    try:
+        hrefs = pagina.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
+        for h in hrefs:
+            m = re.search(r"link=([^&]+)", h)
+            if m and "volantinopiu" in h:
+                from urllib.parse import unquote
+                u = unquote(m.group(1))
+                if u not in link:
+                    link.append(u)
+    except Exception as e:
+        log(f"    ricerca link non riuscita: {e}")
+    log(f"    volantini trovati: {link}")
+    risposte = []
+    pagina.on("response", lambda r: risposte.append((r.status, r.url)) if re.search(r"pdf|download|flyer|volantin", r.url, re.I) else None)
+    for u in link[:3]:
+        try:
+            log(f"    >>> apro il volantino {u}")
+            pagina.goto(u, wait_until="domcontentloaded", timeout=60000)
+            pagina.wait_for_timeout(9000)
+            comune.prova_chiudi_cookie(pagina)
+            pagina.wait_for_timeout(1500)
+            stampa_pagina(pagina, f"volantino {u[-40:]}")
+            for st, ru in risposte[-15:]:
+                log(f"    risposta {st}: {ru[:200]}")
+            comune.salva_debug(pagina, "pam-volantino")
+        except Exception as e:
+            log(f"    errore nell'aprire {u}: {str(e).splitlines()[0][:150]}")
     log("    [esplorazione] nessun download tentato")
     comune.salva_debug(pagina, "pam-esplorazione")
     return None, None, None
