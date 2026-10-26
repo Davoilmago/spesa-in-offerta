@@ -1,16 +1,22 @@
 [
   {
     "file": "eurospin_00042_Anzio.pdf",
+    "catena": "eurospin",
+    "citta": "Anzio",
+    "cap": "00042",
     "negozio": "Via Nerone 15",
     "sha256": "48c399a7b5792b780e6de3ae056678aa46beff8822c32ff5c7c687f2499319fb",
     "byte": 12764136,
-    "scaricato_il": "2026-10-26T07:44:18"
+    "scaricato_il": "2026-10-26T09:06:16"
   },
   {
     "file": "eurospin_00048_Nettuno.pdf",
+    "catena": "eurospin",
+    "citta": "Nettuno",
+    "cap": "00048",
     "negozio": "Via Scipione Borghese 35",
     "sha256": "48c399a7b5792b780e6de3ae056678aa46beff8822c32ff5c7c687f2499319fb",
     "byte": 12764136,
-    "scaricato_il": "2026-10-26T07:45:04"
+    "scaricato_il": "2026-10-26T09:07:03"
   }
 ]
