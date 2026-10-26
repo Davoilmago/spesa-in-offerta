@@ -1,5 +1,17 @@
 [
   {
+    "file": "lazio/anzio/conad.pdf",
+    "regione": "Lazio",
+    "citta": "Anzio",
+    "cap": "00042",
+    "catena": "conad",
+    "negozio": "Spazio Conad, Viale Antium 4",
+    "sha256": "bd494615a0a1c18c67e064f0984b5010ff1d3a267ef434a21651abe24739cc82",
+    "byte": 154284,
+    "scaricato_il": "2026-10-26T10:45:35",
+    "indirizzo": "https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625"
+  },
+  {
     "file": "lazio/anzio/eurospin.pdf",
     "regione": "Lazio",
     "citta": "Anzio",
@@ -35,6 +47,18 @@
     "byte": 7638929,
     "scaricato_il": "2026-10-26T10:16:56",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
+  },
+  {
+    "file": "lazio/nettuno/conad.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "conad",
+    "negozio": "Conad Via Carlo Cattaneo 22",
+    "sha256": "bd494615a0a1c18c67e064f0984b5010ff1d3a267ef434a21651abe24739cc82",
+    "byte": 154284,
+    "scaricato_il": "2026-10-26T10:46:16",
+    "indirizzo": "https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010443"
   },
   {
     "file": "lazio/nettuno/eurospin.pdf",
