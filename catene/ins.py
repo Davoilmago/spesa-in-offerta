@@ -8,6 +8,9 @@ Nel file della citta' servono per ogni negozio: "provincia", "citta'" e "filiale
 """
 
 import re
+import shutil
+import subprocess
+from datetime import date
 
 import comune
 
@@ -26,6 +29,46 @@ def scegli(pagina, indice, cerca):
     menu.select_option(scelto)
     pagina.wait_for_timeout(2500)
     return True
+
+
+MESI = {"gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6, "luglio": 7,
+        "agosto": 8, "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12}
+RE_DATE = re.compile(r"dal\s+(\d{1,2})\s*(?:([a-z]+)\s+)?al\s+(\d{1,2})\s+([a-z]+)\s*(\d{4})?", re.I)
+
+
+def date_dalla_copertina(pdf):
+    """La copertina e' un'immagine con scritto 'DAL 21 OTTOBRE AL 1 NOVEMBRE 2026': la leggo con l'OCR.
+    Restituisce (dal, al) come testo ISO, oppure (None, None) se non riesce."""
+    if not (shutil.which("pdftoppm") and shutil.which("tesseract")):
+        print("    OCR non disponibile: date non lette")
+        return None, None
+    try:
+        base = comune.CARTELLA_TMP / "ins_cop"
+        testo = ""
+        for ritaglio in (["-x", "0", "-y", "1000", "-W", "900", "-H", "300"], []):
+            for f in comune.CARTELLA_TMP.glob("ins_cop*.png"):
+                f.unlink(missing_ok=True)
+            subprocess.run(["pdftoppm", "-png", "-r", "110", "-f", "1", "-l", "1", *ritaglio, str(pdf), str(base)], check=True, timeout=60)
+            immagine = next(comune.CARTELLA_TMP.glob("ins_cop*.png"))
+            testo = subprocess.run(["tesseract", str(immagine), "stdout", "--psm", "6"], capture_output=True, text=True, timeout=90).stdout
+            m = RE_DATE.search(testo.replace("\n", " "))
+            if m:
+                g1, m1, g2, m2, anno = m.groups()
+                m2 = MESI.get((m2 or "").lower())
+                m1 = MESI.get((m1 or "").lower(), m2)
+                if m1 and m2:
+                    a = int(anno) if anno else date.today().year
+                    dal = date(a - (1 if m1 > m2 else 0), m1, int(g1))
+                    al = date(a, m2, int(g2))
+                    print(f"    date lette dalla copertina: {dal} - {al}")
+                    return dal.isoformat(), al.isoformat()
+        print(f"    date non trovate nella copertina: {testo[:120]!r}")
+    except Exception as errore:
+        print(f"    lettura delle date non riuscita: {str(errore)[:120]}")
+    finally:
+        for f in comune.CARTELLA_TMP.glob("ins_cop*.png"):
+            f.unlink(missing_ok=True)
+    return None, None
 
 
 def scarica(contesto, negozio, etichetta):
@@ -56,6 +99,9 @@ def scarica(contesto, negozio, etichetta):
         file.write_bytes(corpo)
         m = re.search(r"/volantino/(\d+)/", href)
         info = {"titolo": f"Volantino {m.group(1)}" if m else ""}
+        dal, al = date_dalla_copertina(file)
+        if dal and al:
+            info.update({"valido_dal": dal, "valido_al": al})
         print(f"[ok] {etichetta}: PDF scaricato ({len(corpo) // 1024} KB)")
         return [(file, info)]
     except Exception as errore:

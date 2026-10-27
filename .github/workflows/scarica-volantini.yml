@@ -48,6 +48,12 @@ jobs:
           pip install playwright
           playwright install --with-deps chromium
 
+      - name: Installa i programmi che leggono PDF e immagini (per le date di iN's)
+        continue-on-error: true
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr
+
       - name: Scarica i volantini
         env:
           EVENTO: ${{ github.event_name }}
