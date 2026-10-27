@@ -33,3 +33,9 @@ Formato: `window.OFFERTE={aggiornato, prodotti:[{id,e,n,cat,sub,u}], offerte:[{p
 - Il volantino principale e' `carrefour.pdf` ("Prezzi Freschi", pagine quadrate, prezzi per kg/etto/confezione scritti chiari). Il sito carrefour.it elenca anche ogni prodotto in testo.
 - Controlla le date scritte sul volantino: "Speciale Aia" riporta una validita' piu' breve di quella indicata sul sito (scaduta il 22/10), quindi non va inserito se scaduto. "Speciale Purina" contiene pochi prezzi.
 - Ignora i bollini "Prendi e Spendi" e "Spesamica Payback" (non sono sconti sul prezzo); il prezzo grande e' quello valido.
+
+
+## iN's Mercato (Nettuno)
+- Volantino a doppie pagine (13), PDF in volantini/lazio/nettuno/ins.pdf; date dalla copertina (OCR). Zona 'N', catena 'ins'.
+- Leggere solo il cibo e la cura persona (pagine iniziali); le pagine casa/abbigliamento/piante non hanno prodotti del comparatore.
+- Catene: eurospin, lidl, todis, conad, pam, carrefour, ins.
