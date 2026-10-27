@@ -95,6 +95,19 @@
     "scaricato_il": "2026-10-27T07:36:06"
   },
   {
+    "file": "lazio/anzio/md.pdf",
+    "regione": "Lazio",
+    "citta": "Anzio",
+    "cap": "00042",
+    "catena": "md",
+    "negozio": "MD Via Goldoni 62",
+    "sha256": "d492770435b6aa24f9f8b48b8a8a174b932fc7287ee057bd7fb67ff428f774a4",
+    "byte": 17111980,
+    "scaricato_il": "2026-10-27T15:04:19",
+    "titolo": "Volantino MD",
+    "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
+  },
+  {
     "file": "lazio/anzio/todis.pdf",
     "regione": "Lazio",
     "citta": "Anzio",
