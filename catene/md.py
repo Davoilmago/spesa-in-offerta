@@ -1,6 +1,8 @@
 """
 MD (discount): i volantini sono pubblicati su https://www.1leadermarketing.it/volantino/
-Primo tentativo "esplorativo": apre la pagina, prova a scegliere Anzio dai menu o dai campi di ricerca,
+NOTA: la pagina https://www.1leadermarketing.it/volantino/ mostra gia' il volantino del punto vendita di Anzio
+(Via Goldoni 62) con il link diretto https://www.1leadermarketing.it/volantino/volantino.pdf (28 pagine, validita'
+scritta in copertina). Il modulo scrive nel log cosa vede, cosi' si controlla se il sito cambia. Apre la pagina, prova a scegliere Anzio dai menu o dai campi di ricerca,
 scrive nel log (volantini/_log_md.txt) cosa vede (testo, menu, link) e scarica il primo PDF trovato.
 Dopo aver letto il log si rifinisce il modulo.
 
