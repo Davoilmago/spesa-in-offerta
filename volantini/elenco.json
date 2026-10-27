@@ -228,8 +228,10 @@
     "negozio": "iN's Mercato Via Ugo La Malfa 9",
     "sha256": "c7cb097566dac4b4b05e2b8ee5d1daa03370f642bbc2ee734b1b01421ca2210d",
     "byte": 14029054,
-    "scaricato_il": "2026-10-27T11:27:54",
-    "titolo": "Volantino 22"
+    "scaricato_il": "2026-10-27T11:34:27",
+    "titolo": "Volantino 22",
+    "valido_dal": "2026-10-21",
+    "valido_al": "2026-11-01"
   },
   {
     "file": "lazio/nettuno/lidl.pdf",
