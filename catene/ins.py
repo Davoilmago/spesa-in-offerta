@@ -51,8 +51,7 @@ def scarica(contesto, negozio, etichetta):
             opts = s.evaluate("e => [...e.options].map(o => o.value + '=' + o.text)")
             log(f"  select {i} id={s.get_attribute('id')!r} name={s.get_attribute('name')!r}: {opts[:12]} (tot {len(opts)})")
         elementi(pagina, "pulsanti")
-        # prova la scelta: Roma -> Nettuno -> prima filiale
-        for i, cerca in enumerate(["Roma", "Nettuno", "Nettuno"]):
+        for i, cerca in enumerate(["Roma", "Nettuno", "Via Ugo La Malfa"]):
             s = pagina.locator("select").nth(i)
             opts = s.evaluate("e => [...e.options].map(o => [o.value, o.text])")
             scelto = next((v for v, t in opts if cerca.lower() in t.lower()), None)
@@ -62,9 +61,6 @@ def scarica(contesto, negozio, etichetta):
                 break
             s.select_option(scelto)
             pagina.wait_for_timeout(3000)
-        for i in range(pagina.locator("select").count()):
-            s = pagina.locator("select").nth(i)
-            log(f"  dopo la scelta, menu {i}: {s.evaluate('e => [...e.options].map(o => o.value + chr(61) + o.text)')[:15]}")
         hs = pagina.eval_on_selector_all("a[href]", "els => els.map(e => (e.innerText||'').trim().slice(0,40) + ' -> ' + e.href)")
         for h in hs:
             if re.search(r"pdf|sfoglia|volantin|scarica", h, re.I):
@@ -72,7 +68,7 @@ def scarica(contesto, negozio, etichetta):
         for testo in ["Scarica il pdf", "Sfoglia il volantino"]:
             try:
                 b = pagina.get_by_text(testo, exact=False).first
-                log(f"  pulsante {testo!r}: href={b.evaluate('e => (e.closest(chr(97))||e).href')!r} visibile={b.is_visible()}")
+                log(f"  pulsante {testo!r}: href={b.evaluate('e => e.href || (e.closest(\"a\")||{}).href')!r} target={b.get_attribute('target')!r}")
             except Exception as e:
                 log(f"  pulsante {testo!r}: {str(e)[:100]}")
         try:
