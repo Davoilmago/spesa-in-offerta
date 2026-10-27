@@ -63,6 +63,9 @@
     "ins": [
       {
         "id": "nettuno",
+        "provincia": "Roma",
+        "citta": "Nettuno",
+        "filiale": "Via Ugo La Malfa",
         "nota": "iN's Mercato Via Ugo La Malfa 9"
       }
     ]
