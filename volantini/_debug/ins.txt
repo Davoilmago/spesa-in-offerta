@@ -1,0 +1,51 @@
+titolo: "Sfoglia il nuovo volantino | iN's Mercato - iN's Mercato"
+menu a tendina: 3
+  select 0 id='provincia' name='menu-province': ['=Seleziona la provincia', 'Alessandria=Alessandria', 'Ancona=Ancona', 'Aosta=Aosta', 'Arezzo=Arezzo', 'Asti=Asti', 'Belluno=Belluno', 'Bergamo=Bergamo', 'Biella=Biella', 'Bologna=Bologna', 'Brescia=Brescia', 'Chieti=Chieti'] (tot 67)
+  select 1 id='citta' name='menu-citta': ['=Seleziona la città'] (tot 1)
+  select 2 id='filiale' name='menu-filiale': ['=Seleziona la filiale'] (tot 1)
+    --- pulsanti
+    tag=A title=None aria-label=None testo="iN's Mercato" box={'x': 38.89375305175781, 'y': 68.859375, 'width': 139.58749389648438, 'height': 117}
+    tag=A title=None aria-label=None testo='C\nH\nI\n\xa0\nS\nI\nA\nM\nO' box={'x': 732, 'y': 37, 'width': 79, 'height': 22}
+    tag=A title=None aria-label=None testo='L\nA\nV\nO\nR\nA\n\xa0\nC\nO\nN\n\xa0\nN\nO\nI' box={'x': 827, 'y': 37, 'width': 106, 'height': 22}
+    tag=A title=None aria-label=None testo='S\nE\nR\nV\nI\nZ\nI\nO\n\xa0\nC\nL\nI\nE\nN\nT\nI' box={'x': 949, 'y': 37, 'width': 107, 'height': 22}
+    tag=A title=None aria-label=None testo='S\nV\nI\nL\nU\nP\nP\nO\n\xa0\nI\nM\nM\nO\nB\nI\nL\nI\nA\nR\nE' box={'x': 1072, 'y': 37, 'width': 145, 'height': 22}
+    tag=A title=None aria-label=None testo='R\nI\nC\nH\nI\nA\nM\nO\n\xa0\nP\nR\nO\nD\nO\nT\nT\nI' box={'x': 1233, 'y': 37, 'width': 127, 'height': 22}
+    tag=A title=None aria-label=None testo='V\no\nl\na\nn\nt\ni\nn\no' box={'x': 500, 'y': 80, 'width': 91, 'height': 26}
+    tag=A title=None aria-label=None testo='P\nu\nn\nt\ni\n\xa0\nv\ne\nn\nd\ni\nt\na' box={'x': 607, 'y': 80, 'width': 161, 'height': 26}
+    tag=A title=None aria-label=None testo='P\nr\no\nd\no\nt\nt\ni' box={'x': 784, 'y': 80, 'width': 120, 'height': 26}
+    tag=A title=None aria-label=None testo="i\nN\n'\ns\n\xa0\np\ne\nr\n\xa0\nl\ne\n\xa0\nd\no\nn\nn\ne" box={'x': 920, 'y': 80, 'width': 184, 'height': 26}
+    tag=A title=None aria-label=None testo='i\nN\n’\ns\n\xa0\nB\ne\na\nu\nt\ny' box={'x': 1120, 'y': 80, 'width': 145, 'height': 26}
+    tag=BUTTON title=None aria-label='Apri menu di navigazione' testo='' box={'x': 1330, 'y': 78, 'width': 30, 'height': 30}
+    tag=A title=None aria-label=None testo='SCARICA IL PDF' box={'x': 449, 'y': 713, 'width': 221, 'height': 49.78125}
+    tag=A title=None aria-label=None testo='SFOGLIA IL VOLANTINO' box={'x': 690, 'y': 713, 'width': 261, 'height': 49.78125}
+    tag=A title=None aria-label=None testo='ISCRIVITI QUI' box={'x': 607.5, 'y': 1654.53125, 'width': 185, 'height': 47.78125}
+    tag=A title=None aria-label=None testo='TUTTE LE CATEGORIE' box={'x': 149, 'y': 1892.3125, 'width': 250, 'height': 49.78125}
+    tag=A title=None aria-label=None testo='RICETTE' box={'x': 434, 'y': 1892.3125, 'width': 149, 'height': 49.78125}
+    tag=A title=None aria-label=None testo='PER TE E LA TUA CASA' box={'x': 618, 'y': 1892.3125, 'width': 260, 'height': 49.78125}
+    tag=A title=None aria-label=None testo='A CASA CON ALESSIA MANCINI' box={'x': 913, 'y': 1892.3125, 'width': 318, 'height': 49.78125}
+    tag=A title=None aria-label=None testo='19.10.26\nCrostata di Halloween\n\nIngredie' box={'x': 60, 'y': 2012.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='05.10.26\nRisotto al radicchio con gorgon' box={'x': 495.59375, 'y': 2012.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='21.09.26\nCiambella al caffè con noci e g' box={'x': 931.1875, 'y': 2012.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='07.09.26\nOktoberfest in tavola: piatto a' box={'x': 60, 'y': 2542.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='24.08.26\nLunch Box\n\nUn menù perfetto per' box={'x': 495.59375, 'y': 2542.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='24.08.26\nPenne rigate al pesto di zucchi' box={'x': 931.1875, 'y': 2542.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='10.08.26\nInsalata di riso alla greca\n\nUn' box={'x': 60, 'y': 3072.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='27.07.26\nMozzarella all’italiana\n\nUna ri' box={'x': 495.59375, 'y': 3072.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='13.07.26\nFresca cheesecake alle albicocc' box={'x': 931.1875, 'y': 3072.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='29.06.26\nWrap di pollo con salsa yogurt ' box={'x': 60, 'y': 3602.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='15.06.26\nCroissant salati\n\nUn’idea sfizi' box={'x': 495.59375, 'y': 3602.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='01.06.26\nCentrifuga di avocado, carota e' box={'x': 931.1875, 'y': 3602.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='01.06.26\nTacos di zucchine con salmone e' box={'x': 60, 'y': 4132.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='18.05.26\nPoke Bowl “Citrus & Crunch” con' box={'x': 495.59375, 'y': 4132.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='18.05.26\nSpaghetti tricolore con stracci' box={'x': 931.1875, 'y': 4132.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='04.05.26\nSmoothie con fragole e mango\n\nU' box={'x': 60, 'y': 4662.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='04.05.26\nTorta soffice alle fragole\n\nUna' box={'x': 495.59375, 'y': 4662.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='20.04.26\nCavoletti di Bruxelles con gorg' box={'x': 931.1875, 'y': 4662.09375, 'width': 395.59375, 'height': 490}
+    tag=A title=None aria-label=None testo='Prev' box={'x': 598, 'y': 5202.09375, 'width': 102, 'height': 42}
+    tag=A title=None aria-label=None testo='Next' box={'x': 700, 'y': 5202.09375, 'width': 102, 'height': 42}
+    tag=A title=None aria-label=None testo='CERCA FILIALE' box={'x': 601.5, 'y': 5468.09375, 'width': 197, 'height': 47.78125}
+  menu 0: cerco 'Roma' -> 'Roma'
+  menu 1: cerco 'Nettuno' -> 'Nettuno'
+  menu 2: cerco 'Nettuno' -> None
+  opzioni menu 2: [['', 'Seleziona la filiale'], ['Via Ugo La Malfa, 9', 'Via Ugo La Malfa, 9']]
+errore: Locator.evaluate: ReferenceError: chr is not defined
