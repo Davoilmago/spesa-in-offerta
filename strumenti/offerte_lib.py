@@ -29,6 +29,11 @@ def carica(percorso="sito/offerte.js"):
 
 
 def salva(dati, percorso="sito/offerte.js"):
+    try:  # accorpa i prodotti per famiglia (vedi famiglie.py)
+        from famiglie import normalizza
+        normalizza(dati)
+    except ImportError:
+        pass
     dati["aggiornato"] = date.today().isoformat()
     Path(percorso).write_text(PREFISSO + json.dumps(dati, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
 

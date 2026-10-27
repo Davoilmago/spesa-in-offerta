@@ -44,3 +44,12 @@ Formato: `window.OFFERTE={aggiornato, prodotti:[{id,e,n,cat,sub,u}], offerte:[{p
 ## Lidl: lettura completa (27/10)
 - Il volantino Lidl va trascritto INTERO (cibo, casa, bazar, abbigliamento, piante, elettronica): 280 offerte. Prodotti non alimentari in categoria 'Altro' con sottocategorie (SUBS in sito/index.html).
 - Non basta leggere solo i prodotti alimentari 'confrontabili': ogni prodotto del volantino deve comparire.
+
+## REGOLA D'ORO: accorpare per FAMIGLIA
+Il comparatore serve a confrontare i prezzi: prodotti uguali o molto simili vanno nella STESSA scheda
+(tutti i vini rossi sotto "Vino rosso", i superalcolici sotto "Superalcolici", tutti i deodoranti sotto "Deodorante"...).
+Marca, gusto e formato restano nella descrizione dell'offerta, NON nel nome del prodotto.
+- `strumenti/famiglie.py` contiene le regole (regex -> famiglia) e viene eseguito in automatico da `offerte_lib.salva()`.
+- Per un nuovo gruppo di prodotti basta aggiungere una riga `R(...)` in `REGOLE`.
+- Un prodotto resta da solo solo se e' davvero unico (elettrodomestici, abiti, giocattoli...).
+- Categorie con la virgola: "Latte, Uova & Latticini", "Pasta, Olio & Conserve".
