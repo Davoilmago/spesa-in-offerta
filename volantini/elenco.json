@@ -220,6 +220,18 @@
     "scaricato_il": "2026-10-27T07:37:50"
   },
   {
+    "file": "lazio/nettuno/ins.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "ins",
+    "negozio": "iN's Mercato Via Ugo La Malfa 9",
+    "sha256": "c7cb097566dac4b4b05e2b8ee5d1daa03370f642bbc2ee734b1b01421ca2210d",
+    "byte": 14029054,
+    "scaricato_il": "2026-10-27T11:27:54",
+    "titolo": "Volantino 22"
+  },
+  {
     "file": "lazio/nettuno/lidl.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",
