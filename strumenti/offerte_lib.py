@@ -30,7 +30,10 @@ def carica(percorso="sito/offerte.js"):
 
 def salva(dati, percorso="sito/offerte.js"):
     try:  # accorpa i prodotti per famiglia (vedi famiglie.py)
-        from famiglie import normalizza
+        try:
+            from .famiglie import normalizza
+        except ImportError:
+            from famiglie import normalizza
         normalizza(dati)
     except ImportError:
         pass
