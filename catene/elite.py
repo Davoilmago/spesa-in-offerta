@@ -23,6 +23,19 @@ RE_DATE = re.compile(r"dal\s+(\d{1,2})(?:\s+([a-zà]+))?\s+al\s+(\d{1,2})\s+([a-
 CITTA = "nettuno"
 
 
+_LOG = []
+_print = print
+
+
+def print(*a, **k):
+    _print(*a, **k)
+    _LOG.append(" ".join(str(x) for x in a))
+    try:
+        (comune.CARTELLA_PDF / "_log_elite.txt").write_text("\n".join(_LOG), encoding="utf-8")
+    except Exception:
+        pass
+
+
 def chiave_condivisione(negozio):
     return "tutti"
 
@@ -67,7 +80,7 @@ def scarica(contesto, negozio, etichetta):
             h = h.split("#")[0].split("?")[0]
             if re.search(r"/promozioni/[^/]+$", h) and h not in pagine:
                 pagine.append(h)
-        print(f"    promozioni trovate: {len(pagine)}")
+        print(f"    promozioni trovate: {len(pagine)} (link totali {len(hrefs)}): {pagine[:12]} | {hrefs[:15]}")
         oggi = date.today()
         for i, url in enumerate(pagine[:12], 1):
             try:
