@@ -14,6 +14,19 @@ from datetime import date
 
 import comune
 
+_LOG = []
+_print = print
+
+
+def print(*a, **k):
+    _print(*a, **k)
+    _LOG.append(" ".join(str(x) for x in a))
+    try:
+        (comune.CARTELLA_PDF / "_log_ins.txt").write_text("\n".join(_LOG), encoding="utf-8")
+    except Exception:
+        pass
+
+
 NOME = "ins"
 GIORNI = [0, 1, 3, 4]   # lunedi, martedi, giovedi, venerdi (i volantini cambiano a meta' settimana)
 CONDIVISO = False

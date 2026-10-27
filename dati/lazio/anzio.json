@@ -41,6 +41,15 @@
         "citta": "Anzio",
         "nota": "MD Via Goldoni 62"
       }
+    ],
+    "ins": [
+      {
+        "id": "anzio",
+        "provincia": "Roma",
+        "citta": "Anzio",
+        "filiale": "Villa Claudia",
+        "nota": "iN's Mercato Via di Villa Claudia 7"
+      }
     ]
   }
 }
