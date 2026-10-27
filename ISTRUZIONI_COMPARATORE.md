@@ -39,3 +39,8 @@ Formato: `window.OFFERTE={aggiornato, prodotti:[{id,e,n,cat,sub,u}], offerte:[{p
 - Volantino a doppie pagine (13), PDF in volantini/lazio/nettuno/ins.pdf; date dalla copertina (OCR). Zona 'N', catena 'ins'.
 - Leggere solo il cibo e la cura persona (pagine iniziali); le pagine casa/abbigliamento/piante non hanno prodotti del comparatore.
 - Catene: eurospin, lidl, todis, conad, pam, carrefour, ins.
+
+
+## Lidl: lettura completa (27/10)
+- Il volantino Lidl va trascritto INTERO (cibo, casa, bazar, abbigliamento, piante, elettronica): 280 offerte. Prodotti non alimentari in categoria 'Altro' con sottocategorie (SUBS in sito/index.html).
+- Non basta leggere solo i prodotti alimentari 'confrontabili': ogni prodotto del volantino deve comparire.
