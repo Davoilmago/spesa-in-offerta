@@ -277,7 +277,7 @@ const G=O.prodotti.map(p=>Object.assign({},p,{o:O.offerte.filter(x=>x.p===p.id).
 const OIMG={};G.forEach(g=>O.offerte.filter(x=>x.p===g.id).forEach((x,i)=>{if(x.img)OIMG[g.id+"-"+i]=x.img}));
 const oimg=x=>OIMG[x.k]?`<img class="oi" src="${OIMG[x.k]}" alt="${esc(x.l)}" loading="lazy">`:"";
 const ico=g=>`<div class="ico${g.img?" im":""}">${g.img?`<img src="${g.img}" alt="${g.n}" loading="lazy">`:g.e}</div>`;
-const SUBS=["Casa & pulizia","Igiene & persona","Animali","Casalinghi & bazar","Elettronica","Alimentari vari","Abbigliamento & tessile","Giocattoli","Giardino & piante","Salute & benessere"];
+const SUBS=["Casa & pulizia","Igiene & persona","Animali","Casalinghi & bazar","Elettronica","Alimentari vari","Abbigliamento & tessile","Giocattoli","Giardino & piante","Salute & benessere","Fai da te & utensili"];
 const CATS=[["Tutti","🧺"],["Frutta & Verdura","🍎"],["Carne","🥩"],["Pesce","🐟"],["Latte, Uova & Latticini","🥛"],["Salumi & Formaggi","🥓"],["Pasta, Olio & Conserve","🍝"],["Colazione & Dolci","🥐"],["Surgelati","🧊"],["Bevande","🧃"],["Altro","🛒"]];
 // =====================================================================
 // Indirizzi dei punti vendita, solo dove il volantino li riporta
