@@ -20,6 +20,8 @@ CONDIVISO = True
 MESI = {"gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6, "luglio": 7,
         "agosto": 8, "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12}
 RE_DATE = re.compile(r"dal\s+(\d{1,2})(?:\s+([a-zà]+))?\s+al\s+(\d{1,2})\s+([a-zà]+)(?:\s+(\d{4}))?", re.I)
+RE_NUM = re.compile(r"(?:dal\s+)?(\d{1,2})/(\d{1,2})/(\d{2,4})\s*(?:al|-|–)\s*(\d{1,2})/(\d{1,2})/(\d{2,4})", re.I)
+RE_SCADE = re.compile(r"(?:fino al|entro il|scade il)\s+(\d{1,2})[/ ]([a-zà0-9]+)(?:[/ ](\d{2,4}))?", re.I)
 CITTA = "nettuno"
 
 
@@ -56,6 +58,25 @@ def validita(testo):
             continue
         if migliore[1] is None or al > migliore[1]:
             migliore = (dal, al)
+    for g1, m1, a1, g2, m2, a2 in RE_NUM.findall(testo or ""):
+        try:
+            y1 = int(a1) + (2000 if int(a1) < 100 else 0)
+            y2 = int(a2) + (2000 if int(a2) < 100 else 0)
+            dal, al = date(y1, int(m1), int(g1)), date(y2, int(m2), int(g2))
+        except ValueError:
+            continue
+        if migliore[1] is None or al > migliore[1]:
+            migliore = (dal, al)
+    if migliore[1] is None:
+        for g, m, a in RE_SCADE.findall(testo or ""):
+            mm = int(m) if m.isdigit() else MESI.get(m.lower())
+            if not mm:
+                continue
+            y = int(a) + (2000 if a and int(a) < 100 else 0) if a else date.today().year
+            try:
+                migliore = (None, date(y, mm, int(g)))
+            except ValueError:
+                pass
     return migliore
 
 
@@ -88,8 +109,10 @@ def scarica(contesto, negozio, etichetta):
                 pagina.wait_for_timeout(3500)
                 testo = pagina.inner_text("body")
                 dal, al = validita(testo)
-                if al is None or al < oggi:
-                    print(f"    salto {url}: scaduta o senza date ({al})")
+                if al is None:
+                    print(f"    {url}: date non trovate, la tengo comunque: {re.sub(chr(10), ' ', testo)[:300]!r}")
+                elif al < oggi:
+                    print(f"    salto {url}: scaduta il {al}")
                     continue
                 if not vale_per_nettuno(testo):
                     print(f"    salto {url}: non vale per Nettuno")
@@ -100,8 +123,12 @@ def scarica(contesto, negozio, etichetta):
                     print(f"[ERRORE] {etichetta}_{i}: link PDF non trovato in {url}")
                     risultati.append((None, None))
                     continue
-                r = contesto.request.get(href, timeout=120000)
-                corpo = r.body()
+                for tentativo in range(5):
+                    pagina.wait_for_timeout(4000 * (tentativo + 1))
+                    r = contesto.request.get(href, timeout=120000)
+                    corpo = r.body()
+                    if r.status != 429:
+                        break
                 if not (r.ok and corpo[:5] == b"%PDF-"):
                     print(f"[ERRORE] {etichetta}_{i}: {href[:100]} non e' un PDF (stato {r.status})")
                     risultati.append((None, None))
@@ -112,7 +139,8 @@ def scarica(contesto, negozio, etichetta):
                 info = {"titolo": pagina.title(), "indirizzo": url}
                 if dal:
                     info["valido_dal"] = dal.isoformat()
-                info["valido_al"] = al.isoformat()
+                if al:
+                    info["valido_al"] = al.isoformat()
                 print(f"[ok] {etichetta}_{i}: {url} fino al {al} ({len(corpo) // 1024} KB)")
                 risultati.append((file, info))
             except Exception as errore:
