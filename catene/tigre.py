@@ -57,6 +57,8 @@ def scarica(contesto, negozio, etichetta):
     def _resp(r):
         try:
             ct = (r.headers.get("content-type", "") or "").lower()
+            if "book/get" in r.url:
+                print(f"    [book] {r.url} {r.text()[:3500]!r}")
             if "json" in ct or "retailtune" in r.url or "calameo" in r.url or "store" in r.url.lower():
                 corpo = r.text() if "json" in ct else ""
                 print(f"    [rete] {r.status} {r.url[:160]} len={len(corpo)} anzio={'Anzio' in corpo}")
@@ -126,6 +128,8 @@ def scarica(contesto, negozio, etichetta):
             cal = pagina.eval_on_selector_all("a[href*='calameo'], iframe[src*='calameo'], [data-calameo], [href*='volantin']", "els => els.map(e => [e.tagName, e.href || e.src || '', (e.innerText||'').trim().slice(0,50), e.outerHTML.slice(0,200)])")
             print(f"    calameo/volantino: {cal[:10]}")
             html = pagina.content()
+            print(f"    iframes: {re.findall(r'<iframe[^>]*>', html)[:6]}")
+            print(f"    bkcode: {sorted(set(re.findall(r'bkcode=([0-9a-z]+)', html)))}")
             for m in re.finditer(r"calameo[^\"' <>]{0,120}", html):
                 print(f"    html-calameo: {m.group(0)}")
         except Exception as e:
