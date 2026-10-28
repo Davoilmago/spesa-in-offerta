@@ -14,7 +14,7 @@ GIORNI = [0, 3, 4]
 CONDIVISO = False
 
 CANDIDATE = [
-    "https://www.oasitigre.it/it/negozi-volantini.html",
+    "https://www.oasitigre.it/it/il-mio-negozio.6507.html",
 ]
 
 _LOG = []
@@ -42,7 +42,7 @@ def esplora(pagina, titolo):
             print(f"    frame: {frame.url}")
             links = frame.eval_on_selector_all(
                 "a[href], iframe[src]", "els => els.map(e => [e.href || e.src, (e.innerText||'').trim().slice(0,40)])")
-            utili = [l for l in links if re.search(r"pdf|volantin|flyer|anzio|calameo|issuu|negozio|negozi|scheda|matteotti", l[0] + l[1], re.I)]
+            utili = [l for l in links if re.search(r"pdf|volantin|flyer|calameo|issuu|sfoglia", l[0] + l[1], re.I)]
             print(f"    link utili ({len(utili)}/{len(links)}): {utili[:40]}")
         except Exception as e:
             print(f"    frame non esplorabile: {str(e)[:100]}")
@@ -84,7 +84,7 @@ def scarica(contesto, negozio, etichetta):
                 print(f"[pagina] {url} -> stato {r.status if r else '?'}")
                 esplora(pagina, url)
                 # cerca il negozio di Anzio nei campi di ricerca
-                for frame in comune.tutti_i_frame(pagina):
+                for frame in (comune.tutti_i_frame(pagina) if "negozi-volantini" in url else []):
                     campi = frame.locator("input[type=text], input[type=search], input:not([type])")
                     for i in range(min(campi.count(), 6)):
                         try:
@@ -122,6 +122,14 @@ def scarica(contesto, negozio, etichetta):
             except Exception as e:
                 print(f"[pagina] {url} non apribile: {str(e).splitlines()[0][:120]}")
         href = ""
+        try:
+            cal = pagina.eval_on_selector_all("a[href*='calameo'], iframe[src*='calameo'], [data-calameo], [href*='volantin']", "els => els.map(e => [e.tagName, e.href || e.src || '', (e.innerText||'').trim().slice(0,50), e.outerHTML.slice(0,200)])")
+            print(f"    calameo/volantino: {cal[:10]}")
+            html = pagina.content()
+            for m in re.finditer(r"calameo[^\"' <>]{0,120}", html):
+                print(f"    html-calameo: {m.group(0)}")
+        except Exception as e:
+            print(f"    calameo err {str(e)[:80]}")
         for frame in comune.tutti_i_frame(pagina):
             h = frame.eval_on_selector_all("a[href*='.pdf']", "els => (els.map(e => e.href)[0] || '')")
             if h:
