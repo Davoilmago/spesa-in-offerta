@@ -57,3 +57,6 @@ Marca, gusto e formato restano nella descrizione dell'offerta, NON nel nome del 
 ## Associazioni decise dall'utente (da rispettare sempre)
 - "Insalata iceberg" (e simili vendute al pezzo) va DENTRO la famiglia "Insalata" (categoria Frutta & Verdura, unita' kg). Poiche' il volantino da' il prezzo al pezzo, usa q=0.5 (peso stimato di circa 500 g) e scrivilo nella descrizione.
 - "Alimentari vari" NON e' piu' una sottocategoria di "Altro": e' una sezione a parte (categoria "Alimentari vari"). Se per errore un prodotto arriva come Altro/Alimentari vari, normalizza() lo sposta da solo nella nuova sezione.
+
+- Stendibiancheria -> famiglia "Stendini e assi da stiro".
+- Qualsiasi lettiera per gatti (Easy+Go Sanicat, Natural Code, ecc.) -> famiglia "Lettiera per gatti".
