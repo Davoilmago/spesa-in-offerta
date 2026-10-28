@@ -70,24 +70,34 @@ def scarica(contesto, negozio, etichetta):
                 break
         print(f"    ricerca inserita: {usato}")
         descrivi(pagina, "dopo la ricerca")
-        card = pagina.get_by_text(re.compile(r"Schioia", re.I))
-        print(f"    occorrenze 'Schioia': {card.count()}")
-        if card.count() > 0:
-            blocco = card.first.locator("xpath=ancestor::*[contains(., 'INFO E PROMOZIONI')][1]")
-            btn = blocco.get_by_text(re.compile(r"INFO E PROMOZIONI", re.I))
-            print(f"    pulsanti INFO E PROMOZIONI nel blocco: {btn.count()}")
-            if btn.count() > 0:
-                try:
-                    with pagina.expect_popup(timeout=8000) as pop:
-                        btn.first.click()
-                    nuova = pop.value
-                    nuova.wait_for_timeout(6000)
-                    descrivi(nuova, "popup negozio")
-                    pagina = nuova
-                except Exception:
-                    btn.first.click()
-                    pagina.wait_for_timeout(6000)
-                    descrivi(pagina, "dopo clic negozio")
+        # scelgo il suggerimento "Anzio, Roma, Lazio"
+        sug = pagina.get_by_text(re.compile(r"^Anzio, Roma, Lazio", re.I))
+        print(f"    suggerimenti Anzio: {sug.count()}")
+        if sug.count() > 0:
+            sug.first.click()
+            pagina.wait_for_timeout(6000)
+        tutti = pagina.eval_on_selector_all("a[href*='/it/italia/']", "els => [...new Set(els.map(e => e.href))]")
+        ad = [u for u in tutti if re.search(r"anzio|nettuno|schioia|lavinio", u, re.I)]
+        print(f"    link negozi totali {len(tutti)}; Anzio/Nettuno: {ad}; primi: {tutti[:6]}")
+        url_neg = next((u for u in ad if re.search(r"schioia", u, re.I)), ad[0] if ad else "")
+        if not url_neg:
+            url_neg = "https://puntivenditadeco.multicedi.it/it/italia/anzio/anzio-via-valle-schioia"
+        print(f"    apro il negozio: {url_neg}")
+        pagina.goto(url_neg, wait_until="domcontentloaded", timeout=30000)
+        pagina.wait_for_timeout(7000)
+        descrivi(pagina, "pagina negozio")
+        # link/pulsanti del volantino nella pagina del negozio
+        for fr in comune.tutti_i_frame(pagina):
+            try:
+                els = fr.locator("a, button, iframe")
+                for i in range(min(els.count(), 120)):
+                    e = els.nth(i)
+                    tx = (e.inner_text() or "").strip()[:40] if e.evaluate("e => e.tagName") != "IFRAME" else ""
+                    hr = e.get_attribute("href") or e.get_attribute("src") or ""
+                    if re.search(r"volantin|flyer|sfoglia|pdf|joomag|promoz", tx + hr, re.I):
+                        print(f"      elemento {i}: {e.evaluate('e => e.tagName')} {tx!r} {hr[:150]}")
+            except Exception as ex:
+                print(f"      errore elementi: {str(ex)[:80]}")
         print(f"    richieste di rete utili: {rete[:30]}")
         href = ""
         for st, u in rete:
