@@ -128,6 +128,20 @@ def scarica(contesto, negozio, etichetta):
             cal = pagina.eval_on_selector_all("a[href*='calameo'], iframe[src*='calameo'], [data-calameo], [href*='volantin']", "els => els.map(e => [e.tagName, e.href || e.src || '', (e.innerText||'').trim().slice(0,50), e.outerHTML.slice(0,200)])")
             print(f"    calameo/volantino: {cal[:10]}")
             html = pagina.content()
+            bt = pagina.eval_on_selector_all("a,button", "els => els.filter(e => /sfoglia/i.test(e.innerText)).map(e => e.outerHTML.slice(0,300) + ' || PARENT: ' + (e.parentElement ? e.parentElement.outerHTML.slice(0,600) : ''))")
+            print(f"    bottoni sfoglia: {bt}")
+            for k in range(len(bt)):
+                try:
+                    pagina.locator("a,button", has_text=re.compile("sfoglia", re.I)).nth(k).click(timeout=5000)
+                    pagina.wait_for_timeout(6000)
+                    print(f"    click sfoglia {k}: url={pagina.url} frames={[f.url for f in pagina.frames]}")
+                    print(f"    bkcode dopo click {k}: {sorted(set(re.findall(r'bkcode=([0-9a-z]+)', pagina.content())))}")
+                    for f in pagina.frames:
+                        m = re.search(r'bkcode=([0-9a-z]+)', f.url)
+                        if m:
+                            print(f"    testo frame bk {m.group(1)}: {f.url[:120]}")
+                except Exception as e:
+                    print(f"    click sfoglia {k} fallito: {str(e)[:100]}")
             print(f"    iframes: {re.findall(r'<iframe[^>]*>', html)[:6]}")
             print(f"    bkcode: {sorted(set(re.findall(r'bkcode=([0-9a-z]+)', html)))}")
             for m in re.finditer(r"calameo[^\"' <>]{0,120}", html):
