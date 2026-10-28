@@ -1,3 +1,21 @@
+    [rete] 200 https://www.oasitigre.it/etc.clientlibs/oasitigre/clientlibs-ot/clientlib-site/resources/images/icons/apple_store.svg len=0 anzio=False
+    [rete] 200 https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true len=3 anzio=False
+    [rete] 200 https://consentcdn.cookiebot.com/consentconfig/a68b8269-6d9d-44c9-8c21-e52f9636d6c1/settings.json len=604 anzio=False
+    [rete] 200 https://www.oasitigre.it/content/ot/it/it/jcr:content.profile.json len=85 anzio=False
+    [rete] 200 https://storegabrielli.retailtune.com/store/index.php len=11638 anzio=False
+    [rete] 200 https://storegabrielli.retailtune.com/store/index.php len=11638 anzio=False
+    [rete] 200 https://storegabrielli.retailtune.com/store/index.php len=11638 anzio=False
+    [rete] 200 https://storegabrielli.retailtune.com/store/index.php len=11638 anzio=False
+    [rete] 200 https://maps.googleapis.com/maps/api/mapsjs/mapConfigs:batchGet?language=it-IT&region=US&alt=protojson&major_version=66&minor_version=11a&map_ids=ot_store_map&m len=12216 anzio=False
+    [rete] 200 https://www.oasitigre.it/etc.clientlibs/oasitigre/clientlibs-ot/clientlib-site/resources/images/icons/apple_store.svg len=0 anzio=False
+    [rete] 200 https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true len=3 anzio=False
+    [rete] 200 https://maps.googleapis.com/maps/api/mapsjs/mapConfigs:batchGet?language=it-IT&region=US&alt=protojson&major_version=66&minor_version=11a&map_ids=ot_store_map&m len=12216 anzio=False
+    [rete] 200 https://consentcdn.cookiebot.com/consentconfig/a68b8269-6d9d-44c9-8c21-e52f9636d6c1/settings.json len=604 anzio=False
+    [rete] 200 https://www.oasitigre.it/content/ot/it/it/jcr:content.profile.json len=85 anzio=False
+    [rete] 200 https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo len=69254 anzio=False
+    [rete] 200 https://storegabrielli.retailtune.com/store/locator.php len=1485715 anzio=True
+    [rete-anzio] '"false","media": {"update_date":"2025-12-30 13:21:48","media":[]},"BS": "1212"},"cta_intro": "","cta": [],"overLay": [],"attributes": [],"review": []},{"store": {"title": "Lo store più vicino a te","type": "Tigre Amico","name": "Supermercato Tigre Amico","address": "Via Giacomo Matteotti, 18, 00042 Anzio RM","city": "Anzio","phone": "06 984 4592","fax": "800 558 655","lat": "41.4477972","lon": "12.6275813","hours": {"mon": {"morningOpen": "08:30","morningClose": "20:00","eveningOpen": "","eveningClose": ""},"tue": {"morningOpen": "08:30","morningClose": "20:00","eveningOpen": "","eveningClose": ""},"wed": {"morningOpen": "08:30","morningClose": "20:00","eveningOpen": "","eveningClose": ""},"thu": {"morningOpen": "08:30","morningClose": "20:00","eveningOpen": "","eveningClose": ""},"fri": {'
+    [rete] 200 https://eu1-search.doofinder.com/6/45775f4f6633e3a77192e0993ccf9eb7/_search?query=&filter%5Btags%5D%5B%5D=AGGSIT%3APotrebbero+Servirti&filter%5Bstores%5D%5B%5D= len=137985 anzio=False
 [pagina] https://www.oasitigre.it/it/negozi-volantini.html -> stato 200
   == https://www.oasitigre.it/it/negozi-volantini.html: https://www.oasitigre.it/it/negozi-volantini.html
     testo: "Oasi - Via Del Commercio 52, 63100 Ascoli Piceno AP Modifica Serve Aiuto? Accedi o Registrati Negozi e Volantini Le nostre marche Carta Unika Servizi Notizie Ricette Spesa Online Negozi & Volantini Cerca il negozio più vicino a te e scopri tutti i volantini e i servizi disponibili! Clicca sulla stellina per cambiare il tuo negozio preferito. NEGOZIO SELEZIONATO Oasi Ascoli Piceno Via Del Commercio 52, 63100 Ascoli Piceno AP Aperto 08:30 - 21:00 SELEZIONA UN NUOVO NEGOZIO Filtra insegna 321 negozi trovati Tigre Ascoli Piceno Largo Porta Romana, 63100 Ascoli Piceno AP Aperto 08:00 - 20:00 Tigre Ascoli Piceno Piazza Santa Maria Intervineas, 1, 63100 Ascoli Piceno AP Aperto 08:00 - 20:00 Tigre Amico Ascoli Piceno Viale Marcello Federici, 121, 63100 Ascoli Piceno AP Aperto 08:00 - 20:00 Tigre Amico Ascoli Piceno Via Giovanni Tranquilli, 37, 63100 Ascoli Piceno AP Aperto 08:30 - 13:00 / 17:00 - 20:00 Tigre Ascoli Piceno Via San Severino, 2/20, 63100 Ascoli Piceno AP Aperto 08:00 - 19:30 Tigre Ascoli Piceno, Localita' Monticelli Viale dei Platani, snc, 63100 Ascoli Piceno, Localita' Monticelli AP Aperto 08:00 - 20:30 Oasi Ascoli Piceno Via Del Commercio 52, 63100 Ascoli Piceno AP Aperto 0"
@@ -12,6 +30,11 @@
     input 0: ph=Cosa stai cercando? name=None vis=False
     input 1: ph=Inserisci indirizzo, città, cap… name=keyword vis=True
     cercato Anzio nel campo 1
+    suggerimenti: ['AnzioRM, Italia', 'Anzio ColoniaAnzio, RM, Italia', 'AnzioAnzio, RM, Italia']
+    card negozi: ['ot-stores-map | 50\n9\n8\n12\n7\n2\n9\n7\n32\n4\n8\n7\n9\n3\n6\n3\n9\n15\n12\n72\n5\n4\n3\n13\n4\n2\n2', 'ritira-in-negozio-main-page btn-box btn-box--default btn-box-shop oasitigre-text-cta-button | Ritira  in negozio', 'recap-row-order-flow recap-ritiro-in-negozio | Ritiro in negozio\n                        Nome negozio', 'negozio | il mio negozio', 'ritira-in-negozio-order-column btn-box btn-box--toggleable btn-box-shop--toggleable oasitigre-text-cta-button | Ritira  in negozio', 'scheda-ordine-container scheda-ordine-negozio | Non rinunciare alla tua spesa online\n                       ']
+    suggerimenti: errore Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator(".pac-
   == dopo ricerca Anzio: https://www.oasitigre.it/it/negozi-volantini.html
     testo: "Oasi - Via Del Commercio 52, 63100 Ascoli Piceno AP Modifica Serve Aiuto? Accedi o Registrati Negozi e Volantini Le nostre marche Carta Unika Servizi Notizie Ricette Spesa Online Negozi & Volantini Cerca il negozio più vicino a te e scopri tutti i volantini e i servizi disponibili! Clicca sulla stellina per cambiare il tuo negozio preferito. NEGOZIO SELEZIONATO Oasi Ascoli Piceno Via Del Commercio 52, 63100 Ascoli Piceno AP Aperto 08:30 - 21:00 SELEZIONA UN NUOVO NEGOZIO Filtra insegna 321 negozi trovati Tigre Ascoli Piceno Largo Porta Romana, 63100 Ascoli Piceno AP Aperto 08:00 - 20:00 Tigre Ascoli Piceno Piazza Santa Maria Intervineas, 1, 63100 Ascoli Piceno AP Aperto 08:00 - 20:00 Tigre Amico Ascoli Piceno Viale Marcello Federici, 121, 63100 Ascoli Piceno AP Aperto 08:00 - 20:00 Tigre Amico Ascoli Piceno Via Giovanni Tranquilli, 37, 63100 Ascoli Piceno AP Aperto 08:30 - 13:00 / 17:00 - 20:00 Tigre Ascoli Piceno Via San Severino, 2/20, 63100 Ascoli Piceno AP Aperto 08:00 - 19:30 Tigre Ascoli Piceno, Localita' Monticelli Viale dei Platani, snc, 63100 Ascoli Piceno, Localita' Monticelli AP Aperto 08:00 - 20:30 Oasi Ascoli Piceno Via Del Commercio 52, 63100 Ascoli Piceno AP Aperto 0"
     frame: https://www.oasitigre.it/it/negozi-volantini.html
@@ -34,4 +57,4 @@
     frame: https://consentcdn.cookiebot.com/sdk/bc-v5.min.html
     link utili (0/0): []
     pdf visti in rete: []
-[ok] tigre_unico: https://www.oasitigre.it/content/dam/oasitigre/new/accessibilit%C3%A0/Dichiarazione%20di%20accessibilita%CC%80%20-%20oasitigre.it_022025.pdf (129 KB)
+[ERRORE] tigre_unico: link PDF non trovato
