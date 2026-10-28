@@ -1,0 +1,24 @@
+[https://www.supermercatideco.it/volantino] stato 200
+  == https://www.supermercatideco.it/volantino: https://supermercatideco.it/ | titolo='Supermercati Decò: I Più Convenienti del Centro-Sud Italia - DECÒ • Supermercati Decò'
+    testo: 'La Qualità #nonèunoslogan  \xa0  www.supermercatideco.it P.I. 11452020966 @ All Right Reserved 2026 | Sito web realizzato da Flazio.com  Sitemap  Home Decò Italia Prodotti a Marchio News Contatti Marca by BolognaFiere PRIVACY POLICY COOKIE POLICY  Supporto Clienti  Servizio Clienti Diventa Partner Diventa Fornitore  Dal 2006 milioni di italiani scelgono i nostri Supermercati per la spesa quotidiana. Per noi qualità, convenienza e tradizione rappresentano una scelta consapevole,\xa0perché abbiamo il dovere di salvaguardare l’ambiente e di contribuire a renderlo migliore soprattutto per i nostri bambini, e per\xa0le future generazioni.  Supermercati Decò\xa0ti dà\xa0il Benvenuto  Home Decò Italia Prodotti a Marchio Dispensa Banco Fresco Non Food Bevande Gelo Senza Glutine Amici Animali News Contatti DIVENTA AFFILIATO DIVENTA FORNITORE SERVIZIO CLIENTI  RICERCA UN PRODOTTO:  Super Concorso 20 Anni Decò SC'
+    select 0: ['1', '2', '3', '4', '5']
+    link utili (0/25): []
+    link utili (0/0): []
+    link utili (0/0): []
+[https://www.supermercatideco.it/volantini] stato 200
+  == https://www.supermercatideco.it/volantini: https://supermercatideco.it/ | titolo='Supermercati Decò: I Più Convenienti del Centro-Sud Italia - DECÒ • Supermercati Decò'
+    testo: 'Supermercati Decò\xa0ti dà\xa0il Benvenuto  Home Decò Italia Prodotti a Marchio Dispensa Banco Fresco Non Food Bevande Gelo Senza Glutine Amici Animali News Contatti DIVENTA AFFILIATO DIVENTA FORNITORE SERVIZIO CLIENTI  RICERCA UN PRODOTTO:  Super Concorso 20 Anni Decò  La Qualità #nonèunoslogan  \xa0  www.supermercatideco.it P.I. 11452020966 @ All Right Reserved 2026 | Sito web realizzato da Flazio.com  Sitemap  Home Decò Italia Prodotti a Marchio News Contatti Marca by BolognaFiere PRIVACY POLICY COOKIE POLICY  Supporto Clienti  Servizio Clienti Diventa Partner Diventa Fornitore  Dal 2006 milioni di italiani scelgono i nostri Supermercati per la spesa quotidiana. Per noi qualità, convenienza e tradizione rappresentano una scelta consapevole,\xa0perché abbiamo il dovere di salvaguardare l’ambiente e di contribuire a renderlo migliore soprattutto per i nostri bambini, e per\xa0le future generazioni.  S'
+    select 0: ['1', '2', '3', '4', '5']
+    link utili (0/25): []
+    link utili (0/0): []
+    link utili (0/0): []
+[https://www.supermercatideco.it/] stato 200
+  == https://www.supermercatideco.it/: https://supermercatideco.it/ | titolo='Supermercati Decò: I Più Convenienti del Centro-Sud Italia - DECÒ • Supermercati Decò'
+    testo: 'Supermercati Decò\xa0ti dà\xa0il Benvenuto  Home Decò Italia Prodotti a Marchio Dispensa Banco Fresco Non Food Bevande Gelo Senza Glutine Amici Animali News Contatti DIVENTA AFFILIATO DIVENTA FORNITORE SERVIZIO CLIENTI  RICERCA UN PRODOTTO:  Super Concorso 20 Anni Decò  La Qualità #nonèunoslogan  \xa0  www.supermercatideco.it P.I. 11452020966 @ All Right Reserved 2026 | Sito web realizzato da Flazio.com  Sitemap  Home Decò Italia Prodotti a Marchio News Contatti Marca by BolognaFiere PRIVACY POLICY COOKIE POLICY  Supporto Clienti  Servizio Clienti Diventa Partner Diventa Fornitore  Dal 2006 milioni di italiani scelgono i nostri Supermercati per la spesa quotidiana. Per noi qualità, convenienza e tradizione rappresentano una scelta consapevole,\xa0perché abbiamo il dovere di salvaguardare l’ambiente e di contribuire a renderlo migliore soprattutto per i nostri bambini, e per\xa0le future generazioni.  S'
+    select 0: ['1', '2', '3', '4', '5']
+    link utili (0/25): []
+    link utili (0/0): []
+    link utili (0/0): []
+[https://www.deco.it/volantino] errore: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.deco.it/volantino
+[https://www.decospa.it/volantino] errore: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.decospa.it/volantino
+[ERRORE] deco_unico: nessun PDF trovato
