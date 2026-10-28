@@ -60,7 +60,15 @@ def scarica(contesto, negozio, etichetta):
             if "json" in ct or "retailtune" in r.url or "calameo" in r.url or "store" in r.url.lower():
                 corpo = r.text() if "json" in ct else ""
                 print(f"    [rete] {r.status} {r.url[:160]} len={len(corpo)} anzio={'Anzio' in corpo}")
-                if "Anzio" in corpo:
+                if "locator.php" in r.url and "Anzio" in corpo:
+                    j = corpo.index("Via Giacomo Matteotti, 18")
+                    ini = corpo.rfind('{"store"', 0, j)
+                    fine = corpo.find('{"store"', j)
+                    blocco = corpo[ini:fine if fine > 0 else ini + 12000]
+                    print(f"    [store-anzio] len={len(blocco)} {blocco[:7000]!r}")
+                    for m in re.finditer(r"https?:[^\"]*(?:calameo|volantin|flyer|\.pdf)[^\"]*", blocco, re.I):
+                        print(f"    [store-link] {m.group(0)}")
+                elif "Anzio" in corpo:
                     i = corpo.index("Anzio")
                     print(f"    [rete-anzio] {corpo[max(0, i - 300):i + 500]!r}")
         except Exception:
