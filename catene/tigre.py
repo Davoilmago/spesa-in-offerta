@@ -14,11 +14,7 @@ GIORNI = [0, 3, 4]
 CONDIVISO = False
 
 CANDIDATE = [
-    "https://www.oasitigre.it/",
-    "https://www.oasitigre.it/volantini",
-    "https://www.oasitigre.it/volantino",
-    "https://www.oasitigre.it/punti-vendita",
-    "https://www.tigre.it/",
+    "https://www.oasitigre.it/it/negozi-volantini.html",
 ]
 
 _LOG = []
@@ -46,7 +42,7 @@ def esplora(pagina, titolo):
             print(f"    frame: {frame.url}")
             links = frame.eval_on_selector_all(
                 "a[href], iframe[src]", "els => els.map(e => [e.href || e.src, (e.innerText||'').trim().slice(0,40)])")
-            utili = [l for l in links if re.search(r"pdf|volantin|flyer|anzio|calameo|issuu|offert|punti|negozi|store", l[0] + l[1], re.I)]
+            utili = [l for l in links if re.search(r"pdf|volantin|flyer|anzio|calameo|issuu|negozio|negozi|scheda|matteotti", l[0] + l[1], re.I)]
             print(f"    link utili ({len(utili)}/{len(links)}): {utili[:40]}")
         except Exception as e:
             print(f"    frame non esplorabile: {str(e)[:100]}")
@@ -65,6 +61,31 @@ def scarica(contesto, negozio, etichetta):
                 comune.prova_chiudi_cookie(pagina)
                 print(f"[pagina] {url} -> stato {r.status if r else '?'}")
                 esplora(pagina, url)
+                # cerca il negozio di Anzio nei campi di ricerca
+                for frame in comune.tutti_i_frame(pagina):
+                    campi = frame.locator("input[type=text], input[type=search], input:not([type])")
+                    for i in range(min(campi.count(), 6)):
+                        try:
+                            c = campi.nth(i)
+                            print(f"    input {i}: ph={c.get_attribute('placeholder')} name={c.get_attribute('name')} vis={c.is_visible()}")
+                            if c.is_visible():
+                                c.fill("Anzio")
+                                c.press("Enter")
+                                pagina.wait_for_timeout(5000)
+                                print(f"    cercato Anzio nel campo {i}")
+                                esplora(pagina, "dopo ricerca Anzio")
+                                for t in ("Anzio", "Matteotti"):
+                                    try:
+                                        frame.get_by_text(t, exact=False).first.click(timeout=5000)
+                                        pagina.wait_for_timeout(5000)
+                                        print(f"    cliccato su {t}")
+                                        esplora(pagina, "dopo click " + t)
+                                        break
+                                    except Exception as e:
+                                        print(f"    click {t} fallito: {str(e)[:80]}")
+                                break
+                        except Exception as e:
+                            print(f"    campo {i} non usabile: {str(e)[:80]}")
             except Exception as e:
                 print(f"[pagina] {url} non apribile: {str(e).splitlines()[0][:120]}")
         href = ""
