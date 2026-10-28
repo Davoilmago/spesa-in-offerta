@@ -52,6 +52,20 @@ def scarica(contesto, negozio, etichetta):
     pagina = contesto.new_page()
     pagina.set_default_timeout(25000)
     pdfs = []
+    rete = []
+
+    def _resp(r):
+        try:
+            ct = (r.headers.get("content-type", "") or "").lower()
+            if "json" in ct or "retailtune" in r.url or "calameo" in r.url or "store" in r.url.lower():
+                corpo = r.text() if "json" in ct else ""
+                print(f"    [rete] {r.status} {r.url[:160]} len={len(corpo)} anzio={'Anzio' in corpo}")
+                if "Anzio" in corpo:
+                    i = corpo.index("Anzio")
+                    print(f"    [rete-anzio] {corpo[max(0, i - 300):i + 500]!r}")
+        except Exception:
+            pass
+    pagina.on("response", _resp)
     pagina.on("response", lambda r: pdfs.append(r.url) if ("pdf" in (r.headers.get("content-type", "") or "").lower() or r.url.lower().split("?")[0].endswith(".pdf")) else None)
     try:
         for url in CANDIDATE:
@@ -73,6 +87,17 @@ def scarica(contesto, negozio, etichetta):
                                 c.press("Enter")
                                 pagina.wait_for_timeout(5000)
                                 print(f"    cercato Anzio nel campo {i}")
+                                try:
+                                    sugg = frame.eval_on_selector_all(".pac-item, [role=option], .autocomplete li, ul.ui-autocomplete li", "els => els.map(e => e.innerText.trim().slice(0,80))")
+                                    print(f"    suggerimenti: {sugg[:10]}")
+                                    cards = frame.eval_on_selector_all("[class*=store], [class*=negozio]", "els => els.slice(0,6).map(e => e.className + ' | ' + e.innerText.trim().slice(0,60))")
+                                    print(f"    card negozi: {cards}")
+                                    if sugg:
+                                        frame.locator(".pac-item, [role=option], .autocomplete li, ul.ui-autocomplete li").first.click(timeout=5000)
+                                        pagina.wait_for_timeout(6000)
+                                        esplora(pagina, "dopo suggerimento")
+                                except Exception as e:
+                                    print(f"    suggerimenti: errore {str(e)[:80]}")
                                 esplora(pagina, "dopo ricerca Anzio")
                                 for t in ("Anzio", "Matteotti"):
                                     try:
@@ -95,6 +120,8 @@ def scarica(contesto, negozio, etichetta):
                 href = h
                 break
         href = href or (pdfs[0] if pdfs else "")
+        if "accessibil" in href.lower():
+            href = ""
         print(f"    pdf visti in rete: {pdfs[:5]}")
         if not href:
             print(f"[ERRORE] {etichetta}: link PDF non trovato")
