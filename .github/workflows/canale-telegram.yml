@@ -1,0 +1,33 @@
+name: Canale Telegram (paniere del giorno)
+
+on:
+  # Pulsante "Run workflow" per provarlo a mano
+  workflow_dispatch:
+  # Automatico: ogni giorno alle 08:00 UTC (09:00 o 10:00 in Italia), dopo lo scarico dei volantini
+  schedule:
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Scarica il progetto
+        uses: actions/checkout@v4
+
+      - name: Installa Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # I segreti si impostano in Settings > Secrets and variables > Actions.
+      # Finche' non ci sono, il messaggio viene solo mostrato qui nel log e non pubblicato.
+      - name: Pubblica il paniere sul canale
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CANALE: ${{ secrets.TELEGRAM_CANALE }}
+          SITO_URL: ${{ vars.SITO_URL }}
+        run: python canale_offerte.py
