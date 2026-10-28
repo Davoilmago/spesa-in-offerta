@@ -12,11 +12,9 @@ GIORNI = [0, 3, 4]
 CONDIVISO = False
 
 CANDIDATI = [
-    "https://www.supermercatideco.it/",
-    "https://www.supermercatideco.it/news/",
-    "https://www.supermercatideco.it/deco-italia/",
-    "https://www.supermercatideco.it/punti-vendita/",
-    "https://www.supermercatideco.it/sitemap/",
+    "https://supermercatideco.multicedi.it/",
+    "https://supermercatideco.multicedi.it/volantino",
+    "https://supermercatideco.multicedi.it/static/content/Resta-in-contatto!-717.aspx",
 ]
 
 _LOG = []
