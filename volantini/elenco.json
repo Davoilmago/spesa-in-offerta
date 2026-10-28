@@ -135,6 +135,19 @@
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
   {
+    "file": "lazio/anzio/tigre.pdf",
+    "regione": "Lazio",
+    "citta": "Anzio",
+    "cap": "00042",
+    "catena": "tigre",
+    "negozio": "Tigre Amico Via Matteotti 18",
+    "sha256": "16bbd0a54e76e5848b1cb7060ea034aa097ea37d9acc299f86ef59fe68140f88",
+    "byte": 2853145,
+    "scaricato_il": "2026-10-28T10:13:17",
+    "titolo": "Volantino Tigre Amico A23_2026",
+    "indirizzo": "https://www.calameo.com/read/001940002734efb972eb7"
+  },
+  {
     "file": "lazio/anzio/todis.pdf",
     "regione": "Lazio",
     "citta": "Anzio",
