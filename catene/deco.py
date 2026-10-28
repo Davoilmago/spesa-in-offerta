@@ -82,14 +82,19 @@ def scarica(contesto, negozio, etichetta):
         if len(immagini) < 2:
             print(f"[ERRORE] {etichetta}: troppo poche pagine")
             return [(None, None)]
-        # unisco le immagini in un PDF stampandole con il browser
-        w = pagina.evaluate("""async (b64) => { const i = new Image(); i.src = 'data:image/webp;base64,' + b64;
-            await i.decode(); return [i.naturalWidth, i.naturalHeight]; }""", base64.b64encode(immagini[0]).decode())
-        print(f"    dimensione pagina: {w}")
+        # converto ogni pagina in JPEG (cosi' il PDF resta leggero) e le unisco stampandole con il browser
+        jpgs, w = [], None
+        for x in immagini:
+            r = pagina.evaluate("""async (b64) => { const i = new Image(); i.src = 'data:image/webp;base64,' + b64;
+                await i.decode(); const c = document.createElement('canvas'); c.width = i.naturalWidth; c.height = i.naturalHeight;
+                const g = c.getContext('2d'); g.fillStyle = '#fff'; g.fillRect(0, 0, c.width, c.height); g.drawImage(i, 0, 0);
+                return [c.toDataURL('image/jpeg', 0.82), i.naturalWidth, i.naturalHeight]; }""", base64.b64encode(x).decode())
+            jpgs.append(r[0])
+            w = w or [r[1], r[2]]
+        print(f"    dimensione pagina: {w}; jpeg totale {sum(len(j) for j in jpgs) // 1024} KB")
         html = ("<html><head><style>@page{size:%dpx %dpx;margin:0}html,body{margin:0;padding:0}"
                 "img{display:block;width:%dpx;height:%dpx;page-break-after:always}</style></head><body>" % (w[0], w[1], w[0], w[1])
-                + "".join(f'<img src="data:image/webp;base64,{base64.b64encode(x).decode()}">' for x in immagini)
-                + "</body></html>")
+                + "".join(f'<img src="{j}">' for j in jpgs) + "</body></html>")
         stampa = contesto.new_page()
         stampa.set_content(html, wait_until="load", timeout=120000)
         comune.CARTELLA_TMP.mkdir(exist_ok=True)
