@@ -12,9 +12,9 @@ GIORNI = [0, 3, 4]
 CONDIVISO = False
 
 CANDIDATI = [
-    "https://supermercatideco.multicedi.it/",
-    "https://supermercatideco.multicedi.it/volantino",
-    "https://supermercatideco.multicedi.it/static/content/Resta-in-contatto!-717.aspx",
+    "https://puntivenditadeco.multicedi.it/it",
+    "https://supermercatideco.multicedi.it/web/volantini.aspx",
+    "https://supermercatideco.multicedi.it/static/volantino/volantino-528-0-4.aspx",
 ]
 
 _LOG = []
@@ -70,7 +70,7 @@ def scarica(contesto, negozio, etichetta):
                     continue
                 comune.prova_chiudi_cookie(pagina)
                 utili = esplora(pagina, url)
-                pdf = [l[0] for l in utili if re.search(r"\.pdf", l[0], re.I)]
+                pdf = [l[0] for l in utili if re.search(r"\.pdf", l[0], re.I) and not re.search(r"termini|privacy|cookie", l[0], re.I)]
                 if pdf:
                     href = pdf[0]
                     break
@@ -81,7 +81,7 @@ def scarica(contesto, negozio, etichetta):
                     pagina.goto(nxt[0], wait_until="domcontentloaded", timeout=25000)
                     pagina.wait_for_timeout(4000)
                     utili = esplora(pagina, "seguito " + nxt[0])
-                    pdf = [l[0] for l in utili if re.search(r"\.pdf", l[0], re.I)]
+                    pdf = [l[0] for l in utili if re.search(r"\.pdf", l[0], re.I) and not re.search(r"termini|privacy|cookie", l[0], re.I)]
                     if pdf:
                         href = pdf[0]
                         break

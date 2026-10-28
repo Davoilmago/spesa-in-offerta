@@ -84,19 +84,6 @@
     "indirizzo": "https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228"
   },
   {
-    "file": "lazio/anzio/deco.pdf",
-    "regione": "Lazio",
-    "citta": "Anzio",
-    "cap": "00042",
-    "catena": "deco",
-    "negozio": "Decò Via di Valle Schioia 67",
-    "sha256": "7a39500b61b1e427276bdeed995442aee587863204a0a0b0892974d3a76129a3",
-    "byte": 158988,
-    "scaricato_il": "2026-10-28T08:49:25",
-    "titolo": "Volantino Decò",
-    "indirizzo": "https://supermercatideco.multicedi.it/shared/Termini_e_Condizioni.pdf"
-  },
-  {
     "file": "lazio/anzio/eurospin.pdf",
     "regione": "Lazio",
     "citta": "Anzio",
