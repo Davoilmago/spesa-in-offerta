@@ -12,11 +12,11 @@ GIORNI = [0, 3, 4]
 CONDIVISO = False
 
 CANDIDATI = [
-    "https://www.supermercatideco.it/volantino",
-    "https://www.supermercatideco.it/volantini",
     "https://www.supermercatideco.it/",
-    "https://www.deco.it/volantino",
-    "https://www.decospa.it/volantino",
+    "https://www.supermercatideco.it/news/",
+    "https://www.supermercatideco.it/deco-italia/",
+    "https://www.supermercatideco.it/punti-vendita/",
+    "https://www.supermercatideco.it/sitemap/",
 ]
 
 _LOG = []
@@ -39,6 +39,11 @@ def esplora(pagina, titolo):
     except Exception as e:
         print(f"    testo non leggibile: {e}")
     trovati = []
+    try:
+        tutti = pagina.eval_on_selector_all("a[href]", "els => els.map(e => [e.href, (e.innerText||'').trim().slice(0,30)])")
+        print(f"    TUTTI i link ({len(tutti)}): {tutti[:90]}")
+    except Exception as e:
+        print(f"    link non leggibili: {e}")
     for frame in comune.tutti_i_frame(pagina):
         try:
             for i in range(min(frame.locator("select").count(), 6)):
@@ -55,11 +60,12 @@ def esplora(pagina, titolo):
 
 def scarica(contesto, negozio, etichetta):
     pagina = contesto.new_page()
+    pagina.set_default_timeout(20000)
     try:
         href = ""
         for url in CANDIDATI:
             try:
-                r = pagina.goto(url, wait_until="domcontentloaded", timeout=45000)
+                r = pagina.goto(url, wait_until="domcontentloaded", timeout=25000)
                 pagina.wait_for_timeout(4000)
                 print(f"[{url}] stato {r.status if r else '?'}")
                 if not r or r.status >= 400:
@@ -74,7 +80,7 @@ def scarica(contesto, negozio, etichetta):
                 nxt = [l[0] for l in utili if re.search(r"anzio", l[0] + l[1], re.I)] or \
                       [l[0] for l in utili if re.search(r"volantin", l[0] + l[1], re.I) and l[0].rstrip("/") != url.rstrip("/")]
                 if nxt:
-                    pagina.goto(nxt[0], wait_until="domcontentloaded", timeout=45000)
+                    pagina.goto(nxt[0], wait_until="domcontentloaded", timeout=25000)
                     pagina.wait_for_timeout(4000)
                     utili = esplora(pagina, "seguito " + nxt[0])
                     pdf = [l[0] for l in utili if re.search(r"\.pdf", l[0], re.I)]
