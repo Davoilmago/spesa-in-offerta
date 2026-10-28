@@ -28,7 +28,8 @@ CONT = {"pezzo", "pz", "uovo", "rotolo", "cialda", "100 pz"}
 FRUTTA, CARNE, PESCE, LATTE, SALUMI, PASTA, COLAZ, SURG, BEV, ALTRO = (
     "Frutta & Verdura", "Carne", "Pesce", "Latte, Uova & Latticini", "Salumi & Formaggi",
     "Pasta, Olio & Conserve", "Colazione & Dolci", "Surgelati", "Bevande", "Altro")
-EMO = {FRUTTA: "🍎", CARNE: "🥩", PESCE: "🐟", LATTE: "🥛", SALUMI: "🥓", PASTA: "🍝", COLAZ: "🥐", SURG: "🧊", BEV: "🧃", ALTRO: "🛒"}
+ALIM = "Alimentari vari"   # sezione a parte (prima era una sottocategoria di "Altro")
+EMO = {ALIM: "🍽️", FRUTTA: "🍎", CARNE: "🥩", PESCE: "🐟", LATTE: "🥛", SALUMI: "🥓", PASTA: "🍝", COLAZ: "🥐", SURG: "🧊", BEV: "🧃", ALTRO: "🛒"}
 
 REGOLE = []
 
@@ -322,8 +323,8 @@ R(r"zuppa|zuppe e creme|zuppe|vellutata|saikebon|noodles", "Zuppe pronte e noodl
 R(r"dado|aromat|insaporitore|zafferano", "Dadi e insaporitori", PASTA, "kg", "🧂", g="Pasta|Altro")
 R(r"cacao|ciobar|cioccolata in polvere", "Cacao e cioccolata in polvere", COLAZ, "kg", "🍫", g="Col")
 R(r"tavolett|lastrine|cioccolato", "Tavolette di cioccolato", COLAZ, "kg", "🍫", g="Col")
-R(r"burger|tofu|tempeh|seitan|affettato vegetale|sogno veg|kioene|piatti vegetali|cotolette vegetali|tortini", "Burger e alternative vegetali", ALTRO, "kg", "🌱", "Alimentari vari")
-R(r"omogeneizz", "Omogeneizzati", ALTRO, "kg", "👶", "Alimentari vari")
+R(r"burger|tofu|tempeh|seitan|affettato vegetale|sogno veg|kioene|piatti vegetali|cotolette vegetali|tortini", "Burger e alternative vegetali", ALIM, "kg", "🌱")
+R(r"omogeneizz", "Omogeneizzati", ALIM, "kg", "👶")
 R(r"salviett.*(disinfett|igieniz|milleusi)|milleusi", "Salviette igienizzanti per casa", ALTRO, "pezzo", "🧻", "Casa & pulizia")
 R(r"additivo|smacchiator|difendi colore|napisan|vanish|cura lavatrice|anticalcare lavatrice|pastiglie anticalcare|palline magnetiche|calgon", "Additivi e smacchiatori lavatrice", ALTRO, "pezzo", "🧺", "Casa & pulizia")
 R(r"secchio|mocio|\bmop\b|scopa|set pulizia pavimenti", "Secchio, mocio e scope", ALTRO, "pezzo", "🧹", "Casa & pulizia")
@@ -449,6 +450,8 @@ def normalizza(dati, verbose=False):
     P = dati["prodotti"]
     for p in P:
         p["cat"] = CAT_FIX.get(p["cat"], p["cat"])
+        if p["cat"] == "Altro" and p.get("sub") == ALIM:   # Alimentari vari non e' piu' dentro "Altro"
+            p["cat"], p["sub"] = ALIM, None
         if p.get("u") == "pz":
             p["u"] = "pezzo"
     for p in P:

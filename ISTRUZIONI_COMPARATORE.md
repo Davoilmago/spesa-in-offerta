@@ -53,3 +53,7 @@ Marca, gusto e formato restano nella descrizione dell'offerta, NON nel nome del 
 - Per un nuovo gruppo di prodotti basta aggiungere una riga `R(...)` in `REGOLE`.
 - Un prodotto resta da solo solo se e' davvero unico (elettrodomestici, abiti, giocattoli...).
 - Categorie con la virgola: "Latte, Uova & Latticini", "Pasta, Olio & Conserve".
+
+## Associazioni decise dall'utente (da rispettare sempre)
+- "Insalata iceberg" (e simili vendute al pezzo) va DENTRO la famiglia "Insalata" (categoria Frutta & Verdura, unita' kg). Poiche' il volantino da' il prezzo al pezzo, usa q=0.5 (peso stimato di circa 500 g) e scrivilo nella descrizione.
+- "Alimentari vari" NON e' piu' una sottocategoria di "Altro": e' una sezione a parte (categoria "Alimentari vari"). Se per errore un prodotto arriva come Altro/Alimentari vari, normalizza() lo sposta da solo nella nuova sezione.
