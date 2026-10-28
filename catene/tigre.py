@@ -1,10 +1,16 @@
 """
-Tigre Amico (Oasi Tigre): sito https://www.oasitigre.it  (volantino del punto vendita di Anzio, Via Matteotti 18).
-Primo giro ESPLORATIVO: il modulo apre le pagine candidate, scrive nel log (volantini/_log_tigre.txt) testo, link
-e frame che vede, e scarica il primo PDF trovato. Dopo aver letto il log si rifinisce.
+Tigre Amico (Oasi Tigre, gruppo Gabrielli): https://www.oasitigre.it
+Ogni negozio ha una pagina "il-mio-negozio.<ID>.html" (Anzio, Via Matteotti 18 = 6507) con i pulsanti
+"Sfoglia volantino": ognuno apre un libro Calameo (https://www.calameo.com/read/<bkcode>).
+Il volantino delle offerte ha un nome tipo "A23_2026"; "Buoni e Fissi" e' il catalogo fedelta' (non lo scarico).
+Le pagine Calameo sono SVG (p1.svgz, p2.svgz...) con un token di accesso: le scarico, le disegno col browser
+e le unisco in un PDF.
 
-Nel file della citta':  "tigre": [{"nota": "Tigre Amico Via Matteotti 18", "citta": "Anzio"}]
+Nel file della citta':  "tigre": [{"nota": "Tigre Amico Via Matteotti 18", "id": "6507"}]
 """
+import base64
+import gzip
+import json
 import re
 
 import comune
@@ -12,10 +18,7 @@ import comune
 NOME = "tigre"
 GIORNI = [0, 3, 4]
 CONDIVISO = False
-
-CANDIDATE = [
-    "https://www.oasitigre.it/it/il-mio-negozio.6507.html",
-]
+PAGINA = "https://www.oasitigre.it/it/il-mio-negozio.{id}.html"
 
 _LOG = []
 _print = print
@@ -30,149 +33,114 @@ def print(*a, **k):
         pass
 
 
-def esplora(pagina, titolo):
-    print(f"  == {titolo}: {pagina.url}")
+def libro(contesto, bk, etichetta):
+    """Scarica le pagine SVG del libro Calameo e le unisce in un PDF. Restituisce il file o None."""
+    pag = contesto.new_page()
+    pag.set_default_timeout(25000)
+    visti, dati = [], {}
+
+    def risposta(r):
+        if "ps.calameoassets.com" in r.url and ".svgz" in r.url:
+            visti.append(r.url)
+        if "book/get" in r.url and bk in r.url:
+            try:
+                dati["book"] = json.loads(r.text())
+            except Exception:
+                pass
+    pag.on("response", risposta)
     try:
-        testo = re.sub(r"\s+", " ", pagina.inner_text("body"))
-        print(f"    testo: {testo[:1200]!r}")
-    except Exception as e:
-        print(f"    testo non leggibile: {str(e)[:100]}")
-    for frame in comune.tutti_i_frame(pagina):
+        pag.goto(f"https://v.calameo.com/?bkcode={bk}&mode=mini&view=scroll&clickto=view&clicktarget=_blank",
+                 wait_until="domcontentloaded", timeout=40000)
+        pag.wait_for_timeout(9000)
+        n = (dati.get("book", {}).get("content", {}).get("document", {}) or {}).get("pages")
+        key = (dati.get("book", {}).get("content", {}) or {}).get("key")
+        print(f"    libro {bk}: pagine={n} key={key} svgz visti={len(visti)}")
+        if not (n and key and visti):
+            return None
+        m = re.match(r"https://ps\.calameoassets\.com/([^/]+)/p\d+\.svgz\?(.*)$", visti[0])
+        if not m:
+            return None
+        coda = m.group(2)
+        print(f"    token: {coda[:200]}")
+        svgs = []
+        for i in range(1, int(n) + 1):
+            r = contesto.request.get(f"https://ps.calameoassets.com/{key}/p{i}.svgz?{coda}",
+                                     headers={"Referer": "https://v.calameo.com/"}, timeout=60000)
+            corpo = r.body()
+            if corpo[:2] == b"\x1f\x8b":
+                corpo = gzip.decompress(corpo)
+            if not r.ok or b"<svg" not in corpo[:2000]:
+                print(f"    pagina {i}: stato {r.status}, {len(corpo)} byte, non SVG: {corpo[:80]!r}")
+                break
+            svgs.append(corpo)
+        print(f"    pagine SVG scaricate: {len(svgs)} ({sum(len(x) for x in svgs) // 1024} KB)")
+        if not svgs:
+            return None
+        print(f"    inizio svg 1: {svgs[0][:500]!r}")
+        print(f"    href esterni svg 1: {len(re.findall(rb'href=\"http', svgs[0]))}; immagini incorporate: {len(re.findall(rb'data:image', svgs[0]))}")
+        mw = re.search(rb'viewBox="[\d.\-]+ [\d.\-]+ ([\d.]+) ([\d.]+)"', svgs[0]) or re.search(rb'width="([\d.]+)[a-z]*" height="([\d.]+)', svgs[0])
+        w, h = (float(mw.group(1)), float(mw.group(2))) if mw else (807.0, 765.0)
+        scala = 1400 / h if h else 1.5
+        W, H = int(w * scala), int(h * scala)
+        rend = contesto.new_page()
+        rend.set_viewport_size({"width": W, "height": H})
+        jpgs = []
+        for s in svgs:
+            rend.set_content('<html><body style="margin:0;background:#fff"><img style="width:%dpx;height:%dpx;display:block" src="data:image/svg+xml;base64,%s"></body></html>'
+                             % (W, H, base64.b64encode(s).decode()), wait_until="load")
+            rend.wait_for_timeout(300)
+            jpgs.append("data:image/jpeg;base64," + base64.b64encode(rend.screenshot(type="jpeg", quality=82)).decode())
+        rend.close()
+        html = ("<html><head><style>@page{size:%dpx %dpx;margin:0}html,body{margin:0;padding:0}"
+                "img{display:block;width:%dpx;height:%dpx;page-break-after:always}</style></head><body>" % (W, H, W, H)
+                + "".join(f'<img src="{j}">' for j in jpgs) + "</body></html>")
+        stampa = contesto.new_page()
+        stampa.set_content(html, wait_until="load", timeout=120000)
+        comune.CARTELLA_TMP.mkdir(exist_ok=True)
+        file = comune.CARTELLA_TMP / f"{comune.slug(etichetta)}_{bk[-6:]}.pdf"
+        stampa.pdf(path=str(file), width=f"{W}px", height=f"{H}px", print_background=True)
+        stampa.close()
+        print(f"    PDF {file.name}: {len(svgs)} pagine, {file.stat().st_size // 1024} KB")
+        return file
+    finally:
         try:
-            print(f"    frame: {frame.url}")
-            links = frame.eval_on_selector_all(
-                "a[href], iframe[src]", "els => els.map(e => [e.href || e.src, (e.innerText||'').trim().slice(0,40)])")
-            utili = [l for l in links if re.search(r"pdf|volantin|flyer|calameo|issuu|sfoglia", l[0] + l[1], re.I)]
-            print(f"    link utili ({len(utili)}/{len(links)}): {utili[:40]}")
-        except Exception as e:
-            print(f"    frame non esplorabile: {str(e)[:100]}")
+            pag.close()
+        except Exception:
+            pass
 
 
 def scarica(contesto, negozio, etichetta):
     pagina = contesto.new_page()
     pagina.set_default_timeout(25000)
-    pdfs = []
-    rete = []
-
-    def _resp(r):
-        try:
-            ct = (r.headers.get("content-type", "") or "").lower()
-            if "book/get" in r.url:
-                print(f"    [book] {r.url} {r.text()[:3500]!r}")
-            if "json" in ct or "retailtune" in r.url or "calameo" in r.url or "store" in r.url.lower():
-                corpo = r.text() if "json" in ct else ""
-                print(f"    [rete] {r.status} {r.url[:160]} len={len(corpo)} anzio={'Anzio' in corpo}")
-                if "locator.php" in r.url and "Anzio" in corpo:
-                    j = corpo.index("Via Giacomo Matteotti, 18")
-                    ini = corpo.rfind('{"store"', 0, j)
-                    fine = corpo.find('{"store"', j)
-                    blocco = corpo[ini:fine if fine > 0 else ini + 12000]
-                    print(f"    [store-anzio] len={len(blocco)} {blocco[:7000]!r}")
-                    for m in re.finditer(r"https?:[^\"]*(?:calameo|volantin|flyer|\.pdf)[^\"]*", blocco, re.I):
-                        print(f"    [store-link] {m.group(0)}")
-                elif "Anzio" in corpo:
-                    i = corpo.index("Anzio")
-                    print(f"    [rete-anzio] {corpo[max(0, i - 300):i + 500]!r}")
-        except Exception:
-            pass
-    pagina.on("response", _resp)
-    pagina.on("response", lambda r: pdfs.append(r.url) if ("pdf" in (r.headers.get("content-type", "") or "").lower() or r.url.lower().split("?")[0].endswith(".pdf")) else None)
     try:
-        for url in CANDIDATE:
-            try:
-                r = pagina.goto(url, wait_until="domcontentloaded", timeout=40000)
-                pagina.wait_for_timeout(5000)
-                comune.prova_chiudi_cookie(pagina)
-                print(f"[pagina] {url} -> stato {r.status if r else '?'}")
-                esplora(pagina, url)
-                # cerca il negozio di Anzio nei campi di ricerca
-                for frame in (comune.tutti_i_frame(pagina) if "negozi-volantini" in url else []):
-                    campi = frame.locator("input[type=text], input[type=search], input:not([type])")
-                    for i in range(min(campi.count(), 6)):
-                        try:
-                            c = campi.nth(i)
-                            print(f"    input {i}: ph={c.get_attribute('placeholder')} name={c.get_attribute('name')} vis={c.is_visible()}")
-                            if c.is_visible():
-                                c.fill("Anzio")
-                                c.press("Enter")
-                                pagina.wait_for_timeout(5000)
-                                print(f"    cercato Anzio nel campo {i}")
-                                try:
-                                    sugg = frame.eval_on_selector_all(".pac-item, [role=option], .autocomplete li, ul.ui-autocomplete li", "els => els.map(e => e.innerText.trim().slice(0,80))")
-                                    print(f"    suggerimenti: {sugg[:10]}")
-                                    cards = frame.eval_on_selector_all("[class*=store], [class*=negozio]", "els => els.slice(0,6).map(e => e.className + ' | ' + e.innerText.trim().slice(0,60))")
-                                    print(f"    card negozi: {cards}")
-                                    if sugg:
-                                        frame.locator(".pac-item, [role=option], .autocomplete li, ul.ui-autocomplete li").first.click(timeout=5000)
-                                        pagina.wait_for_timeout(6000)
-                                        esplora(pagina, "dopo suggerimento")
-                                except Exception as e:
-                                    print(f"    suggerimenti: errore {str(e)[:80]}")
-                                esplora(pagina, "dopo ricerca Anzio")
-                                for t in ("Anzio", "Matteotti"):
-                                    try:
-                                        frame.get_by_text(t, exact=False).first.click(timeout=5000)
-                                        pagina.wait_for_timeout(5000)
-                                        print(f"    cliccato su {t}")
-                                        esplora(pagina, "dopo click " + t)
-                                        break
-                                    except Exception as e:
-                                        print(f"    click {t} fallito: {str(e)[:80]}")
-                                break
-                        except Exception as e:
-                            print(f"    campo {i} non usabile: {str(e)[:80]}")
-            except Exception as e:
-                print(f"[pagina] {url} non apribile: {str(e).splitlines()[0][:120]}")
-        href = ""
-        try:
-            cal = pagina.eval_on_selector_all("a[href*='calameo'], iframe[src*='calameo'], [data-calameo], [href*='volantin']", "els => els.map(e => [e.tagName, e.href || e.src || '', (e.innerText||'').trim().slice(0,50), e.outerHTML.slice(0,200)])")
-            print(f"    calameo/volantino: {cal[:10]}")
-            html = pagina.content()
-            bt = pagina.eval_on_selector_all("a,button", "els => els.filter(e => /sfoglia/i.test(e.innerText)).map(e => e.outerHTML.slice(0,300) + ' || PARENT: ' + (e.parentElement ? e.parentElement.outerHTML.slice(0,600) : ''))")
-            print(f"    bottoni sfoglia: {bt}")
-            for k in range(len(bt)):
-                try:
-                    pagina.locator("a,button", has_text=re.compile("sfoglia", re.I)).nth(k).click(timeout=5000)
-                    pagina.wait_for_timeout(6000)
-                    print(f"    click sfoglia {k}: url={pagina.url} frames={[f.url for f in pagina.frames]}")
-                    print(f"    bkcode dopo click {k}: {sorted(set(re.findall(r'bkcode=([0-9a-z]+)', pagina.content())))}")
-                    for f in pagina.frames:
-                        m = re.search(r'bkcode=([0-9a-z]+)', f.url)
-                        if m:
-                            print(f"    testo frame bk {m.group(1)}: {f.url[:120]}")
-                except Exception as e:
-                    print(f"    click sfoglia {k} fallito: {str(e)[:100]}")
-            print(f"    iframes: {re.findall(r'<iframe[^>]*>', html)[:6]}")
-            print(f"    bkcode: {sorted(set(re.findall(r'bkcode=([0-9a-z]+)', html)))}")
-            for m in re.finditer(r"calameo[^\"' <>]{0,120}", html):
-                print(f"    html-calameo: {m.group(0)}")
-        except Exception as e:
-            print(f"    calameo err {str(e)[:80]}")
-        for frame in comune.tutti_i_frame(pagina):
-            h = frame.eval_on_selector_all("a[href*='.pdf']", "els => (els.map(e => e.href)[0] || '')")
-            if h:
-                href = h
-                break
-        href = href or (pdfs[0] if pdfs else "")
-        if "accessibil" in href.lower():
-            href = ""
-        print(f"    pdf visti in rete: {pdfs[:5]}")
-        if not href:
-            print(f"[ERRORE] {etichetta}: link PDF non trovato")
-            comune.salva_debug(pagina, comune.slug(etichetta))
+        url = PAGINA.format(id=negozio.get("id", "6507"))
+        pagina.goto(url, wait_until="domcontentloaded", timeout=40000)
+        pagina.wait_for_timeout(6000)
+        comune.prova_chiudi_cookie(pagina)
+        bott = pagina.eval_on_selector_all(
+            "a.gotoVolantino", "els => els.map(e => [e.dataset.id || '', e.dataset.url || '', (e.closest('div,li,section') ? e.closest('div,li,section').innerText : '').replace(/\\s+/g,' ').slice(0,200)])")
+        print(f"    volantini nella pagina: {bott}")
+        risultati = []
+        for did, href, testo in bott:
+            if re.search(r"buoni|fissi", did, re.I):
+                continue
+            bk = re.search(r"/read/([0-9a-z]+)", href)
+            if not bk:
+                continue
+            f = libro(contesto, bk.group(1), etichetta)
+            if f:
+                risultati.append((f, {"titolo": f"Volantino Tigre Amico {did}", "indirizzo": href}))
+        if not risultati:
+            print(f"[ERRORE] {etichetta}: nessun volantino scaricato")
             return [(None, None)]
-        r = contesto.request.get(href, timeout=120000)
-        corpo = r.body()
-        if not (r.ok and corpo[:5] == b"%PDF-"):
-            print(f"[ERRORE] {etichetta}: {href[:100]} non e' un PDF (stato {r.status})")
-            return [(None, None)]
-        comune.CARTELLA_TMP.mkdir(exist_ok=True)
-        file = comune.CARTELLA_TMP / f"{comune.slug(etichetta)}.pdf"
-        file.write_bytes(corpo)
-        print(f"[ok] {etichetta}: {href} ({len(corpo) // 1024} KB)")
-        return [(file, {"titolo": "Volantino Tigre Amico", "indirizzo": href})]
+        print(f"[ok] {etichetta}: {len(risultati)} volantino/i")
+        return risultati
     except Exception as errore:
         print(f"[ERRORE] {etichetta}: {str(errore).splitlines()[0][:200]}")
         return [(None, None)]
     finally:
-        pagina.close()
+        for p in list(contesto.pages):
+            try:
+                p.close()
+            except Exception:
+                pass
