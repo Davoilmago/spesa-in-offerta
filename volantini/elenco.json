@@ -90,9 +90,9 @@
     "cap": "00042",
     "catena": "deco",
     "negozio": "Decò Via di Valle Schioia 67",
-    "sha256": "e07fccd2649b7f5888f6f8ecd6257247ab5a23031a6d95b546010f38b38bf67a",
+    "sha256": "e866d9709fbf54bf73f154e62f2cfa260960753afe787b01c4ceb3672b5e2e4b",
     "byte": 13822058,
-    "scaricato_il": "2026-10-28T09:14:01",
+    "scaricato_il": "2026-10-29T07:48:12",
     "titolo": "Volantino Decò",
     "indirizzo": "https://deco.volantinopiu.com/ws/pv003499.php"
   },
@@ -116,7 +116,7 @@
     "negozio": "iN's Mercato Via di Villa Claudia 7",
     "sha256": "c7cb097566dac4b4b05e2b8ee5d1daa03370f642bbc2ee734b1b01421ca2210d",
     "byte": 14029054,
-    "scaricato_il": "2026-10-27T20:50:12",
+    "scaricato_il": "2026-10-29T07:47:41",
     "titolo": "Volantino 22",
     "valido_dal": "2026-10-21",
     "valido_al": "2026-11-01"
@@ -130,7 +130,7 @@
     "negozio": "MD Via Goldoni 62",
     "sha256": "d492770435b6aa24f9f8b48b8a8a174b932fc7287ee057bd7fb67ff428f774a4",
     "byte": 17111980,
-    "scaricato_il": "2026-10-27T15:04:19",
+    "scaricato_il": "2026-10-29T07:47:20",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -141,9 +141,9 @@
     "cap": "00042",
     "catena": "tigre",
     "negozio": "Tigre Amico Via Matteotti 18",
-    "sha256": "16bbd0a54e76e5848b1cb7060ea034aa097ea37d9acc299f86ef59fe68140f88",
+    "sha256": "a3b75cb997c786ee03cafcc2956e1463d99e7534cac51568a240e78f66428d5d",
     "byte": 2853145,
-    "scaricato_il": "2026-10-28T10:13:17",
+    "scaricato_il": "2026-10-29T07:48:37",
     "titolo": "Volantino Tigre Amico A23_2026",
     "indirizzo": "https://www.calameo.com/read/001940002734efb972eb7"
   },
@@ -154,9 +154,9 @@
     "cap": "00042",
     "catena": "todis",
     "negozio": "volantino Lazio",
-    "sha256": "f10530e4ab7340c9df1a1d43120b51366d06d06721b879cea6e8becf7aeed976",
-    "byte": 7638929,
-    "scaricato_il": "2026-10-26T11:27:10",
+    "sha256": "151ef597b8c83ea7b4d9ae06658ed0370ee8f81f4b6b88a352ad5b236a453ce7",
+    "byte": 7647680,
+    "scaricato_il": "2026-10-29T07:47:07",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   },
   {
@@ -168,7 +168,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "c3409b70fcf8cdc7175755eb306ea8b4fc09d974eb78a514f32bbe94b0d08b80",
     "byte": 16396828,
-    "scaricato_il": "2026-10-26T15:23:39",
+    "scaricato_il": "2026-10-29T07:49:39",
     "titolo": "Prezzi Freschi",
     "valido_dal": "2026-10-23",
     "valido_al": "2026-11-05"
@@ -182,7 +182,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "2baedc70bc89bc1a1595caade0d8261dcdaae94e5481d41332691989daaae8ef",
     "byte": 3313679,
-    "scaricato_il": "2026-10-26T15:23:39",
+    "scaricato_il": "2026-10-29T07:49:39",
     "titolo": "Speciale Aia",
     "valido_dal": "2026-09-29",
     "valido_al": "2026-11-15"
@@ -196,7 +196,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "42de5bce5cfac67d028f0e197cc8fed12f1e4bccbefc9e40ca643fe4a728bf0d",
     "byte": 1121123,
-    "scaricato_il": "2026-10-26T15:23:39",
+    "scaricato_il": "2026-10-29T07:49:39",
     "titolo": "Speciale Purina",
     "valido_dal": "2026-10-23",
     "valido_al": "2026-11-05"
@@ -341,7 +341,7 @@
     "negozio": "iN's Mercato Via Ugo La Malfa 9",
     "sha256": "c7cb097566dac4b4b05e2b8ee5d1daa03370f642bbc2ee734b1b01421ca2210d",
     "byte": 14029054,
-    "scaricato_il": "2026-10-27T20:50:28",
+    "scaricato_il": "2026-10-29T07:49:56",
     "titolo": "Volantino 22",
     "valido_dal": "2026-10-21",
     "valido_al": "2026-11-01"
@@ -369,7 +369,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "f9675aea000bf55fb269b6f835f11305df0448bbf05b369c425e15149ee80f85",
     "byte": 5291112,
-    "scaricato_il": "2026-10-26T14:37:22",
+    "scaricato_il": "2026-10-29T07:49:27",
     "titolo": "Offerte valide dal 22 Ottobre al 4 Novembre",
     "valido_dal": "2026-10-22",
     "valido_al": "2026-11-04"
@@ -383,7 +383,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "32ba17964fff795f7d16a56b0b85ee6a828845d4c5b0bd086319718740343c1a",
     "byte": 8105328,
-    "scaricato_il": "2026-10-26T14:37:22",
+    "scaricato_il": "2026-10-29T07:49:27",
     "titolo": "Occasioni Extra"
   },
   {
@@ -393,9 +393,9 @@
     "cap": "00048",
     "catena": "todis",
     "negozio": "volantino Lazio",
-    "sha256": "f10530e4ab7340c9df1a1d43120b51366d06d06721b879cea6e8becf7aeed976",
-    "byte": 7638929,
-    "scaricato_il": "2026-10-26T11:27:50",
+    "sha256": "151ef597b8c83ea7b4d9ae06658ed0370ee8f81f4b6b88a352ad5b236a453ce7",
+    "byte": 7647680,
+    "scaricato_il": "2026-10-29T07:49:00",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   }
 ]

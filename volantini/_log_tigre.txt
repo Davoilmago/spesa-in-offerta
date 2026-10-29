@@ -1,6 +1,6 @@
     volantini nella pagina: [['Buoni e Fissi 6_2026', 'https://www.calameo.com/read/001940002470fd9abc74c', 'Tigre Amico - Anzio Valido fino al 31 dicembre 2026 Sfoglia volantino'], ['A23_2026', 'https://www.calameo.com/read/001940002734efb972eb7', 'Tigre Amico - Anzio Valido fino al 05 novembre 2026 Sfoglia volantino']]
     libro 001940002734efb972eb7: pagine=12 key=261015080002-2ae58072e82dadf90de0cb43588343a5 svgz visti=8
-    token: _token_=exp=1793225579~acl=%2F261015080002-2ae58072e82dadf90de0cb43588343a5%2F%2A~hmac=a9965a2b0460154f1ef95bb6e3c325ffd7bbad8ecf5ce680285c5634cb728bbf
+    token: _token_=exp=1793303302~acl=%2F261015080002-2ae58072e82dadf90de0cb43588343a5%2F%2A~hmac=5ffff98f6b3cb15bd5f9eec84821010301c8607ee0705e7436831d930a7ea137
     pagine SVG scaricate: 12 (3882 KB)
     inizio svg 1: b'<svg viewBox="0 0 1281 1600" version="1.1" preserveAspectRatio="xMinYMin meet" text-rendering="geometricPrecision" class="p1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">text{white-space:pre;font-size:16px;font-weight:normal;font-style:normal;fill:none;unicode-bidi:bidi-override}</style></defs><image width="1281" height="1600" preserveAspectRatio="none" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBw'
     href esterni svg 1: 0; immagini incorporate: 1
