@@ -230,8 +230,12 @@ def apri(pagina, negozio):
             if not scoperti:
                 scoperti = True
                 for d2, a2, u2 in scopri_da_panoramica(pagina):
+                    # scarico solo il settimanale alimentare, non i volantini speciali (non food)
+                    if not ("settimanal" in u2.lower() or "naz" in u2.lower()):
+                        print(f"    salto volantino speciale: {u2}")
+                        continue
                     if all(u2 != t[2] for t in tentativi):
-                        tentativi.insert(i, (d2, a2, u2))
+                        tentativi.append((d2, a2, u2))
                         print(f"    volantino scoperto dalla panoramica: dal {d2:%d/%m} al {a2:%d/%m}")
             continue
 
