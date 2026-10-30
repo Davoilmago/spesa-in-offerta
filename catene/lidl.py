@@ -197,7 +197,13 @@ def scopri_da_panoramica(pagina):
 
 def apri(pagina, negozio):
     """Apre il volantino in corso e il menu. Restituisce (pulsante, come, info) oppure (None, None, None)."""
-    tentativi = [(dal, al, url_lidl(dal, al)) for dal, al in finestre_lidl()]
+    tentativi = []
+    for dal, al in finestre_lidl():
+        tentativi.append((dal, al, url_lidl(dal, al)))
+        # Lidl ora scrive le date senza zero iniziale (es. dal-29-10-al-4-11)
+        senza = f"{dal.day}-{dal.month}", f"{al.day}-{al.month}"
+        for suff in ("volantino-settimanale-NAZ", "volantino-settimanale"):
+            tentativi.append((dal, al, f"https://www.lidl.it/l/it/volantini/offerte-valide-dal-{senza[0]}-al-{senza[1]}-{suff}/view/flyer/page/1"))
     scoperti = False
     i = 0
     while i < len(tentativi):
