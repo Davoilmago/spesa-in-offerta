@@ -1,0 +1,50 @@
+    provo il volantino Lidl dal 29/10 al 04/11
+    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-04-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
+    Menu, clic normale: eseguito ma il menu non si e' aperto
+    Menu, clic forzato: eseguito ma il menu non si e' aperto
+    Menu, clic con JavaScript: eseguito ma il menu non si e' aperto
+    Menu, clic normale: eseguito ma il menu non si e' aperto
+    Menu, clic forzato: eseguito ma il menu non si e' aperto
+    Menu, clic con JavaScript: eseguito ma il menu non si e' aperto
+    'Scarica il PDF' non trovato nel menu
+    --- elementi visibili con il menu aperto (volantino 29/10)
+    tag=A title=None aria-label="Vai all'homepage" testo='' box={'x': 10, 'y': 4, 'width': 50, 'height': 50}
+    tag=A title=None aria-label='Esci, Ritorna alla panoramica' testo='Esci' box={'x': 1300, 'y': 0, 'width': 40, 'height': 58}
+    tag=BUTTON title=None aria-label='Menù' testo='Menù' box={'x': 1340, 'y': 0, 'width': 50, 'height': 58}
+    tag=A title=None aria-label='Ritorna alla panoramica' testo='RITORNA ALLA PANORAMICA' box={'x': 561, 'y': 506.828125, 'width': 278, 'height': 48}
+    provo il volantino Lidl dal 05/11 al 11/11
+    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-05-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
+    Menu, clic normale: eseguito ma il menu non si e' aperto
+    Menu, clic forzato: eseguito ma il menu non si e' aperto
+    Menu, clic con JavaScript: eseguito ma il menu non si e' aperto
+    Menu, clic normale: eseguito ma il menu non si e' aperto
+    Menu, clic forzato: eseguito ma il menu non si e' aperto
+    Menu, clic con JavaScript: eseguito ma il menu non si e' aperto
+    'Scarica il PDF' non trovato nel menu
+    --- elementi visibili con il menu aperto (volantino 05/11)
+    tag=A title=None aria-label="Vai all'homepage" testo='' box={'x': 10, 'y': 4, 'width': 50, 'height': 50}
+    tag=A title=None aria-label='Esci, Ritorna alla panoramica' testo='Esci' box={'x': 1300, 'y': 0, 'width': 40, 'height': 58}
+    tag=BUTTON title=None aria-label='Menù' testo='Menù' box={'x': 1340, 'y': 0, 'width': 50, 'height': 58}
+    tag=A title=None aria-label='Ritorna alla panoramica' testo='RITORNA ALLA PANORAMICA' box={'x': 561, 'y': 506.828125, 'width': 278, 'height': 48}
+    provo il volantino Lidl dal 22/10 al 28/10
+    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
+    Menu, clic normale: eseguito ma il menu non si e' aperto
+    Menu, clic forzato: eseguito ma il menu non si e' aperto
+    Menu, clic con JavaScript: eseguito ma il menu non si e' aperto
+    Menu, clic normale: eseguito ma il menu non si e' aperto
+    Menu, clic forzato: eseguito ma il menu non si e' aperto
+    Menu, clic con JavaScript: eseguito ma il menu non si e' aperto
+    'Scarica il PDF' non trovato nel menu
+    --- elementi visibili con il menu aperto (volantino 22/10)
+    tag=A title=None aria-label="Vai all'homepage" testo='' box={'x': 10, 'y': 4, 'width': 50, 'height': 50}
+    tag=A title=None aria-label='Esci, Ritorna alla panoramica' testo='Esci' box={'x': 1300, 'y': 0, 'width': 40, 'height': 58}
+    tag=BUTTON title=None aria-label='Menù' testo='Menù' box={'x': 1340, 'y': 0, 'width': 50, 'height': 58}
+    tag=A title=None aria-label='Ritorna alla panoramica' testo='RITORNA ALLA PANORAMICA' box={'x': 561, 'y': 506.828125, 'width': 278, 'height': 48}
+[ERRORE] lidl_nazionale: pulsante di download non trovato
+    --- elementi visibili
+    tag=A title=None aria-label="Vai all'homepage" testo='' box={'x': 10, 'y': 4, 'width': 50, 'height': 50}
+    tag=A title=None aria-label='Esci, Ritorna alla panoramica' testo='Esci' box={'x': 1300, 'y': 0, 'width': 40, 'height': 58}
+    tag=BUTTON title=None aria-label='Menù' testo='Menù' box={'x': 1340, 'y': 0, 'width': 50, 'height': 58}
+    tag=A title=None aria-label='Ritorna alla panoramica' testo='RITORNA ALLA PANORAMICA' box={'x': 561, 'y': 506.828125, 'width': 278, 'height': 48}
+
+Fatto: 0 file salvati, 1 errori.
