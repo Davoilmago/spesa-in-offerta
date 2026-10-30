@@ -1,5 +1,0 @@
---- frame: https://www.lidl.it/l/it/volantini/offerte-valide-dal-05-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1
-0: tag=A title=None aria-label="Vai all'homepage" testo='' box={'x': 10, 'y': 4, 'width': 50, 'height': 50}
-1: tag=A title=None aria-label='Esci, Ritorna alla panoramica' testo='Esci' box={'x': 1300, 'y': 0, 'width': 40, 'height': 58}
-2: tag=BUTTON title=None aria-label='Menù' testo='Menù' box={'x': 1340, 'y': 0, 'width': 50, 'height': 58}
-3: tag=A title=None aria-label='Ritorna alla panoramica' testo='RITORNA ALLA PANORAMICA' box={'x': 561, 'y': 506.828125, 'width': 278, 'height': 48}
