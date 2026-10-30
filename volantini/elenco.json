@@ -353,12 +353,12 @@
     "cap": "00048",
     "catena": "lidl",
     "negozio": "volantino nazionale",
-    "sha256": "d8376291806c3532104c2d18b4fae1d9b23cce2766e3e409d8b3365233ffa0bf",
-    "byte": 4119115,
-    "scaricato_il": "2026-10-30T13:52:23",
+    "sha256": "60205d26cf1fb2d6fc8c2c7617ec1a3fd175bf79fccf3a10a3e9d0cad37b6076",
+    "byte": 32981881,
+    "scaricato_il": "2026-10-30T14:01:31",
     "valido_dal": "2026-10-29",
     "valido_al": "2026-11-04",
-    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/ar/0"
+    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale-NAZ/view/flyer/page/1"
   },
   {
     "file": "lazio/nettuno/pam.pdf",

@@ -151,16 +151,16 @@ Call log:
      - retrying click action
        - waiting 500ms
 
-    volantino scoperto dalla panoramica: dal 29/10 al 04/11
-    volantino scoperto dalla panoramica: dal 29/10 al 04/11
-    provo il volantino Lidl dal 29/10 al 04/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/ar/0
-    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/view/flyer/page/1  titolo: "Offerte valide dal 29/10 al 4/11 - L' autunno che vale davvero. | Lidl Italia - lidl.it"
+    salto volantino speciale: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/view/flyer/page/1
+    salto volantino speciale: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/ar/0
+    provo il volantino Lidl dal 29/10 al 04/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale-NAZ/view/flyer/page/1
+    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Offerte valide dal 29/10 al 4/11 - Volantino settimanale | Lidl Italia - lidl.it'
     Menu, clic normale: non riuscito (Locator.click: Timeout 4000ms exceeded.)
     Menu, clic forzato: eseguito ma il menu non si e' aperto
     Menu aperto con: clic con JavaScript
 [ok] lidl_nazionale: pulsante trovato (testo 'Scarica il PDF')
     elemento: tag=SPAN title=None aria-label=None testo='Scarica il PDF' box={'x': 1090, 'y': 132.109375, 'width': 91, 'height': 22}
-    indirizzo del pulsante: https://assets.leaflets.schwarz/leaflets/pdfs/01a18790-4d47-7c1e-9e72-80178a750c74/Offerte-valide-dal-29-10-al-4-11-L-autunno-che-vale-davvero-00.pdf
+    indirizzo del pulsante: https://assets.leaflets.schwarz/leaflets/pdfs/01a16886-d5ac-7fe9-93a4-c947187fba94/Offerte-valide-dal-29-10-al-4-11-Volantino-settimanale-00.pdf
     PDF scaricato direttamente dall'indirizzo
 [salvato] lazio/nettuno/lidl.pdf (volantino nazionale)
 
