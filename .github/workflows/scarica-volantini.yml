@@ -60,14 +60,16 @@ jobs:
           CATENA: ${{ github.event.inputs.catena }}
         run: |
           if [ "$EVENTO" = "schedule" ]; then
-            python scarica_volantini.py --solo-oggi
+            python -u scarica_volantini.py --solo-oggi 2>&1 | tee volantini/_log_ultimo.txt
           else
-            python scarica_volantini.py $CATENA
+            python -u scarica_volantini.py $CATENA 2>&1 | tee volantini/_log_ultimo.txt
           fi
 
       - name: Salva i volantini nel progetto
         if: always()
         run: |
+          rm -rf volantini/_debug
+          if [ -d debug ]; then mkdir -p volantini/_debug && cp -r debug/. volantini/_debug/; fi
           git config user.name "volantini-bot"
           git config user.email "volantini-bot@users.noreply.github.com"
           git add volantini
