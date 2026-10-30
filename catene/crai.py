@@ -53,6 +53,15 @@ def scarica(contesto, negozio, etichetta):
     pagina = contesto.new_page()
     visti = []
     pagina.on("response", lambda r: visti.append(r.url) if re.search(r"\.pdf(\?|$)", r.url, re.I) else None)
+    json_visti = []
+
+    def _json(r):
+        try:
+            if "json" in (r.headers.get("content-type") or "") and re.search(r"crai", r.url):
+                json_visti.append(r)
+        except Exception:
+            pass
+    pagina.on("response", _json)
     try:
         url = negozio.get("pagina") or ELENCO
         pagina.goto(url, wait_until="domcontentloaded", timeout=60000)
@@ -84,12 +93,23 @@ def scarica(contesto, negozio, etichetta):
                     break
             except Exception:
                 pass
+        for r in json_visti[:40]:
+            try:
+                t = r.text()
+                print(f"    JSON {r.url[:150]} ({len(t)} car.)")
+                for m in list(re.finditer(r"(Anzio|Nettuno|Vecchiarelli|San Giacomo)", t, re.I))[:6]:
+                    print(f"      ...{t[max(0, m.start() - 250):m.end() + 250]!r}")
+            except Exception:
+                pass
         href = ""
         for frame in comune.tutti_i_frame(pagina):
-            h = frame.eval_on_selector_all("a[href*='.pdf']", "els => (els.map(e => e.href)[0] || '')")
+            h = frame.eval_on_selector_all(
+                "a[href*='.pdf']",
+                "els => (els.map(e => e.href).filter(h => !/company_profile|prontuario|codice_etico|informativa|regolamento/i.test(h))[0] || '')")
             if h:
                 href = h
                 break
+        visti = [v for v in visti if not re.search(r"company_profile|prontuario|codice_etico|informativa|regolamento", v, re.I)]
         if not href and visti:
             href = visti[0]
         print(f"    PDF visti dalla rete: {visti[:10]}")
