@@ -1,167 +1,56 @@
-    provo il volantino Lidl dal 29/10 al 04/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-04-11-volantino-settimanale-NAZ/view/flyer/page/1
-    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-04-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
-    il lettore dice: pagina non trovata
-    panoramica: https://www.lidl.it/c/volantino-lidl/s10018048
-    collegamento: https://www.lidl.it/
-    collegamento: https://www.lidl.it/c/volantino-lidl/s10018048
-    collegamento: https://www.lidl.it/mla/
-    collegamento: https://www.google.com/chrome/
-    collegamento: https://www.mozilla.org/firefox
-    collegamento: https://www.apple.com/safari/
-    collegamento: https://www.microsoft.com/windows/microsoft-edge
-    collegamento: https://www.lidl.it/c/volantino-lidl/s10018048#
-    collegamento: https://www.lidl.it/c/cibo-e-bevande/s10068374
-    collegamento: https://www.lidl.it/c/cucina-e-casalinghi/s10068166
-    collegamento: https://www.lidl.it/c/fai-da-te-e-giardino/s10068222
-    collegamento: https://www.lidl.it/c/sport-e-tempo-libero/s10068226
-    collegamento: https://www.lidl.it/c/casa-e-arredo/s10068371
-    collegamento: https://www.lidl.it/c/moda-e-accessori/s10068373
-    collegamento: https://www.lidl.it/c/bambini-e-giocattoli/s10068225
-    collegamento: https://www.lidl.it/c/articoli-per-animali/s10100091
-    collegamento: https://www.lidl.it/c/cos-e-lidl-plus/s10019368
-    collegamento: https://www.lidl.it/c/qualita-lidl-2026/s10089244
-    collegamento: https://www.lidl.it/c/vini-lidl/s10040572
-    collegamento: https://www.lidl.it/c/lidl-trek/s10042207
-    collegamento: https://www.lidl.it/c/parkside/s10019452
-    collegamento: https://ricette.lidl.it/
-    collegamento: https://www.lidlviaggi.it/?utm_source=lidlitalia&utm_medium=referral
-    collegamento: https://www.lidl.it/c/spesa-online/s10019285
-    collegamento: https://www.lidl.it/c/punti-vendita-e-orari/s10019838?pageId=10019838
-    collegamento: https://corporate.lidl.it/la-nostra-responsabilita
-    collegamento: https://corporate.lidl.it/
-    collegamento: https://www.lidl.it/c/informazioni/s10018371
-    collegamento: https://lavoro.lidl.it/
-    collegamento: https://www.lidl.it/c/immobili/s10102722
-    collegamento: https://assistenza-clienti.lidl.it/SelfServiceIT/s/
-    collegamento: https://www.lidl.it/h/piatti-pronti/h10071020
-    collegamento: https://www.lidl.it/h/vini-birre-liquori/h10096268
-    collegamento: https://www.lidl.it/h/articoli-per-gatti/h10103149
-    collegamento: https://www.lidl.it/c/lidl-plus-lidl-points/s10092303
-    collegamento: https://www.lidl.it/c/come-usare-lidl-plus/s10018445
-    collegamento: https://www.lidl.it/c/vantaggi-dei-partner-lidl-plus/s10040095
-    collegamento: https://www.lidl.it/c/informazioni-lidl-plus/s10019369
-    collegamento: https://www.lidl.it/c/parole-di-qualita-italiamo/s10104350
-    collegamento: https://www.lidl.it/c/firmato-dagli-agricoltori-italiani-qualita/s10019736
-    collegamento: https://www.lidl.it/c/frutta-e-verdura-firmato-dagli-agricoltori-italiani/s10066735
-    collegamento: https://www.lidl.it/c/i-nostri-igp-qualita/s10019499
-    collegamento: https://www.lidl.it/c/premi-lidl/s10063095
-    collegamento: https://www.lidl.it/c/italiamo/s10018507
-    collegamento: https://www.lidl.it/c/latteria/s10018508
-    collegamento: https://www.lidl.it/c/nastrecce/s10018509
-    collegamento: https://www.lidl.it/c/realforno/s10018510
-    collegamento: https://www.lidl.it/c/certossa/s10018511
-    collegamento: https://www.lidl.it/c/dal-salumiere/s10019001
-    collegamento: https://www.lidl.it/c/nonna-mia/s10019006
-    collegamento: https://www.lidl.it/c/freshona/s10019007
-    collegamento: https://www.lidl.it/c/vallericca/s10019008
-    collegamento: https://www.lidl.it/c/nostro-pane/s10019013
-    collegamento: https://www.lidl.it/c/gelatelli/s10019014
-    collegamento: https://www.lidl.it/c/alesto/s10019015
-    collegamento: https://www.lidl.it/c/gastronomia-di-mare/s10019016
-    collegamento: https://www.lidl.it/c/lupilu/s10019017
-    collegamento: https://www.lidl.it/c/cien/s10019018
-    collegamento: https://www.lidl.it/s/it-IT/ricerca-negozio/
-    collegamento: https://www.lidl.it/s/it-IT/nuove-aperture/
-    collegamento: https://www.lidl.it/c/assistenza-clienti-e-garanzie/s10018355
-    collegamento: https://www.lidl.it/c/concorsi-e-operazioni-a-premio/s10019291
-    collegamento: https://www.lidl.it/c/carta-regalo/s10018390
-    collegamento: https://www.lidl.it/c/sicurezza-delle-informazioni/s10018357
-    collegamento: https://www.lidl.it/c/compliance-e-segnalazione-di-violazioni/s10019252
-    collegamento: https://www.lidl.it/c/informazioni-legali/s10018358
-    collegamento: https://www.lidl.it/c/i-nostri-indirizzi/s10018359
-    collegamento: https://www.lidl.it/c/punti-vendita-e-orari/s10019838?pageId=10018371/10019838
-    collegamento: https://www.lidl.it/c/fattura-elettronica/s10018361
-    collegamento: https://www.lidl.it/c/lidl-size-calculator/s10050970
-    collegamento: https://www.lidl.it/l/it/volantini/offerte-valide-dall1-10-al-31-10-da-lidl-ogni-brivido-vale-davvero-LV/ar/0
-    collegamento: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/ar/0
-    collegamento: https://www.lidl.it/l/it/volantini/fatti-numeri-e-storie-magazine-di-sostenibilita/ar/0
-    collegamento: https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi/ar/0
-    collegamento: https://www.lidl.it/l/it/volantini/mercatini-e-wellness-lidl-viaggi/ar/0
-    collegamento: https://www.lidl.it/c/spesa-online/s10019285?=forcerefresh
-    collegamento: https://www.lidlviaggi.it/index.php?page=newsletter&utm_source=lidlitalia&utm_medium=referral&utm_campaign=newsletter
-    collegamento: https://www.lidl.it/c/newsletter/s10017039
-    collegamento: https://www.lidl.it/c/esperienza-d-acquisto/s10019284
-    collegamento: https://www.lidl.it/c/assistenza-clienti-e-garanzie/s10018355#10080075
-    collegamento: https://lavoro.lidl.it/life-at-lidl/lidl-top-employer
-    collegamento: https://app.adjust.com/bdpzu2q?campaign=sito&adgroup=footer&engagement_type=fallback_click
-    collegamento: https://www.youtube.com/user/LIDLitalia
-    collegamento: https://www.instagram.com/lidlitalia/
-    collegamento: https://www.facebook.com/lidlitalia
-    collegamento: https://www.tiktok.com/@lidlitalia
-    collegamento: https://www.linkedin.com/company/lidl-italia-srl
-    collegamento: https://www.lidl.it/c/informativa-privacy-clienti/s10018369
-    collegamento: https://www.lidl.it/c/cookie-policy-clienti/s10018372
-    collegamento: https://www.lidl.it/c/modello-organizzativo-d-lgs-231-2001/s10019255
-    collegamento: https://www.lidl.it/c/dichiarazione-di-accessibilita/s10019280
-    collegamento: https://policies.google.com/privacy?hl=it&gl=it
-    collegamento: https://www.lidl.it/c/informativa-privacy-clienti/s10018369#10205869
-    collegamento: https://www.lidl.it/c/protezione-dei-dati-sui-nostri-siti/s10030013
-    collegamento: https://www.onetrust.com/solutions/consent-and-preferences/
-    scheda 'Volantino settimanale' non cliccabile: Locator.click: Timeout 8000ms exceeded.
-Call log:
-  - waiting for get_by_text("Volantino settimanale").first
-    - locator resolved to <span class="flyer__title">↵            Volantino settimanale↵        </span>
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is visible, enabled and stable
-      - scrolling into view if needed
-      - done scrolling
-      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is visible, enabled and stable
-      - scrolling into view if needed
-      - done scrolling
-      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
-    - retrying click action
-      - waiting 100ms
-    15 × waiting for element to be visible, enabled and stable
-       - element is visible, enabled and stable
-       - scrolling into view if needed
-       - done scrolling
-       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
-     - retrying click action
-       - waiting 500ms
+  == pagina iniziale: https://crai.it/negozi-e-volantini/2049-crai-anzio
+    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / CRAI ANZIO CRAI ANZIO Centro di distribuzione Crai Tirreno VIA DELLE CINQUE MIGLIA 58/60 06/9819599 041166@pdv.craitirreno.com Oggi: 08:00-21:00 Vedi tutti gli orari Le nostre offerte SOTTOCOSTO DELL'ANNIVERSARIO Leggi il volantino Condividi Scarica Orari di apertura Lunedi: 08:00-21:00 Martedi: 08:00-21:00 Mercoledi: 08:00-21:00 Giovedi: 08:00-21:00 Venerdi: 08:00-21:00 Sabato: 08:00-21:00 Domenica: 08:00-21:00 Indicazioni stradali Scorciatoie da tastiera Dati mappa ©2026 Google Termini Segnala un errore nella mappa Servizi Carta Fedeltà Bancomat Carta di Credito Parcheggio Reparti Macelleria Pescheria Ortofrutta Panetteria Salumi e Formaggi Gastronomia Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea "
+    frame: https://crai.it/negozi-e-volantini/2049-crai-anzio
+    link utili (15/131): [['https://crai.it/negozi-e-volantini/2049-crai-anzio#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf', 'Leggi il volantino'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Condividi'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Scarica'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio#acsbContent', 'Salta al contenuto\n↵\nENTER']]
+    frame: about:srcdoc
+    link utili (0/0): []
+    frame: about:blank
+    link utili (0/0): []
+    cliccato 'Volantino' -> https://crai.it/negozi-e-volantini/2049-crai-anzio
+  == dopo clic 'Volantino': https://crai.it/negozi-e-volantini/2049-crai-anzio
+    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / CRAI ANZIO CRAI ANZIO Centro di distribuzione Crai Tirreno VIA DELLE CINQUE MIGLIA 58/60 06/9819599 041166@pdv.craitirreno.com Oggi: 08:00-21:00 Vedi tutti gli orari Le nostre offerte SOTTOCOSTO DELL'ANNIVERSARIO Leggi il volantino Condividi Scarica Orari di apertura Lunedi: 08:00-21:00 Martedi: 08:00-21:00 Mercoledi: 08:00-21:00 Giovedi: 08:00-21:00 Venerdi: 08:00-21:00 Sabato: 08:00-21:00 Domenica: 08:00-21:00 Indicazioni stradali Scorciatoie da tastiera Dati mappa ©2026 Google Termini Segnala un errore nella mappa Servizi Carta Fedeltà Bancomat Carta di Credito Parcheggio Reparti Macelleria Pescheria Ortofrutta Panetteria Salumi e Formaggi Gastronomia Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea "
+    frame: https://crai.it/negozi-e-volantini/2049-crai-anzio
+    link utili (15/131): [['https://crai.it/negozi-e-volantini/2049-crai-anzio#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf', 'Leggi il volantino'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Condividi'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Scarica'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio#acsbContent', 'Salta al contenuto\n↵\nENTER']]
+    frame: about:srcdoc
+    link utili (0/0): []
+    frame: about:blank
+    link utili (0/0): []
+    PDF visti dalla rete: []
+[ok] crai_unico: https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf (5588 KB)
+[salvato] lazio/anzio/crai.pdf (Crai Via delle Cinque Miglia 58/60)
+  == pagina iniziale: https://crai.it/negozi-e-volantini
+    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / Negozi e volantini Negozi e volantini Cerca il tuo negozio CRAI preferito, consulta il volantino e non perdere novità e offerte dedicate! \u200b Filtra (1) Avvia la ricerca per trovare i negozi più vicini a te 20 1 26 3 5 19 12 23 30 2 1 8 1 23 35 77 8 5 66 37 20 11 10 11 1 12 6 28 3 4 2 2 13 1 5 1 5 4 3 2 2 5 1 14 2 6 1 1 2 Scorciatoie da tastiera Dati mappa ©2026 GeoBasis-DE/BKG (©2009), Google, Inst. Geogr. Nacional, Mapa GISrael Termini Scopri tutti i negozi CRAI attivi in Italia Vuoi scoprire quali negozi CRAI sono attivi nella tua regione o nella tua provincia? Scopri i negozi attivi Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea Bio Linea Eco Linea In Armonia Linea In Armonia corpo e capelli Filiera"
+    frame: https://crai.it/negozi-e-volantini
+    link utili (12/129): [['https://crai.it/negozi-e-volantini#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini#acsbContent', 'Salta al contenuto\n↵\nENTER']]
+    frame: about:srcdoc
+    link utili (0/0): []
+    frame: about:blank
+    link utili (0/0): []
+  == dopo la ricerca: https://crai.it/?search=Anzio+Via+Vecchiarelli
+    testo: 'Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all\'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / Risultati ricerca "Anzio Via Vecchiarelli" Hai cercato "Anzio Via Vecchiarelli" I risultati della tua ricerca. Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea Bio Linea Eco Linea In Armonia Linea In Armonia corpo e capelli Filiera Ortofrutta Filiera Carni Valori CRAI La nostra storia Identità e valori Bilancio di sostenibilità Il nostro impegno Filiera garantita Modello organizzativo Ambiente Territorio Persone Mondo CRAI CartaPiù CraiGo Ricette Consigli e idee Comunicati stampa Cantina Crai Company profile Negozi e Volantini Link utili Contatti Lavora con noi Prontuario Cantina CRAI Esercizio diritti Carta Fedeltà Centri distributivi Accessibilità Informativa Privacy Sito Web Regolamento e Informativa'
+    frame: https://crai.it/?search=Anzio+Via+Vecchiarelli
+    link utili (12/125): [['https://crai.it/?search=Anzio+Via+Vecchiarelli#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/?search=Anzio+Via+Vecchiarelli#acsbContent', 'Salta al contenuto\n↵\nENTER']]
+    frame: about:srcdoc
+    link utili (0/0): []
+    PDF visti dalla rete: []
+[ok] crai_unico: https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf (5143 KB)
+[salvato] lazio/anzio/crai_2.pdf (Crai Via Vecchiarelli 2)
+  == pagina iniziale: https://crai.it/negozi-e-volantini
+    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / Negozi e volantini Negozi e volantini Cerca il tuo negozio CRAI preferito, consulta il volantino e non perdere novità e offerte dedicate! \u200b Filtra (1) Avvia la ricerca per trovare i negozi più vicini a te 20 1 26 3 5 19 12 23 30 2 1 8 1 23 35 77 8 5 66 37 20 11 10 11 1 12 6 28 3 4 2 2 13 1 5 1 5 4 3 2 2 5 1 14 2 6 1 1 2 Scorciatoie da tastiera Dati mappa ©2026 GeoBasis-DE/BKG (©2009), Google, Inst. Geogr. Nacional, Mapa GISrael Termini Scopri tutti i negozi CRAI attivi in Italia Vuoi scoprire quali negozi CRAI sono attivi nella tua regione o nella tua provincia? Scopri i negozi attivi Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea Bio Linea Eco Linea In Armonia Linea In Armonia corpo e capelli Filiera"
+    frame: https://crai.it/negozi-e-volantini
+    link utili (12/129): [['https://crai.it/negozi-e-volantini#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini#acsbContent', 'Salta al contenuto\n↵\nENTER']]
+    frame: about:srcdoc
+    link utili (0/0): []
+    frame: about:blank
+    link utili (0/0): []
+  == dopo la ricerca: https://crai.it/?search=Nettuno+Via+di+San+Giacomo
+    testo: 'Guida all\'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / Risultati ricerca "Nettuno Via di San Giacomo" Hai cercato "Nettuno Via di San Giacomo" I risultati della tua ricerca. Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea Bio Linea Eco Linea In Armonia Linea In Armonia corpo e capelli Filiera Ortofrutta Filiera Carni Valori CRAI La nostra storia Identità e valori Bilancio di sostenibilità Il nostro impegno Filiera garantita Modello organizzativo Ambiente Territorio Persone Mondo CRAI CartaPiù CraiGo Ricette Consigli e idee Comunicati stampa Cantina Crai Company profile Negozi e Volantini Link utili Contatti Lavora con noi Prontuario Cantina CRAI Esercizio diritti Carta Fedeltà Centri distributivi Accessibilità Informativa Privacy Sito Web Regolamento e Informativa Privacy CartaPiù Informativa Cookie Responsabili trattamento d'
+    frame: https://crai.it/?search=Nettuno+Via+di+San+Giacomo
+    link utili (12/125): [['https://crai.it/?search=Nettuno+Via+di+San+Giacomo#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/?search=Nettuno+Via+di+San+Giacomo#acsbContent', 'Salta al contenuto\n↵\nENTER']]
+    frame: about:srcdoc
+    link utili (0/0): []
+    PDF visti dalla rete: []
+[ok] crai_unico: https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf (5143 KB)
+[salvato] lazio/nettuno/crai.pdf (Crai Via di San Giacomo 43 (PI.GI.))
 
-    scheda 'Offerte valide dal' non cliccabile: Locator.click: Timeout 8000ms exceeded.
-Call log:
-  - waiting for get_by_text("Offerte valide dal").first
-    - locator resolved to <div class="flyer__name">↵            Offerte valide dal 29/10 al 4/11↵   …</div>
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is visible, enabled and stable
-      - scrolling into view if needed
-      - done scrolling
-      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is visible, enabled and stable
-      - scrolling into view if needed
-      - done scrolling
-      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
-    - retrying click action
-      - waiting 100ms
-    15 × waiting for element to be visible, enabled and stable
-       - element is visible, enabled and stable
-       - scrolling into view if needed
-       - done scrolling
-       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
-     - retrying click action
-       - waiting 500ms
-
-    salto volantino speciale: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/view/flyer/page/1
-    salto volantino speciale: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/ar/0
-    provo il volantino Lidl dal 29/10 al 04/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale-NAZ/view/flyer/page/1
-    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Offerte valide dal 29/10 al 4/11 - Volantino settimanale | Lidl Italia - lidl.it'
-    Menu, clic normale: non riuscito (Locator.click: Timeout 4000ms exceeded.)
-    Menu, clic forzato: eseguito ma il menu non si e' aperto
-    Menu aperto con: clic con JavaScript
-[ok] lidl_nazionale: pulsante trovato (testo 'Scarica il PDF')
-    elemento: tag=SPAN title=None aria-label=None testo='Scarica il PDF' box={'x': 1090, 'y': 132.109375, 'width': 91, 'height': 22}
-    indirizzo del pulsante: https://assets.leaflets.schwarz/leaflets/pdfs/01a16886-d5ac-7fe9-93a4-c947187fba94/Offerte-valide-dal-29-10-al-4-11-Volantino-settimanale-00.pdf
-    PDF scaricato direttamente dall'indirizzo
-[salvato] lazio/nettuno/lidl.pdf (volantino nazionale)
-
-Fatto: 1 file salvati, 0 errori.
+Fatto: 3 file salvati, 0 errori.

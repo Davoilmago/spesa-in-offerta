@@ -84,6 +84,32 @@
     "indirizzo": "https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228"
   },
   {
+    "file": "lazio/anzio/crai.pdf",
+    "regione": "Lazio",
+    "citta": "Anzio",
+    "cap": "00042",
+    "catena": "crai",
+    "negozio": "Crai Via delle Cinque Miglia 58/60",
+    "sha256": "7cc010652f89aa2be1128cd733bfd9473e985fb155cecaff9e87cf7611085182",
+    "byte": 5722673,
+    "scaricato_il": "2026-10-30T14:32:39",
+    "titolo": "Volantino Crai",
+    "indirizzo": "https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf"
+  },
+  {
+    "file": "lazio/anzio/crai_2.pdf",
+    "regione": "Lazio",
+    "citta": "Anzio",
+    "cap": "00042",
+    "catena": "crai",
+    "negozio": "Crai Via Vecchiarelli 2",
+    "sha256": "3438f2342ea53951b6956cebb533b320f41cc87a3bd350de604c9882cba97928",
+    "byte": 5266688,
+    "scaricato_il": "2026-10-30T14:32:55",
+    "titolo": "Volantino Crai",
+    "indirizzo": "https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf"
+  },
+  {
     "file": "lazio/anzio/deco.pdf",
     "regione": "Lazio",
     "citta": "Anzio",
@@ -260,6 +286,19 @@
     "byte": 1032935,
     "scaricato_il": "2026-10-30T07:50:48",
     "indirizzo": "https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010443"
+  },
+  {
+    "file": "lazio/nettuno/crai.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "crai",
+    "negozio": "Crai Via di San Giacomo 43 (PI.GI.)",
+    "sha256": "3438f2342ea53951b6956cebb533b320f41cc87a3bd350de604c9882cba97928",
+    "byte": 5266688,
+    "scaricato_il": "2026-10-30T14:33:10",
+    "titolo": "Volantino Crai",
+    "indirizzo": "https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf"
   },
   {
     "file": "lazio/nettuno/elite.pdf",

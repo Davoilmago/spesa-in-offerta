@@ -1,0 +1,82 @@
+--- frame: https://crai.it/?search=Nettuno+Via+di+San+Giacomo
+0: tag=BUTTON title=None aria-label=None testo='Utilizzare questo sito Web in modalità S' box={'x': 0, 'y': -1, 'width': 200, 'height': 2}
+1: tag=A title=None aria-label=None testo="Guida all'accessibilità per lettori dell" box={'x': 0, 'y': -1, 'width': 200, 'height': 1}
+2: tag=A title=None aria-label=None testo='Salta al contenuto\n↵\nENTER' box={'x': 20, 'y': 50, 'width': 274, 'height': 57}
+3: tag=BUTTON title=None aria-label=None testo='' box={'x': -22, 'y': 0, 'width': 16, 'height': 16}
+4: tag=BUTTON title=None aria-label='Opzioni di accessibilità aperte, dichiarazione e aiuto' testo='' box={'x': 20, 'y': 835, 'width': 45, 'height': 45}
+5: tag=A title=None aria-label=None testo='Salta al contenuto principale' box={'x': 0, 'y': -40, 'width': 223, 'height': 36}
+6: tag=A title=None aria-label=None testo='Contatti' box={'x': 21, 'y': 12.5, 'width': 58, 'height': 19}
+7: tag=A title=None aria-label=None testo='Associati a CRAI' box={'x': 113, 'y': 12.5, 'width': 110, 'height': 19}
+8: tag=A title=None aria-label=None testo='Lavora con noi' box={'x': 257, 'y': 12.5, 'width': 98, 'height': 19}
+9: tag=A title=None aria-label=None testo='Associati a CRAI' box=None
+10: tag=A title=None aria-label=None testo='' box={'x': 1198.421875, 'y': 6, 'width': 90, 'height': 32}
+11: tag=BUTTON title=None aria-label=None testo='' box=None
+12: tag=A title=None aria-label=None testo='' box={'x': 650, 'y': 56.734375, 'width': 100, 'height': 35.515625}
+13: tag=A title=None aria-label=None testo='Trova il tuo negozio' box={'x': 1158, 'y': 65, 'width': 156, 'height': 19}
+14: tag=BUTTON title=None aria-label='Accedi all’area personale' testo='' box={'x': 1343, 'y': 62, 'width': 25, 'height': 25}
+15: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 123, 'width': 326, 'height': 18}
+16: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 141, 'width': 326, 'height': 18}
+17: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 159, 'width': 326, 'height': 18}
+18: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 177, 'width': 326, 'height': 18}
+19: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 231, 'width': 326, 'height': 337.84375}
+20: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 584.84375, 'width': 326, 'height': 337.84375}
+21: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 141, 'width': 233, 'height': 206}
+22: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 363, 'width': 233, 'height': 206}
+23: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 585, 'width': 233, 'height': 206}
+24: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 807, 'width': 233, 'height': 206}
+25: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 1029, 'width': 233, 'height': 206}
+26: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 1251, 'width': 233, 'height': 206}
+27: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 1527, 'width': 233, 'height': 206}
+28: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 1767, 'width': 233, 'height': 206}
+29: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 1989, 'width': 233, 'height': 206}
+30: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 2211, 'width': 233, 'height': 206}
+31: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 2433, 'width': 233, 'height': 206}
+32: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 2691, 'width': 233, 'height': 206}
+33: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 2913, 'width': 233, 'height': 206}
+34: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 3171, 'width': 233, 'height': 206}
+35: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 3393, 'width': 233, 'height': 206}
+36: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 3651, 'width': 233, 'height': 206}
+37: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 141, 'width': 81.5, 'height': 18}
+38: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 159, 'width': 81.5, 'height': 18}
+39: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 177, 'width': 81.5, 'height': 18}
+40: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 303, 'width': 81.5, 'height': 357.84375}
+41: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 676.84375, 'width': 81.5, 'height': 357.84375}
+42: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 321, 'width': 81.5, 'height': 357.84375}
+43: tag=A title=None aria-label=None testo='' box={'x': 0, 'y': 694.84375, 'width': 81.5, 'height': 377.84375}
+44: tag=A title=None aria-label=None testo='CartaPiù' box={'x': 248.59375, 'y': 105, 'width': 69.203125, 'height': 20}
+45: tag=A title=None aria-label=None testo='Negozi e Volantini' box={'x': 333.796875, 'y': 105, 'width': 139.703125, 'height': 20}
+46: tag=A title=None aria-label=None testo='CRAI Energy' box={'x': 489.5, 'y': 105, 'width': 97.65625, 'height': 20}
+47: tag=BUTTON title=None aria-label=None testo='Crai per te' box={'x': 603.15625, 'y': 105, 'width': 107.65625, 'height': 20}
+48: tag=BUTTON title=None aria-label=None testo='I Prodotti CRAI' box={'x': 726.8125, 'y': 105, 'width': 144.265625, 'height': 20}
+49: tag=BUTTON title=None aria-label=None testo='Sostenibilità' box={'x': 887.078125, 'y': 105, 'width': 125.953125, 'height': 20}
+50: tag=BUTTON title=None aria-label=None testo='Chi Siamo' box={'x': 1029.03125, 'y': 105, 'width': 106.359375, 'height': 20}
+51: tag=A title=None aria-label=None testo='Trova il tuo negozio' box=None
+52: tag=A title=None aria-label=None testo='Home' box={'x': 32, 'y': 169.5, 'width': 34.453125, 'height': 15}
+53: tag=A title=None aria-label=None testo='Scopri cosa facciamo' box={'x': 153.96875, 'y': 704, 'width': 130, 'height': 17}
+54: tag=A title=None aria-label=None testo='Scopri la filiera garantita CRAI' box={'x': 583.625, 'y': 704, 'width': 182, 'height': 17}
+55: tag=A title=None aria-label=None testo='Leggi i nostri comunicati' box={'x': 1079.640625, 'y': 704, 'width': 152, 'height': 17}
+56: tag=A title=None aria-label=None testo='' box={'x': 639, 'y': 913.90625, 'width': 30, 'height': 34}
+57: tag=A title=None aria-label=None testo='' box={'x': 685, 'y': 913.90625, 'width': 30, 'height': 34}
+58: tag=A title=None aria-label=None testo='' box={'x': 731, 'y': 913.90625, 'width': 30, 'height': 34}
+59: tag=A title=None aria-label=None testo='' box={'x': 1070.65625, 'y': 878.90625, 'width': 40, 'height': 44}
+60: tag=A title=None aria-label=None testo='' box={'x': 1034.65625, 'y': 938.90625, 'width': 120, 'height': 44}
+61: tag=A title=None aria-label=None testo='' box={'x': 1162.65625, 'y': 938.90625, 'width': 120, 'height': 44}
+62: tag=A title=None aria-label=None testo='Piaceri Italiani' box={'x': 32, 'y': 1118.8125, 'width': 77.8125, 'height': 18}
+63: tag=A title=None aria-label=None testo='Crai Sport' box={'x': 32, 'y': 1140.8125, 'width': 57.140625, 'height': 18}
+64: tag=A title=None aria-label=None testo='Crai Proteico' box={'x': 32, 'y': 1162.8125, 'width': 74.46875, 'height': 18}
+65: tag=A title=None aria-label=None testo='Linea Bio' box={'x': 32, 'y': 1184.8125, 'width': 51.015625, 'height': 18}
+66: tag=A title=None aria-label=None testo='Linea Eco' box={'x': 32, 'y': 1206.8125, 'width': 53.015625, 'height': 18}
+67: tag=A title=None aria-label=None testo='Linea In Armonia' box={'x': 32, 'y': 1228.8125, 'width': 93.8125, 'height': 18}
+68: tag=A title=None aria-label=None testo='Linea In Armonia corpo e capelli' box={'x': 32, 'y': 1250.8125, 'width': 175.609375, 'height': 18}
+69: tag=A title=None aria-label=None testo='Filiera Ortofrutta' box={'x': 32, 'y': 1272.8125, 'width': 96.03125, 'height': 18}
+70: tag=A title=None aria-label=None testo='Filiera Carni' box={'x': 32, 'y': 1294.8125, 'width': 67.46875, 'height': 18}
+71: tag=A title=None aria-label=None testo='La nostra storia' box={'x': 460.65625, 'y': 1118.8125, 'width': 86.8125, 'height': 18}
+72: tag=A title=None aria-label=None testo='Identità e valori' box={'x': 460.65625, 'y': 1140.8125, 'width': 85.921875, 'height': 18}
+73: tag=A title=None aria-label=None testo='Bilancio di sostenibilità' box={'x': 460.65625, 'y': 1162.8125, 'width': 127.828125, 'height': 18}
+74: tag=A title=None aria-label=None testo='Il nostro impegno' box={'x': 460.65625, 'y': 1184.8125, 'width': 97.921875, 'height': 18}
+75: tag=A title=None aria-label=None testo='Filiera garantita' box={'x': 460.65625, 'y': 1206.8125, 'width': 87.921875, 'height': 18}
+76: tag=A title=None aria-label=None testo='Modello organizzativo' box={'x': 460.65625, 'y': 1228.8125, 'width': 123.375, 'height': 18}
+77: tag=A title=None aria-label=None testo='Ambiente' box={'x': 460.65625, 'y': 1250.8125, 'width': 56.90625, 'height': 18}
+78: tag=A title=None aria-label=None testo='Territorio' box={'x': 460.65625, 'y': 1272.8125, 'width': 55.140625, 'height': 18}
+79: tag=A title=None aria-label=None testo='Persone' box={'x': 460.65625, 'y': 1294.8125, 'width': 47.796875, 'height': 18}
+--- frame: about:srcdoc
