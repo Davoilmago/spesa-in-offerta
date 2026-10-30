@@ -140,6 +140,12 @@ def scopri_da_panoramica(pagina):
         print(f"    panoramica non raggiunta: {e}")
         return []
     print(f"    panoramica: {pagina.url}")
+    # il volantino settimanale (alimentare) a volte compare dopo: attendo e scorro
+    try:
+        pagina.mouse.wheel(0, 600)
+        pagina.wait_for_timeout(5000)
+    except Exception:
+        pass
     tutti = []
     for frame in comune.tutti_i_frame(pagina):
         try:
@@ -148,9 +154,9 @@ def scopri_da_panoramica(pagina):
             pass
     trovati = []
     for h in dict.fromkeys(tutti):
-        if "volantin" not in h.lower():
-            continue
         print(f"    collegamento: {h}")
+        if "volantin" not in h.lower() and "offerte-valide" not in h.lower():
+            continue
         m = re.search(r"dal-(\d{1,2})-(\d{1,2})-al-(\d{1,2})-(\d{1,2})", h)
         if not m:
             continue
@@ -165,7 +171,27 @@ def scopri_da_panoramica(pagina):
                 # la pagina 'ar' e' la scheda del volantino; il lettore sta in /view/flyer/page/1
                 trovati.append((dal, al, h.split("/ar/")[0] + "/view/flyer/page/1"))
             trovati.append((dal, al, h))
-    trovati.sort(reverse=True)
+    # se il settimanale (cibo) non e' tra i link, provo a cliccare la sua scheda e leggo l'indirizzo
+    if not any("settimanal" in t[2].lower() or "naz" in t[2].lower() for t in trovati):
+        for testo in ("Volantino settimanale", "Offerte valide dal"):
+            try:
+                el = pagina.get_by_text(testo).first
+                el.click(timeout=8000)
+                pagina.wait_for_timeout(6000)
+                u = pagina.url
+                print(f"    cliccata scheda '{testo}' -> {u}")
+                m = re.search(r"dal-(\d{1,2})-(\d{1,2})-al-(\d{1,2})-(\d{1,2})", u)
+                if m and "volantin" in u.lower():
+                    g1, m1, g2, m2 = (int(x) for x in m.groups())
+                    dal = datetime(oggi.year, m1, g1).date()
+                    al = datetime(oggi.year + (1 if m2 < m1 else 0), m2, g2).date()
+                    base = u.split("/ar/")[0].split("/view/")[0]
+                    trovati.append((dal, al, base + "/view/flyer/page/1"))
+                    break
+            except Exception as e:
+                print(f"    scheda '{testo}' non cliccabile: {e}")
+    # il settimanale alimentare per primo
+    trovati.sort(key=lambda t: (("settimanal" in t[2].lower() or "naz" in t[2].lower()), t[0]), reverse=True)
     return trovati
 
 
