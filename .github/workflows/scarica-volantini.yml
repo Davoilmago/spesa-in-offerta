@@ -9,10 +9,12 @@ on:
         description: "Catena da scaricare (vuoto = tutte)"
         required: false
         default: ""
-  # Automatico: ogni giorno alle 07:00 UTC (08:00 o 09:00 in Italia).
+  # Automatico: ogni giorno due volte, alle 04:00 UTC (5:00-6:00 in Italia, di solito parte con un po' di ritardo)
+  # e alle 07:00 UTC (08:00 o 09:00 in Italia) per prendere i volantini usciti piu' tardi.
   # Ogni catena sa in quali giorni scaricare (lo decide il file della catena, cartella catene/),
   # negli altri giorni non fa niente.
   schedule:
+    - cron: "0 4 * * *"
     - cron: "0 7 * * *"
   # Quando cambi i file dell'app (cartella sito) il sito si ripubblica da solo, senza riscaricare i volantini.
   push:
