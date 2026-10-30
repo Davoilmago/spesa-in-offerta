@@ -8,6 +8,7 @@ Nel file della citta':  "crai": [{"nota": "Crai Via Vecchiarelli 2", "pagina": "
 Senza "pagina" cerca nell'elenco dei negozi il nome della citta' e del negozio ("cerca").
 """
 
+import json
 import re
 
 import comune
@@ -101,6 +102,31 @@ def scarica(contesto, negozio, etichetta):
                     print(f"      ...{t[max(0, m.start() - 250):m.end() + 250]!r}")
             except Exception:
                 pass
+        # elenco negozi (API del locator): cerco quelli di Anzio/Nettuno, con e senza filtro volantino
+        for api in ("https://crai.it/api/store-locator/all?filters=%5B%22volantino%22%5D", "https://crai.it/api/store-locator/all"):
+            try:
+                r = contesto.request.get(api, timeout=120000)
+                dati = r.json()
+                print(f"    API {api}: stato {r.status}, tipo {type(dati).__name__}")
+
+                def giro(x):
+                    if isinstance(x, dict):
+                        if "slug" in x and "indirizzo" in x:
+                            yield x
+                        for v in x.values():
+                            yield from giro(v)
+                    elif isinstance(x, list):
+                        for v in x:
+                            yield from giro(v)
+                tot = 0
+                for neg in giro(dati):
+                    tot += 1
+                    riga = json.dumps(neg, ensure_ascii=False)
+                    if re.search(r"anzio|nettuno|vecchiarelli|san giacomo|lavinio|cinque miglia|pi\.?gi", riga, re.I):
+                        print(f"    NEGOZIO: {riga[:1800]}")
+                print(f"    negozi nell'elenco: {tot}")
+            except Exception as e:
+                print(f"    API non leggibile: {str(e)[:150]}")
         href = ""
         for frame in comune.tutti_i_frame(pagina):
             h = frame.eval_on_selector_all(
