@@ -128,13 +128,14 @@ def scopri_da_panoramica(pagina):
     dei volantini validi oggi, il piu' recente per primo."""
     oggi = datetime.now(ZoneInfo("Europe/Rome")).date()
     try:
-        for frame in comune.tutti_i_frame(pagina):
-            link = frame.get_by_text(re.compile(r"ritorna alla panoramica", re.I)).first
-            if link.count() > 0:
-                link.click(timeout=8000)
-                break
-        pagina.wait_for_timeout(6000)
+        pagina.goto("https://www.lidl.it/c/i-nostri-volantini/s10018048", wait_until="domcontentloaded", timeout=60000)
+        pagina.wait_for_timeout(8000)
         comune.prova_chiudi_cookie(pagina)
+        pagina.wait_for_timeout(2000)
+        try:
+            comune.salva_debug(pagina, "lidl-panoramica")
+        except Exception:
+            pass
     except Exception as e:
         print(f"    panoramica non raggiunta: {e}")
         return []
