@@ -111,11 +111,69 @@ def trova_scarica_pdf(pagina):
     return None
 
 
+def pagina_non_trovata(pagina):
+    """True se il lettore mostra 'Purtroppo non riusciamo a trovare la pagina'."""
+    for frame in comune.tutti_i_frame(pagina):
+        try:
+            if frame.get_by_text(re.compile(r"non riusciamo a trovare la pagina", re.I)).count() > 0:
+                return True
+        except Exception:
+            continue
+    return False
+
+
+def scopri_da_panoramica(pagina):
+    """Dalla pagina d'errore torna alla panoramica dei volantini e ne legge i collegamenti.
+    Cosi' non dipendiamo dall'indirizzo 'indovinato' con le date. Restituisce [(dal, al, indirizzo)]
+    dei volantini validi oggi, il piu' recente per primo."""
+    oggi = datetime.now(ZoneInfo("Europe/Rome")).date()
+    try:
+        for frame in comune.tutti_i_frame(pagina):
+            link = frame.get_by_text(re.compile(r"ritorna alla panoramica", re.I)).first
+            if link.count() > 0:
+                link.click(timeout=8000)
+                break
+        pagina.wait_for_timeout(6000)
+        comune.prova_chiudi_cookie(pagina)
+    except Exception as e:
+        print(f"    panoramica non raggiunta: {e}")
+        return []
+    print(f"    panoramica: {pagina.url}")
+    tutti = []
+    for frame in comune.tutti_i_frame(pagina):
+        try:
+            tutti += frame.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
+        except Exception:
+            pass
+    trovati = []
+    for h in dict.fromkeys(tutti):
+        if "volantin" not in h.lower():
+            continue
+        print(f"    collegamento: {h}")
+        m = re.search(r"dal-(\d\d)-(\d\d)-al-(\d\d)-(\d\d)", h)
+        if not m:
+            continue
+        g1, m1, g2, m2 = (int(x) for x in m.groups())
+        try:
+            dal = datetime(oggi.year, m1, g1).date()
+            al = datetime(oggi.year + (1 if m2 < m1 else 0), m2, g2).date()
+        except ValueError:
+            continue
+        if dal <= oggi <= al and "/view/" in h:
+            trovati.append((dal, al, h if h.endswith("/page/1") else h))
+    trovati.sort(reverse=True)
+    return trovati
+
+
 def apri(pagina, negozio):
     """Apre il volantino in corso e il menu. Restituisce (pulsante, come, info) oppure (None, None, None)."""
-    for dal, al in finestre_lidl():
-        indirizzo = url_lidl(dal, al)
-        print(f"    provo il volantino Lidl dal {dal:%d/%m} al {al:%d/%m}")
+    tentativi = [(dal, al, url_lidl(dal, al)) for dal, al in finestre_lidl()]
+    scoperti = False
+    i = 0
+    while i < len(tentativi):
+        dal, al, indirizzo = tentativi[i]
+        i += 1
+        print(f"    provo il volantino Lidl dal {dal:%d/%m} al {al:%d/%m}: {indirizzo}")
         try:
             risposta = pagina.goto(indirizzo, wait_until="domcontentloaded", timeout=60000)
         except PlaywrightTimeout:
@@ -130,6 +188,16 @@ def apri(pagina, negozio):
         except Exception:
             pass
         comune.prova_chiudi_cookie(pagina)
+
+        if pagina_non_trovata(pagina):
+            print("    il lettore dice: pagina non trovata")
+            if not scoperti:
+                scoperti = True
+                for d2, a2, u2 in scopri_da_panoramica(pagina):
+                    if all(u2 != t[2] for t in tentativi):
+                        tentativi.insert(i, (d2, a2, u2))
+                        print(f"    volantino scoperto dalla panoramica: dal {d2:%d/%m} al {a2:%d/%m}")
+            continue
 
         menu_aperto = False
         for giro in range(8):
