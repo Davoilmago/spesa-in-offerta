@@ -1,6 +1,6 @@
     viewer: https://deco.volantinopiu.com/ws/pv003499.php
     testo viewer: '0 \xa0 \xa0 \xa0'
-    cartella pagine: https://resources.volantinopiu.it/flyer/2/9/2/0/3; richieste viste: [('https://deco.volantinopiu.com/ws/pre003499.php', 301), ('https://deco.volantinopiu.com/ws/thumb.php?refer=/ws/pre003499.php', 302), ('https://resources.volantinopiu.it/flyer/2/9/2/0/3/pagine/1.webp', 200), ('https://deco.volantinopiu.com/ws/pv003499.php', 301), ('https://deco.volantinopiu.com/ws/redirect.php?refer=/ws/pv003499.php', 302), ('https://deco.volantinopiu.com/volantino2920300pv695.html', 200), ('https://deco.volantinopiu.com//public/image/close_nav.webp', 200), ('https://deco.volantinopiu.com//public/fontawesome/css/solid.min.css', 200)]
+    cartella pagine: https://resources.volantinopiu.it/flyer/2/9/2/0/3; richieste viste: [('https://deco.volantinopiu.com/ws/pre003499.php', 301), ('https://deco.volantinopiu.com/ws/thumb.php?refer=/ws/pre003499.php', 302), ('https://resources.volantinopiu.it/flyer/2/9/2/0/3/pagine/1.webp', 200), ('https://deco.volantinopiu.com/ws/pv003499.php', 301), ('https://deco.volantinopiu.com/ws/redirect.php?refer=/ws/pv003499.php', 302), ('https://deco.volantinopiu.com/volantino2920300pv695.html', 200), ('https://deco.volantinopiu.com//public/fontawesome/css/solid.min.css', 200), ('https://deco.volantinopiu.com//public/image/indice_interattivo.webp', 200)]
     pagine scaricate: 44 (12689 KB)
     dimensione pagina: [1152, 1695]; jpeg totale 17959 KB
 [ok] deco_unico: 44 pagine unite in PDF (13498 KB)

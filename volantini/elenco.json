@@ -8,7 +8,7 @@
     "negozio": "Spazio Conad, Viale Antium 4",
     "sha256": "8547d0b4f928b32c6db371938c80867cd8ac9944f97a5af5d9573b46497c4010",
     "byte": 17574467,
-    "scaricato_il": "2026-10-28T07:44:27",
+    "scaricato_il": "2026-10-30T07:46:38",
     "indirizzo": "https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625"
   },
   {
@@ -20,7 +20,7 @@
     "negozio": "Spazio Conad, Viale Antium 4 (secondo volantino)",
     "sha256": "9e0afc452ed7ace9457a1ead164a6de7fbc8b34deb42c9c6c35a5abf86a2fe3d",
     "byte": 15507435,
-    "scaricato_il": "2026-10-28T07:44:34",
+    "scaricato_il": "2026-10-30T07:46:45",
     "indirizzo": "https://www.conad.it/volantini/Spazio-Conad-Fascia2-Bis?anacanId=008625"
   },
   {
@@ -32,7 +32,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "d44aa068af2b8f1f49acb9c8c679d325938c4c8b843c37982b904a50b3c4940f",
     "byte": 25898646,
-    "scaricato_il": "2026-10-28T07:45:13",
+    "scaricato_il": "2026-10-30T07:47:32",
     "indirizzo": "https://www.conad.it/volantini/Offerte22-Superstore-Lazio?anacanId=006228"
   },
   {
@@ -44,7 +44,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "aeb5396d4be40293c08b0dd5aec5814b68ad83729dd38c5f4d38bb0720f2dcb7",
     "byte": 2033504,
-    "scaricato_il": "2026-10-28T07:45:13",
+    "scaricato_il": "2026-10-30T07:47:32",
     "indirizzo": "https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=006228"
   },
   {
@@ -56,7 +56,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "592f31ae1778b75963a1a67b07f0637a9d3f585d070bacd28d84e03f7588e843",
     "byte": 2600928,
-    "scaricato_il": "2026-10-28T07:45:13",
+    "scaricato_il": "2026-10-30T07:47:32",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228"
   },
   {
@@ -68,7 +68,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "bf0a9203788572dd9d048902fa8d39c6def3e3c167fa8636fc33504b8d90177d",
     "byte": 3772933,
-    "scaricato_il": "2026-10-28T07:45:13",
+    "scaricato_il": "2026-10-30T07:47:32",
     "indirizzo": "https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=006228"
   },
   {
@@ -80,7 +80,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "21c46bfbb6575de01ffcd3ccbf22db17e16d7cbb94128630f09a9715bbd11b8f",
     "byte": 1032935,
-    "scaricato_il": "2026-10-28T07:45:13",
+    "scaricato_il": "2026-10-30T07:47:32",
     "indirizzo": "https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228"
   },
   {
@@ -90,9 +90,9 @@
     "cap": "00042",
     "catena": "deco",
     "negozio": "Decò Via di Valle Schioia 67",
-    "sha256": "e866d9709fbf54bf73f154e62f2cfa260960753afe787b01c4ceb3672b5e2e4b",
+    "sha256": "9d9942ca74b27bda392b4df1945e26e7183a7d4d48b3ad34bf8912a764334144",
     "byte": 13822058,
-    "scaricato_il": "2026-10-29T07:48:12",
+    "scaricato_il": "2026-10-30T07:48:36",
     "titolo": "Volantino Decò",
     "indirizzo": "https://deco.volantinopiu.com/ws/pv003499.php"
   },
@@ -116,7 +116,7 @@
     "negozio": "iN's Mercato Via di Villa Claudia 7",
     "sha256": "c7cb097566dac4b4b05e2b8ee5d1daa03370f642bbc2ee734b1b01421ca2210d",
     "byte": 14029054,
-    "scaricato_il": "2026-10-29T07:47:41",
+    "scaricato_il": "2026-10-30T07:48:06",
     "titolo": "Volantino 22",
     "valido_dal": "2026-10-21",
     "valido_al": "2026-11-01"
@@ -130,7 +130,7 @@
     "negozio": "MD Via Goldoni 62",
     "sha256": "d492770435b6aa24f9f8b48b8a8a174b932fc7287ee057bd7fb67ff428f774a4",
     "byte": 17111980,
-    "scaricato_il": "2026-10-29T07:47:20",
+    "scaricato_il": "2026-10-30T07:47:47",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -141,9 +141,9 @@
     "cap": "00042",
     "catena": "tigre",
     "negozio": "Tigre Amico Via Matteotti 18",
-    "sha256": "a3b75cb997c786ee03cafcc2956e1463d99e7534cac51568a240e78f66428d5d",
+    "sha256": "71853aeab6bacb04872a71020b2399acb8e4651ef7a9739446058886632a9751",
     "byte": 2853145,
-    "scaricato_il": "2026-10-29T07:48:37",
+    "scaricato_il": "2026-10-30T07:49:01",
     "titolo": "Volantino Tigre Amico A23_2026",
     "indirizzo": "https://www.calameo.com/read/001940002734efb972eb7"
   },
@@ -156,7 +156,7 @@
     "negozio": "volantino Lazio",
     "sha256": "151ef597b8c83ea7b4d9ae06658ed0370ee8f81f4b6b88a352ad5b236a453ce7",
     "byte": 7647680,
-    "scaricato_il": "2026-10-29T07:47:07",
+    "scaricato_il": "2026-10-30T07:46:29",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   },
   {
@@ -168,7 +168,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "c3409b70fcf8cdc7175755eb306ea8b4fc09d974eb78a514f32bbe94b0d08b80",
     "byte": 16396828,
-    "scaricato_il": "2026-10-29T07:49:39",
+    "scaricato_il": "2026-10-30T07:54:34",
     "titolo": "Prezzi Freschi",
     "valido_dal": "2026-10-23",
     "valido_al": "2026-11-05"
@@ -182,7 +182,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "2baedc70bc89bc1a1595caade0d8261dcdaae94e5481d41332691989daaae8ef",
     "byte": 3313679,
-    "scaricato_il": "2026-10-29T07:49:39",
+    "scaricato_il": "2026-10-30T07:54:34",
     "titolo": "Speciale Aia",
     "valido_dal": "2026-09-29",
     "valido_al": "2026-11-15"
@@ -196,7 +196,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "42de5bce5cfac67d028f0e197cc8fed12f1e4bccbefc9e40ca643fe4a728bf0d",
     "byte": 1121123,
-    "scaricato_il": "2026-10-29T07:49:39",
+    "scaricato_il": "2026-10-30T07:54:34",
     "titolo": "Speciale Purina",
     "valido_dal": "2026-10-23",
     "valido_al": "2026-11-05"
@@ -210,7 +210,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "aeb5396d4be40293c08b0dd5aec5814b68ad83729dd38c5f4d38bb0720f2dcb7",
     "byte": 2033504,
-    "scaricato_il": "2026-10-28T07:45:52",
+    "scaricato_il": "2026-10-30T07:50:48",
     "indirizzo": "https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010443"
   },
   {
@@ -222,7 +222,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "4a25341d5d7124c7eb5f07e30dbdd52c0048faf1d48b24de823659b54f0fcbf3",
     "byte": 5543730,
-    "scaricato_il": "2026-10-28T07:45:52",
+    "scaricato_il": "2026-10-30T07:50:48",
     "indirizzo": "https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010443"
   },
   {
@@ -234,7 +234,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "70538e474940d130c6f371c2ccac78d405656b4bc177cae75321a0751cee9177",
     "byte": 358332,
-    "scaricato_il": "2026-10-28T07:45:52",
+    "scaricato_il": "2026-10-30T07:50:48",
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443"
   },
   {
@@ -246,7 +246,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "bf0a9203788572dd9d048902fa8d39c6def3e3c167fa8636fc33504b8d90177d",
     "byte": 3772933,
-    "scaricato_il": "2026-10-28T07:45:52",
+    "scaricato_il": "2026-10-30T07:50:48",
     "indirizzo": "https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010443"
   },
   {
@@ -258,7 +258,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "21c46bfbb6575de01ffcd3ccbf22db17e16d7cbb94128630f09a9715bbd11b8f",
     "byte": 1032935,
-    "scaricato_il": "2026-10-28T07:45:52",
+    "scaricato_il": "2026-10-30T07:50:48",
     "indirizzo": "https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010443"
   },
   {
@@ -268,13 +268,13 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "2b7f1c814ffd82ba6f769685537cf4901e0c863aecfde429626b855e7e24ae83",
-    "byte": 4620744,
-    "scaricato_il": "2026-10-27T14:38:22",
-    "titolo": "SottoCosto",
-    "indirizzo": "https://superelite.it/promozioni/sottocosto",
-    "valido_dal": "2026-10-16",
-    "valido_al": "2026-10-29"
+    "sha256": "d51518f6de61562f0e5c4b7120be162aefbd540f02c94b0b581f4c1554f47e0a",
+    "byte": 4659157,
+    "scaricato_il": "2026-10-30T07:56:15",
+    "titolo": "PREZZI TONDI 1€ e 2€",
+    "indirizzo": "https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2",
+    "valido_dal": "2026-10-30",
+    "valido_al": "2026-11-12"
   },
   {
     "file": "lazio/nettuno/elite_2.pdf",
@@ -283,13 +283,13 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "5cc00fe98f25ece0445c7db9b3230d19274c1d649c75120f423d82299ef43ac1",
-    "byte": 1600988,
-    "scaricato_il": "2026-10-27T14:38:22",
-    "titolo": "Sconti d'Autunno",
-    "indirizzo": "https://superelite.it/promozioni/sconti-dautunno",
-    "valido_dal": "2026-10-16",
-    "valido_al": "2026-10-29"
+    "sha256": "8bfd06576a2eb142571f4afbf5d8b0a574309f08df349c95307e52d77a2db2cc",
+    "byte": 1521228,
+    "scaricato_il": "2026-10-30T07:56:15",
+    "titolo": "Novembre Conveniente",
+    "indirizzo": "https://superelite.it/promozioni/novembre-conveniente-2",
+    "valido_dal": "2026-10-30",
+    "valido_al": "2026-11-12"
   },
   {
     "file": "lazio/nettuno/elite_3.pdf",
@@ -298,9 +298,9 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "87b3a6b5d1a6bba94186b93d517e45c8f99553279f64192cb02e38b221441583",
-    "byte": 2759193,
-    "scaricato_il": "2026-10-27T14:38:22",
+    "sha256": "d1392bfced75bdd1d9645adc5301935884eccdf4ed727debde8198c887b8a0f4",
+    "byte": 2759190,
+    "scaricato_il": "2026-10-30T07:56:15",
     "titolo": "Spesa Difesa Selex - Prezzi Bloccati - Settembre",
     "indirizzo": "https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio",
     "valido_dal": "2026-09-01",
@@ -313,9 +313,9 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "2e838aa4226c96158a75a79a4326b188bb0af2367a8cc169e73c13089891ab73",
-    "byte": 1823096,
-    "scaricato_il": "2026-10-27T14:38:22",
+    "sha256": "8f2fe0b5b58b4c82221928fecd2afa6220b6a83c2330d9fb144d94642ddd4eee",
+    "byte": 1823088,
+    "scaricato_il": "2026-10-30T07:56:15",
     "titolo": "Tutti in Campo - Grande Raccolta Fila - Ultima puntata",
     "indirizzo": "https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2",
     "valido_dal": "2026-10-26",
@@ -341,7 +341,7 @@
     "negozio": "iN's Mercato Via Ugo La Malfa 9",
     "sha256": "c7cb097566dac4b4b05e2b8ee5d1daa03370f642bbc2ee734b1b01421ca2210d",
     "byte": 14029054,
-    "scaricato_il": "2026-10-29T07:49:56",
+    "scaricato_il": "2026-10-30T07:54:51",
     "titolo": "Volantino 22",
     "valido_dal": "2026-10-21",
     "valido_al": "2026-11-01"
@@ -369,7 +369,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "f9675aea000bf55fb269b6f835f11305df0448bbf05b369c425e15149ee80f85",
     "byte": 5291112,
-    "scaricato_il": "2026-10-29T07:49:27",
+    "scaricato_il": "2026-10-30T07:54:21",
     "titolo": "Offerte valide dal 22 Ottobre al 4 Novembre",
     "valido_dal": "2026-10-22",
     "valido_al": "2026-11-04"
@@ -383,7 +383,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "32ba17964fff795f7d16a56b0b85ee6a828845d4c5b0bd086319718740343c1a",
     "byte": 8105328,
-    "scaricato_il": "2026-10-29T07:49:27",
+    "scaricato_il": "2026-10-30T07:54:21",
     "titolo": "Occasioni Extra"
   },
   {
@@ -395,7 +395,7 @@
     "negozio": "volantino Lazio",
     "sha256": "151ef597b8c83ea7b4d9ae06658ed0370ee8f81f4b6b88a352ad5b236a453ce7",
     "byte": 7647680,
-    "scaricato_il": "2026-10-29T07:49:00",
+    "scaricato_il": "2026-10-30T07:50:06",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   }
 ]
