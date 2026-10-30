@@ -151,7 +151,7 @@ def scopri_da_panoramica(pagina):
         if "volantin" not in h.lower():
             continue
         print(f"    collegamento: {h}")
-        m = re.search(r"dal-(\d\d)-(\d\d)-al-(\d\d)-(\d\d)", h)
+        m = re.search(r"dal-(\d{1,2})-(\d{1,2})-al-(\d{1,2})-(\d{1,2})", h)
         if not m:
             continue
         g1, m1, g2, m2 = (int(x) for x in m.groups())
@@ -160,8 +160,11 @@ def scopri_da_panoramica(pagina):
             al = datetime(oggi.year + (1 if m2 < m1 else 0), m2, g2).date()
         except ValueError:
             continue
-        if dal <= oggi <= al and "/view/" in h:
-            trovati.append((dal, al, h if h.endswith("/page/1") else h))
+        if dal <= oggi <= al and ("/view/" in h or "/ar/" in h):
+            if "/ar/" in h:
+                # la pagina 'ar' e' la scheda del volantino; il lettore sta in /view/flyer/page/1
+                trovati.append((dal, al, h.split("/ar/")[0] + "/view/flyer/page/1"))
+            trovati.append((dal, al, h))
     trovati.sort(reverse=True)
     return trovati
 
