@@ -9,17 +9,17 @@
     collegamento: https://www.lidl.it/l/it/volantini/fatti-numeri-e-storie-magazine-di-sostenibilita/ar/0
     collegamento: https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi/ar/0
     collegamento: https://www.lidl.it/l/it/volantini/mercatini-e-wellness-lidl-viaggi/ar/0
-    provo il volantino Lidl dal 05/11 al 11/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-05-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1
-    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-05-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
-    il lettore dice: pagina non trovata
-    provo il volantino Lidl dal 22/10 al 28/10: https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1
-    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
-    il lettore dice: pagina non trovata
-[ERRORE] lidl_nazionale: pulsante di download non trovato
-    --- elementi visibili
-    tag=A title=None aria-label="Vai all'homepage" testo='' box={'x': 10, 'y': 4, 'width': 50, 'height': 50}
-    tag=A title=None aria-label='Esci, Ritorna alla panoramica' testo='Esci' box={'x': 1300, 'y': 0, 'width': 40, 'height': 58}
-    tag=BUTTON title=None aria-label='Menù' testo='Menù' box={'x': 1340, 'y': 0, 'width': 50, 'height': 58}
-    tag=A title=None aria-label='Ritorna alla panoramica' testo='RITORNA ALLA PANORAMICA' box={'x': 561, 'y': 506.828125, 'width': 278, 'height': 48}
+    volantino scoperto dalla panoramica: dal 29/10 al 04/11
+    volantino scoperto dalla panoramica: dal 29/10 al 04/11
+    provo il volantino Lidl dal 29/10 al 04/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/ar/0
+    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/view/flyer/page/1  titolo: "Offerte valide dal 29/10 al 4/11 - L' autunno che vale davvero. | Lidl Italia - lidl.it"
+    Menu, clic normale: non riuscito (Locator.click: Timeout 4000ms exceeded.)
+    Menu, clic forzato: eseguito ma il menu non si e' aperto
+    Menu aperto con: clic con JavaScript
+[ok] lidl_nazionale: pulsante trovato (testo 'Scarica il PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Scarica il PDF' box={'x': 1090, 'y': 132.109375, 'width': 91, 'height': 22}
+    indirizzo del pulsante: https://assets.leaflets.schwarz/leaflets/pdfs/01a18790-4d47-7c1e-9e72-80178a750c74/Offerte-valide-dal-29-10-al-4-11-L-autunno-che-vale-davvero-00.pdf
+    PDF scaricato direttamente dall'indirizzo
+[salvato] lazio/nettuno/lidl.pdf (volantino nazionale)
 
-Fatto: 0 file salvati, 1 errori.
+Fatto: 1 file salvati, 0 errori.
