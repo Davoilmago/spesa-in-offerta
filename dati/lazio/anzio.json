@@ -62,6 +62,16 @@
         "nota": "Tigre Amico Via Matteotti 18",
         "id": "6507"
       }
+    ],
+    "crai": [
+      {
+        "nota": "Crai Via delle Cinque Miglia 58/60",
+        "pagina": "https://crai.it/negozi-e-volantini/2049-crai-anzio"
+      },
+      {
+        "nota": "Crai Via Vecchiarelli 2",
+        "cerca": "Anzio Via Vecchiarelli"
+      }
     ]
   }
 }
