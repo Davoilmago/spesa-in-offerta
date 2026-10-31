@@ -1,0 +1,58 @@
+--- frame: https://www.pampanorama.it/punti-vendita/roma-nettuno
+0: tag=BUTTON title=None aria-label='Apri Menu' testo='Menu' box={'x': 16, 'y': 29.390625, 'width': 92.234375, 'height': 50}
+1: tag=A title=None aria-label=None testo='Negozi' box={'x': 124.234375, 'y': 35.390625, 'width': 45, 'height': 15}
+2: tag=A title=None aria-label=None testo='Prodotti' box={'x': 185.234375, 'y': 35.390625, 'width': 53, 'height': 15}
+3: tag=A title=None aria-label=None testo='Rubriche' box={'x': 254.234375, 'y': 35.390625, 'width': 56, 'height': 15}
+4: tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 326.234375, 'y': 35.390625, 'width': 78, 'height': 15}
+5: tag=A title=None aria-label=None testo='Pam a casa' box={'x': 124.234375, 'y': 35.390625, 'width': 339.5, 'height': 39}
+6: tag=A title=None aria-label=None testo='' box={'x': 521.046875, 'y': 47.015625, 'width': 263.15625, 'height': 15}
+7: tag=A title=None aria-label=None testo='Parla Con Noi' box={'x': 821, 'y': 42.390625, 'width': 111, 'height': 24}
+8: tag=A title=None aria-label=None testo='Lavora Con Noi' box={'x': 948, 'y': 42.390625, 'width': 122, 'height': 24}
+9: tag=BUTTON title='Cerca' aria-label='Cerca tra Prodotti, Ricette, Negozi o Articoli' testo='' box={'x': 1086, 'y': 43.15625, 'width': 20, 'height': 20}
+10: tag=BUTTON title=None aria-label='Accedi o Registrati' testo='Accedi o Registrati' box={'x': 1122, 'y': 29.390625, 'width': 157.5, 'height': 50}
+11: tag=A title=None aria-label=None testo='Fornitori' box={'x': 1295.5, 'y': 41.890625, 'width': 88.5, 'height': 25}
+12: tag=DIV title=None aria-label=None testo='Prodotti' box={'x': 513.5, 'y': 11, 'width': 110, 'height': 32}
+13: tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 820.5, 'y': 12, 'width': 40, 'height': 30}
+14: tag=BUTTON title=None aria-label='Chiudi la barra di ricerca' testo='' box={'x': 860.5, 'y': 6, 'width': 36, 'height': 42}
+15: tag=A title=None aria-label=None testo='Apri In Google Maps' box={'x': 10, 'y': 115, 'width': 177, 'height': 36.5}
+16: tag=A title=None aria-label=None testo='ELENCO NEGOZI' box={'x': 332, 'y': 437, 'width': 155.140625, 'height': 36.5}
+17: tag=A title=None aria-label=None testo='Accettiamo Gift card Pam Panorama cartac' box={'x': 492, 'y': 676.5, 'width': 360, 'height': 15}
+18: tag=BUTTON title=None aria-label=None testo='<' box={'x': 470.421875, 'y': 1228.796875, 'width': 36.71875, 'height': 36.71875}
+19: tag=BUTTON title=None aria-label=None testo='>' box={'x': 892.859375, 'y': 1228.796875, 'width': 36.71875, 'height': 36.71875}
+20: tag=BUTTON title=None aria-label=None testo='Up Day' box={'x': 421.671875, 'y': 1907.6875, 'width': 101.359375, 'height': 50}
+21: tag=BUTTON title=None aria-label=None testo='Edenred' box={'x': 533.03125, 'y': 1907.6875, 'width': 108.5, 'height': 50}
+22: tag=BUTTON title=None aria-label=None testo='Sodexo' box={'x': 651.53125, 'y': 1907.6875, 'width': 102.265625, 'height': 50}
+23: tag=BUTTON title=None aria-label=None testo='Pellegrini' box={'x': 763.796875, 'y': 1907.6875, 'width': 113.8125, 'height': 50}
+24: tag=BUTTON title=None aria-label=None testo='BluBe' box={'x': 887.609375, 'y': 1907.6875, 'width': 90.703125, 'height': 50}
+25: tag=BUTTON title=None aria-label=None testo='ACCEDI O REGISTRATI' box={'x': 618.75, 'y': 2223.6875, 'width': 162.5, 'height': 40}
+26: tag=A title=None aria-label=None testo='' box={'x': 636, 'y': 2295.6875, 'width': 64, 'height': 36}
+27: tag=A title=None aria-label=None testo='' box={'x': 700, 'y': 2295.6875, 'width': 64, 'height': 36}
+28: tag=A title=None aria-label=None testo='NEI NEGOZI\nPam Nazionale_2622\nScopri dov' box={'x': 573, 'y': 2420.71875, 'width': 250, 'height': 391.921875}
+29: tag=A title=None aria-label=None testo='NEI NEGOZI\nPam Nazionale_2622_Catalogo\nS' box={'x': 417.40838623046875, 'y': 2416.12451171875, 'width': 212.509765625, 'height': 401.1103515625}
+30: tag=A title=None aria-label=None testo='Chi siamo' box={'x': 295, 'y': 3758.09375, 'width': 53, 'height': 14}
+31: tag=A title=None aria-label=None testo='Prodotti' box={'x': 295, 'y': 3780.59375, 'width': 45, 'height': 14}
+32: tag=A title=None aria-label=None testo='Ricette' box={'x': 295, 'y': 3803.09375, 'width': 39, 'height': 14}
+33: tag=A title=None aria-label=None testo='Rubriche' box={'x': 295, 'y': 3825.59375, 'width': 49, 'height': 14}
+34: tag=A title=None aria-label=None testo='Negozi' box={'x': 295, 'y': 3848.09375, 'width': 39, 'height': 14}
+35: tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 295, 'y': 3870.59375, 'width': 65, 'height': 14}
+36: tag=A title=None aria-label=None testo='I nostri freschi' box={'x': 295, 'y': 3893.09375, 'width': 77, 'height': 14}
+37: tag=A title=None aria-label=None testo='I nostri marchi' box={'x': 295, 'y': 3915.59375, 'width': 78, 'height': 14}
+38: tag=A title=None aria-label=None testo='Scopri Carta Per Te' box={'x': 570, 'y': 3780.59375, 'width': 103, 'height': 14}
+39: tag=A title=None aria-label=None testo='Lavora con noi' box={'x': 570, 'y': 3849.59375, 'width': 79, 'height': 14}
+40: tag=A title=None aria-label=None testo='Parla con noi' box={'x': 570, 'y': 3872.09375, 'width': 70, 'height': 14}
+41: tag=A title=None aria-label=None testo='Area stampa' box={'x': 570, 'y': 3894.59375, 'width': 68, 'height': 14}
+42: tag=A title=None aria-label=None testo='Concorsi e iniziative' box={'x': 570, 'y': 3917.09375, 'width': 108, 'height': 14}
+43: tag=A title=None aria-label=None testo='' box={'x': 875, 'y': 3761.71875, 'width': 93.828125, 'height': 15}
+44: tag=A title=None aria-label=None testo='' box={'x': 968.828125, 'y': 3761.71875, 'width': 106.703125, 'height': 15}
+45: tag=A title=None aria-label='Facebook' testo='' box={'x': 875, 'y': 3859.09375, 'width': 54, 'height': 34}
+46: tag=A title=None aria-label='Instagram' testo='' box={'x': 949, 'y': 3859.09375, 'width': 54, 'height': 34}
+47: tag=A title=None aria-label='Youtube' testo='' box={'x': 1023, 'y': 3859.09375, 'width': 54, 'height': 34}
+48: tag=A title=None aria-label=None testo='Accedi al portale fornitori' box={'x': 875, 'y': 3961.09375, 'width': 182, 'height': 37}
+49: tag=A title=None aria-label=None testo='Modello Organizzativo - Codice Etico' box={'x': 293, 'y': 4042.09375, 'width': 204, 'height': 14}
+50: tag=A title=None aria-label=None testo='Garanzia legale' box={'x': 517, 'y': 4042.09375, 'width': 83, 'height': 14}
+51: tag=A title=None aria-label=None testo='Legal e Privacy' box={'x': 620, 'y': 4042.09375, 'width': 79, 'height': 14}
+52: tag=A title=None aria-label=None testo='Provvedimenti e Richiami' box={'x': 719, 'y': 4042.09375, 'width': 137, 'height': 14}
+53: tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 1020, 'y': 4042.09375, 'width': 87, 'height': 14}
+54: tag=A title=None aria-label=None testo='Fornace' box={'x': 713, 'y': 4262.59375, 'width': 41, 'height': 14}
+55: tag=BUTTON title=None aria-label=None testo='' box={'x': 1324, 'y': 1040, 'width': 60, 'height': 60}
+56: tag=BUTTON title=None aria-label=None testo='Cookie' box={'x': 1314.1875, 'y': 856, 'width': 79.8125, 'height': 38}

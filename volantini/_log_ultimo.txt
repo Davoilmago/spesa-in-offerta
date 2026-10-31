@@ -1,32 +1,470 @@
-  == pagina iniziale: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / CRAI ANZIO CRAI ANZIO Centro di distribuzione Crai Tirreno VIA DELLE CINQUE MIGLIA 58/60 06/9819599 041166@pdv.craitirreno.com Oggi: 08:00-21:00 Vedi tutti gli orari Le nostre offerte SOTTOCOSTO DELL'ANNIVERSARIO Leggi il volantino Condividi Scarica Orari di apertura Lunedi: 08:00-21:00 Martedi: 08:00-21:00 Mercoledi: 08:00-21:00 Giovedi: 08:00-21:00 Venerdi: 08:00-21:00 Sabato: 08:00-21:00 Domenica: 08:00-21:00 Indicazioni stradali Scorciatoie da tastiera Dati mappa ©2026 Google Termini Segnala un errore nella mappa Servizi Carta Fedeltà Bancomat Carta di Credito Parcheggio Reparti Macelleria Pescheria Ortofrutta Panetteria Salumi e Formaggi Gastronomia Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea "
-    frame: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    link utili (15/131): [['https://crai.it/negozi-e-volantini/2049-crai-anzio#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf', 'Leggi il volantino'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Condividi'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Scarica'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio#acsbContent', 'Salta al contenuto\n↵\nENTER']]
-    frame: about:srcdoc
-    link utili (0/0): []
-    frame: about:blank
-    link utili (0/0): []
-    cliccato 'Volantino' -> https://crai.it/negozi-e-volantini/2049-crai-anzio
-  == dopo clic 'Volantino': https://crai.it/negozi-e-volantini/2049-crai-anzio
-    testo: "Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / CRAI ANZIO CRAI ANZIO Centro di distribuzione Crai Tirreno VIA DELLE CINQUE MIGLIA 58/60 06/9819599 041166@pdv.craitirreno.com Oggi: 08:00-21:00 Vedi tutti gli orari Le nostre offerte SOTTOCOSTO DELL'ANNIVERSARIO Leggi il volantino Condividi Scarica Orari di apertura Lunedi: 08:00-21:00 Martedi: 08:00-21:00 Mercoledi: 08:00-21:00 Giovedi: 08:00-21:00 Venerdi: 08:00-21:00 Sabato: 08:00-21:00 Domenica: 08:00-21:00 Indicazioni stradali Scorciatoie da tastiera Dati mappa ©2026 Google Termini Segnala un errore nella mappa Servizi Carta Fedeltà Bancomat Carta di Credito Parcheggio Reparti Macelleria Pescheria Ortofrutta Panetteria Salumi e Formaggi Gastronomia Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea Bio Linea Eco Linea In Armonia Linea In Armonia corpo e capelli Filiera"
-    frame: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    link utili (15/131): [['https://crai.it/negozi-e-volantini/2049-crai-anzio#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf', 'Leggi il volantino'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Condividi'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Scarica'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio#acsbContent', 'Salta al contenuto\n↵\nENTER']]
-    frame: about:srcdoc
-    link utili (0/0): []
-    frame: about:blank
-    link utili (0/0): []
-    JSON https://eu-cdn.acsbapp.com/config/crai.it/config.json (1033 car.)
-    API https://crai.it/api/store-locator/all?filters=%5B%22volantino%22%5D: stato 200, tipo dict
-    NEGOZIO: {"id": "456", "slug": "2049-crai-anzio", "nomeCommerciale": "CRAI ANZIO", "ragioneSociale": "IPERBON ANZIO", "location": {"coordinates": {"lat": "41.513591", "lng": "12.606097"}}, "indirizzo": "VIA DELLE CINQUE MIGLIA 58/60", "comune": "Fondi", "cap": "04022", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29872", "inizioOrarioInvernale": "01/10", "fineOrarioInvernale": "31/03", "inizioOrarioEstivo": "01/04", "fineOrarioEstivo": "30/09", "orarioInverno": {"lunedi": "08:00-21:00", "martedi": "08:00-21:00", "mercoledi": "08:00-21:00", "giovedi": "08:00-21:00", "venerdi": "08:00-21:00", "sabato": "08:00-21:00", "domenica": "08:00-21:00"}, "orarioEstate": {"lunedi": "08:00-22:00", "martedi": "08:00-22:00", "mercoledi": "08:00-22:00", "giovedi": "08:00-22:00", "venerdi": "08:00-22:00", "sabato": "08:00-22:00", "domenica": "08:00-22:00"}}}
-    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "", "lng": ""}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31339", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
-    negozi nell'elenco: 679
-    API https://crai.it/api/store-locator/all: stato 200, tipo dict
-    NEGOZIO: {"id": "356", "slug": "3212-crai-parco-della-gallinara", "nomeCommerciale": "CRAI PARCO DELLA GALLINARA", "ragioneSociale": "COA SOC. COOP", "location": {"coordinates": {"lat": "41.531369", "lng": "12.561778"}}, "indirizzo": "VIA VECCHIARELLI N°2", "comune": "Anzio", "cap": "00042", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29319", "inizioOrarioInvernale": "01/01", "fineOrarioInvernale": "31/12", "inizioOrarioEstivo": "01/01", "fineOrarioEstivo": "31/12", "orarioInverno": {"lunedi": "8:30-12:30/15:00-19:00", "martedi": "8:30-12:30/15:00-19:00", "mercoledi": "8:30-12:30/15:00-19:00", "giovedi": "8:30-12:30/15:00-19:00", "venerdi": "8:30-12:30/15:00-19:00", "sabato": "8:30-12:30/15:00-19:00", "domenica": "8:30-12:30/15:00-19:00"}, "orarioEstate": {"lunedi": "8:30-12:30/15:00-19:00", "martedi": "8:30-12:30/15:00-19:00", "mercoledi": "8:30-12:30/15:00-19:00", "giovedi": "8:30-12:30/15:00-19:00", "venerdi": "8:30-12:30/15:00-19:00", "sabato": "8:30-12:30/15:00-19:00", "domenica": "8:30-12:30/15:00-19:00"}}}
-    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "", "lng": ""}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31339", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
-    NEGOZIO: {"id": "456", "slug": "2049-crai-anzio", "nomeCommerciale": "CRAI ANZIO", "ragioneSociale": "IPERBON ANZIO", "location": {"coordinates": {"lat": "41.513591", "lng": "12.606097"}}, "indirizzo": "VIA DELLE CINQUE MIGLIA 58/60", "comune": "Fondi", "cap": "04022", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29872", "inizioOrarioInvernale": "01/10", "fineOrarioInvernale": "31/03", "inizioOrarioEstivo": "01/04", "fineOrarioEstivo": "30/09", "orarioInverno": {"lunedi": "08:00-21:00", "martedi": "08:00-21:00", "mercoledi": "08:00-21:00", "giovedi": "08:00-21:00", "venerdi": "08:00-21:00", "sabato": "08:00-21:00", "domenica": "08:00-21:00"}, "orarioEstate": {"lunedi": "08:00-22:00", "martedi": "08:00-22:00", "mercoledi": "08:00-22:00", "giovedi": "08:00-22:00", "venerdi": "08:00-22:00", "sabato": "08:00-22:00", "domenica": "08:00-22:00"}}}
-    negozi nell'elenco: 1002
-    PDF visti dalla rete: []
-[ok] crai_unico: https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf (5588 KB)
-[salvato] lazio/anzio/crai.pdf (Crai Via delle Cinque Miglia 58/60)
+Catene previste per oggi: carrefour, conad, pam
+    apro https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625
+    altri indirizzi 'volantini' nella pagina (7):
+      https://www.conad.it/volantini/Spazio-Conad-Fascia2-Bis?anacanId=008625
+      https://www.conad.it/volantini/Spazio-Conad-Rilancio-Bis-Fascia1?anacanId=008625
+      https://www.conad.it/volantini/Spazio-Conad-Rilancio-Fascia3?anacanId=008625
+      https://www.conad.it/volantini/Offerte-Catalogo-Benessere-Lazio?anacanId=008625
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=008625
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=008625
+      https://www.conad.it/volantini/Speciale-Casa-Calda-Spazio?anacanId=008625
+[ok] conad_008625_Spazio-Conad-Fascia2: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1715993/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008625&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FSpazio-Conad-
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[salvato] lazio/anzio/conad.pdf (Spazio Conad, Viale Antium 4)
+    apro https://www.conad.it/volantini/Spazio-Conad-Fascia2-Bis?anacanId=008625
+    altri indirizzi 'volantini' nella pagina (7):
+      https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625
+      https://www.conad.it/volantini/Spazio-Conad-Rilancio-Bis-Fascia1?anacanId=008625
+      https://www.conad.it/volantini/Spazio-Conad-Rilancio-Fascia3?anacanId=008625
+      https://www.conad.it/volantini/Offerte-Catalogo-Benessere-Lazio?anacanId=008625
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=008625
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=008625
+      https://www.conad.it/volantini/Speciale-Casa-Calda-Spazio?anacanId=008625
+[ok] conad_008625_Spazio-Conad-Fascia2-Bis: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1727854/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008625&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FSpazio-Conad-
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[salvato] lazio/anzio/conad_2.pdf (Spazio Conad, Viale Antium 4 (secondo volantino))
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-via-delle-fonderie-snc-00042-anzio--006228
+      indirizzo trovato: https://www.conad.it/volantini/Offerte22-Superstore-Lazio?anacanId=006228
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=006228
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+      indirizzo trovato: https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=006228
+      indirizzo trovato: https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228
+    apro https://www.conad.it/volantini/Offerte22-Superstore-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=006228
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228
+[ok] conad_006228_Offerte22-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1719391/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte22-Sup
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Superstore-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=006228
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228
+[ok] conad_006228_Integrativa22-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1725946/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa22
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Superstore-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=006228
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228
+[ok] conad_006228_Catalogo-Scelte-Benessere-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716794/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Scel
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Superstore-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228
+[ok] conad_006228_Un-Mese-in-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1705369/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FUn-Mese-in-La
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/06-MDD-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Superstore-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=006228
+[ok] conad_006228_06-MDD-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1720415/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2F06-MDD-Lazio%
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[salvato] lazio/anzio/conad_3.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
+[salvato] lazio/anzio/conad_4.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
+[salvato] lazio/anzio/conad_5.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
+[salvato] lazio/anzio/conad_6.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
+[salvato] lazio/anzio/conad_7.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-carlo-cattaneo-22-00048-nettuno--010443
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010443
+      indirizzo trovato: https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010443
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+      indirizzo trovato: https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010443
+      indirizzo trovato: https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010443
+    apro https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010443
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010443
+[ok] conad_010443_Integrativa22-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1725956/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa22
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010443
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010443
+[ok] conad_010443_Offerte22-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1719427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte22-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010443
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010443
+[ok] conad_010443_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716777/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010443
+[ok] conad_010443_Un-Mese-in-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1705371/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FUn-Mese-in-La
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010443
+[ok] conad_010443_06-MDD-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1720427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2F06-MDD-Lazio%
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[salvato] lazio/nettuno/conad.pdf (Conad Via Carlo Cattaneo 22)
+[salvato] lazio/nettuno/conad_2.pdf (Conad Via Carlo Cattaneo 22)
+[salvato] lazio/nettuno/conad_3.pdf (Conad Via Carlo Cattaneo 22)
+[salvato] lazio/nettuno/conad_4.pdf (Conad Via Carlo Cattaneo 22)
+[salvato] lazio/nettuno/conad_5.pdf (Conad Via Carlo Cattaneo 22)
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-scipione-borghese-c-o-centro-comm-le-vele-snc-00048-nettuno--008451
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=008451
+      indirizzo trovato: https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=008451
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+      indirizzo trovato: https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=008451
+      indirizzo trovato: https://www.conad.it/volantini/06-MDD-Lazio?anacanId=008451
+    apro https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=008451
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=008451
+[ok] conad_008451_Integrativa22-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1725956/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa22
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=008451
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=008451
+[ok] conad_008451_Offerte22-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1719427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte22-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=008451
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=008451
+[ok] conad_008451_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716777/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=008451
+[ok] conad_008451_Un-Mese-in-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1705371/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FUn-Mese-in-La
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/06-MDD-Lazio?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=008451
+[ok] conad_008451_06-MDD-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1720427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2F06-MDD-Lazio%
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_4.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_5.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-santa-barbara-174-00048-nettuno--010683
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010683
+      indirizzo trovato: https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010683
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+      indirizzo trovato: https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010683
+      indirizzo trovato: https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010683
+    apro https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010683
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010683
+[ok] conad_010683_Integrativa22-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1725956/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa22
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010683
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010683
+[ok] conad_010683_Offerte22-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1719427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte22-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010683
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010683
+[ok] conad_010683_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716777/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010683
+[ok] conad_010683_Un-Mese-in-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1705371/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FUn-Mese-in-La
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010683
+[ok] conad_010683_06-MDD-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1720427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2F06-MDD-Lazio%
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_4.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_5.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-traunreut-44-00048-nettuno--005520
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=005520
+      indirizzo trovato: https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=005520
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+      indirizzo trovato: https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=005520
+      indirizzo trovato: https://www.conad.it/volantini/06-MDD-Lazio?anacanId=005520
+    apro https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=005520
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=005520
+[ok] conad_005520_Integrativa22-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1725956/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa22
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=005520
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=005520
+[ok] conad_005520_Offerte22-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1719427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte22-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=005520
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=005520
+[ok] conad_005520_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716777/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=005520
+[ok] conad_005520_Un-Mese-in-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1705371/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FUn-Mese-in-La
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/06-MDD-Lazio?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=005520
+[ok] conad_005520_06-MDD-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1720427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2F06-MDD-Lazio%
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_4.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_5.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-aldo-moro-19-00048-nettuno--010694
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010694
+      indirizzo trovato: https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010694
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+      indirizzo trovato: https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010694
+      indirizzo trovato: https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010694
+    apro https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010694
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010694
+[ok] conad_010694_Integrativa22-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1725956/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa22
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010694
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010694
+[ok] conad_010694_Offerte22-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1719427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte22-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010694
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010694
+[ok] conad_010694_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716777/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+      https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010694
+[ok] conad_010694_Un-Mese-in-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1705371/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FUn-Mese-in-La
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/06-MDD-Lazio?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa22-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Offerte22-Conad-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+      https://www.conad.it/volantini/Un-Mese-in-Lazio?anacanId=010694
+[ok] conad_010694_06-MDD-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1720427/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2F06-MDD-Lazio%
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_4.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_5.pdf, non lo duplico
+    volantini trovati per roma-nettuno: 0
+[ERRORE] pam_roma-nettuno: nessun link ai volantini nella pagina del negozio
+    volantini alimentari trovati per 5208: [('57038', 'Prezzi Freschi'), ('56973', 'Speciale Aia'), ('57026', 'Speciale Purina')]
+[ok] carrefour_5208_57038: PDF scaricato (16012 KB) - 'Prezzi Freschi' 2026-10-23..2026-11-05
+[ok] carrefour_5208_56973: PDF scaricato (3236 KB) - 'Speciale Aia' 2026-09-29..2026-11-15
+[ok] carrefour_5208_57026: PDF scaricato (1094 KB) - 'Speciale Purina' 2026-10-23..2026-11-05
+[salvato] lazio/nettuno/carrefour.pdf (Carrefour Market Via Trieste 78)
+[salvato] lazio/nettuno/carrefour_2.pdf (Carrefour Market Via Trieste 78)
+[salvato] lazio/nettuno/carrefour_3.pdf (Carrefour Market Via Trieste 78)
 
-Fatto: 1 file salvati, 0 errori.
+Fatto: 15 file salvati, 1 errori.
