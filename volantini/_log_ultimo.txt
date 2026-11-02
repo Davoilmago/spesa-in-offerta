@@ -1,284 +1,109 @@
-Catene previste per oggi: crai, deco, elite, eurospin, ins, md, tigre
-[ok] eurospin_anzio: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 1073, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1297, 'y': 18, 'width': 87, 'height': 21}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Sapori in Festa' box={'x': 842.5, 'y': 81, 'width': 115, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 989.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1243.5, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1291.5, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA E SPECIALE C' box={'x': 509.484375, 'y': 153, 'width': 381, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 475.984375, 'y': 434.78125, 'width': 88.390625, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 647.21875, 'y': 379.5, 'width': 76.765625, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 756.9375, 'y': 379.5, 'width': 87.578125, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 853.546875, 'y': 522.96875, 'width': 81.84375, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[salvato] lazio/anzio/eurospin.pdf (Via Nerone 15)
-[ok] eurospin_anzio-2: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 1073, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1297, 'y': 18, 'width': 87, 'height': 21}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Sapori in Festa' box={'x': 842.5, 'y': 81, 'width': 115, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 989.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1243.5, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1291.5, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA E SPECIALE C' box={'x': 509.484375, 'y': 153, 'width': 381, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 475.984375, 'y': 434.78125, 'width': 88.390625, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 647.21875, 'y': 379.5, 'width': 76.765625, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 756.9375, 'y': 379.5, 'width': 87.578125, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 853.546875, 'y': 522.96875, 'width': 81.84375, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Anzio eurospin (Via del Cinema 26): stesso volantino di eurospin.pdf, non lo duplico
-  == pagina iniziale: https://www.1leadermarketing.it/volantino/
-    testo: '1 / 28 ▦ 1 / 28 © MD Anzio ‹ › ☎ PDF PDF SCARICA 🍽️ ACCETTIAMO BUONI PASTO'
-    frame: https://www.1leadermarketing.it/volantino/
-    link utili (1/3): [['https://www.1leadermarketing.it/volantino/volantino.pdf', 'PDF\nPDF\nSCARICA']]
-  == dopo la scelta: https://www.1leadermarketing.it/volantino/
-    testo: '1 / 28 ▦ 1 / 28 © MD Anzio ‹ › ☎ PDF PDF SCARICA 🍽️ ACCETTIAMO BUONI PASTO'
-    frame: https://www.1leadermarketing.it/volantino/
-    link utili (1/3): [['https://www.1leadermarketing.it/volantino/volantino.pdf', 'PDF\nPDF\nSCARICA']]
-[ok] md_unico: https://www.1leadermarketing.it/volantino/volantino.pdf (16710 KB)
-[salvato] lazio/anzio/md.pdf (MD Via Goldoni 62)
-    PDF: https://insmercato-cdn.it/insmercato/volantino/23/rtifjd/pdf/volantino-A.pdf
-    date lette dalla copertina: 2026-11-04 - 2026-11-15
-[ok] ins_anzio: PDF scaricato (7080 KB)
-[salvato] lazio/anzio/ins.pdf (iN's Mercato Via di Villa Claudia 7)
-    viewer: https://deco.volantinopiu.com/ws/pv003499.php
-    testo viewer: '0 \xa0 \xa0 \xa0'
-    cartella pagine: https://resources.volantinopiu.it/flyer/2/9/2/0/3; richieste viste: [('https://deco.volantinopiu.com/ws/pre003499.php', 301), ('https://deco.volantinopiu.com/ws/thumb.php?refer=/ws/pre003499.php', 302), ('https://resources.volantinopiu.it/flyer/2/9/2/0/3/pagine/1.webp', 200), ('https://deco.volantinopiu.com/ws/pv003499.php', 301), ('https://deco.volantinopiu.com/ws/redirect.php?refer=/ws/pv003499.php', 302), ('https://deco.volantinopiu.com/volantino2920300pv695.html', 200), ('https://deco.volantinopiu.com//public/fontawesome/css/solid.min.css', 200), ('https://deco.volantinopiu.com//public/fontawesome/css/brands.min.css', 200)]
-    pagine scaricate: 44 (12689 KB)
-    dimensione pagina: [1152, 1695]; jpeg totale 17959 KB
-[ok] deco_unico: 44 pagine unite in PDF (13498 KB)
-[salvato] lazio/anzio/deco.pdf (Decò Via di Valle Schioia 67)
-    volantini nella pagina: [['Buoni e Fissi 6_2026', 'https://www.calameo.com/read/001940002470fd9abc74c', 'Tigre Amico - Anzio Valido fino al 31 dicembre 2026 Sfoglia volantino'], ['A23_2026', 'https://www.calameo.com/read/001940002734efb972eb7', 'Tigre Amico - Anzio Valido fino al 05 novembre 2026 Sfoglia volantino']]
-    libro 001940002734efb972eb7: pagine=12 key=261015080002-2ae58072e82dadf90de0cb43588343a5 svgz visti=8
-    token: _token_=exp=1793638144~acl=%2F261015080002-2ae58072e82dadf90de0cb43588343a5%2F%2A~hmac=374a9de9a4ef2069e5920f0c0ca0687949c8e7990be70c9903f64ed1b3adc3e8
-    pagine SVG scaricate: 12 (3882 KB)
-    inizio svg 1: b'<svg viewBox="0 0 1281 1600" version="1.1" preserveAspectRatio="xMinYMin meet" text-rendering="geometricPrecision" class="p1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">text{white-space:pre;font-size:16px;font-weight:normal;font-style:normal;fill:none;unicode-bidi:bidi-override}</style></defs><image width="1281" height="1600" preserveAspectRatio="none" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBw'
-    href esterni svg 1: 0; immagini incorporate: 1
-    PDF tigre-6507_972eb7.pdf: 12 pagine, 2786 KB
-[ok] tigre_6507: 1 volantino/i
-[salvato] lazio/anzio/tigre.pdf (Tigre Amico Via Matteotti 18)
-  == pagina iniziale: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / CRAI ANZIO CRAI ANZIO Centro di distribuzione Crai Tirreno VIA DELLE CINQUE MIGLIA 58/60 06/9819599 041166@pdv.craitirreno.com Oggi: 08:00-21:00 Vedi tutti gli orari Le nostre offerte SOTTOCOSTO DELL'ANNIVERSARIO Leggi il volantino Condividi Scarica Orari di apertura Lunedi: 08:00-21:00 Martedi: 08:00-21:00 Mercoledi: 08:00-21:00 Giovedi: 08:00-21:00 Venerdi: 08:00-21:00 Sabato: 08:00-21:00 Domenica: 08:00-21:00 Indicazioni stradali Scorciatoie da tastiera Dati mappa ©2026 Google Termini Segnala un errore nella mappa Servizi Carta Fedeltà Bancomat Carta di Credito Parcheggio Reparti Macelleria Pescheria Ortofrutta Panetteria Salumi e Formaggi Gastronomia Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea "
-    frame: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    link utili (15/131): [['https://crai.it/negozi-e-volantini/2049-crai-anzio#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf', 'Leggi il volantino'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Condividi'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Scarica'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio#acsbContent', 'Salta al contenuto\n↵\nENTER']]
-    frame: about:srcdoc
-    link utili (0/0): []
-    frame: about:blank
-    link utili (0/0): []
-    cliccato 'Volantino' -> https://crai.it/negozi-e-volantini/2049-crai-anzio
-  == dopo clic 'Volantino': https://crai.it/negozi-e-volantini/2049-crai-anzio
-    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / CRAI ANZIO CRAI ANZIO Centro di distribuzione Crai Tirreno VIA DELLE CINQUE MIGLIA 58/60 06/9819599 041166@pdv.craitirreno.com Oggi: 08:00-21:00 Vedi tutti gli orari Le nostre offerte SOTTOCOSTO DELL'ANNIVERSARIO Leggi il volantino Condividi Scarica Orari di apertura Lunedi: 08:00-21:00 Martedi: 08:00-21:00 Mercoledi: 08:00-21:00 Giovedi: 08:00-21:00 Venerdi: 08:00-21:00 Sabato: 08:00-21:00 Domenica: 08:00-21:00 Indicazioni stradali Scorciatoie da tastiera Dati mappa ©2026 Google Termini Segnala un errore nella mappa Servizi Carta Fedeltà Bancomat Carta di Credito Parcheggio Reparti Macelleria Pescheria Ortofrutta Panetteria Salumi e Formaggi Gastronomia Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea "
-    frame: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    link utili (15/131): [['https://crai.it/negozi-e-volantini/2049-crai-anzio#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf', 'Leggi il volantino'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Condividi'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Scarica'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio#acsbContent', 'Salta al contenuto\n↵\nENTER']]
-    frame: about:srcdoc
-    link utili (0/0): []
-    frame: about:blank
-    link utili (0/0): []
-    JSON https://eu-cdn.acsbapp.com/config/crai.it/config.json (1033 car.)
-    API https://crai.it/api/store-locator/all?filters=%5B%22volantino%22%5D: stato 200, tipo dict
-    NEGOZIO: {"id": "456", "slug": "2049-crai-anzio", "nomeCommerciale": "CRAI ANZIO", "ragioneSociale": "IPERBON ANZIO", "location": {"coordinates": {"lat": "41.513591", "lng": "12.606097"}}, "indirizzo": "VIA DELLE CINQUE MIGLIA 58/60", "comune": "Fondi", "cap": "04022", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29872", "inizioOrarioInvernale": "01/10", "fineOrarioInvernale": "31/03", "inizioOrarioEstivo": "01/04", "fineOrarioEstivo": "30/09", "orarioInverno": {"lunedi": "08:00-21:00", "martedi": "08:00-21:00", "mercoledi": "08:00-21:00", "giovedi": "08:00-21:00", "venerdi": "08:00-21:00", "sabato": "08:00-21:00", "domenica": "08:00-21:00"}, "orarioEstate": {"lunedi": "08:00-22:00", "martedi": "08:00-22:00", "mercoledi": "08:00-22:00", "giovedi": "08:00-22:00", "venerdi": "08:00-22:00", "sabato": "08:00-22:00", "domenica": "08:00-22:00"}}}
-    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "", "lng": ""}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31339", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
-    negozi nell'elenco: 679
-    API https://crai.it/api/store-locator/all: stato 200, tipo dict
-    NEGOZIO: {"id": "356", "slug": "3212-crai-parco-della-gallinara", "nomeCommerciale": "CRAI PARCO DELLA GALLINARA", "ragioneSociale": "COA SOC. COOP", "location": {"coordinates": {"lat": "41.531369", "lng": "12.561778"}}, "indirizzo": "VIA VECCHIARELLI N°2", "comune": "Anzio", "cap": "00042", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29319", "inizioOrarioInvernale": "01/01", "fineOrarioInvernale": "31/12", "inizioOrarioEstivo": "01/01", "fineOrarioEstivo": "31/12", "orarioInverno": {"lunedi": "8:30-12:30/15:00-19:00", "martedi": "8:30-12:30/15:00-19:00", "mercoledi": "8:30-12:30/15:00-19:00", "giovedi": "8:30-12:30/15:00-19:00", "venerdi": "8:30-12:30/15:00-19:00", "sabato": "8:30-12:30/15:00-19:00", "domenica": "8:30-12:30/15:00-19:00"}, "orarioEstate": {"lunedi": "8:30-12:30/15:00-19:00", "martedi": "8:30-12:30/15:00-19:00", "mercoledi": "8:30-12:30/15:00-19:00", "giovedi": "8:30-12:30/15:00-19:00", "venerdi": "8:30-12:30/15:00-19:00", "sabato": "8:30-12:30/15:00-19:00", "domenica": "8:30-12:30/15:00-19:00"}}}
-    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "", "lng": ""}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31339", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
-    NEGOZIO: {"id": "456", "slug": "2049-crai-anzio", "nomeCommerciale": "CRAI ANZIO", "ragioneSociale": "IPERBON ANZIO", "location": {"coordinates": {"lat": "41.513591", "lng": "12.606097"}}, "indirizzo": "VIA DELLE CINQUE MIGLIA 58/60", "comune": "Fondi", "cap": "04022", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29872", "inizioOrarioInvernale": "01/10", "fineOrarioInvernale": "31/03", "inizioOrarioEstivo": "01/04", "fineOrarioEstivo": "30/09", "orarioInverno": {"lunedi": "08:00-21:00", "martedi": "08:00-21:00", "mercoledi": "08:00-21:00", "giovedi": "08:00-21:00", "venerdi": "08:00-21:00", "sabato": "08:00-21:00", "domenica": "08:00-21:00"}, "orarioEstate": {"lunedi": "08:00-22:00", "martedi": "08:00-22:00", "mercoledi": "08:00-22:00", "giovedi": "08:00-22:00", "venerdi": "08:00-22:00", "sabato": "08:00-22:00", "domenica": "08:00-22:00"}}}
-    negozi nell'elenco: 1002
-    PDF visti dalla rete: []
-[ok] crai_unico: https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf (5588 KB)
-[salvato] lazio/anzio/crai.pdf (Crai Via delle Cinque Miglia 58/60)
-[ok] eurospin_nettuno: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 1073, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1297, 'y': 18, 'width': 87, 'height': 21}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Sapori in Festa' box={'x': 842.5, 'y': 81, 'width': 115, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 989.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1243.5, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1291.5, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA E SPECIALE C' box={'x': 509.484375, 'y': 153, 'width': 381, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 475.984375, 'y': 434.78125, 'width': 88.390625, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 647.21875, 'y': 379.5, 'width': 76.765625, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 756.9375, 'y': 379.5, 'width': 87.578125, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 853.546875, 'y': 522.96875, 'width': 81.84375, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[salvato] lazio/nettuno/eurospin.pdf (Via Scipione Borghese 35)
-    PDF: https://insmercato-cdn.it/insmercato/volantino/23/rtifjd/pdf/volantino-A.pdf
-    date lette dalla copertina: 2026-11-04 - 2026-11-15
-[ok] ins_nettuno: PDF scaricato (7080 KB)
-[salvato] lazio/nettuno/ins.pdf (iN's Mercato Via Ugo La Malfa 9)
-    promozioni trovate: 5 (link totali 15): ['https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2']
-[ERRORE] elite_tutti_1: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20153&pdf=1&Itemid=0 non e' un PDF (stato 429)
-    https://superelite.it/promozioni/grandi-marche-al-costo-2: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a54086580ba99e1f Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_tutti_2: link PDF non trovato in https://superelite.it/promozioni/grandi-marche-al-costo-2
-    https://superelite.it/promozioni/novembre-conveniente-2: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a540866e8e149e1f Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_tutti_3: link PDF non trovato in https://superelite.it/promozioni/novembre-conveniente-2
-[ok] elite_tutti_4: https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio fino al 2026-12-31 (2694 KB)
-    https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a54086c30c429e1f Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_tutti_5: link PDF non trovato in https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2
-[salvato] lazio/nettuno/elite.pdf (Elite Via De Gasperi 14)
+== conad: https://www.conad.it/ricerca-negozi
+   titolo: 'Supermercati e Volantini Conad: le nostre offerte e promozioni | Conad'  url: https://www.conad.it/ricerca-negozi
+   frame https://www.conad.it/ricerca-negozi: 4 campi
+   cercato 'Latina' nel campo 2
+   frame https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeX2lQaAAAAAKDBeCJJrC: 0 campi
+   frame about:srcdoc: 0 campi
+   frame about:blank: 0 campi
+   frame about:blank: 0 campi
+   frame about:blank: 0 campi
+   frame about:blank: 0 campi
+   url dopo la ricerca: https://www.conad.it/ricerca-negozi
+   testo: "Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto Seleziona il punto vendita per scoprire le offerte Spesa Online Assicurazioni Viaggi Sapori& Accedi Registrati Vantaggi per te Negozi e volantini HeyConad Prodotti Carte e Premi Servizi Bene Insieme Contattaci Negozi e volantini Cerca il tuo negozio per scoprire i volantini Indirizzo, CAP o città Filtra Aperto ora Dopo le 20:00 Domenica Scegli il negozio 21 trovati 0,28 km Conad City Hai raggiunto il numero massimo di negozi salvati. Gestisci i tuoi negozi nella sezione dedicata. I tuoi negozi Negozio salvato! Salva come preferito Salva negozio Via F.lli Bandiera 15, 04100 Latina (LT) 08:00 - 13:30, 16:00 - 20:00 Consulta i volantini (4) 0,97 km Conad Superstore Hai raggiunto il numero massimo di negozi salvati. Gestisci i tuoi negozi nella sezione dedicata. I tuoi negozi Negozio salvato! Salva come preferito Salva negozio Via Ezio 47, 04100 Latina (LT) 08:00 - 21:00 Consulta i volantini (5) 1,35 km Conad Hai raggiunto il numero massimo di negozi salvati. Gestisci i tuoi negozi nella sezione dedicata. I tuoi negozi Negozio salvato! Salva come preferito Salva n"
+   link utili (13/178): [['https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223', 'Conad City'], ['https://www.conad.it/ricerca-negozi/conad-superstore-via-ezio-47-04100-latina--008038', 'Conad Superstore'], ['https://www.conad.it/ricerca-negozi/conad-via-don-carlo-torello-51-04100-latina--006232', 'Conad'], ['https://www.conad.it/ricerca-negozi/conad-superstore-via-pier-luigi-nervi-c-o-c-c-le-torri-76-04100-latina--008449', 'Conad Superstore'], ['https://www.conad.it/ricerca-negozi/pet-store-conad-via-don-luigi-sturzo-25-04100-latina--050924', 'Pet Store Conad'], ['https://www.conad.it/ricerca-negozi/conad-superstore-viale-pier-luigi-nervi-snc-04100-latina--010397', 'Conad Superstore'], ['https://www.conad.it/ricerca-negozi/conad-via-isonzo-157-04100-latina--009866', 'Conad'], ['https://www.conad.it/ricerca-negozi/conad-viale-picasso-c-o-centro-commerciale-morbella-snc-04100-latina--008450', 'Conad'], ['https://www.conad.it/ricerca-negozi/conad-viale-nicolo-paganini-41-47-04100-latina--008926', 'Conad'], ['https://www.conad.it/ricerca-negozi/conad-city-via-capograssa-325-04010-latina--009124', 'Conad City'], ['https://www.conad.it/ricerca-negozi/conad-via-foce-verde-211-04100-latina--008811', 'Conad'], ['https://www.conad.it/ricerca-negozi/conad-strada-delle-ferriere-4-04100-latina--009340', 'Conad'], ['https://www.conad.it/ricerca-negozi/conad-via-enrico-fermi-snc-04012-cisterna-di-latina--010527', 'Conad']]
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   JSON https://www.conad.it/api/corporate/it-it.retrievePointOfService.json (63454 car.)
+      ...'[20,19,22,16,15,13,14],"serviziId":[19,40,39],"ordinaRitiraExtra":"N","spesaACasa":"N","ordinaRitira":"N","codiceCooperativa":"PAC","latitudine":41.46906366,"longitudine":12.90552158,"codiceProvincia":"LT","nomeComune":"LATINA","giornateOrdinarie":[{"giornoSettimana":"sabato","aperturaMattina":"08:00","chiusuraMattina":"13:30","aperturaPomeriggio":"16:00","chiusuraPomeriggio":"20:00"},{"giornoSettimana":"venerdi","aperturaMattina":"08:00","ch'
+      ...'","chiusuraMattina":"13:30","aperturaPomeriggio":"16:00","chiusuraPomeriggio":"20:00"},"pdvOpen":true,"pdvDayOpen":true,"pdvTemporaryClosed":false,"pdvStraordinaryClosed":false,"pdvAddress":"Via F.lli Bandiera 15, 04100 Latina (LT)","pdvDirectionsPlainUrl":"https://www.google.com/maps/dir/?api=1&destination=Via+F.lli+Bandiera+15%2C+04100+Latina+%28LT%29&travelmode=driving","pdvPlainUrl":"https://www.conad.it/ricerca-negozi/conad-city-via-flli'
+      ...'"pdvTemporaryClosed":false,"pdvStraordinaryClosed":false,"pdvAddress":"Via F.lli Bandiera 15, 04100 Latina (LT)","pdvDirectionsPlainUrl":"https://www.google.com/maps/dir/?api=1&destination=Via+F.lli+Bandiera+15%2C+04100+Latina+%28LT%29&travelmode=driving","pdvPlainUrl":"https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223","pdvUrlAddress":"VIA F.LLI BANDIERA 15, 04100 LATINA","pdvLink":{"path":"/content/con'
+      ...'nsPlainUrl":"https://www.google.com/maps/dir/?api=1&destination=Via+F.lli+Bandiera+15%2C+04100+Latina+%28LT%29&travelmode=driving","pdvPlainUrl":"https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223","pdvUrlAddress":"VIA F.LLI BANDIERA 15, 04100 LATINA","pdvLink":{"path":"/content/conad-corporate/it/it/jcr:content/pdvLink-001223","name":"pdvLink-001223","href":"https://www.conad.it/ricerca-negozi/conad-city'
+      ...'n=Via+F.lli+Bandiera+15%2C+04100+Latina+%28LT%29&travelmode=driving","pdvPlainUrl":"https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223","pdvUrlAddress":"VIA F.LLI BANDIERA 15, 04100 LATINA","pdvLink":{"path":"/content/conad-corporate/it/it/jcr:content/pdvLink-001223","name":"pdvLink-001223","href":"https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223","plainHref":"https'
+      ...'IA F.LLI BANDIERA 15, 04100 LATINA","pdvLink":{"path":"/content/conad-corporate/it/it/jcr:content/pdvLink-001223","name":"pdvLink-001223","href":"https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223","plainHref":"https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223","uniqueId":"nt:unstructured-865411360","customResourceType":"nt:unstructured"},"pdvDirectionsLink":{"path":'
+      ...'nk-001223","name":"pdvLink-001223","href":"https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223","plainHref":"https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223","uniqueId":"nt:unstructured-865411360","customResourceType":"nt:unstructured"},"pdvDirectionsLink":{"path":"/content/conad-corporate/it/it/jcr:content/pdvDirectionsLink","name":"pdvDirectionsLink","data-link-tr'
+      ...'Link":{"path":"/content/conad-corporate/it/it/jcr:content/pdvDirectionsLink","name":"pdvDirectionsLink","data-link-tracking":"{}","href":"https://www.google.com/maps/dir/?api=1&destination=Via+F.lli+Bandiera+15%2C+04100+Latina+%28LT%29&travelmode=driving","plainHref":"https://www.google.com/maps/dir/?api=1&destination=Via+F.lli+Bandiera+15%2C+04100+Latina+%28LT%29&travelmode=driving","uniqueId":"nt:unstructured-1905608287","customResourceType'
+== carrefour: https://www.carrefour.it/volantino/
+   titolo: 'Volantino Carrefour: le offerte dei nostri negozi | Carrefour'  url: https://www.carrefour.it/volantino
+   frame https://www.carrefour.it/volantino: 5 campi
+   cercato 'Latina' nel campo 1
+   frame about:blank: 0 campi
+   frame about:blank: 0 campi
+   frame https://d2lyx5ly60ksu3.cloudfront.net/cdn/ca/f50c0d7d36e2850ae28fa0cb2f93bfb0f8f: 0 campi
+   frame about:blank: 0 campi
+   frame https://i3.vivocha.com/a/carrefour/js/dataframe/: 0 campi
+   url dopo la ricerca: https://www.carrefour.it/volantino
+   testo: 'Lavora con noi Serve aiuto? Punti vendita Servizi SCOPRI LE PROMOZIONI ONLINE Volantino Carrefour: scopri le offerte del tuo punto vendita Carrefour Market VIALE PETRARCA N. 41 - LATINA (LT) 0.8 km Carrefour Market VIA CAPOGRASSA N. 5 - LATINA (LT) 1.9 km Carrefour Market VIA DEL LIDO 21 - LATINA (LT) 2.6 km Carrefour Market VIA ISONZO 39 - LATINA (LT) 3 km Carrefour Market VIA DEL LIDO,122 - LATINA (LT) 3 km Carrefour Express STRADA MACCHIA GRANDE 141 - LATINA (LT) 10 km Carrefour Express VIA MIGLIARA 47 N 3.136 - SABAUDIA (LT) 11.5 km 2 2 © Woosmap © OpenMapTiles © OpenStreetMap contributors © Copernicus Carrefour per te - I nostri servizi Scarica gratis la nuova app Carrefour Carrefour NOW Il nuovo servizio di consegna veloce Franchising Carrefour Apri un negozio insieme a noi Gift Card Carrefour Scopri le nostre carte prepagate per privati e aziende Agevolazioni Consegna gratuita per spese online ogni 7 giorni GIFT CARD CARREFOUR CARREFOUR CARBURANTI LIBRI DI TESTO #restaconnesso In Italia Sostenibilità Lavora con noi Franchising Volantini I nostri marchi Area legale Dati societari Tutela dei dati personali Garanzia legale di conformità Condizioni generali Condizioni generali d'
+   link utili (13/80): [['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-viale-petrarca-n-41/0459', 'Carrefour Market\n\nVIALE PETRARCA N. 41 - LATINA (LT)\n\n0.8 km'], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-capograssa-n-5/0357', 'Carrefour Market\n\nVIA CAPOGRASSA N. 5 - LATINA (LT)\n\n1.9 km'], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-del-lido-21/3722', 'Carrefour Market\n\nVIA DEL LIDO 21 - LATINA (LT)\n\n2.6 km'], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-isonzo-39/2253', 'Carrefour Market\n\nVIA ISONZO 39 - LATINA (LT)\n\n3 km'], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-del-lido122/3282', 'Carrefour Market\n\nVIA DEL LIDO,122 - LATINA (LT)\n\n3 km'], ['https://www.carrefour.it/volantino/supermercato-carrefour-express-latina-strada-macchia-grande-141/4336', 'Carrefour Express\n\nSTRADA MACCHIA GRANDE 141 - LATINA (LT)\n\n'], ['https://www.carrefour.it/volantino/supermercato-carrefour-express-sabaudia-via-migliara-47-n-3136/0513', 'Carrefour Express\n\nVIA MIGLIARA 47 N 3.136 - SABAUDIA (LT)\n\n'], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-viale-petrarca-n-41/0459', 'Carrefour Market\n          VIALE PETRARCA N. 41 - LATINA (LT'], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-capograssa-n-5/0357', 'Carrefour Market\n          VIA CAPOGRASSA N. 5 - LATINA (LT)'], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-del-lido-21/3722', 'Carrefour Market\n          VIA DEL LIDO 21 - LATINA (LT)\n   '], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-isonzo-39/2253', 'Carrefour Market\n          via Isonzo 39 - LATINA (LT)\n     '], ['https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-del-lido122/3282', 'Carrefour Market\n          Via del lido,122 - LATINA (LT)\n  '], ['https://www.carrefour.it/volantino/supermercato-carrefour-express-latina-strada-macchia-grande-141/4336', 'Carrefour Express\n          Strada Macchia Grande 141 - LATI']]
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   JSON https://www.carrefour.it/on/demandware.store/Sites-carrefour-IT-Site/it_IT/StoreLocator-GetAll?volantinichat= (1090803 car.)
+      ...' {\n      "Id": "4336",\n      "Msi": 4336,\n      "Reparti": [\n        27,\n        15\n      ],\n      "Servizi": [\n        59\n      ],\n      "Insegna": "Carrefour Express",\n      "Descrizione": "Strada Macchia Grande 141 - LATINA (LT)",\n      "Citta": "LATINA",\n      "Indirizzo": "Strada Macchia Grande 141",\n      "Provincia": "LT",\n      "CAP": "04100",\n      "Latitude": 41.419396,\n      "Longitude": 12.802394,\n      "Url": "/punti-vendita/carr'
+      ...'Msi": 4336,\n      "Reparti": [\n        27,\n        15\n      ],\n      "Servizi": [\n        59\n      ],\n      "Insegna": "Carrefour Express",\n      "Descrizione": "Strada Macchia Grande 141 - LATINA (LT)",\n      "Citta": "LATINA",\n      "Indirizzo": "Strada Macchia Grande 141",\n      "Provincia": "LT",\n      "CAP": "04100",\n      "Latitude": 41.419396,\n      "Longitude": 12.802394,\n      "Url": "/punti-vendita/carrefour-express-latina-strada-ma'
+      ...'"Citta": "LATINA",\n      "Indirizzo": "Strada Macchia Grande 141",\n      "Provincia": "LT",\n      "CAP": "04100",\n      "Latitude": 41.419396,\n      "Longitude": 12.802394,\n      "Url": "/punti-vendita/carrefour-express-latina-strada-macchia-grande-141-4336.html",\n      "UrlVolantini": "/volantino/supermercato-carrefour-express-latina-strada-macchia-grande-141/4336",\n      "DirectionExternalUrl": "https://www.google.com/maps/dir/?api=1&destin'
+      ...'0",\n      "Latitude": 41.419396,\n      "Longitude": 12.802394,\n      "Url": "/punti-vendita/carrefour-express-latina-strada-macchia-grande-141-4336.html",\n      "UrlVolantini": "/volantino/supermercato-carrefour-express-latina-strada-macchia-grande-141/4336",\n      "DirectionExternalUrl": "https://www.google.com/maps/dir/?api=1&destination=41.419396,12.802394",\n      "Orari": {\n        "lunedi": "08:00-13:30,16:00-20:00",\n        "martedi": "'
+      ...'chising",\n      "UrlQoda": ""\n    },\n    {\n      "Id": "3282",\n      "Msi": 3282,\n      "Reparti": [],\n      "Servizi": [\n        59\n      ],\n      "Insegna": "Carrefour Market",\n      "Descrizione": "Via del lido,122 - LATINA (LT)",\n      "Citta": "LATINA",\n      "Indirizzo": "Via del lido,122",\n      "Provincia": "LT",\n      "CAP": "04010",\n      "Latitude": 41.44386241196549,\n      "Longitude": 12.886529326178911,\n      "Url": "/punti-vend'
+      ...'    },\n    {\n      "Id": "3282",\n      "Msi": 3282,\n      "Reparti": [],\n      "Servizi": [\n        59\n      ],\n      "Insegna": "Carrefour Market",\n      "Descrizione": "Via del lido,122 - LATINA (LT)",\n      "Citta": "LATINA",\n      "Indirizzo": "Via del lido,122",\n      "Provincia": "LT",\n      "CAP": "04010",\n      "Latitude": 41.44386241196549,\n      "Longitude": 12.886529326178911,\n      "Url": "/punti-vendita/carrefour-market-latina-vi'
+      ...': "LATINA",\n      "Indirizzo": "Via del lido,122",\n      "Provincia": "LT",\n      "CAP": "04010",\n      "Latitude": 41.44386241196549,\n      "Longitude": 12.886529326178911,\n      "Url": "/punti-vendita/carrefour-market-latina-via-del-lido122-3282.html",\n      "UrlVolantini": "/volantino/supermercato-carrefour-market-latina-via-del-lido122/3282",\n      "DirectionExternalUrl": "https://www.google.com/maps/dir/?api=1&destination=41.443862411965'
+      ...'     "Latitude": 41.44386241196549,\n      "Longitude": 12.886529326178911,\n      "Url": "/punti-vendita/carrefour-market-latina-via-del-lido122-3282.html",\n      "UrlVolantini": "/volantino/supermercato-carrefour-market-latina-via-del-lido122/3282",\n      "DirectionExternalUrl": "https://www.google.com/maps/dir/?api=1&destination=41.44386241196549,12.886529326178911",\n      "Orari": {\n        "lunedi": "08:00-22:00",\n        "martedi": "08:00'
+   JSON https://api.woosmap.com/localities/autocomplete/?input=Latina&key=woos-8dd7a67e-6b8f-3f3e-84fd-359a9334187c&components=country:it&language=it&types= (3083 car.)
+      ...'{"localities":[{"public_id":"bG9jYWxpdHk6aXQ6Y2l0eTpwMWJYWEpRRHdneWdzYVhuRWE4R1pLQmtiMlU9","type":"locality","types":["locality","city"],"description":"Latina, Italia","matched_substrings":{"description":[{"offset":0,"length":6}]},"related":{"postal_codes":[{"public_id":"cG9zdGFsX2NvZGU6aXQ6OjNSS0c2eldsZnZZR25melFkcXZyQjRvR0ZBST0=","description":"04100, Latina, Italia"}]},"na'
+      ...',"description":"Latina, Italia","matched_substrings":{"description":[{"offset":0,"length":6}]},"related":{"postal_codes":[{"public_id":"cG9zdGFsX2NvZGU6aXQ6OjNSS0c2eldsZnZZR25melFkcXZyQjRvR0ZBST0=","description":"04100, Latina, Italia"}]},"name":"Latina","admin_0":"Italia","admin_1":"Latina","location":{"lat":41.467299,"lng":12.903752},"viewpoint":{"bounds":{"north":41.561736,"south":41.383779,"east":13.024697,"west":12.719619}},"postal_codes'
+      ...'lia","matched_substrings":{"description":[{"offset":0,"length":6}]},"related":{"postal_codes":[{"public_id":"cG9zdGFsX2NvZGU6aXQ6OjNSS0c2eldsZnZZR25melFkcXZyQjRvR0ZBST0=","description":"04100, Latina, Italia"}]},"name":"Latina","admin_0":"Italia","admin_1":"Latina","location":{"lat":41.467299,"lng":12.903752},"viewpoint":{"bounds":{"north":41.561736,"south":41.383779,"east":13.024697,"west":12.719619}},"postal_codes":["04100"]},{"public_id":"'
+      ...'n":[{"offset":0,"length":6}]},"related":{"postal_codes":[{"public_id":"cG9zdGFsX2NvZGU6aXQ6OjNSS0c2eldsZnZZR25melFkcXZyQjRvR0ZBST0=","description":"04100, Latina, Italia"}]},"name":"Latina","admin_0":"Italia","admin_1":"Latina","location":{"lat":41.467299,"lng":12.903752},"viewpoint":{"bounds":{"north":41.561736,"south":41.383779,"east":13.024697,"west":12.719619}},"postal_codes":["04100"]},{"public_id":"bG9jYWxpdHk6aXQ6dmlsbGFnZTpWZmJndzdxNz'
+      ...'th":41.383779,"east":13.024697,"west":12.719619}},"postal_codes":["04100"]},{"public_id":"bG9jYWxpdHk6aXQ6dmlsbGFnZTpWZmJndzdxNzBaSXlhU1pxY24yRlBydkx4QjQ9","type":"locality","types":["locality","village"],"description":"Latina, Baia e Latina, Caserta, Italia","matched_substrings":{"description":[{"offset":0,"length":6}]},"related":{"postal_codes":[{"public_id":"cG9zdGFsX2NvZGU6aXQ6OmVEK2tuZ3ovZW8rS1l5N3pNMHNSNTBlZmdkND0=","description":"81010'
+      ...'east":13.024697,"west":12.719619}},"postal_codes":["04100"]},{"public_id":"bG9jYWxpdHk6aXQ6dmlsbGFnZTpWZmJndzdxNzBaSXlhU1pxY24yRlBydkx4QjQ9","type":"locality","types":["locality","village"],"description":"Latina, Baia e Latina, Caserta, Italia","matched_substrings":{"description":[{"offset":0,"length":6}]},"related":{"postal_codes":[{"public_id":"cG9zdGFsX2NvZGU6aXQ6OmVEK2tuZ3ovZW8rS1l5N3pNMHNSNTBlZmdkND0=","description":"81010, Latina, Itali'
+      ...'Baia e Latina, Caserta, Italia","matched_substrings":{"description":[{"offset":0,"length":6}]},"related":{"postal_codes":[{"public_id":"cG9zdGFsX2NvZGU6aXQ6OmVEK2tuZ3ovZW8rS1l5N3pNMHNSNTBlZmdkND0=","description":"81010, Latina, Italia"}]},"name":"Latina","admin_0":"Italia","admin_1":"Caserta","admin_2":"Baia e Latina","location":{"lat":41.289327,"lng":14.273775},"viewpoint":{"bounds":{"north":41.32607,"south":41.276892,"east":14.309261,"west"'
+      ...'lia","matched_substrings":{"description":[{"offset":0,"length":6}]},"related":{"postal_codes":[{"public_id":"cG9zdGFsX2NvZGU6aXQ6OmVEK2tuZ3ovZW8rS1l5N3pNMHNSNTBlZmdkND0=","description":"81010, Latina, Italia"}]},"name":"Latina","admin_0":"Italia","admin_1":"Caserta","admin_2":"Baia e Latina","location":{"lat":41.289327,"lng":14.273775},"viewpoint":{"bounds":{"north":41.32607,"south":41.276892,"east":14.309261,"west":14.218191}},"postal_codes"'
+   JSON https://api.woosmap.com/localities/details/?key=woos-8dd7a67e-6b8f-3f3e-84fd-359a9334187c&components=country:it&language=it&types=&public_id=bG9jYWxpdHk6aXQ6Y2l (825 car.)
+      ...'{"result":{"public_id":"bG9jYWxpdHk6aXQ6Y2l0eTpwMWJYWEpRRHdneWdzYVhuRWE4R1pLQmtiMlU9","types":["locality","city"],"formatted_address":"Latina, Italia","name":"Latina","geometry":{"location":{"lat":41.467299,"lng":12.903752},"viewport":{"northeast":{"lat":41.561736,"lng":13.024697},"southwest":{"lat":41.383779,"lng":12.719619}},"accuracy":"GEOMETRIC_CENTER"},"'
+      ...'{"result":{"public_id":"bG9jYWxpdHk6aXQ6Y2l0eTpwMWJYWEpRRHdneWdzYVhuRWE4R1pLQmtiMlU9","types":["locality","city"],"formatted_address":"Latina, Italia","name":"Latina","geometry":{"location":{"lat":41.467299,"lng":12.903752},"viewport":{"northeast":{"lat":41.561736,"lng":13.024697},"southwest":{"lat":41.383779,"lng":12.719619}},"accuracy":"GEOMETRIC_CENTER"},"address_components":[{"t'
+      ...'ivision_level_0"],"long_name":"Italia","short_name":"IT"},{"types":["state","division_level_1"],"long_name":"Lazio","short_name":"Lazio"},{"types":["administrative_area_level_1","county","division_level_2"],"long_name":"Latina","short_name":"Latina"},{"types":["locality"],"long_name":"Latina","short_name":"Latina"},{"types":["postal_codes"],"long_name":["04100"],"short_name":["04100"]}]}}'
+      ...'g_name":"Italia","short_name":"IT"},{"types":["state","division_level_1"],"long_name":"Lazio","short_name":"Lazio"},{"types":["administrative_area_level_1","county","division_level_2"],"long_name":"Latina","short_name":"Latina"},{"types":["locality"],"long_name":"Latina","short_name":"Latina"},{"types":["postal_codes"],"long_name":["04100"],"short_name":["04100"]}]}}'
+      ...':["state","division_level_1"],"long_name":"Lazio","short_name":"Lazio"},{"types":["administrative_area_level_1","county","division_level_2"],"long_name":"Latina","short_name":"Latina"},{"types":["locality"],"long_name":"Latina","short_name":"Latina"},{"types":["postal_codes"],"long_name":["04100"],"short_name":["04100"]}]}}'
+      ...'vel_1"],"long_name":"Lazio","short_name":"Lazio"},{"types":["administrative_area_level_1","county","division_level_2"],"long_name":"Latina","short_name":"Latina"},{"types":["locality"],"long_name":"Latina","short_name":"Latina"},{"types":["postal_codes"],"long_name":["04100"],"short_name":["04100"]}]}}'
+== eurospin: https://www.eurospin.it/punti-vendita/
+   titolo: 'Trova il tuo punto vendita Eurospin - Eurospin'  url: https://www.eurospin.it/punti-vendita/
+   frame https://www.eurospin.it/punti-vendita/: 3 campi
+   cercato 'Latina' nel campo 2
+   frame https://js.refiner.io/v001/render/index.html: 0 campi
+   frame about:blank: 0 campi
+   url dopo la ricerca: https://www.eurospin.it/punti-vendita/
+   testo: "1ª CONSEGNA GRATIS ORDINA ORA Scopri EuroSpin Ricette News ENKHO Lavora con noi Area fornitori Contatti IT Volantino Punti vendita Promozioni I nostri Marchi Compra Online homepunti vendita Trova il tuo punto vendita Eurospin Con una rete nazionale di oltre 1300 punti vendita, EuroSpin garantisce un servizio comodo e vicino alle tue esigenze: ogni discount infatti è in grado di offrirti, oltre alla qualità dei prodotti EuroSpin, la freschezza e la genuinità delle specialità della tua regione. NOVITÀ! Seleziona il punto vendita, scarica il volantino e consulta le aperture straordinarie, i reparti, i servizi, e come raggiungere il punto vendita. Localizzami Cerca entro: 10 km 30 km 60 km Filtra per Mappa Satellite Scorciatoie da tastiera Dati mappa Termini Restiamo in contatto Rimani aggiornato su tutte le novità di Eurospin. ISCRIVITI Dichiaro di avere preso visione dell'informativa privacy ai sensi dell’art.13 del Reg. UE 2016/679 e acconsento al trattamento dei dati personali per finalità promozionali e di marketing * Acconsento che i miei dati siano trattati da Eurospin per creare offerte e comunicazioni personalizzate basate sui miei interessi e sulle mie abitudini di acquisto ("
+   link utili (0/106): []
+   link utili (0/0): []
+   link utili (0/0): []
+== eurospin2: https://www.eurospin.com/it-it/punti-vendita/
+   titolo: 'Negozi Eurospin: Trova il Punto Vendita più Vicino | Eurospin Italia'  url: https://www.eurospin.com/it-it/punti-vendita/
+   frame https://www.eurospin.com/it-it/punti-vendita/: 4 campi
+   cercato 'Latina' nel campo 1
+   frame https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIz: 0 campi
+   frame about:blank: 0 campi
+   frame about:blank: 0 campi
+   frame about:blank: 0 campi
+   frame https://www.google.com/recaptcha/api2/bframe?hl=it&v=bSuJ2xBC8cFy7pM4Z3Hu9boH&k=: 0 campi
+   url dopo la ricerca: https://www.eurospin.com/it-it/punti-vendita/
+   testo: 'Passa al contenuto principale Le nostre offerte Ricette Compra Online Seleziona il tuo negozio Contatti Volantino Prodotti I nostri marchi Eurospin Family Gruppo Eurospin Sapori in Festa Scopri Amo Essere Accedi Home Punti vendita Trova il punto vendita Eurospin più vicino a te Cerca per città o CAP e scopri orari, servizi disponibili, aperture straordinarie e volantino del tuo negozio preferito Cerca punto vendita Cerca un punto vendita per città o CAP Cerca Latina, LT, Italia Latina Scalo, LT, Italia Latina, Italia Cisterna di Latina, LT, Italia Lido di Latina, LT, Italia Filtra risultati 500+ Risultati Roma - Via di Santa Maria Goretti Via di Santa Maria Goretti, 22, 00199 Roma (Roma) Chiuso - Apre alle 08:30 Vedi Dettaglio Sfoglia Volantino Roma - Via della Cava Aurelia Via della Cava Aurelia, 175/A, 00165 Roma (Roma) Chiuso - Apre alle 08:00 Vedi Dettaglio Sfoglia Volantino Roma - Via Enea Via Enea, 90/92, 00181 Roma (Roma) Chiuso - Apre alle 08:30 Vedi Dettaglio Sfoglia Volantino Roma - Via Tiburtina Via Tiburtina, 655, 00159 Roma (Roma) Chiuso - Apre alle 08:00 Vedi Dettaglio Sfoglia Volantino Roma - Via Blaserna Via Blaserna, 00100 Roma (Roma) Chiuso - Apre alle 08:00 Vedi '
+   link utili (0/188): []
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   link utili (0/0): []
+   JSON https://places.googleapis.com/$rpc/google.maps.places.v1.Places/AutocompletePlaces (955 car.)
+      ...'[[[["places/ChIJq3HldHgMJRMRd73X1MHXkao","ChIJq3HldHgMJRMRd73X1MHXkao",["Latina, LT, Italia",[[null,6]]],[["Latina",[[null,6]]],["LT, Italia"]],["political","geocode","locality"]]],[["places/ChIJo0X3SB1zJRMR1MpkqQhTU_w","ChIJo0X3SB1zJRMR1MpkqQhTU_w",["Latina Scalo, LT, Italia",[[null,6]]],[["Latina'
+      ...'[[[["places/ChIJq3HldHgMJRMRd73X1MHXkao","ChIJq3HldHgMJRMRd73X1MHXkao",["Latina, LT, Italia",[[null,6]]],[["Latina",[[null,6]]],["LT, Italia"]],["political","geocode","locality"]]],[["places/ChIJo0X3SB1zJRMR1MpkqQhTU_w","ChIJo0X3SB1zJRMR1MpkqQhTU_w",["Latina Scalo, LT, Italia",[[null,6]]],[["Latina Scalo",[[null,6]]],["LT, Italia"]]'
+      ...'1MHXkao","ChIJq3HldHgMJRMRd73X1MHXkao",["Latina, LT, Italia",[[null,6]]],[["Latina",[[null,6]]],["LT, Italia"]],["political","geocode","locality"]]],[["places/ChIJo0X3SB1zJRMR1MpkqQhTU_w","ChIJo0X3SB1zJRMR1MpkqQhTU_w",["Latina Scalo, LT, Italia",[[null,6]]],[["Latina Scalo",[[null,6]]],["LT, Italia"]],["locality","political","geocode"]]],[["places/ChIJjy2bPjEiJRMREIE4sppPCQM","ChIJjy2bPjEiJRMREIE4sppPCQM",["Latina, Italia",[[null,6]]],[["Lati'
+      ...'Latina, LT, Italia",[[null,6]]],[["Latina",[[null,6]]],["LT, Italia"]],["political","geocode","locality"]]],[["places/ChIJo0X3SB1zJRMR1MpkqQhTU_w","ChIJo0X3SB1zJRMR1MpkqQhTU_w",["Latina Scalo, LT, Italia",[[null,6]]],[["Latina Scalo",[[null,6]]],["LT, Italia"]],["locality","political","geocode"]]],[["places/ChIJjy2bPjEiJRMREIE4sppPCQM","ChIJjy2bPjEiJRMREIE4sppPCQM",["Latina, Italia",[[null,6]]],[["Latina",[[null,6]]],["Italia"]],["geocode","a'
+      ...'IJo0X3SB1zJRMR1MpkqQhTU_w",["Latina Scalo, LT, Italia",[[null,6]]],[["Latina Scalo",[[null,6]]],["LT, Italia"]],["locality","political","geocode"]]],[["places/ChIJjy2bPjEiJRMREIE4sppPCQM","ChIJjy2bPjEiJRMREIE4sppPCQM",["Latina, Italia",[[null,6]]],[["Latina",[[null,6]]],["Italia"]],["geocode","administrative_area_level_2","political"]]],[["places/ChIJ-6Zb1uN1JRMRvi3434pRJ6c","ChIJ-6Zb1uN1JRMRvi3434pRJ6c",["Cisterna di Latina, LT, Italia",[[12'
+      ...'tina Scalo, LT, Italia",[[null,6]]],[["Latina Scalo",[[null,6]]],["LT, Italia"]],["locality","political","geocode"]]],[["places/ChIJjy2bPjEiJRMREIE4sppPCQM","ChIJjy2bPjEiJRMREIE4sppPCQM",["Latina, Italia",[[null,6]]],[["Latina",[[null,6]]],["Italia"]],["geocode","administrative_area_level_2","political"]]],[["places/ChIJ-6Zb1uN1JRMRvi3434pRJ6c","ChIJ-6Zb1uN1JRMRvi3434pRJ6c",["Cisterna di Latina, LT, Italia",[[12,18]]],[["Cisterna di Latina",['
+      ...'RMREIE4sppPCQM",["Latina, Italia",[[null,6]]],[["Latina",[[null,6]]],["Italia"]],["geocode","administrative_area_level_2","political"]]],[["places/ChIJ-6Zb1uN1JRMRvi3434pRJ6c","ChIJ-6Zb1uN1JRMRvi3434pRJ6c",["Cisterna di Latina, LT, Italia",[[12,18]]],[["Cisterna di Latina",[[12,18]]],["LT, Italia"]],["geocode","political","locality"]]],[["places/ChIJT-ttvr8JJRMRiaHMdyVBzOo","ChIJT-ttvr8JJRMRiaHMdyVBzOo",["Lido di Latina, LT, Italia",[[8,14]]]'
+      ...'[["Latina",[[null,6]]],["Italia"]],["geocode","administrative_area_level_2","political"]]],[["places/ChIJ-6Zb1uN1JRMRvi3434pRJ6c","ChIJ-6Zb1uN1JRMRvi3434pRJ6c",["Cisterna di Latina, LT, Italia",[[12,18]]],[["Cisterna di Latina",[[12,18]]],["LT, Italia"]],["geocode","political","locality"]]],[["places/ChIJT-ttvr8JJRMRiaHMdyVBzOo","ChIJT-ttvr8JJRMRiaHMdyVBzOo",["Lido di Latina, LT, Italia",[[8,14]]],[["Lido di Latina",[[8,14]]],["LT, Italia"]],'
 
-Fatto: 9 file salvati, 4 errori.
+Fatto: 0 file salvati, 1 errori.

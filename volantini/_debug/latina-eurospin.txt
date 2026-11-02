@@ -1,0 +1,83 @@
+--- frame: https://www.eurospin.it/punti-vendita/
+0: tag=A title=None aria-label=None testo='ORDINA ORA' box={'x': 1135, 'y': 838, 'width': 140, 'height': 32}
+1: tag=BUTTON title=None aria-label=None testo='' box={'x': 1335, 'y': 664.328125, 'width': 40, 'height': 40}
+2: tag=BUTTON title=None aria-label=None testo='' box=None
+3: tag=A title=None aria-label=None testo='' box=None
+4: tag=BUTTON title=None aria-label=None testo='CERCA' box=None
+5: tag=A title=None aria-label=None testo='' box={'x': 161, 'y': 3, 'width': 108, 'height': 110}
+6: tag=A title=None aria-label=None testo='Scopri EuroSpin' box={'x': 325, 'y': 22, 'width': 128.6875, 'height': 17}
+7: tag=A title=None aria-label=None testo='Il Gruppo' box=None
+8: tag=A title=None aria-label=None testo='Bilancio 2024' box=None
+9: tag=A title=None aria-label=None testo='Sostenibilità' box=None
+10: tag=A title=None aria-label=None testo='Certificazioni' box=None
+11: tag=A title=None aria-label=None testo='Ricette' box={'x': 507.6875, 'y': 22, 'width': 64.84375, 'height': 17}
+12: tag=A title=None aria-label=None testo='Tutte le ricette' box=None
+13: tag=A title=None aria-label=None testo='Sonia Peronaci' box=None
+14: tag=A title=None aria-label=None testo='Verdiana Ramina' box=None
+15: tag=A title=None aria-label=None testo='Ricette sostenibili' box=None
+16: tag=A title=None aria-label=None testo='Amo Essere' box=None
+17: tag=A title=None aria-label=None testo='Alimentazione Sana' box=None
+18: tag=A title=None aria-label=None testo='News' box={'x': 626.53125, 'y': 22, 'width': 50.40625, 'height': 17}
+19: tag=A title=None aria-label=None testo='News ed Eventi' box=None
+20: tag=A title=None aria-label=None testo='Novità di prodotto' box=None
+21: tag=A title=None aria-label=None testo='Nuove aperture' box=None
+22: tag=A title=None aria-label=None testo='ENKHO' box={'x': 730.9375, 'y': 22, 'width': 61.890625, 'height': 17}
+23: tag=A title=None aria-label=None testo='ENKHO Chef Robot' box=None
+24: tag=A title=None aria-label=None testo='Ricette ENKHO Chef' box=None
+25: tag=A title=None aria-label=None testo='Video Ricette ENKHO' box=None
+26: tag=A title=None aria-label=None testo='Ricambi ENKHO' box=None
+27: tag=A title=None aria-label=None testo='Lavora con noi' box={'x': 846.828125, 'y': 22, 'width': 97.734375, 'height': 17}
+28: tag=A title=None aria-label=None testo='Area fornitori' box={'x': 968.5625, 'y': 22, 'width': 83.734375, 'height': 17}
+29: tag=A title=None aria-label=None testo='Contatti' box={'x': 1076.296875, 'y': 15, 'width': 82.84375, 'height': 31}
+30: tag=A title=None aria-label=None testo='IT' box={'x': 1257.546875, 'y': 22, 'width': 27.453125, 'height': 17}
+31: tag=A title=None aria-label=None testo='IT' box=None
+32: tag=A title=None aria-label=None testo='SL' box=None
+33: tag=A title=None aria-label=None testo='HR' box=None
+34: tag=A title=None aria-label=None testo='MT' box=None
+35: tag=A title=None aria-label=None testo='Volantino' box={'x': 325, 'y': 64.015625, 'width': 98.484375, 'height': 37}
+36: tag=A title=None aria-label=None testo='Punti vendita' box={'x': 477.484375, 'y': 74.015625, 'width': 136.375, 'height': 37}
+37: tag=A title=None aria-label=None testo='Promozioni' box={'x': 667.859375, 'y': 64.015625, 'width': 107.203125, 'height': 37}
+38: tag=A title=None aria-label=None testo='I nostri Marchi' box={'x': 829.0625, 'y': 64.015625, 'width': 136.8125, 'height': 37}
+39: tag=A title=None aria-label=None testo='Compra Online' box={'x': 1019.875, 'y': 64.015625, 'width': 145.375, 'height': 37}
+40: tag=A title=None aria-label=None testo='' box={'x': 1257, 'y': 63.015625, 'width': 28, 'height': 35}
+41: tag=BUTTON title=None aria-label=None testo='CERCA' box=None
+42: tag=A title=None aria-label=None testo='Volantino' box=None
+43: tag=A title=None aria-label=None testo='Punti vendita' box=None
+44: tag=A title=None aria-label=None testo='Promozioni' box=None
+45: tag=A title=None aria-label=None testo='I nostri Marchi' box=None
+46: tag=A title=None aria-label=None testo='Compra Online' box=None
+47: tag=A title=None aria-label=None testo='Scopri EuroSpin' box=None
+48: tag=A title=None aria-label=None testo='Bilancio 2024' box=None
+49: tag=A title=None aria-label=None testo='Sostenibilità' box=None
+50: tag=A title=None aria-label=None testo='Certificazioni' box=None
+51: tag=A title=None aria-label=None testo='Ricette' box=None
+52: tag=A title=None aria-label=None testo='Sonia Peronaci' box=None
+53: tag=A title=None aria-label=None testo='Verdiana Ramina' box=None
+54: tag=A title=None aria-label=None testo='Ricette sostenibili' box=None
+55: tag=A title=None aria-label=None testo='Amo Essere' box=None
+56: tag=A title=None aria-label=None testo='Alimentazione Sana' box=None
+57: tag=A title=None aria-label=None testo='News' box=None
+58: tag=A title=None aria-label=None testo='Novità di prodotto' box=None
+59: tag=A title=None aria-label=None testo='Nuove aperture' box=None
+60: tag=A title=None aria-label=None testo='ENKHO' box=None
+61: tag=A title=None aria-label=None testo='Ricette ENKHO Chef' box=None
+62: tag=A title=None aria-label=None testo='Video Ricette ENKHO' box=None
+63: tag=A title=None aria-label=None testo='Ricambi ENKHO' box=None
+64: tag=A title=None aria-label=None testo='Lavora con noi' box=None
+65: tag=A title=None aria-label=None testo='Area fornitori' box=None
+66: tag=A title=None aria-label=None testo='Contatti' box=None
+67: tag=A title=None aria-label=None testo='IT' box=None
+68: tag=A title=None aria-label=None testo='SL' box=None
+69: tag=A title=None aria-label=None testo='HR' box=None
+70: tag=A title=None aria-label=None testo='home' box={'x': 130, 'y': 7, 'width': 36, 'height': 16}
+71: tag=A title=None aria-label=None testo='punti vendita' box={'x': 179, 'y': 7, 'width': 85, 'height': 16}
+72: tag=A title=None aria-label=None testo='Localizzami' box={'x': 530.96875, 'y': 667.984375, 'width': 121, 'height': 0}
+73: tag=A title=None aria-label=None testo='Filtra per' box={'x': 232.984375, 'y': 788, 'width': 245.5625, 'height': 15}
+74: tag=BUTTON title=None aria-label=None testo='CERCA' box=None
+75: tag=BUTTON title=None aria-label=None testo='Reset' box=None
+76: tag=BUTTON title='Scorciatoie da tastiera' aria-label='Scorciatoie da tastiera' testo='' box={'x': 1184.96875, 'y': 1358.984375, 'width': 0, 'height': 0}
+77: tag=BUTTON title='Mostra cartina stradale' aria-label='Mostra cartina stradale' testo='Mappa' box={'x': 724.984375, 'y': 653.984375, 'width': 90, 'height': 40}
+78: tag=BUTTON title='Mostra immagini satellitari' aria-label='Mostra immagini satellitari' testo='Satellite' box={'x': 814.984375, 'y': 653.984375, 'width': 99, 'height': 40}
+79: tag=BUTTON title='Attiva/disattiva vista schermo intero' aria-label='Attiva/disattiva vista schermo intero' testo='' box={'x': 1134.96875, 'y': 653.984375, 'width': 40, 'height': 40}
+--- frame: https://js.refiner.io/v001/render/index.html
+--- frame: about:blank
