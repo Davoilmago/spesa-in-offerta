@@ -16,10 +16,10 @@
    link utili (0/0): []
    link utili (0/0): []
    link utili (0/0): []
+   JSON-visto https://www.eurospin.com/bin/eurospin/sessionStatus.json (18 car.)
    JSON-visto https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true (3 car.)
    JSON-visto https://www.eurospin.com/libs/granite/csrf/token.json (2 car.)
    JSON-visto https://www.eurospin.com/bin/eurospin/sessionUser.json (18 car.)
-   JSON-visto https://www.eurospin.com/bin/eurospin/sessionStatus.json (18 car.)
    JSON-visto https://maps.googleapis.com/maps/api/mapsjs/mapConfigs:batchGet?language=it&region=US&alt=protojson&major_version=66&minor_version=12d&map_ids=ed4e582 (23816 car.)
    JSON-visto https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo (73397 car.)
    JSON-visto https://mapsresources-pa.googleapis.com/v1/featureMaps?map_id=ed4e582d451c505eefedceef&version=5652761047412237695&pb=!1m4!1m3!1i6!2i32!3i22!1m4!1m3!1 (1061 car.)
