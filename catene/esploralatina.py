@@ -88,11 +88,8 @@ def esplora(contesto, nome, url, filtro):
                 t = r.text()
                 print(f"   JSON-visto {r.url[:150]} ({len(t)} car.)")
                 if '"stores"' in t:
-                    try:
-                        for st in json.loads(t).get("stores", []):
-                            print(f"   NEGOZIO-EUROSPIN: {st.get('name')} | {st.get('address')} | {st.get('storeDetailUrl')} | {st.get('flyerUrl') or st.get('flyer') or ''} | chiavi={list(st)[:30]}")
-                    except Exception as e3:
-                        print(f"   stores non leggibili: {e3}")
+                    for m in re.finditer(r'"name":"([^"]+)","address":"([^"]+)".*?"storeDetailUrl":"([^"]+)"', t):
+                        print(f"   NEGOZIO-EUROSPIN: {m.group(1)} | {m.group(2)} | {m.group(3)}")
                 if re.search(r"latina|corbusier", t, re.I):
                     print(f"   JSON {r.url[:160]} ({len(t)} car.)")
                     for m in list(re.finditer(r"corbusier|Latina \(", t, re.I))[:8]:
