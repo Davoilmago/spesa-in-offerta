@@ -111,40 +111,40 @@
     ],
     "eurospin": [
       {
-        "id": "latina-epitaffio",
-        "nota": "Via Epitaffio 6"
+        "id": "latina-7",
+        "nota": "Eurospin Via Epitaffio 6"
       },
       {
-        "id": "latina-viale-le-corbusier",
-        "nota": "Viale Le Corbusier 85/91"
+        "id": "latina-2",
+        "nota": "Eurospin Viale Le Corbusier 85/91"
       },
       {
-        "id": "latina-sturzo",
-        "nota": "Via Don Luigi Sturzo 9/12"
+        "id": "latina-6",
+        "nota": "Eurospin Via Don Luigi Sturzo 9/12"
       },
       {
-        "id": "latina-via-piave",
-        "nota": "Via Piave km 69,200"
+        "id": "latina-5",
+        "nota": "Eurospin Via Piave km 69,200"
       },
       {
-        "id": "latina-lido",
-        "nota": "Via del Lido ang. SS Pontina"
+        "id": "latina-8",
+        "nota": "Eurospin Via del Lido ang. SS Pontina"
       },
       {
-        "id": "latina-capograssa",
-        "nota": "Via Capograssa 2"
+        "id": "latina-3",
+        "nota": "Eurospin Via Capograssa 2"
       },
       {
-        "id": "latina-via-paganini",
-        "nota": "Viale Paganini"
+        "id": "latina-1",
+        "nota": "Eurospin Viale Paganini"
       },
       {
-        "id": "latina-scalo",
-        "nota": "Via della Stazione 229"
+        "id": "latina",
+        "nota": "Eurospin Via della Stazione 229"
       },
       {
-        "id": "latina-plasmon-s-s-148-km-80-800",
-        "nota": "SS 148 Pontina km 80,800"
+        "id": "latina-4",
+        "nota": "Eurospin SS 148 Pontina km 80,800"
       }
     ]
   }
