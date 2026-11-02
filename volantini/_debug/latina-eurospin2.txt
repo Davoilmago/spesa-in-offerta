@@ -1,4 +1,4 @@
---- frame: https://www.eurospin.com/it-it/punti-vendita/
+--- frame: https://www.eurospin.com/it-it/punti-vendita/?lat=41.4674949&lng=12.902855800000001&q=Latina
 0: tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
 1: tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
 2: tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
@@ -78,9 +78,9 @@
 76: tag=A title=None aria-label=None testo='Scopri Gruppo Eurospin' box=None
 77: tag=A title=None aria-label=None testo='Sapori in Festa' box=None
 78: tag=A title=None aria-label=None testo='Scopri Amo Essere' box=None
-79: tag=A title=None aria-label=None testo='Home' box={'x': 16, 'y': -417, 'width': 53, 'height': 27}
---- frame: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIzXVnH-9EP2P-b&co=aHR0cHM6Ly93d3cuZXVyb3NwaW4uY29tOjQ0Mw..&hl=it&v=bSuJ2xBC8cHT21-c68JXN31m&theme=light&size=normal&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=8u1bp72wl67w
+79: tag=A title=None aria-label=None testo='Home' box={'x': 16, 'y': 173, 'width': 53, 'height': 27}
+--- frame: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIzXVnH-9EP2P-b&co=aHR0cHM6Ly93d3cuZXVyb3NwaW4uY29tOjQ0Mw..&hl=it&v=bSuJ2xBC8cFy7pM4Z3Hu9boH&theme=light&size=normal&anchor-ms=20000&execute-ms=30000&cb=5jbba6oghr5o
 --- frame: about:blank
 --- frame: about:blank
 --- frame: about:blank
---- frame: https://www.google.com/recaptcha/api2/bframe?hl=it&v=bSuJ2xBC8cHT21-c68JXN31m&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIzXVnH-9EP2P-b&bft=0dAFcWeA69qkdOLMCtfQy3l6uQTOylE1fsbuttTItBWCGYxSARfb0BknEl_wJQKFndy7xCUXVK2NBetG-1b1UbdkKXnVqLda-NIA
+--- frame: https://www.google.com/recaptcha/api2/bframe?hl=it&v=bSuJ2xBC8cFy7pM4Z3Hu9boH&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIzXVnH-9EP2P-b&bft=0dAFcWeA624E8OkBkDXRXtLmNbIWfetMw-lLz3_-9grsEhNH4bazUYTcr5Biequ0TC5lmdCs8MHQ4tku5hFQ6tdHfv2i18pIropw
