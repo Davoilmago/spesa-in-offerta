@@ -63,7 +63,9 @@ def esplora(contesto, nome, url, filtro):
                     pagina.wait_for_timeout(6000)
                     print(f"   cercato 'Latina' nel campo {i}")
                     try:
-                        pagina.get_by_text("Latina, LT, Italia").first.click(timeout=5000)
+                        c.press("ArrowDown")
+                        pagina.wait_for_timeout(500)
+                        c.press("Enter")
                         pagina.wait_for_timeout(8000)
                         print("   scelto il suggerimento 'Latina, LT, Italia'")
                     except Exception as e2:
@@ -84,6 +86,7 @@ def esplora(contesto, nome, url, filtro):
         for r in risposte[:60]:
             try:
                 t = r.text()
+                print(f"   JSON-visto {r.url[:150]} ({len(t)} car.)")
                 if re.search(r"latina|corbusier", t, re.I):
                     print(f"   JSON {r.url[:160]} ({len(t)} car.)")
                     for m in list(re.finditer(r"corbusier|Latina \(", t, re.I))[:8]:

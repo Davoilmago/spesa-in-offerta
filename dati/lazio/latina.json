@@ -7,6 +7,112 @@
       {
         "nota": "esplorazione"
       }
+    ],
+    "lidl": [
+      {
+        "nota": "volantino nazionale"
+      }
+    ],
+    "todis": [
+      {
+        "zona": "lazio",
+        "nota": "volantino Lazio"
+      }
+    ],
+    "md": [
+      {
+        "citta": "Latina",
+        "nota": "MD Viale Le Corbusier snc"
+      }
+    ],
+    "conad": [
+      {
+        "id": "001223",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223",
+        "nota": "Conad City Via F.lli Bandiera 15"
+      },
+      {
+        "id": "008038",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-superstore-via-ezio-47-04100-latina--008038",
+        "nota": "Conad Superstore Via Ezio 47"
+      },
+      {
+        "id": "006232",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-via-don-carlo-torello-51-04100-latina--006232",
+        "nota": "Conad Via Don Carlo Torello 51"
+      },
+      {
+        "id": "008449",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-superstore-via-pier-luigi-nervi-c-o-c-c-le-torri-76-04100-latina--008449",
+        "nota": "Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)"
+      },
+      {
+        "id": "010397",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-superstore-viale-pier-luigi-nervi-snc-04100-latina--010397",
+        "nota": "Conad Superstore Viale Pier Luigi Nervi snc"
+      },
+      {
+        "id": "009866",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-via-isonzo-157-04100-latina--009866",
+        "nota": "Conad Via Isonzo 157"
+      },
+      {
+        "id": "008450",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-viale-picasso-c-o-centro-commerciale-morbella-snc-04100-latina--008450",
+        "nota": "Conad Viale Picasso (Morbella)"
+      },
+      {
+        "id": "008926",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-viale-nicolo-paganini-41-47-04100-latina--008926",
+        "nota": "Conad Viale Nicolò Paganini 41-47"
+      },
+      {
+        "id": "009124",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-city-via-capograssa-325-04010-latina--009124",
+        "nota": "Conad City Via Capograssa 325"
+      },
+      {
+        "id": "008811",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-via-foce-verde-211-04100-latina--008811",
+        "nota": "Conad Via Foce Verde 211"
+      },
+      {
+        "id": "009340",
+        "scheda": "https://www.conad.it/ricerca-negozi/conad-strada-delle-ferriere-4-04100-latina--009340",
+        "nota": "Conad Strada delle Ferriere 4 (Borgo Montello)"
+      }
+    ],
+    "carrefour": [
+      {
+        "id": "0459",
+        "nota": "Carrefour Market Viale Petrarca 41",
+        "url": "https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-viale-petrarca-n-41/0459"
+      },
+      {
+        "id": "0357",
+        "nota": "Carrefour Market Via Capograssa 5",
+        "url": "https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-capograssa-n-5/0357"
+      },
+      {
+        "id": "3722",
+        "nota": "Carrefour Market Via del Lido 21",
+        "url": "https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-del-lido-21/3722"
+      },
+      {
+        "id": "2253",
+        "nota": "Carrefour Market Via Isonzo 39",
+        "url": "https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-isonzo-39/2253"
+      },
+      {
+        "id": "3282",
+        "nota": "Carrefour Market Via del Lido 122",
+        "url": "https://www.carrefour.it/volantino/supermercato-carrefour-market-latina-via-del-lido122/3282"
+      },
+      {
+        "id": "4336",
+        "nota": "Carrefour Express Strada Macchia Grande 141",
+        "url": "https://www.carrefour.it/volantino/supermercato-carrefour-express-latina-strada-macchia-grande-141/4336"
+      }
     ]
   }
 }
