@@ -60,3 +60,13 @@ Marca, gusto e formato restano nella descrizione dell'offerta, NON nel nome del 
 
 - Stendibiancheria -> famiglia "Stendini e assi da stiro".
 - Qualsiasi lettiera per gatti (Easy+Go Sanicat, Natural Code, ecc.) -> famiglia "Lettiera per gatti".
+
+## Regola permanente: ogni città e catena nuova entra nel processo automatico
+
+Ogni volta che si aggiunge una città o una catena, va inserita subito nel processo automatico quotidiano (scarico dei volantini + aggiornamento del comparatore), senza passaggi manuali:
+
+1. Città nuova: file `dati/<regione>/<citta>.json` con i negozi di ogni catena; lettera di zona in `ZONE` di `canale_offerte.py`, in `ZC` e `CITIES` di `sito/index.html`, e voci `VAL`, `VIA` (indirizzi) e `STORES` per la città. La sezione Volantini si genera da sola da `volantini/elenco.json`.
+2. Catena nuova: modulo `catene/<catena>.py`, voce nel flusso `scarica-volantini.yml`, e in `sito/index.html` `STORES`, `VIA`, `LG` (logo), `ORD`, `CARDS` e il nastro scorrevole in alto.
+3. Un volantino con lo stesso sha256 in più città si legge una sola volta e la zona dell'offerta le comprende tutte (es. "ANL"); volantini diversi per città si leggono separatamente con la zona della sola città.
+4. Di ogni città e catena vanno riportati almeno l'indirizzo del negozio (e telefono/orari se disponibili).
+5. Il compito automatico "Aggiornamento volantini e comparatore Spesa in Offerta" deve poi aggiornarle da solo, senza interventi.
