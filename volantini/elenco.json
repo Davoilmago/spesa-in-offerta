@@ -92,7 +92,7 @@
     "negozio": "Crai Via delle Cinque Miglia 58/60",
     "sha256": "7cc010652f89aa2be1128cd733bfd9473e985fb155cecaff9e87cf7611085182",
     "byte": 5722673,
-    "scaricato_il": "2026-10-30T14:53:04",
+    "scaricato_il": "2026-11-02T04:49:39",
     "titolo": "Volantino Crai",
     "indirizzo": "https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf"
   },
@@ -103,9 +103,9 @@
     "cap": "00042",
     "catena": "deco",
     "negozio": "Decò Via di Valle Schioia 67",
-    "sha256": "9d9942ca74b27bda392b4df1945e26e7183a7d4d48b3ad34bf8912a764334144",
+    "sha256": "25a58b05bb741f0104e4fe4a2cff135b9c8be80bb9af2e290b6f872ef80ee3f9",
     "byte": 13822058,
-    "scaricato_il": "2026-10-30T07:48:36",
+    "scaricato_il": "2026-11-02T04:48:53",
     "titolo": "Volantino Decò",
     "indirizzo": "https://deco.volantinopiu.com/ws/pv003499.php"
   },
@@ -116,9 +116,9 @@
     "cap": "00042",
     "catena": "eurospin",
     "negozio": "Via Nerone 15",
-    "sha256": "d5cd738523c978d311a0aa79bc20c5422ab24251c2152448be8e03aa57fb9e72",
-    "byte": 12764239,
-    "scaricato_il": "2026-10-27T07:36:06"
+    "sha256": "2627625e32fc0aca7990cf26d4829b01a3b1f7ae0c420f618bd2208e748a9533",
+    "byte": 13736992,
+    "scaricato_il": "2026-11-02T04:47:16"
   },
   {
     "file": "lazio/anzio/ins.pdf",
@@ -127,12 +127,12 @@
     "cap": "00042",
     "catena": "ins",
     "negozio": "iN's Mercato Via di Villa Claudia 7",
-    "sha256": "c7cb097566dac4b4b05e2b8ee5d1daa03370f642bbc2ee734b1b01421ca2210d",
-    "byte": 14029054,
-    "scaricato_il": "2026-10-30T07:48:06",
-    "titolo": "Volantino 22",
-    "valido_dal": "2026-10-21",
-    "valido_al": "2026-11-01"
+    "sha256": "14df3de172f0f3a28a0020a552e4c7baad99bc815f3576d6c092796e603980c2",
+    "byte": 7250872,
+    "scaricato_il": "2026-11-02T04:48:20",
+    "titolo": "Volantino 23",
+    "valido_dal": "2026-11-04",
+    "valido_al": "2026-11-15"
   },
   {
     "file": "lazio/anzio/md.pdf",
@@ -143,7 +143,7 @@
     "negozio": "MD Via Goldoni 62",
     "sha256": "d492770435b6aa24f9f8b48b8a8a174b932fc7287ee057bd7fb67ff428f774a4",
     "byte": 17111980,
-    "scaricato_il": "2026-10-30T07:47:47",
+    "scaricato_il": "2026-11-02T04:47:58",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -154,9 +154,9 @@
     "cap": "00042",
     "catena": "tigre",
     "negozio": "Tigre Amico Via Matteotti 18",
-    "sha256": "71853aeab6bacb04872a71020b2399acb8e4651ef7a9739446058886632a9751",
+    "sha256": "621e5bcb6b748dfe09f84028294b2b04302c89e4eb58b55e2a5831feaedf497b",
     "byte": 2853145,
-    "scaricato_il": "2026-10-30T07:49:01",
+    "scaricato_il": "2026-11-02T04:49:20",
     "titolo": "Volantino Tigre Amico A23_2026",
     "indirizzo": "https://www.calameo.com/read/001940002734efb972eb7"
   },
@@ -281,13 +281,13 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "d51518f6de61562f0e5c4b7120be162aefbd540f02c94b0b581f4c1554f47e0a",
-    "byte": 4659157,
-    "scaricato_il": "2026-10-30T07:56:15",
-    "titolo": "PREZZI TONDI 1€ e 2€",
-    "indirizzo": "https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2",
-    "valido_dal": "2026-10-30",
-    "valido_al": "2026-11-12"
+    "sha256": "868425c778a4de63ae58832677c87e559f04db7cd7f696d34e1ece5f2dd8a2b8",
+    "byte": 2759147,
+    "scaricato_il": "2026-11-02T04:51:54",
+    "titolo": "Spesa Difesa Selex - Prezzi Bloccati - Settembre",
+    "indirizzo": "https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio",
+    "valido_dal": "2026-09-01",
+    "valido_al": "2026-12-31"
   },
   {
     "file": "lazio/nettuno/elite_2.pdf",
@@ -341,9 +341,9 @@
     "cap": "00048",
     "catena": "eurospin",
     "negozio": "Via Scipione Borghese 35",
-    "sha256": "d5cd738523c978d311a0aa79bc20c5422ab24251c2152448be8e03aa57fb9e72",
-    "byte": 12764239,
-    "scaricato_il": "2026-10-27T07:37:50"
+    "sha256": "2627625e32fc0aca7990cf26d4829b01a3b1f7ae0c420f618bd2208e748a9533",
+    "byte": 13736992,
+    "scaricato_il": "2026-11-02T04:50:03"
   },
   {
     "file": "lazio/nettuno/ins.pdf",
@@ -352,12 +352,12 @@
     "cap": "00048",
     "catena": "ins",
     "negozio": "iN's Mercato Via Ugo La Malfa 9",
-    "sha256": "c7cb097566dac4b4b05e2b8ee5d1daa03370f642bbc2ee734b1b01421ca2210d",
-    "byte": 14029054,
-    "scaricato_il": "2026-10-30T07:54:51",
-    "titolo": "Volantino 22",
-    "valido_dal": "2026-10-21",
-    "valido_al": "2026-11-01"
+    "sha256": "14df3de172f0f3a28a0020a552e4c7baad99bc815f3576d6c092796e603980c2",
+    "byte": 7250872,
+    "scaricato_il": "2026-11-02T04:50:21",
+    "titolo": "Volantino 23",
+    "valido_dal": "2026-11-04",
+    "valido_al": "2026-11-15"
   },
   {
     "file": "lazio/nettuno/lidl.pdf",
