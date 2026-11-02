@@ -304,8 +304,9 @@ const tag=x=>x.c?`<span class="tg${cards[x.s]?" ok":""}">${cards[x.s]?"✓ hai l
 const LG={crai:["logos/crai.png","#e30613"],tigre:["logos/tigre.png","#fff"],conad:["logos/conad.jpg","#fff"],todis:["logos/todis.jpg","#F5F0E1"],lidl:["logos/lidl.png","#fff"],eurospin:["logos/eurospin.png","#fff"],pam:["logos/pam.png","#fff"],carrefour:["logos/carrefour.png","#fff"],ins:["logos/ins.png","#fff"],elite:["logos/elite.png","#2d5a2d"],md:["logos/md.png","#fff"],deco:["logos/deco.png","#273540"]};
 const nPV=x=>x.za.reduce((n,zn)=>n+((VIA[x.s+"|"+zn]||[]).length),0);
 const loc=x=>{if(nPV(x)>=2){const n=nPV(x),c=zone?"":cl(x)+" · ";return `<span class="lc"><button type="button" class="pvb" data-pv="${x.s}|${x.za.join(",")}"><span class="pvp" aria-hidden="true">📍</span>${c}${n} punti vendita<span class="pvg" aria-hidden="true">›</span></button></span>`}const t=((zone?"":" · "+cl(x))+vi(x)).replace(/^ · /,"");return t?`<span class="lc">${t}</span>`:""};
-function offs(g,raw){const t=today(),out=[];g.o.forEach(([s,p,q,l,z,c,f,to],oi)=>{const zs=zone?((zone==="Anzio"||zone==="Nettuno")&&z.includes(zone[0])?[zone]:[]):(z==="AN"?["Nettuno"]:[z==="A"?"Anzio":"Nettuno"]);zs.forEach(zn=>{const v=(VAL[zn]||{})[s]||[];out.push({k:g.id+"-"+oi,s,p,q,l,z,c,zn,za:zone?[zone]:(z==="AN"?["Anzio","Nettuno"]:[z==="A"?"Anzio":"Nettuno"]),f:f||v[0],t:to||v[1],u:p/q})})});return out.filter(x=>x.t>=t&&(raw||!onlyok||ok(x))).sort((a,b)=>a.u-b.u)}
-const cl=x=>zone||(x.z==="AN"?"Anzio e Nettuno":x.zn);
+const ZC={Anzio:"A",Latina:"L",Nettuno:"N"};const zns=z=>Object.keys(ZC).filter(c=>z.includes(ZC[c]));
+function offs(g,raw){const t=today(),out=[];g.o.forEach(([s,p,q,l,z,c,f,to],oi)=>{const zs=zone?(ZC[zone]&&z.includes(ZC[zone])?[zone]:[]):[zns(z).includes("Nettuno")?"Nettuno":zns(z)[0]];zs.forEach(zn=>{const v=(VAL[zn]||{})[s]||[];out.push({k:g.id+"-"+oi,s,p,q,l,z,c,zn,za:zone?[zone]:zns(z),f:f||v[0],t:to||v[1],u:p/q})})});return out.filter(x=>x.t>=t&&(raw||!onlyok||ok(x))).sort((a,b)=>a.u-b.u)}
+const cl=x=>{if(zone)return zone;const a=zns(x.z);return a.length>1?a.slice(0,-1).join(", ")+" e "+a[a.length-1]:x.zn};
 const when=x=>x.f>today()?(x.f===x.t?"Solo il "+dm(x.f):"Da "+dm(x.f)+" al "+dm(x.t)):x.t===today()?"⏰ Scade oggi":x.t===tmr()?"⏰ Scade domani":"Fino al "+dm(x.t);
 const TABS=[["cerca","🔍","Comparatore"],["lista","🧾","La mia spesa"],["volantini","📰","Volantini"],["carte","💳","Le mie carte"]];
 function navs(){
@@ -357,7 +358,7 @@ function flyers(){
  const card=items=>{
   const {f}=items[0],k=f.k,zn=f.zn;
   const s=STORES[k]||{n:k,col:"#334155",t:"Volantino"},pv=VIA[k+"|"+zn],
-   zl=zn==="Anzio"?"A":zn==="Nettuno"?"N":"",n=zl?G.filter(g=>g.o.some(o=>o[0]===k&&o[4].includes(zl)&&o[7]>=t)).length:0,
+   zl=ZC[zn]||"",n=zl?G.filter(g=>g.o.some(o=>o[0]===k&&o[4].includes(zl)&&o[7]>=t)).length:0,
    ex=pv?(pv.length===1?`<div>📍 ${pv[0].via}${pv[0].tel?" · Tel. "+pv[0].tel:""}${pv[0].h?"<br>"+pv[0].h:""}</div>`:`<div>Valido in ${pv.length} punti vendita:${pv.map(v=>`<div class="pv">📍 <span>${v.via}${v.tel?" · Tel. "+v.tel:""}</span></div>`).join("")}</div>`):(f.negozio&&!/nazionale|Lazio/i.test(f.negozio)?`<div>📍 ${esc(f.negozio)}</div>`:""),
    tit=items.length>1?s.t:esc(f.titolo||s.t),sub=zn+(pv?" · "+(pv.length===1?pv[0].via:pv.length+" punti vendita"):"");
   const rows=items.map(({f:g,i})=>`<div style="display:flex;gap:10px;align-items:center;justify-content:space-between;border-top:1px solid var(--ln);padding-top:9px;margin-top:9px"><div style="flex:1;min-width:0">${valFly(g)}${items.length>1&&g.titolo?`<br><b>${esc(g.titolo)}</b>`:""}</div><button data-fly="${i}" style="flex:none;padding:9px 12px">Sfoglia · ${g.pagine} ${g.pagine===1?"pag.":"pag."}</button></div>`).join("");
@@ -388,7 +389,7 @@ function fvShow(){const im=$("fvi");im.src=fv.d+"/"+pad(fv.i)+".jpg";im.alt="Pag
 function openFly(i){const f=FL[+i];if(!f){toast("Volantino non ancora disponibile");return}const s=STORES[f.k]||{n:f.k};fv={d:f.dir,n:f.pagine,i:1};$("fvt").textContent=s.n+" · "+f.zn+(f.titolo?" · "+f.titolo:"");$("fvs").classList.remove("z");$("fvz").setAttribute("aria-pressed","false");fvShow();$("fv").showModal()}
 function fvGo(d){if(!fv)return;const i=fv.i+d;if(i<1||i>fv.n)return;fv.i=i;fvShow()}
 function all(){
- const CITIES=[...new Set(["Anzio","Nettuno",...FL.map(f=>f.zn)])].sort((a,b)=>a.localeCompare(b,"it"));
+ const CITIES=[...new Set(["Anzio","Latina","Nettuno",...FL.map(f=>f.zn)])].sort((a,b)=>a.localeCompare(b,"it"));
  if(!FLok&&zone&&!CITIES.includes(zone))CITIES.push(zone);
  if(!CITIES.includes(zone)){zone=CITIES[0];sv("ss-zone",zone)}
  $("hh").textContent="Trova il prezzo più basso";

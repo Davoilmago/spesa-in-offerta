@@ -1,0 +1,12 @@
+{
+  "regione": "Lazio",
+  "citta": "Latina",
+  "cap": "04100",
+  "negozi": {
+    "esploralatina": [
+      {
+        "nota": "esplorazione"
+      }
+    ]
+  }
+}

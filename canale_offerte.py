@@ -38,7 +38,7 @@ NOMI_CATENE = {
     "eurospin": "Eurospin", "lidl": "Lidl", "todis": "Todis", "conad": "Conad", "pam": "Pam",
     "carrefour": "Carrefour", "ins": "iN's", "md": "MD", "deco": "Decò", "elite": "Elite", "tigre": "Tigre",
 }
-ZONE = {"A": "Anzio", "N": "Nettuno", "AN": "Anzio e Nettuno"}
+ZONE = {"A": "Anzio", "N": "Nettuno", "L": "Latina", "AN": "Anzio e Nettuno", "AL": "Anzio e Latina", "NL": "Nettuno e Latina", "ANL": "Anzio, Nettuno e Latina"}
 UNITA = {"kg": "al kg", "l": "al litro", "etto": "all'etto", "pezzo": "al pezzo", "uovo": "a uovo"}
 GIORNI = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
