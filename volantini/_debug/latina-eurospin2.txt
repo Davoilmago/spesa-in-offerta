@@ -79,8 +79,8 @@
 77: tag=A title=None aria-label=None testo='Sapori in Festa' box=None
 78: tag=A title=None aria-label=None testo='Scopri Amo Essere' box=None
 79: tag=A title=None aria-label=None testo='Home' box={'x': 16, 'y': 173, 'width': 53, 'height': 27}
---- frame: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIzXVnH-9EP2P-b&co=aHR0cHM6Ly93d3cuZXVyb3NwaW4uY29tOjQ0Mw..&hl=it&v=bSuJ2xBC8cFy7pM4Z3Hu9boH&theme=light&size=normal&anchor-ms=20000&execute-ms=30000&cb=z8ojcjj68jqf
+--- frame: about:blank
+--- frame: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIzXVnH-9EP2P-b&co=aHR0cHM6Ly93d3cuZXVyb3NwaW4uY29tOjQ0Mw..&hl=it&v=bSuJ2xBC8cHT21-c68JXN31m&theme=light&size=normal&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=fhis186kp3ao
 --- frame: about:blank
 --- frame: about:blank
---- frame: about:blank
---- frame: https://www.google.com/recaptcha/api2/bframe?hl=it&v=bSuJ2xBC8cFy7pM4Z3Hu9boH&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIzXVnH-9EP2P-b&bft=0dAFcWeA4W9_ppHQo_K34WeoDjvGMpevQCeJjO0jcbosPPBVHYouS4K5-D1rVKi3z45EMjmANSooxCIe6SXYJcoeu99-drByoigQ
+--- frame: https://www.google.com/recaptcha/api2/bframe?hl=it&v=bSuJ2xBC8cHT21-c68JXN31m&k=6LcpC-UtAAAAAPE1E5VYUyQf-WIzXVnH-9EP2P-b&bft=0dAFcWeA63AXnjlDGev0Wy0FLbo5AHxTRFj3EO5ne3WLhgi7UGBA-ngrgN9h7uv2Y1UZTk16fhHinPBNXSZdRwqjzToRDGC5LEBQ
