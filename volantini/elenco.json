@@ -118,7 +118,9 @@
     "negozio": "Via Nerone 15",
     "sha256": "2627625e32fc0aca7990cf26d4829b01a3b1f7ae0c420f618bd2208e748a9533",
     "byte": 13736992,
-    "scaricato_il": "2026-11-02T04:47:16"
+    "scaricato_il": "2026-11-02T04:47:16",
+    "valido_dal": "2026-11-05",
+    "valido_al": "2026-11-15"
   },
   {
     "file": "lazio/anzio/ins.pdf",
@@ -343,7 +345,9 @@
     "negozio": "Via Scipione Borghese 35",
     "sha256": "2627625e32fc0aca7990cf26d4829b01a3b1f7ae0c420f618bd2208e748a9533",
     "byte": 13736992,
-    "scaricato_il": "2026-11-02T04:50:03"
+    "scaricato_il": "2026-11-02T04:50:03",
+    "valido_dal": "2026-11-05",
+    "valido_al": "2026-11-15"
   },
   {
     "file": "lazio/nettuno/ins.pdf",
