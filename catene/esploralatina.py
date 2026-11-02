@@ -27,10 +27,7 @@ def print(*a, **k):
 
 
 OBIETTIVI = [
-    ("conad", "https://www.conad.it/ricerca-negozi", r"ricerca-negozi/|anacan|00?4\d{4}"),
-    ("carrefour", "https://www.carrefour.it/volantino/", r"volantino/supermercato|/volantino/.*latina|store|punto"),
-    ("eurospin", "https://www.eurospin.it/punti-vendita/", r"punti-vendita|latina"),
-    ("eurospin2", "https://www.eurospin.com/it-it/punti-vendita/", r"punti-vendita|latina"),
+    ("eurospin2", "https://www.eurospin.com/it-it/punti-vendita/", r"punti-vendita|latina|volantino"),
 ]
 
 
@@ -65,6 +62,12 @@ def esplora(contesto, nome, url, filtro):
                     c.press("Enter")
                     pagina.wait_for_timeout(6000)
                     print(f"   cercato 'Latina' nel campo {i}")
+                    try:
+                        pagina.get_by_text("Latina, LT, Italia").first.click(timeout=5000)
+                        pagina.wait_for_timeout(8000)
+                        print("   scelto il suggerimento 'Latina, LT, Italia'")
+                    except Exception as e2:
+                        print(f"   suggerimento non cliccabile: {str(e2)[:80]}")
                     break
                 except Exception as e:
                     print(f"   campo {i} non usabile: {str(e)[:80]}")
@@ -81,9 +84,9 @@ def esplora(contesto, nome, url, filtro):
         for r in risposte[:60]:
             try:
                 t = r.text()
-                if re.search(r"latina", t, re.I):
+                if re.search(r"latina|corbusier", t, re.I):
                     print(f"   JSON {r.url[:160]} ({len(t)} car.)")
-                    for m in list(re.finditer(r"latina", t, re.I))[:8]:
+                    for m in list(re.finditer(r"corbusier|Latina \(", t, re.I))[:8]:
                         print(f"      ...{t[max(0, m.start() - 220):m.end() + 220]!r}")
             except Exception:
                 pass
