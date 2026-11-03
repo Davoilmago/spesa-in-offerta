@@ -79,13 +79,8 @@
 77: tag=BUTTON title=None aria-label='Chiudi' testo='' box=None
 78: tag=BUTTON title=None aria-label='Cerca' testo='' box=None
 79: tag=BUTTON title=None aria-label='Elimina' testo='' box=None
---- frame: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeX2lQaAAAAAKDBeCJJrCx2rqMJMEt0gbbX657F&co=aHR0cHM6Ly93d3cuY29uYWQuaXQ6NDQz&hl=it&v=NhfdZHzre16wrc2m6BxEdu7J&size=invisible&anchor-ms=20000&execute-ms=30000&cb=r62yva6rt82j
+--- frame: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeX2lQaAAAAAKDBeCJJrCx2rqMJMEt0gbbX657F&co=aHR0cHM6Ly93d3cuY29uYWQuaXQ6NDQz&hl=it&v=bSuJ2xBC8cHT21-c68JXN31m&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=8b7ze02fe181
 --- frame: about:srcdoc
 --- frame: about:blank
---- frame: https://viewer-whitelabel.shopfully.cloud/flyer-by-custom-label/pages/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008625&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FSpazio-Conad-Fascia2%3FanacanId%3D008625&profilingConsent=false&customLabel=pac-2622a-area1-fascia2-web&enableDataLayerEvents=true&hide_thumbnail_on_flyer_loading=true&add_to_cart%5Benabled%5D=true
-0: tag=BUTTON title=None aria-label=None testo='' box={'x': 1304, 'y': 178, 'width': 56, 'height': 56}
-1: tag=BUTTON title=None aria-label='Fullscreen Toggle' testo='' box={'x': 1288, 'y': 796, 'width': 56, 'height': 56}
-2: tag=A title=None aria-label=None testo='' box={'x': 80.25, 'y': 209.3125, 'width': 187.5, 'height': 28.6875}
-3: tag=A title=None aria-label=None testo='' box={'x': 80.25, 'y': 238, 'width': 187.5, 'height': 28.6875}
 --- frame: about:blank
 --- frame: about:blank
