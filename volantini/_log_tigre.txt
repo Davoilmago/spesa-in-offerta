@@ -1,8 +1,14 @@
-    volantini nella pagina: [['Buoni e Fissi 6_2026', 'https://www.calameo.com/read/001940002470fd9abc74c', 'Tigre Amico - Anzio Valido fino al 31 dicembre 2026 Sfoglia volantino'], ['A23_2026', 'https://www.calameo.com/read/001940002734efb972eb7', 'Tigre Amico - Anzio Valido fino al 05 novembre 2026 Sfoglia volantino']]
+    volantini nella pagina: [['Buoni e Fissi 6_2026', 'https://www.calameo.com/read/001940002470fd9abc74c', 'Tigre Amico - Anzio Valido fino al 31 dicembre 2026 Sfoglia volantino'], ['5° paniere Tutti in campo 2026', 'https://www.calameo.com/read/001940002dc8b4160f3b0', 'Tigre Amico - Anzio Valido fino al 08 novembre 2026 Sfoglia volantino'], ['A23_2026', 'https://www.calameo.com/read/001940002734efb972eb7', 'Tigre Amico - Anzio Valido fino al 05 novembre 2026 Sfoglia volantino']]
+    libro 001940002dc8b4160f3b0: pagine=13 key=261103120003-c83a6236e62f10ca870fe18531c5c4ac svgz visti=9
+    token: _token_=exp=1793897283~acl=%2F261103120003-c83a6236e62f10ca870fe18531c5c4ac%2F%2A~hmac=ba4beb24bd9bb629e5d12b1892a837a868cc73e1ead371165071668bb7398136
+    pagine SVG scaricate: 13 (4137 KB)
+    inizio svg 1: b'<svg viewBox="0 0 1131 1600" version="1.1" preserveAspectRatio="xMinYMin meet" text-rendering="geometricPrecision" class="p1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">text{white-space:pre;font-size:16px;font-weight:normal;font-style:normal;fill:none;unicode-bidi:bidi-override}</style></defs><image width="1131" height="1600" preserveAspectRatio="none" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBw'
+    href esterni svg 1: 0; immagini incorporate: 1
+    PDF tigre-6507_60f3b0.pdf: 13 pagine, 2950 KB
     libro 001940002734efb972eb7: pagine=12 key=261015080002-2ae58072e82dadf90de0cb43588343a5 svgz visti=8
-    token: _token_=exp=1793638144~acl=%2F261015080002-2ae58072e82dadf90de0cb43588343a5%2F%2A~hmac=374a9de9a4ef2069e5920f0c0ca0687949c8e7990be70c9903f64ed1b3adc3e8
+    token: _token_=exp=1793897301~acl=%2F261015080002-2ae58072e82dadf90de0cb43588343a5%2F%2A~hmac=6b84b665a2dd730accdd340b6aa5cf351a00d7eec0ea888263cd3be1da07cd4b
     pagine SVG scaricate: 12 (3882 KB)
     inizio svg 1: b'<svg viewBox="0 0 1281 1600" version="1.1" preserveAspectRatio="xMinYMin meet" text-rendering="geometricPrecision" class="p1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">text{white-space:pre;font-size:16px;font-weight:normal;font-style:normal;fill:none;unicode-bidi:bidi-override}</style></defs><image width="1281" height="1600" preserveAspectRatio="none" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBw'
     href esterni svg 1: 0; immagini incorporate: 1
     PDF tigre-6507_972eb7.pdf: 12 pagine, 2786 KB
-[ok] tigre_6507: 1 volantino/i
+[ok] tigre_6507: 2 volantino/i
