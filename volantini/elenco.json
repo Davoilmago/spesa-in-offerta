@@ -512,15 +512,27 @@
     "valido_al": "2026-11-15"
   },
   {
+    "file": "lazio/nettuno/pam.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "pam",
+    "negozio": "Pam Via Ugo La Malfa 48",
+    "sha256": "df44416a3eecf66efb725537049ca3db1c2f8bcb0d73dec9efe02daf5c1fa57a",
+    "byte": 8160077,
+    "scaricato_il": "2026-11-06T08:13:25",
+    "titolo": "Offerte valide dal 5 al 18 Novembre"
+  },
+  {
     "file": "lazio/nettuno/pam_2.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",
     "cap": "00048",
     "catena": "pam",
     "negozio": "Pam Via Ugo La Malfa 48",
-    "sha256": "32ba17964fff795f7d16a56b0b85ee6a828845d4c5b0bd086319718740343c1a",
-    "byte": 8105328,
-    "scaricato_il": "2026-10-30T07:54:21",
+    "sha256": "e380d97b4fd9eb464397c4fe055e7fff5a9d3ba88ecdebb15fa67078c38632a6",
+    "byte": 12569880,
+    "scaricato_il": "2026-11-06T08:13:26",
     "titolo": "Occasioni Extra"
   },
   {
