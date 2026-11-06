@@ -132,6 +132,16 @@ def scopri_da_panoramica(pagina):
         pagina.wait_for_timeout(8000)
         comune.prova_chiudi_cookie(pagina)
         pagina.wait_for_timeout(2000)
+        # chiude anche il pannello laterale "Imposta il tuo punto vendita"
+        try:
+            pagina.keyboard.press("Escape")
+            pagina.wait_for_timeout(800)
+            x = pagina.locator("[aria-label*='hiudi'], button[class*='close'], [class*='drawer'] [class*='close']").first
+            if x.is_visible(timeout=1000):
+                x.click(timeout=2000)
+                pagina.wait_for_timeout(800)
+        except Exception:
+            pass
         try:
             comune.salva_debug(pagina, "lidl-panoramica")
         except Exception:
@@ -176,7 +186,10 @@ def scopri_da_panoramica(pagina):
         for testo in ("Volantino settimanale", "Offerte valide dal"):
             try:
                 el = pagina.get_by_text(testo).first
-                el.click(timeout=8000)
+                try:
+                    el.click(timeout=4000)
+                except Exception:
+                    el.evaluate("e => e.click()")   # clic via script se qualcosa copre la scheda
                 pagina.wait_for_timeout(6000)
                 u = pagina.url
                 print(f"    cliccata scheda '{testo}' -> {u}")
