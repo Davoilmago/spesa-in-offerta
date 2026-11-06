@@ -136,21 +136,21 @@ Call log:
       - element is visible, enabled and stable
       - scrolling into view if needed
       - done scrolling
-      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+      - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
     - retrying click action
     - waiting 20ms
     2 × waiting for element to be visible, enabled and stable
       - element is visible, enabled and stable
       - scrolling into view if needed
       - done scrolling
-      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+      - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
     - retrying click action
       - waiting 100ms
     15 × waiting for element to be visible, enabled and stable
        - element is visible, enabled and stable
        - scrolling into view if needed
        - done scrolling
-       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+       - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
      - retrying click action
        - waiting 500ms
 
@@ -163,21 +163,21 @@ Call log:
       - element is visible, enabled and stable
       - scrolling into view if needed
       - done scrolling
-      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+      - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
     - retrying click action
     - waiting 20ms
     2 × waiting for element to be visible, enabled and stable
       - element is visible, enabled and stable
       - scrolling into view if needed
       - done scrolling
-      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+      - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
     - retrying click action
       - waiting 100ms
     15 × waiting for element to be visible, enabled and stable
        - element is visible, enabled and stable
        - scrolling into view if needed
        - done scrolling
-       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div data-nosnippet="true" id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+       - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
      - retrying click action
        - waiting 500ms
 
@@ -212,10 +212,5 @@ Call log:
     tag=BUTTON title=None aria-label='Menù' testo='Menù' box={'x': 1340, 'y': 0, 'width': 50, 'height': 58}
     tag=A title=None aria-label='Ritorna alla panoramica' testo='RITORNA ALLA PANORAMICA' box={'x': 561, 'y': 506.828125, 'width': 278, 'height': 48}
 [condiviso] lidl Nettuno: uso il volantino gia' scaricato (nazionale)
-    volantini trovati per roma-nettuno: 2
-[ok] pam_roma-nettuno_1: PDF scaricato (7968 KB) - 'Offerte valide dal 5 al 18 Novembre'
-[ok] pam_roma-nettuno_2: PDF scaricato (12275 KB) - 'Occasioni Extra'
-[salvato] lazio/nettuno/pam.pdf (Pam Via Ugo La Malfa 48)
-[salvato] lazio/nettuno/pam_2.pdf (Pam Via Ugo La Malfa 48)
 
-Fatto: 2 file salvati, 2 errori.
+Fatto: 0 file salvati, 2 errori.
