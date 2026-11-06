@@ -203,6 +203,25 @@ def scopri_da_panoramica(pagina):
                     break
             except Exception as e:
                 print(f"    scheda '{testo}' non cliccabile: {e}")
+    # se il clic non apre nulla, leggo le date dal nome della scheda ("Offerte valide dal 2/11 al 11/11") e costruisco l'indirizzo
+    if not any("settimanal" in t[2].lower() or "naz" in t[2].lower() for t in trovati):
+        try:
+            testo_pag = " ".join(f.inner_text("body") for f in comune.tutti_i_frame(pagina))
+        except Exception:
+            testo_pag = ""
+        for g1, m1, g2, m2 in re.findall(r"valide dal (\d{1,2})/(\d{1,2}) al (\d{1,2})/(\d{1,2})", testo_pag):
+            g1, m1, g2, m2 = int(g1), int(m1), int(g2), int(m2)
+            try:
+                dal = datetime(oggi.year, m1, g1).date()
+                al = datetime(oggi.year + (1 if m2 < m1 else 0), m2, g2).date()
+            except ValueError:
+                continue
+            if not (dal <= oggi <= al):
+                continue
+            for a, b in ((f"{g1}-{m1}", f"{g2}-{m2}"), (f"{g1:02d}-{m1:02d}", f"{g2:02d}-{m2:02d}")):
+                for suff in ("volantino-settimanale-NAZ", "volantino-settimanale"):
+                    trovati.append((dal, al, f"https://www.lidl.it/l/it/volantini/offerte-valide-dal-{a}-al-{b}-{suff}/view/flyer/page/1"))
+            print(f"    date lette dalla scheda: dal {dal:%d/%m} al {al:%d/%m}")
     # il settimanale alimentare per primo
     trovati.sort(key=lambda t: (("settimanal" in t[2].lower() or "naz" in t[2].lower()), t[0]), reverse=True)
     return trovati
