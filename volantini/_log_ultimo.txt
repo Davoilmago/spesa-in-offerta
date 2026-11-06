@@ -127,60 +127,8 @@
     collegamento: https://www.lidl.it/c/informativa-privacy-clienti/s10018369#10205869
     collegamento: https://www.lidl.it/c/protezione-dei-dati-sui-nostri-siti/s10030013
     collegamento: https://www.onetrust.com/solutions/consent-and-preferences/
-    scheda 'Volantino settimanale' non cliccabile: Locator.click: Timeout 8000ms exceeded.
-Call log:
-  - waiting for get_by_text("Volantino settimanale").first
-    - locator resolved to <span class="flyer__title">↵            Volantino settimanale↵        </span>
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is visible, enabled and stable
-      - scrolling into view if needed
-      - done scrolling
-      - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is visible, enabled and stable
-      - scrolling into view if needed
-      - done scrolling
-      - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
-    - retrying click action
-      - waiting 100ms
-    15 × waiting for element to be visible, enabled and stable
-       - element is visible, enabled and stable
-       - scrolling into view if needed
-       - done scrolling
-       - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
-     - retrying click action
-       - waiting 500ms
-
-    scheda 'Offerte valide dal' non cliccabile: Locator.click: Timeout 8000ms exceeded.
-Call log:
-  - waiting for get_by_text("Offerte valide dal").first
-    - locator resolved to <div class="flyer__name">↵            Offerte valide dal 2/11 al 11/11↵   …</div>
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is visible, enabled and stable
-      - scrolling into view if needed
-      - done scrolling
-      - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is visible, enabled and stable
-      - scrolling into view if needed
-      - done scrolling
-      - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
-    - retrying click action
-      - waiting 100ms
-    15 × waiting for element to be visible, enabled and stable
-       - element is visible, enabled and stable
-       - scrolling into view if needed
-       - done scrolling
-       - <div class="overlay__close-area" data-leaflets-regionalization-close-area=""></div> from <div class="leaflets-overview-app leaflets-overview-app--overlay-wrapper">…</div> subtree intercepts pointer events
-     - retrying click action
-       - waiting 500ms
-
+    cliccata scheda 'Volantino settimanale' -> https://www.lidl.it/c/volantino-lidl/s10018048
+    cliccata scheda 'Offerte valide dal' -> https://www.lidl.it/c/volantino-lidl/s10018048
     provo il volantino Lidl dal 05/11 al 11/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-5-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1
     pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-5-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
     il lettore dice: pagina non trovata
