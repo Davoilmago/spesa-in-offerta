@@ -56,6 +56,16 @@ def prova_chiudi_cookie(pagina):
                 return
         except Exception:
             pass
+    # banner con "Continua senza accettare" (es. Lidl): e' un pulsante o un collegamento
+    for testo in ["Continua senza accettare", "Rifiuta tutto", "Rifiuta tutti i cookie"]:
+        try:
+            el = pagina.get_by_text(testo, exact=False).first
+            if el.is_visible(timeout=1500):
+                el.click(timeout=3000)
+                pagina.wait_for_timeout(800)
+                return
+        except Exception:
+            pass
 
 
 def tutti_i_frame(pagina):
