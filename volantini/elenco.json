@@ -312,6 +312,20 @@
     "scaricato_il": "2026-11-03T04:49:35"
   },
   {
+    "file": "lazio/latina/lidl.pdf",
+    "regione": "Lazio",
+    "citta": "Latina",
+    "cap": "04100",
+    "catena": "lidl",
+    "negozio": "volantino nazionale",
+    "sha256": "266ee54ac86498a72be17d32448d0bba54b2fde1d0cc884f1b7720c4037c712e",
+    "byte": 20652522,
+    "scaricato_il": "2026-11-06T08:40:29",
+    "valido_dal": "2026-11-02",
+    "valido_al": "2026-11-11",
+    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-2-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1"
+  },
+  {
     "file": "lazio/latina/md.pdf",
     "regione": "Lazio",
     "citta": "Latina",
@@ -510,6 +524,20 @@
     "titolo": "Volantino 23",
     "valido_dal": "2026-11-04",
     "valido_al": "2026-11-15"
+  },
+  {
+    "file": "lazio/nettuno/lidl.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "lidl",
+    "negozio": "volantino nazionale",
+    "sha256": "266ee54ac86498a72be17d32448d0bba54b2fde1d0cc884f1b7720c4037c712e",
+    "byte": 20652522,
+    "scaricato_il": "2026-11-06T08:40:29",
+    "valido_dal": "2026-11-02",
+    "valido_al": "2026-11-11",
+    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-2-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1"
   },
   {
     "file": "lazio/nettuno/pam.pdf",

@@ -129,6 +129,11 @@
     collegamento: https://www.onetrust.com/solutions/consent-and-preferences/
     cliccata scheda 'Volantino settimanale' -> https://www.lidl.it/c/volantino-lidl/s10018048
     cliccata scheda 'Offerte valide dal' -> https://www.lidl.it/c/volantino-lidl/s10018048
+    date lette dalla scheda: dal 02/11 al 11/11
+    volantino scoperto dalla panoramica: dal 02/11 al 11/11
+    volantino scoperto dalla panoramica: dal 02/11 al 11/11
+    volantino scoperto dalla panoramica: dal 02/11 al 11/11
+    volantino scoperto dalla panoramica: dal 02/11 al 11/11
     provo il volantino Lidl dal 05/11 al 11/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-5-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1
     pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-5-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
     il lettore dice: pagina non trovata
@@ -153,12 +158,15 @@
     provo il volantino Lidl dal 29/10 al 04/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale/view/flyer/page/1
     pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale/view/flyer/page/1  titolo: 'Lidl Italia - lidl.it'
     il lettore dice: pagina non trovata
-[ERRORE] lidl_nazionale: pulsante di download non trovato
-    --- elementi visibili
-    tag=A title=None aria-label="Vai all'homepage" testo='' box={'x': 10, 'y': 4, 'width': 50, 'height': 50}
-    tag=A title=None aria-label='Esci, Ritorna alla panoramica' testo='Esci' box={'x': 1300, 'y': 0, 'width': 40, 'height': 58}
-    tag=BUTTON title=None aria-label='Menù' testo='Menù' box={'x': 1340, 'y': 0, 'width': 50, 'height': 58}
-    tag=A title=None aria-label='Ritorna alla panoramica' testo='RITORNA ALLA PANORAMICA' box={'x': 561, 'y': 506.828125, 'width': 278, 'height': 48}
+    provo il volantino Lidl dal 02/11 al 11/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-2-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1
+    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-2-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Offerte valide dal 2/11 al 11/11 - Volantino settimanale | Lidl Italia - lidl.it'
+    Menu aperto con: clic normale
+[ok] lidl_nazionale: pulsante trovato (testo 'Scarica il PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Scarica il PDF' box={'x': 1090, 'y': 132.109375, 'width': 91, 'height': 22}
+    indirizzo del pulsante: https://assets.leaflets.schwarz/leaflets/pdfs/01a18843-17aa-7dc7-8eed-8d025829a739/Offerte-valide-dal-2-11-al-11-11-Volantino-settimanale-00.pdf
+    PDF scaricato direttamente dall'indirizzo
+[salvato] lazio/latina/lidl.pdf (volantino nazionale)
 [condiviso] lidl Nettuno: uso il volantino gia' scaricato (nazionale)
+[salvato] lazio/nettuno/lidl.pdf (volantino nazionale)
 
-Fatto: 0 file salvati, 2 errori.
+Fatto: 2 file salvati, 0 errori.
