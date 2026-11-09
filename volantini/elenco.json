@@ -91,9 +91,9 @@
     "cap": "00042",
     "catena": "deco",
     "negozio": "Decò Via di Valle Schioia 67",
-    "sha256": "ce57b884961f14f55e1beda893c601a4349733d35e39cde22bd38b5fd248f257",
+    "sha256": "f8510c1d9f1ceb9c911644a126454fa46ab89471a82bf8e7840f066fd1203854",
     "byte": 13818130,
-    "scaricato_il": "2026-11-06T04:47:51",
+    "scaricato_il": "2026-11-09T04:53:54",
     "titolo": "Volantino Decò",
     "indirizzo": "https://deco.volantinopiu.com/ws/pv003499.php"
   },
@@ -106,7 +106,7 @@
     "negozio": "Via Nerone 15",
     "sha256": "63fcd410047466ecd9995894cbe479deba20d6146c1ce83bf2e206ace088cdeb",
     "byte": 13736992,
-    "scaricato_il": "2026-11-03T04:40:25"
+    "scaricato_il": "2026-11-09T04:52:17"
   },
   {
     "file": "lazio/anzio/ins.pdf",
@@ -117,7 +117,7 @@
     "negozio": "iN's Mercato Via di Villa Claudia 7",
     "sha256": "14df3de172f0f3a28a0020a552e4c7baad99bc815f3576d6c092796e603980c2",
     "byte": 7250872,
-    "scaricato_il": "2026-11-06T04:47:18",
+    "scaricato_il": "2026-11-09T04:53:20",
     "titolo": "Volantino 23",
     "valido_dal": "2026-11-04",
     "valido_al": "2026-11-15"
@@ -131,7 +131,7 @@
     "negozio": "MD Via Goldoni 62",
     "sha256": "9e502f9360ba64734a6126643b1f07a99ccf9b21657002e5396e7403cdd0d2dc",
     "byte": 22313104,
-    "scaricato_il": "2026-11-06T04:46:59",
+    "scaricato_il": "2026-11-09T04:52:58",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -309,7 +309,7 @@
     "negozio": "Eurospin Via Epitaffio 6",
     "sha256": "63fcd410047466ecd9995894cbe479deba20d6146c1ce83bf2e206ace088cdeb",
     "byte": 13736992,
-    "scaricato_il": "2026-11-03T04:49:35"
+    "scaricato_il": "2026-11-09T04:54:51"
   },
   {
     "file": "lazio/latina/lidl.pdf",
@@ -334,7 +334,7 @@
     "negozio": "MD Viale Le Corbusier snc",
     "sha256": "9e502f9360ba64734a6126643b1f07a99ccf9b21657002e5396e7403cdd0d2dc",
     "byte": 22313104,
-    "scaricato_il": "2026-11-06T04:50:30",
+    "scaricato_il": "2026-11-09T04:54:27",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -447,9 +447,9 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "94efe1c8d6287d6c148978d2c46d7b229e4ff72adc5223278652208f91423abb",
-    "byte": 4659119,
-    "scaricato_il": "2026-11-06T05:03:26",
+    "sha256": "4972e685fa01edb0d39b6c8612134e00de40be483ca4a7ff391f872457e6d45b",
+    "byte": 4659135,
+    "scaricato_il": "2026-11-09T05:00:15",
     "titolo": "PREZZI TONDI 1€ e 2€",
     "indirizzo": "https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2",
     "valido_dal": "2026-10-30",
@@ -462,9 +462,9 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "96ddd0565a7d7f25e57bbe341b075f8b18f268fe0dbc3fd30b955652a0f75175",
-    "byte": 1521218,
-    "scaricato_il": "2026-11-06T05:03:26",
+    "sha256": "99cfce1dde0640a543fae1e5461bff9800f64db967b07b481531504a00279a76",
+    "byte": 1521219,
+    "scaricato_il": "2026-11-09T05:00:15",
     "titolo": "Novembre Conveniente",
     "indirizzo": "https://superelite.it/promozioni/novembre-conveniente-2",
     "valido_dal": "2026-10-30",
@@ -477,9 +477,9 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "54c64f1debbebb874353cd8220e3f2e48b6b06a6788ddbd8b65c8290e0a411f4",
-    "byte": 2759166,
-    "scaricato_il": "2026-11-06T05:03:26",
+    "sha256": "cb7847ca14d71db22b2e98b627b7271f8f6b2af00a8cc5e397780c2f622626bf",
+    "byte": 2759174,
+    "scaricato_il": "2026-11-09T05:00:15",
     "titolo": "Spesa Difesa Selex - Prezzi Bloccati - Settembre",
     "indirizzo": "https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio",
     "valido_dal": "2026-09-01",
@@ -492,9 +492,9 @@
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "9681c3f684474918272a9b5a990bcf6943b505ee124832c4136878144b46f320",
-    "byte": 1823071,
-    "scaricato_il": "2026-11-06T05:03:26",
+    "sha256": "5c8505466f1afde168d0f83a531f0d1a55a24a261dfd7f535cb7d99c71cc4eda",
+    "byte": 1823075,
+    "scaricato_il": "2026-11-09T05:00:15",
     "titolo": "Tutti in Campo - Grande Raccolta Fila - Ultima puntata",
     "indirizzo": "https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2",
     "valido_dal": "2026-10-26",
@@ -509,7 +509,7 @@
     "negozio": "Via Scipione Borghese 35",
     "sha256": "63fcd410047466ecd9995894cbe479deba20d6146c1ce83bf2e206ace088cdeb",
     "byte": 13736992,
-    "scaricato_il": "2026-11-03T04:53:05"
+    "scaricato_il": "2026-11-09T04:58:28"
   },
   {
     "file": "lazio/nettuno/ins.pdf",
@@ -520,7 +520,7 @@
     "negozio": "iN's Mercato Via Ugo La Malfa 9",
     "sha256": "14df3de172f0f3a28a0020a552e4c7baad99bc815f3576d6c092796e603980c2",
     "byte": 7250872,
-    "scaricato_il": "2026-11-06T05:01:36",
+    "scaricato_il": "2026-11-09T04:58:47",
     "titolo": "Volantino 23",
     "valido_dal": "2026-11-04",
     "valido_al": "2026-11-15"
