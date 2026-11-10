@@ -7,13 +7,17 @@ Formato:   window.OFFERTE = { "aggiornato": "...", "prodotti": [...], "offerte":
   prodotti: {id, e (emoji), n (nome), cat, sub, u (unita' di confronto: kg, l, pezzo...)}
   offerte:  {p (id prodotto), s (negozio), prezzo, q (quantita' nella confezione, nell'unita' del prodotto),
              l (descrizione), z (zone: A=Anzio, N=Nettuno, AN=entrambe), c (0 / 1 serve la carta / 2 serve l'app),
-             dal, al (date ISO), img (foto, data URI)}
+             dal, al (date ISO), img (foto: percorso del file, es. "img/ab12cd34ef56.jpg", in sito/img/)}
+
+Le foto NON stanno piu' dentro offerte.js: sono file separati in sito/img/ (nome = impronta del contenuto,
+cosi' le foto uguali si riusano). salva() cancella da sito/img le foto che nessuna offerta usa piu'.
 
 Uso da Python:
     from strumenti.offerte_lib import carica, salva, ritaglia, aggiungi_offerta, togli_scadute
 """
 
 import base64
+import hashlib
 import io
 import json
 from datetime import date
@@ -38,11 +42,17 @@ def salva(dati, percorso="sito/offerte.js"):
     except ImportError:
         pass
     dati["aggiornato"] = date.today().isoformat()
+    converti_foto_incorporate(dati)
+    pulisci_foto(dati)
     Path(percorso).write_text(PREFISSO + json.dumps(dati, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
 
 
+CARTELLA_IMG = Path("sito/img")
+
+
 def ritaglia(immagine_pagina, riquadro, larghezza_max=300, qualita=72):
-    """Ritaglia riquadro=(x0, y0, x1, y1) da una pagina (percorso o immagine PIL). Restituisce la foto come data URI."""
+    """Ritaglia riquadro=(x0, y0, x1, y1) da una pagina (percorso o immagine PIL).
+    Salva la foto come file in sito/img/ e restituisce il suo percorso relativo (es. "img/ab12cd34ef56.jpg")."""
     from PIL import Image
 
     im = Image.open(immagine_pagina) if not hasattr(immagine_pagina, "crop") else immagine_pagina
@@ -51,7 +61,39 @@ def ritaglia(immagine_pagina, riquadro, larghezza_max=300, qualita=72):
         foto = foto.resize((larghezza_max, round(foto.height * larghezza_max / foto.width)))
     buffer = io.BytesIO()
     foto.save(buffer, "JPEG", quality=qualita, optimize=True)
-    return "data:image/jpeg;base64," + base64.b64encode(buffer.getvalue()).decode()
+    dati_foto = buffer.getvalue()
+    nome = hashlib.sha1(dati_foto).hexdigest()[:12] + ".jpg"
+    CARTELLA_IMG.mkdir(parents=True, exist_ok=True)
+    (CARTELLA_IMG / nome).write_bytes(dati_foto)
+    return "img/" + nome
+
+
+def converti_foto_incorporate(dati):
+    """Trasforma le vecchie foto incorporate (data URI) in file di sito/img/. Restituisce quante ne ha convertite."""
+    n = 0
+    CARTELLA_IMG.mkdir(parents=True, exist_ok=True)
+    for o in dati["offerte"]:
+        img = o.get("img")
+        if img and img.startswith("data:image"):
+            raw = base64.b64decode(img.split(",", 1)[1])
+            nome = hashlib.sha1(raw).hexdigest()[:12] + ".jpg"
+            (CARTELLA_IMG / nome).write_bytes(raw)
+            o["img"] = "img/" + nome
+            n += 1
+    return n
+
+
+def pulisci_foto(dati):
+    """Cancella da sito/img le foto che nessuna offerta usa piu'. Restituisce quante ne ha tolte."""
+    if not CARTELLA_IMG.exists():
+        return 0
+    usate = {Path(o["img"]).name for o in dati["offerte"] if o.get("img") and not o["img"].startswith("data:")}
+    tolte = 0
+    for f in CARTELLA_IMG.glob("*.jpg"):
+        if f.name not in usate:
+            f.unlink()
+            tolte += 1
+    return tolte
 
 
 def trova_prodotto(dati, nome):

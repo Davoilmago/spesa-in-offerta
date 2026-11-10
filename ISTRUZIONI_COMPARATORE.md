@@ -1,6 +1,6 @@
 # Come aggiornare il comparatore (sito/offerte.js)
 
-Il comparatore legge TUTTO da `sito/offerte.js` (prodotti, offerte, date, foto incorporate).
+Il comparatore legge TUTTO da `sito/offerte.js` (prodotti, offerte, date); le foto dei prodotti sono file separati in `sito/img/` e ogni offerta riporta il percorso (`img`, es. `img/ab12cd34ef56.jpg`).
 Formato: `window.OFFERTE={aggiornato, prodotti:[{id,e,n,cat,sub,u}], offerte:[{p,s,prezzo,q,l,z,c,dal,al,img}]}`
 - `s` = catena (eurospin, lidl, todis, conad, pam, carrefour); `z` = zone: A (Anzio), N (Nettuno), AN (entrambe)
 - `prezzo` = prezzo della confezione; `q` = quantita' nell'unita' del prodotto (`u`: kg, l, etto, pezzo...)
@@ -70,3 +70,9 @@ Ogni volta che si aggiunge una città o una catena, va inserita subito nel proce
 3. Un volantino con lo stesso sha256 in più città si legge una sola volta e la zona dell'offerta le comprende tutte (es. "ANL"); volantini diversi per città si leggono separatamente con la zona della sola città.
 4. Di ogni città e catena vanno riportati almeno l'indirizzo del negozio (e telefono/orari se disponibili).
 5. Il compito automatico "Aggiornamento volantini e comparatore Spesa in Offerta" deve poi aggiornarle da solo, senza interventi.
+
+## Foto dei prodotti: file separati (da novembre 2026)
+
+`strumenti.offerte_lib.ritaglia(...)` ora salva la foto come file in `sito/img/` e restituisce il percorso: si usa come prima
+(`aggiungi_offerta(..., img=ritaglia(...))`). `salva()` converte da solo eventuali foto incorporate e cancella le foto non piu' usate.
+Cosi' `offerte.js` resta leggero (meno di 1 MB) e le foto si caricano solo quando servono. Fai sempre `git add sito/offerte.js sito/img`.
