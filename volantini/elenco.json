@@ -8,7 +8,7 @@
     "negozio": "Spazio Conad, Viale Antium 4",
     "sha256": "358a257e1d364798941873378856a20c60fabb7a4a66821aaeb10cc3eb43b7cc",
     "byte": 17082111,
-    "scaricato_il": "2026-11-10T04:41:33",
+    "scaricato_il": "2026-11-11T04:45:47",
     "indirizzo": "https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625"
   },
   {
@@ -20,7 +20,7 @@
     "negozio": "Spazio Conad, Viale Antium 4 (secondo volantino)",
     "sha256": "9e0afc452ed7ace9457a1ead164a6de7fbc8b34deb42c9c6c35a5abf86a2fe3d",
     "byte": 15507435,
-    "scaricato_il": "2026-11-10T04:41:41",
+    "scaricato_il": "2026-11-11T04:45:53",
     "indirizzo": "https://www.conad.it/volantini/Spazio-Conad-Fascia2-Bis?anacanId=008625"
   },
   {
@@ -32,7 +32,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "afe304ffbd4ad0ccba7afb0ed90e87e500480c8efaa5658bece48815863c81c8",
     "byte": 15447177,
-    "scaricato_il": "2026-11-10T04:42:18",
+    "scaricato_il": "2026-11-11T04:46:25",
     "indirizzo": "https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006228"
   },
   {
@@ -44,7 +44,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "eae2ba58a0687fb18fa8bc4f4a4e4af555319fc07b1c9d9738b1dfd97a0acaa1",
     "byte": 17697570,
-    "scaricato_il": "2026-11-10T04:42:18",
+    "scaricato_il": "2026-11-11T04:46:25",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=006228"
   },
   {
@@ -56,7 +56,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
     "byte": 4353579,
-    "scaricato_il": "2026-11-10T04:42:18",
+    "scaricato_il": "2026-11-11T04:46:26",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228"
   },
   {
@@ -68,7 +68,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "592f31ae1778b75963a1a67b07f0637a9d3f585d070bacd28d84e03f7588e843",
     "byte": 2600928,
-    "scaricato_il": "2026-11-10T04:42:18",
+    "scaricato_il": "2026-11-11T04:46:26",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228"
   },
   {
@@ -225,7 +225,7 @@
     "negozio": "Conad City Via F.lli Bandiera 15",
     "sha256": "afe304ffbd4ad0ccba7afb0ed90e87e500480c8efaa5658bece48815863c81c8",
     "byte": 15447177,
-    "scaricato_il": "2026-11-10T04:43:06",
+    "scaricato_il": "2026-11-11T04:46:51",
     "indirizzo": "https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=001223"
   },
   {
@@ -237,7 +237,7 @@
     "negozio": "Conad City Via F.lli Bandiera 15",
     "sha256": "7a7791879042ffbc6b35e6ec891e7075152d501ac8c48357cf358b70ff08602f",
     "byte": 2409895,
-    "scaricato_il": "2026-11-10T04:43:06",
+    "scaricato_il": "2026-11-11T04:46:51",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=001223"
   },
   {
@@ -249,7 +249,7 @@
     "negozio": "Conad City Via F.lli Bandiera 15",
     "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
     "byte": 4353579,
-    "scaricato_il": "2026-11-10T04:43:06",
+    "scaricato_il": "2026-11-11T04:46:51",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223"
   },
   {
@@ -261,7 +261,7 @@
     "negozio": "Conad Superstore Via Ezio 47",
     "sha256": "eae2ba58a0687fb18fa8bc4f4a4e4af555319fc07b1c9d9738b1dfd97a0acaa1",
     "byte": 17697570,
-    "scaricato_il": "2026-11-10T04:43:37",
+    "scaricato_il": "2026-11-11T04:47:22",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008038"
   },
   {
@@ -273,7 +273,7 @@
     "negozio": "Conad Superstore Via Ezio 47",
     "sha256": "592f31ae1778b75963a1a67b07f0637a9d3f585d070bacd28d84e03f7588e843",
     "byte": 2600928,
-    "scaricato_il": "2026-11-10T04:43:37",
+    "scaricato_il": "2026-11-11T04:47:22",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008038"
   },
   {
@@ -285,7 +285,7 @@
     "negozio": "Conad Via Don Carlo Torello 51",
     "sha256": "1a421dd4c05de0fcbfd81181c0a85b0010ba616246f693ac1937f678e6f9ab63",
     "byte": 5522490,
-    "scaricato_il": "2026-11-10T04:44:14",
+    "scaricato_il": "2026-11-11T04:47:53",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=006232"
   },
   {
@@ -297,7 +297,7 @@
     "negozio": "Conad Via Don Carlo Torello 51",
     "sha256": "5b07c7d4286aba949a7048551908702ca8d0176ed01200ef9bd4671e26baaef9",
     "byte": 401574,
-    "scaricato_il": "2026-11-10T04:44:14",
+    "scaricato_il": "2026-11-11T04:47:53",
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232"
   },
   {
@@ -401,7 +401,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "afe304ffbd4ad0ccba7afb0ed90e87e500480c8efaa5658bece48815863c81c8",
     "byte": 15447177,
-    "scaricato_il": "2026-11-10T04:53:04",
+    "scaricato_il": "2026-11-11T04:52:26",
     "indirizzo": "https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010443"
   },
   {
@@ -413,7 +413,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "1a421dd4c05de0fcbfd81181c0a85b0010ba616246f693ac1937f678e6f9ab63",
     "byte": 5522490,
-    "scaricato_il": "2026-11-10T04:53:04",
+    "scaricato_il": "2026-11-11T04:52:26",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010443"
   },
   {
@@ -425,7 +425,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
     "byte": 4353579,
-    "scaricato_il": "2026-11-10T04:53:04",
+    "scaricato_il": "2026-11-11T04:52:27",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443"
   },
   {
@@ -437,7 +437,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "5b07c7d4286aba949a7048551908702ca8d0176ed01200ef9bd4671e26baaef9",
     "byte": 401574,
-    "scaricato_il": "2026-11-10T04:53:04",
+    "scaricato_il": "2026-11-11T04:52:27",
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443"
   },
   {
