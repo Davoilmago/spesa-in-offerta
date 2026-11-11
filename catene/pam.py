@@ -103,6 +103,35 @@ def scarica(contesto, negozio, etichetta):
             print(f"    volantini trovati per {id_negozio}: {len(link)} (pagina: {pagina.title()!r})")
             if link:
                 break
+        if not link and negozio.get("cerca"):
+            # le varianti non funzionano: cerco il negozio nell'elenco dei punti vendita e provo i collegamenti che contengono il nome
+            parola = negozio["cerca"].lower()
+            pagina.goto("https://www.pampanorama.it/punti-vendita", wait_until="domcontentloaded", timeout=60000)
+            pagina.wait_for_timeout(8000)
+            comune.prova_chiudi_cookie(pagina)
+            try:
+                casella = pagina.get_by_role("textbox").first
+                casella.fill(negozio["cerca"])
+                casella.press("Enter")
+                pagina.wait_for_timeout(5000)
+            except Exception as e:
+                print(f"    ricerca nell'elenco non riuscita: {str(e).splitlines()[0][:120]}")
+            hrefs = pagina.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
+            candidati = [h for h in dict.fromkeys(hrefs) if "/punti-vendita/" in h and parola in h.lower()]
+            print(f"    collegamenti dell'elenco con '{parola}': {candidati[:12]}")
+            print(f"    tutti i collegamenti punti-vendita (primi 15): {[h for h in dict.fromkeys(hrefs) if '/punti-vendita/' in h][:15]}")
+            try:
+                comune.salva_debug(pagina, "pam-elenco")
+            except Exception:
+                pass
+            for h in candidati[:6]:
+                pagina.goto(h, wait_until="domcontentloaded", timeout=60000)
+                pagina.wait_for_timeout(8000)
+                comune.prova_chiudi_cookie(pagina)
+                link = link_volantini(pagina)
+                print(f"    volantini trovati per {h}: {len(link)} (pagina: {pagina.title()!r})")
+                if link:
+                    break
         if not link:
             print(f"[ERRORE] {etichetta}: nessun link ai volantini nella pagina del negozio")
             comune.salva_debug(pagina, comune.slug(etichetta))
