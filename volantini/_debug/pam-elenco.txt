@@ -1,0 +1,45 @@
+--- frame: https://www.pampanorama.it/prodotti?query=latina
+0: tag=BUTTON title=None aria-label='Apri Menu' testo='Menu' box={'x': 16, 'y': 29.390625, 'width': 92.234375, 'height': 50}
+1: tag=A title=None aria-label=None testo='Negozi' box={'x': 124.234375, 'y': 35.390625, 'width': 45, 'height': 15}
+2: tag=A title=None aria-label=None testo='Prodotti' box={'x': 185.234375, 'y': 35.390625, 'width': 53, 'height': 15}
+3: tag=A title=None aria-label=None testo='Rubriche' box={'x': 254.234375, 'y': 35.390625, 'width': 56, 'height': 15}
+4: tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 326.234375, 'y': 35.390625, 'width': 78, 'height': 15}
+5: tag=A title=None aria-label=None testo='Pam a casa' box={'x': 124.234375, 'y': 35.390625, 'width': 339.5, 'height': 39}
+6: tag=A title=None aria-label=None testo='' box={'x': 521.046875, 'y': 47.015625, 'width': 263.15625, 'height': 15}
+7: tag=A title=None aria-label=None testo='Parla Con Noi' box={'x': 821, 'y': 42.390625, 'width': 111, 'height': 24}
+8: tag=A title=None aria-label=None testo='Lavora Con Noi' box={'x': 948, 'y': 42.390625, 'width': 122, 'height': 24}
+9: tag=BUTTON title='Cerca' aria-label='Cerca tra Prodotti, Ricette, Negozi o Articoli' testo='' box={'x': 1086, 'y': 43.15625, 'width': 20, 'height': 20}
+10: tag=BUTTON title=None aria-label='Accedi o Registrati' testo='Accedi o Registrati' box={'x': 1122, 'y': 29.390625, 'width': 157.5, 'height': 50}
+11: tag=A title=None aria-label=None testo='Fornitori' box={'x': 1295.5, 'y': 41.890625, 'width': 88.5, 'height': 25}
+12: tag=DIV title=None aria-label=None testo='Prodotti' box={'x': 513.5, 'y': 11, 'width': 110, 'height': 32}
+13: tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 820.5, 'y': 12, 'width': 40, 'height': 30}
+14: tag=BUTTON title=None aria-label='Chiudi la barra di ricerca' testo='' box={'x': 860.5, 'y': 6, 'width': 36, 'height': 42}
+15: tag=BUTTON title=None aria-label=None testo='' box={'x': 210, 'y': 523, 'width': 48, 'height': 48}
+16: tag=BUTTON title=None aria-label='Close' testo='' box={'x': 822.78125, 'y': 850, 'width': 44, 'height': 44}
+17: tag=A title=None aria-label=None testo='Chi siamo' box={'x': 295, 'y': 1036, 'width': 53, 'height': 14}
+18: tag=A title=None aria-label=None testo='Prodotti' box={'x': 295, 'y': 1058.5, 'width': 45, 'height': 14}
+19: tag=A title=None aria-label=None testo='Ricette' box={'x': 295, 'y': 1081, 'width': 39, 'height': 14}
+20: tag=A title=None aria-label=None testo='Rubriche' box={'x': 295, 'y': 1103.5, 'width': 49, 'height': 14}
+21: tag=A title=None aria-label=None testo='Negozi' box={'x': 295, 'y': 1126, 'width': 39, 'height': 14}
+22: tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 295, 'y': 1148.5, 'width': 65, 'height': 14}
+23: tag=A title=None aria-label=None testo='I nostri freschi' box={'x': 295, 'y': 1171, 'width': 77, 'height': 14}
+24: tag=A title=None aria-label=None testo='I nostri marchi' box={'x': 295, 'y': 1193.5, 'width': 78, 'height': 14}
+25: tag=A title=None aria-label=None testo='Scopri Carta Per Te' box={'x': 570, 'y': 1058.5, 'width': 102, 'height': 14}
+26: tag=A title=None aria-label=None testo='Lavora con noi' box={'x': 570, 'y': 1127.5, 'width': 79, 'height': 14}
+27: tag=A title=None aria-label=None testo='Parla con noi' box={'x': 570, 'y': 1150, 'width': 70, 'height': 14}
+28: tag=A title=None aria-label=None testo='Area stampa' box={'x': 570, 'y': 1172.5, 'width': 68, 'height': 14}
+29: tag=A title=None aria-label=None testo='Concorsi e iniziative' box={'x': 570, 'y': 1195, 'width': 108, 'height': 14}
+30: tag=A title=None aria-label=None testo='' box={'x': 875, 'y': 1039.625, 'width': 93.828125, 'height': 15}
+31: tag=A title=None aria-label=None testo='' box={'x': 968.828125, 'y': 1039.625, 'width': 106.703125, 'height': 15}
+32: tag=A title=None aria-label='Facebook' testo='' box={'x': 875, 'y': 1137, 'width': 54, 'height': 34}
+33: tag=A title=None aria-label='Instagram' testo='' box={'x': 949, 'y': 1137, 'width': 54, 'height': 34}
+34: tag=A title=None aria-label='Youtube' testo='' box={'x': 1023, 'y': 1137, 'width': 54, 'height': 34}
+35: tag=A title=None aria-label=None testo='Accedi al portale fornitori' box={'x': 875, 'y': 1239, 'width': 182, 'height': 37}
+36: tag=A title=None aria-label=None testo='Modello Organizzativo - Codice Etico' box={'x': 293, 'y': 1320, 'width': 204, 'height': 14}
+37: tag=A title=None aria-label=None testo='Garanzia legale' box={'x': 517, 'y': 1320, 'width': 83, 'height': 14}
+38: tag=A title=None aria-label=None testo='Legal e Privacy' box={'x': 620, 'y': 1320, 'width': 79, 'height': 14}
+39: tag=A title=None aria-label=None testo='Provvedimenti e Richiami' box={'x': 719, 'y': 1320, 'width': 137, 'height': 14}
+40: tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 1020, 'y': 1320, 'width': 87, 'height': 14}
+41: tag=A title=None aria-label=None testo='Fornace' box={'x': 713, 'y': 1540.5, 'width': 41, 'height': 14}
+42: tag=BUTTON title=None aria-label=None testo='' box={'x': 1324, 'y': 1040, 'width': 60, 'height': 60}
+43: tag=BUTTON title=None aria-label=None testo='Cookie' box={'x': 1314.1875, 'y': 856, 'width': 79.8125, 'height': 38}
