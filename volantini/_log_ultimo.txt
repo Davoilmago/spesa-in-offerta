@@ -1,37 +1,13 @@
-    promozioni trovate: 6 (link totali 18): ['https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/sottoprezzo-lariano', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/sottoprezzo-lariano', 'https://superelite.it/promozioni/sottoprezzo-lariano', 'https://superelite.it/promozioni/sottoprezzo-lariano', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio']
-[ERRORE] elite_latina_1: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20153&pdf=1&Itemid=0 non e' un PDF (stato 429)
-    https://superelite.it/promozioni/grandi-marche-al-costo-2: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a58c97f8490167a3 Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_latina_2: link PDF non trovato in https://superelite.it/promozioni/grandi-marche-al-costo-2
-    https://superelite.it/promozioni/sottoprezzo-lariano: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a58c980eb9f867a3 Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_latina_3: link PDF non trovato in https://superelite.it/promozioni/sottoprezzo-lariano
-[ok] elite_latina_4: https://superelite.it/promozioni/novembre-conveniente-2 fino al 2026-11-12 (1485 KB)
-[ok] elite_latina_5: https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio fino al 2026-12-31 (2694 KB)
-[ok] elite_latina_6: https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2 fino al 2026-11-15 (1780 KB)
-[salvato] lazio/latina/elite.pdf (Elite Via Priverno 28)
-[salvato] lazio/latina/elite_2.pdf (Elite Via Priverno 28)
-[salvato] lazio/latina/elite_3.pdf (Elite Via Priverno 28)
-    volantini trovati per latina-latina: 0 (pagina: 'Pagina non trovata')
-    volantini trovati per latina-latina-fiori: 0 (pagina: 'Pagina non trovata')
-    volantini trovati per latina-latina-1: 0 (pagina: 'Pagina non trovata')
-    volantini trovati per roma-latina: 0 (pagina: 'Pagina non trovata')
-    collegamenti dell'elenco con 'latina': []
-    tutti i collegamenti punti-vendita (primi 15): []
-[ERRORE] pam_['latina-latina', 'latina-latina-fiori', 'latina-latina-1', 'roma-latina']: nessun link ai volantini nella pagina del negozio
-    volantini trovati per roma-nettuno: 2 (pagina: 'Nettuno - Via Ugo La Malfa, 48')
-[ok] pam_roma-nettuno_1: PDF scaricato (7968 KB) - 'Offerte valide dal 5 al 18 Novembre'
-[ok] pam_roma-nettuno_2: PDF scaricato (12275 KB) - 'Occasioni Extra'
-[salvato] lazio/nettuno/pam.pdf (Pam Via Ugo La Malfa 48)
-[salvato] lazio/nettuno/pam_2.pdf (Pam Via Ugo La Malfa 48)
-    promozioni trovate: 6 (link totali 18): ['https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/sottoprezzo-lariano', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/sottoprezzo-lariano', 'https://superelite.it/promozioni/sottoprezzo-lariano', 'https://superelite.it/promozioni/sottoprezzo-lariano', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/novembre-conveniente-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio']
-[ok] elite_nettuno_1: https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2 fino al 2026-11-12 (4549 KB)
-    salto https://superelite.it/promozioni/grandi-marche-al-costo-2: non vale per nettuno
-    salto https://superelite.it/promozioni/sottoprezzo-lariano: non vale per nettuno
-[ok] elite_nettuno_4: https://superelite.it/promozioni/novembre-conveniente-2 fino al 2026-11-12 (1485 KB)
-[ok] elite_nettuno_5: https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio fino al 2026-12-31 (2694 KB)
-[ok] elite_nettuno_6: https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2 fino al 2026-11-15 (1780 KB)
-[salvato] lazio/nettuno/elite.pdf (Elite Via De Gasperi 14)
-[salvato] lazio/nettuno/elite_2.pdf (Elite Via De Gasperi 14)
-[salvato] lazio/nettuno/elite_3.pdf (Elite Via De Gasperi 14)
-[salvato] lazio/nettuno/elite_4.pdf (Elite Via De Gasperi 14)
+    pagina https://www.d-piu.com/: 'Funzionalità di accessibilità disponibili: premi Alt+0 per aprire Skip to content DPiù La tua spesa vale di più PUNTI VENDITA SFOGLIA IL VOLANTINO PRODOTTI INIZIATIVE AZIENDA LAVORA CON NOI GIFT CARD PRENOTA&RITIRA Prenota&Ritira Le offerte si fanno maxi Sfoglia il catalogo di prodotti per la casa e il tempo libero, seleziona il punto vendita e ritira lì il tuo ordine Scopri di più Vedi tutte le iniziative Cerca il punto vendita più vicino Vai alla mappa dei nostri punti vendita per trovare quello più vicino a te Vai alla mappa Sfoglia le nostre offerte Trova il volantino delle offerte in base'
+    PDF candidati: ['https://www.d-piu.com/flyer/flyer-1.pdf', 'https://www.d-piu.com/flyer/flyer-2.pdf', 'https://www.d-piu.com/flyer/flyer-3.pdf', 'https://www.d-piu.com/flyer/flyer-4.pdf', 'https://www.d-piu.com/flyer/flyer-5.pdf', 'https://www.d-piu.com/flyer/flyer-6.pdf', 'https://www.d-piu.com/flyer/flyer-7.pdf', 'https://www.d-piu.com/flyer/flyer-8.pdf']
+[ok] dpiu_unico_1: https://www.d-piu.com/flyer/flyer-1.pdf dal 2026-11-05 al 2026-11-14 (3226 KB)
+    https://www.d-piu.com/flyer/flyer-2.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-3.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-4.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-5.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-6.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-7.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-8.pdf: non e' un PDF (stato 200)
+[salvato] lazio/latina/dpiu.pdf (Dpiù Borgo Sabotino, Via G. Bortolotti 3)
 
-Fatto: 9 file salvati, 4 errori.
+Fatto: 1 file salvati, 0 errori.

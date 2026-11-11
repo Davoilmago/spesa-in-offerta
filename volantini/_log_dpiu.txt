@@ -1,0 +1,10 @@
+    pagina https://www.d-piu.com/: 'Funzionalità di accessibilità disponibili: premi Alt+0 per aprire Skip to content DPiù La tua spesa vale di più PUNTI VENDITA SFOGLIA IL VOLANTINO PRODOTTI INIZIATIVE AZIENDA LAVORA CON NOI GIFT CARD PRENOTA&RITIRA Prenota&Ritira Le offerte si fanno maxi Sfoglia il catalogo di prodotti per la casa e il tempo libero, seleziona il punto vendita e ritira lì il tuo ordine Scopri di più Vedi tutte le iniziative Cerca il punto vendita più vicino Vai alla mappa dei nostri punti vendita per trovare quello più vicino a te Vai alla mappa Sfoglia le nostre offerte Trova il volantino delle offerte in base'
+    PDF candidati: ['https://www.d-piu.com/flyer/flyer-1.pdf', 'https://www.d-piu.com/flyer/flyer-2.pdf', 'https://www.d-piu.com/flyer/flyer-3.pdf', 'https://www.d-piu.com/flyer/flyer-4.pdf', 'https://www.d-piu.com/flyer/flyer-5.pdf', 'https://www.d-piu.com/flyer/flyer-6.pdf', 'https://www.d-piu.com/flyer/flyer-7.pdf', 'https://www.d-piu.com/flyer/flyer-8.pdf']
+[ok] dpiu_unico_1: https://www.d-piu.com/flyer/flyer-1.pdf dal 2026-11-05 al 2026-11-14 (3226 KB)
+    https://www.d-piu.com/flyer/flyer-2.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-3.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-4.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-5.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-6.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-7.pdf: non e' un PDF (stato 200)
+    https://www.d-piu.com/flyer/flyer-8.pdf: non e' un PDF (stato 200)

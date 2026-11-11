@@ -301,6 +301,21 @@
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232"
   },
   {
+    "file": "lazio/latina/dpiu.pdf",
+    "regione": "Lazio",
+    "citta": "Latina",
+    "cap": "04100",
+    "catena": "dpiu",
+    "negozio": "Dpiù Borgo Sabotino, Via G. Bortolotti 3",
+    "sha256": "ed434400de9a633751c9e8aa1c8ad63607aba023459fbc25be59706455718807",
+    "byte": 3303649,
+    "scaricato_il": "2026-11-11T17:00:04",
+    "titolo": "Volantino Dpiù",
+    "indirizzo": "https://www.d-piu.com/flyer/flyer-1.pdf",
+    "valido_dal": "2026-11-05",
+    "valido_al": "2026-11-14"
+  },
+  {
     "file": "lazio/latina/elite.pdf",
     "regione": "Lazio",
     "citta": "Latina",
