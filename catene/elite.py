@@ -5,7 +5,7 @@ Ogni promozione ha la sua pagina (es. /promozioni/sottocosto) con il link "Scari
 tutti i negozi (con qualche eccezione scritta nella pagina), quindi si scarica una volta sola.
 Tengo solo quelli ancora validi oggi.
 
-Nel file della citta' basta scrivere:  "elite": [{"nota": "Elite Via De Gasperi 14"}]
+Nel file della citta' basta scrivere:  "elite": [{"nota": "Elite Via De Gasperi 14"}]   (per Latina aggiungere "filtro": "latina")
 """
 
 import re
@@ -38,8 +38,13 @@ def print(*a, **k):
         pass
 
 
+def citta_filtro(negozio):
+    """Citta' per cui valgono i volantini (di default Nettuno; per Latina scrivere "filtro": "latina")."""
+    return (negozio.get("filtro") or CITTA).lower()
+
+
 def chiave_condivisione(negozio):
-    return "tutti"
+    return citta_filtro(negozio)
 
 
 def validita(testo):
@@ -80,10 +85,10 @@ def validita(testo):
     return migliore
 
 
-def vale_per_nettuno(testo):
+def vale_per_citta(testo, citta=CITTA):
     """Esclude i volantini scritti 'solo per' altri negozi."""
     t = (testo or "").lower()
-    if "nettuno" in t:
+    if citta.lower() in t:
         return True
     return not re.search(r"valid\w*\s+(solo|esclusivamente)|solo\s+(nei|negli|per i)\s+(negozi|punti)", t)
 
@@ -114,8 +119,8 @@ def scarica(contesto, negozio, etichetta):
                 elif al < oggi:
                     print(f"    salto {url}: scaduta il {al}")
                     continue
-                if not vale_per_nettuno(testo):
-                    print(f"    salto {url}: non vale per Nettuno")
+                if not vale_per_citta(testo, citta_filtro(negozio)):
+                    print(f"    salto {url}: non vale per {citta_filtro(negozio)}")
                     continue
                 href = pagina.eval_on_selector_all(
                     "a[href*='pdf=1'], a[href*='.pdf']", "els => (els.map(e => e.href)[0] || '')")

@@ -146,6 +146,23 @@
         "id": "latina-4",
         "nota": "Eurospin SS 148 Pontina km 80,800"
       }
+    ],
+    "elite": [
+      {
+        "nota": "Elite Via Priverno 28",
+        "filtro": "latina"
+      }
+    ],
+    "pam": [
+      {
+        "id": [
+          "latina-latina",
+          "latina-latina-fiori",
+          "latina-latina-1",
+          "roma-latina"
+        ],
+        "nota": "Pam Panorama C.C. Latina Fiori, Via P.L. Nervi"
+      }
     ]
   }
 }

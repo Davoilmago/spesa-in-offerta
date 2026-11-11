@@ -92,11 +92,17 @@ def scarica(contesto, negozio, etichetta):
     pagina = contesto.new_page()
     risultati = []
     try:
-        pagina.goto(url_negozio(negozio["id"]), wait_until="domcontentloaded", timeout=60000)
-        pagina.wait_for_timeout(8000)
-        comune.prova_chiudi_cookie(pagina)
-        link = link_volantini(pagina)
-        print(f"    volantini trovati per {negozio['id']}: {len(link)}")
+        # "id" puo' essere anche una lista di varianti dell'indirizzo del negozio: provo finche' trovo i volantini
+        ids = negozio["id"] if isinstance(negozio["id"], list) else [negozio["id"]]
+        link = []
+        for id_negozio in ids:
+            pagina.goto(url_negozio(id_negozio), wait_until="domcontentloaded", timeout=60000)
+            pagina.wait_for_timeout(8000)
+            comune.prova_chiudi_cookie(pagina)
+            link = link_volantini(pagina)
+            print(f"    volantini trovati per {id_negozio}: {len(link)} (pagina: {pagina.title()!r})")
+            if link:
+                break
         if not link:
             print(f"[ERRORE] {etichetta}: nessun link ai volantini nella pagina del negozio")
             comune.salva_debug(pagina, comune.slug(etichetta))
