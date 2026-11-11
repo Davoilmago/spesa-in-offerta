@@ -36,7 +36,7 @@ MIN_OFFERTE = 2
 
 NOMI_CATENE = {
     "eurospin": "Eurospin", "lidl": "Lidl", "todis": "Todis", "conad": "Conad", "pam": "Pam",
-    "carrefour": "Carrefour", "ins": "iN's", "md": "MD", "deco": "Decò", "elite": "Elite", "tigre": "Tigre",
+    "carrefour": "Carrefour", "ins": "iN's", "md": "MD", "deco": "Decò", "elite": "Elite", "tigre": "Tigre", "crai": "Crai", "dpiu": "Dpiù",
 }
 ZONE = {"A": "Anzio", "N": "Nettuno", "L": "Latina", "AN": "Anzio e Nettuno", "AL": "Anzio e Latina", "NL": "Nettuno e Latina", "ANL": "Anzio, Nettuno e Latina"}
 UNITA = {"kg": "al kg", "l": "al litro", "etto": "all'etto", "pezzo": "al pezzo", "uovo": "a uovo"}
