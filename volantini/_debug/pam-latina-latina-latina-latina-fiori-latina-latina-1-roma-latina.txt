@@ -1,0 +1,81 @@
+--- frame: https://www.pampanorama.it/punti-vendita/roma-latina
+0: tag=BUTTON title=None aria-label='Apri Menu' testo='Menu' box={'x': 16, 'y': 29.390625, 'width': 92.234375, 'height': 50}
+1: tag=A title=None aria-label=None testo='Negozi' box={'x': 124.234375, 'y': 35.390625, 'width': 45, 'height': 15}
+2: tag=A title=None aria-label=None testo='Prodotti' box={'x': 185.234375, 'y': 35.390625, 'width': 53, 'height': 15}
+3: tag=A title=None aria-label=None testo='Rubriche' box={'x': 254.234375, 'y': 35.390625, 'width': 56, 'height': 15}
+4: tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 326.234375, 'y': 35.390625, 'width': 78, 'height': 15}
+5: tag=A title=None aria-label=None testo='Pam a casa' box={'x': 124.234375, 'y': 35.390625, 'width': 339.5, 'height': 39}
+6: tag=A title=None aria-label=None testo='' box={'x': 521.046875, 'y': 47.015625, 'width': 263.15625, 'height': 15}
+7: tag=A title=None aria-label=None testo='Parla Con Noi' box={'x': 821, 'y': 42.390625, 'width': 111, 'height': 24}
+8: tag=A title=None aria-label=None testo='Lavora Con Noi' box={'x': 948, 'y': 42.390625, 'width': 122, 'height': 24}
+9: tag=BUTTON title='Cerca' aria-label='Cerca tra Prodotti, Ricette, Negozi o Articoli' testo='' box={'x': 1086, 'y': 43.15625, 'width': 20, 'height': 20}
+10: tag=BUTTON title=None aria-label='Accedi o Registrati' testo='Accedi o Registrati' box={'x': 1122, 'y': 29.390625, 'width': 157.5, 'height': 50}
+11: tag=A title=None aria-label=None testo='Fornitori' box={'x': 1295.5, 'y': 41.890625, 'width': 88.5, 'height': 25}
+12: tag=DIV title=None aria-label=None testo='Prodotti' box={'x': 513.5, 'y': 11, 'width': 110, 'height': 32}
+13: tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 820.5, 'y': 12, 'width': 40, 'height': 30}
+14: tag=BUTTON title=None aria-label='Chiudi la barra di ricerca' testo='' box={'x': 860.5, 'y': 6, 'width': 36, 'height': 42}
+15: tag=BUTTON title=None aria-label=None testo='Torna alla home' box={'x': 635, 'y': 291, 'width': 130, 'height': 40}
+16: tag=BUTTON title=None aria-label=None testo='' box={'x': 210, 'y': 501, 'width': 64, 'height': 36}
+17: tag=BUTTON title=None aria-label=None testo='' box={'x': 274, 'y': 501, 'width': 64, 'height': 36}
+18: tag=A title=None aria-label=None testo='SPECIALE TERRITORIO\n\nCapodanno intorno a' box={'x': 202, 'y': 573, 'width': 250, 'height': 310}
+19: tag=A title=None aria-label=None testo='LA NOSTRA CANTINA\n\nQual è il perfetto vi' box={'x': 492, 'y': 573, 'width': 250, 'height': 310}
+20: tag=A title=None aria-label=None testo="VIVERE GREEN\n\nPulizie Green con l'Aceto " box={'x': 782, 'y': 573, 'width': 257, 'height': 310}
+21: tag=A title=None aria-label=None testo='SPECIALE TERRITORIO\n\nLapponia, la casa d' box={'x': 1079, 'y': 573, 'width': 262, 'height': 310}
+22: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nUna serata in mood' box={'x': 1381, 'y': 573, 'width': 250, 'height': 310}
+23: tag=A title=None aria-label=None testo='VIVERE GREEN\n\nPerchè scegliere un abete ' box={'x': 1671, 'y': 573, 'width': 272, 'height': 310}
+24: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nQualcuno ha detto "albe' box={'x': 1983, 'y': 573, 'width': 297, 'height': 310}
+25: tag=A title=None aria-label=None testo='SPECIALE TERRITORIO\n\nI tre mercatini di ' box={'x': 2320, 'y': 573, 'width': 298, 'height': 310}
+26: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nCamomilla la piant' box={'x': 2658, 'y': 573, 'width': 263, 'height': 310}
+27: tag=A title=None aria-label=None testo='SPECIALE TERRITORIO\n\nMiele Italiano, che' box={'x': 2961, 'y': 573, 'width': 250, 'height': 310}
+28: tag=A title=None aria-label=None testo='LE NOSTRE BIRRE\n\nBirra alla zucca' box={'x': 3251, 'y': 573, 'width': 250, 'height': 310}
+29: tag=A title=None aria-label=None testo='SPECIALE TERRITORIO\n\nLe cime più belle d' box={'x': 3541, 'y': 573, 'width': 304, 'height': 310}
+30: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nCapelli grassi: co' box={'x': 3885, 'y': 573, 'width': 250, 'height': 310}
+31: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nRendi la tua casa ancor' box={'x': 4175, 'y': 573, 'width': 258, 'height': 310}
+32: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nCome esercitarsi p' box={'x': 4473, 'y': 573, 'width': 304, 'height': 310}
+33: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nBuone abitudini pe' box={'x': 4817, 'y': 573, 'width': 276, 'height': 310}
+34: tag=A title=None aria-label=None testo='LA NOSTRA CANTINA\n\nTip per la degustazio' box={'x': 5133, 'y': 573, 'width': 255, 'height': 310}
+35: tag=A title=None aria-label=None testo='LE NOSTRE BIRRE\n\nAd ogni birra il suo pa' box={'x': 5428, 'y': 573, 'width': 250, 'height': 310}
+36: tag=A title=None aria-label=None testo='SPECIALE TERRITORIO\n\nLuoghi poetici' box={'x': 5718, 'y': 573, 'width': 250, 'height': 310}
+37: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nMorning routine?' box={'x': 6008, 'y': 573, 'width': 250, 'height': 310}
+38: tag=A title=None aria-label=None testo='VIVERE GREEN\n\nModa e sostenibilità' box={'x': 6298, 'y': 573, 'width': 250, 'height': 310}
+39: tag=A title=None aria-label=None testo='A QUATTRO ZAMPE\n\n3 curiosità sui procion' box={'x': 6588, 'y': 573, 'width': 250, 'height': 310}
+40: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nI benefici degli spazi ' box={'x': 6878, 'y': 573, 'width': 252, 'height': 310}
+41: tag=A title=None aria-label=None testo='LA NOSTRA CANTINA\n\nVini dolci e Muffa No' box={'x': 7170, 'y': 573, 'width': 250, 'height': 310}
+42: tag=A title=None aria-label=None testo='VIVERE GREEN\n\nCarciofi: 3 gustose ricett' box={'x': 7460, 'y': 573, 'width': 250, 'height': 310}
+43: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nGelato: sceglilo b' box={'x': 7750, 'y': 573, 'width': 250, 'height': 310}
+44: tag=A title=None aria-label=None testo='LA NOSTRA CANTINA\n\nDa Napoleone alla pas' box={'x': 8040, 'y': 573, 'width': 294, 'height': 310}
+45: tag=A title=None aria-label=None testo='IL NOSTRO PANE\n\nPane raffermo: che fare?' box={'x': 8374, 'y': 573, 'width': 250, 'height': 310}
+46: tag=A title=None aria-label=None testo='IL NOSTRO PANE\n\nTra il dire e il pane' box={'x': 8664, 'y': 573, 'width': 250, 'height': 310}
+47: tag=A title=None aria-label=None testo='VIVERE GREEN\n\nI Giardini Verticali' box={'x': 8954, 'y': 573, 'width': 250, 'height': 310}
+48: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nUna casa piena di gioia' box={'x': 9244, 'y': 573, 'width': 250, 'height': 310}
+49: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nSali da bagno per ' box={'x': 9534, 'y': 573, 'width': 250, 'height': 310}
+50: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nSenza macchia, senza pa' box={'x': 9824, 'y': 573, 'width': 250, 'height': 310}
+51: tag=A title=None aria-label=None testo="LE NOSTRE BIRRE\n\n3 birre per l'estate" box={'x': 10114, 'y': 573, 'width': 250, 'height': 310}
+52: tag=A title=None aria-label=None testo='VIVERE GREEN\n\nUn bucato più ecologico' box={'x': 10404, 'y': 573, 'width': 250, 'height': 310}
+53: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nAma le tue mani' box={'x': 10694, 'y': 573, 'width': 250, 'height': 310}
+54: tag=A title=None aria-label=None testo='LE NOSTRE BIRRE\n\nGli ingredienti della b' box={'x': 10984, 'y': 573, 'width': 250, 'height': 310}
+55: tag=A title=None aria-label=None testo='A QUATTRO ZAMPE\n\nCosa mangiano i cucciol' box={'x': 11274, 'y': 573, 'width': 250, 'height': 310}
+56: tag=A title=None aria-label=None testo='LE NOSTRE BIRRE\n\nCome nasce una birra' box={'x': 11564, 'y': 573, 'width': 250, 'height': 310}
+57: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nV per Vanillina' box={'x': 11854, 'y': 573, 'width': 250, 'height': 310}
+58: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nChioma e salsedine' box={'x': 12144, 'y': 573, 'width': 250, 'height': 310}
+59: tag=A title=None aria-label=None testo='VIVERE GREEN\n\nInsetti e biodiversità' box={'x': 12434, 'y': 573, 'width': 250, 'height': 310}
+60: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nCous cous: tra gusto e ' box={'x': 12724, 'y': 573, 'width': 250, 'height': 310}
+61: tag=A title=None aria-label=None testo='Dolci... "Menzogne"!' box={'x': 13014, 'y': 573, 'width': 250, 'height': 310}
+62: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nUn primo tutto italiano' box={'x': 13304, 'y': 573, 'width': 250, 'height': 310}
+63: tag=A title=None aria-label=None testo="CASA E FAMIGLIA\n\nL'oro verde per dolci e" box={'x': 13594, 'y': 573, 'width': 250, 'height': 310}
+64: tag=A title=None aria-label=None testo='IL NOSTRO PANE\n\nPanificare senza glutine' box={'x': 13884, 'y': 573, 'width': 250, 'height': 310}
+65: tag=A title=None aria-label=None testo='LE NOSTRE BIRRE\n\nDigerire meglio' box={'x': 14174, 'y': 573, 'width': 250, 'height': 310}
+66: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nIl fungo più pregi' box={'x': 14464, 'y': 573, 'width': 250, 'height': 310}
+67: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nIl lungo viaggio del br' box={'x': 14754, 'y': 573, 'width': 250, 'height': 310}
+68: tag=BUTTON title=None aria-label=None testo='' box={'x': 210, 'y': 1089, 'width': 64, 'height': 36}
+69: tag=BUTTON title=None aria-label=None testo='' box={'x': 274, 'y': 1089, 'width': 64, 'height': 36}
+70: tag=A title=None aria-label=None testo='VIVERE GREEN\n\nRestare in forma con gli o' box={'x': 202, 'y': 1161, 'width': 306, 'height': 310}
+71: tag=A title=None aria-label=None testo='VIVERE GREEN\n\nCarciofi: 3 gustose ricett' box={'x': 548, 'y': 1161, 'width': 250, 'height': 310}
+72: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nArance: non solo v' box={'x': 838, 'y': 1161, 'width': 250, 'height': 310}
+73: tag=A title=None aria-label=None testo='MOMENTI DI BENESSERE\n\nLa spesa di febbra' box={'x': 1128, 'y': 1161, 'width': 250, 'height': 310}
+74: tag=A title=None aria-label=None testo='IL NOSTRO PANE\n\nPane raffermo: che fare?' box={'x': 1418, 'y': 1161, 'width': 250, 'height': 310}
+75: tag=A title=None aria-label=None testo='IL NOSTRO PANE\n\nTra il dire e il pane' box={'x': 1708, 'y': 1161, 'width': 250, 'height': 310}
+76: tag=A title=None aria-label=None testo='CASA E FAMIGLIA\n\nVerdure e spezie: abbin' box={'x': 1998, 'y': 1161, 'width': 296, 'height': 310}
+77: tag=A title=None aria-label=None testo='I NOSTRI FRESCHI\n\nNon ci sono più le ban' box={'x': 2334, 'y': 1161, 'width': 300, 'height': 310}
+78: tag=A title=None aria-label=None testo='I NOSTRI FRESCHI\n\nCime assai gustose' box={'x': 2674, 'y': 1161, 'width': 250, 'height': 310}
+79: tag=A title=None aria-label=None testo="INSIEME A TE PER L'ITALIA\n\nL'abc del mos" box={'x': 2964, 'y': 1161, 'width': 250, 'height': 310}
