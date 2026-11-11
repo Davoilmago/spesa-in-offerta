@@ -164,6 +164,15 @@
         "nota": "Pam Panorama C.C. Latina Fiori, Via P.L. Nervi",
         "cerca": "latina"
       }
+    ],
+    "dpiu": [
+      {
+        "nota": "Dpiù Borgo Sabotino, Via G. Bortolotti 3",
+        "cerca": [
+          "Bortolotti",
+          "Migliara"
+        ]
+      }
     ]
   }
 }
