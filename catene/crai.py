@@ -122,7 +122,8 @@ def scarica(contesto, negozio, etichetta):
                 for neg in giro(dati):
                     tot += 1
                     riga = json.dumps(neg, ensure_ascii=False)
-                    if re.search(r"anzio|nettuno|vecchiarelli|san giacomo|lavinio|cinque miglia|pi\.?gi", riga, re.I):
+                    extra = "|" + re.escape(negozio["cerca"]) if negozio.get("cerca") else ""
+                    if re.search(r"anzio|nettuno|vecchiarelli|san giacomo|lavinio|cinque miglia|pi\.?gi" + extra, riga, re.I):
                         print(f"    NEGOZIO: {riga[:1800]}")
                 print(f"    negozi nell'elenco: {tot}")
             except Exception as e:
