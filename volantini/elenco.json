@@ -78,11 +78,11 @@
     "cap": "00042",
     "catena": "crai",
     "negozio": "Crai Via delle Cinque Miglia 58/60",
-    "sha256": "7cc010652f89aa2be1128cd733bfd9473e985fb155cecaff9e87cf7611085182",
-    "byte": 5722673,
-    "scaricato_il": "2026-11-06T04:48:46",
+    "sha256": "4a1f29a8d67b807bcd305df404b182636f6d543e61febbf42f1704a7c40c4b06",
+    "byte": 5567976,
+    "scaricato_il": "2026-11-12T04:48:09",
     "titolo": "Volantino Crai",
-    "indirizzo": "https://strapi.crai.it/uploads/LR_AP_24_EXTRA_TIRRENO_381f74692f.pdf"
+    "indirizzo": "https://strapi.crai.it/uploads/LR_AP_25_EXTRA_BASE_TIRRENO_627df97d66.pdf"
   },
   {
     "file": "lazio/anzio/deco.pdf",
@@ -91,9 +91,9 @@
     "cap": "00042",
     "catena": "deco",
     "negozio": "Decò Via di Valle Schioia 67",
-    "sha256": "f8510c1d9f1ceb9c911644a126454fa46ab89471a82bf8e7840f066fd1203854",
+    "sha256": "8c33c569aa4384716fcade2ac6eb900961287bea4e071319a26b9a46f4748f03",
     "byte": 13818130,
-    "scaricato_il": "2026-11-09T04:53:54",
+    "scaricato_il": "2026-11-12T04:47:24",
     "titolo": "Volantino Decò",
     "indirizzo": "https://deco.volantinopiu.com/ws/pv003499.php"
   },
@@ -117,7 +117,7 @@
     "negozio": "iN's Mercato Via di Villa Claudia 7",
     "sha256": "14df3de172f0f3a28a0020a552e4c7baad99bc815f3576d6c092796e603980c2",
     "byte": 7250872,
-    "scaricato_il": "2026-11-10T04:42:37",
+    "scaricato_il": "2026-11-12T04:46:50",
     "titolo": "Volantino 23",
     "valido_dal": "2026-11-04",
     "valido_al": "2026-11-15"
@@ -131,7 +131,7 @@
     "negozio": "MD Via Goldoni 62",
     "sha256": "9e502f9360ba64734a6126643b1f07a99ccf9b21657002e5396e7403cdd0d2dc",
     "byte": 22313104,
-    "scaricato_il": "2026-11-09T04:52:58",
+    "scaricato_il": "2026-11-12T04:46:30",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -142,11 +142,11 @@
     "cap": "00042",
     "catena": "tigre",
     "negozio": "Tigre Amico Via Matteotti 18",
-    "sha256": "a23516e298ea9461deaf5748554cd89b6a6397fae749d6e5830682e99073bdcd",
-    "byte": 3021516,
-    "scaricato_il": "2026-11-06T04:48:18",
-    "titolo": "Volantino Tigre Amico 5° paniere Tutti in campo 2026",
-    "indirizzo": "https://www.calameo.com/read/001940002dc8b4160f3b0"
+    "sha256": "0b710a9e1fbcc5b378d60f17562c044428d705f485352c9c741b6f53383a0b0f",
+    "byte": 2938278,
+    "scaricato_il": "2026-11-12T04:47:50",
+    "titolo": "Volantino Tigre Amico A24_2026",
+    "indirizzo": "https://www.calameo.com/read/0019400027f35d40e6c02"
   },
   {
     "file": "lazio/anzio/todis.pdf",
@@ -155,9 +155,9 @@
     "cap": "00042",
     "catena": "todis",
     "negozio": "volantino Lazio",
-    "sha256": "151ef597b8c83ea7b4d9ae06658ed0370ee8f81f4b6b88a352ad5b236a453ce7",
-    "byte": 7647680,
-    "scaricato_il": "2026-11-06T04:45:53",
+    "sha256": "78358f78d5b7815829c34e3a55a2e62cad2001f1cc39ca10fcce856a2320e9e0",
+    "byte": 8448441,
+    "scaricato_il": "2026-11-12T04:46:19",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   },
   {
@@ -169,7 +169,7 @@
     "negozio": "Carrefour Market Viale Petrarca 41",
     "sha256": "57449de46a86b83ae1ff8264792fc172ca0af0de3f0e8daa4540bebe16203d2c",
     "byte": 14515848,
-    "scaricato_il": "2026-11-07T04:46:44",
+    "scaricato_il": "2026-11-12T04:48:42",
     "titolo": "Sottocosto",
     "valido_dal": "2026-11-06",
     "valido_al": "2026-11-15"
@@ -183,7 +183,7 @@
     "negozio": "Carrefour Market Viale Petrarca 41",
     "sha256": "2baedc70bc89bc1a1595caade0d8261dcdaae94e5481d41332691989daaae8ef",
     "byte": 3313679,
-    "scaricato_il": "2026-11-07T04:46:44",
+    "scaricato_il": "2026-11-12T04:48:42",
     "titolo": "Speciale Aia",
     "valido_dal": "2026-09-29",
     "valido_al": "2026-11-15"
@@ -197,7 +197,7 @@
     "negozio": "Carrefour Market Viale Petrarca 41",
     "sha256": "c7dd637a44972ed8bc6cb24b0df9cb51d2d2c88cd5072b4c4e3e6427bd019f0f",
     "byte": 979329,
-    "scaricato_il": "2026-11-07T04:46:44",
+    "scaricato_il": "2026-11-12T04:48:42",
     "titolo": "Speciale detersivi",
     "valido_dal": "2026-11-06",
     "valido_al": "2026-11-15"
@@ -211,7 +211,7 @@
     "negozio": "Carrefour Express Strada Macchia Grande 141",
     "sha256": "4511680ec63064a8e31b6aba5c3e04305cd9c68f03a73b5fefdd1bbae29b123b",
     "byte": 8744252,
-    "scaricato_il": "2026-11-07T04:47:46",
+    "scaricato_il": "2026-11-12T04:49:41",
     "titolo": "Super Offerte",
     "valido_dal": "2026-11-05",
     "valido_al": "2026-11-16"
@@ -309,7 +309,7 @@
     "negozio": "Dpiù Borgo Sabotino, Via G. Bortolotti 3",
     "sha256": "ed434400de9a633751c9e8aa1c8ad63607aba023459fbc25be59706455718807",
     "byte": 3303649,
-    "scaricato_il": "2026-11-11T17:00:04",
+    "scaricato_il": "2026-11-12T04:51:11",
     "titolo": "Volantino Dpiù",
     "indirizzo": "https://www.d-piu.com/flyer/flyer-1.pdf",
     "valido_dal": "2026-11-05",
@@ -378,12 +378,12 @@
     "cap": "04100",
     "catena": "lidl",
     "negozio": "volantino nazionale",
-    "sha256": "266ee54ac86498a72be17d32448d0bba54b2fde1d0cc884f1b7720c4037c712e",
-    "byte": 20652522,
-    "scaricato_il": "2026-11-06T08:40:29",
-    "valido_dal": "2026-11-02",
-    "valido_al": "2026-11-11",
-    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-2-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1"
+    "sha256": "10692b55bd6c7102c5acf3e3dab80882bd75ddebac9fba4eb1bf2c6f525e04a2",
+    "byte": 20140227,
+    "scaricato_il": "2026-11-12T04:48:21",
+    "valido_dal": "2026-11-12",
+    "valido_al": "2026-11-18",
+    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-NAZ/view/flyer/page/1"
   },
   {
     "file": "lazio/latina/md.pdf",
@@ -394,7 +394,7 @@
     "negozio": "MD Viale Le Corbusier snc",
     "sha256": "9e502f9360ba64734a6126643b1f07a99ccf9b21657002e5396e7403cdd0d2dc",
     "byte": 22313104,
-    "scaricato_il": "2026-11-09T04:54:27",
+    "scaricato_il": "2026-11-12T04:48:29",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -405,9 +405,9 @@
     "cap": "04100",
     "catena": "todis",
     "negozio": "volantino Lazio",
-    "sha256": "151ef597b8c83ea7b4d9ae06658ed0370ee8f81f4b6b88a352ad5b236a453ce7",
-    "byte": 7647680,
-    "scaricato_il": "2026-11-06T04:50:19",
+    "sha256": "78358f78d5b7815829c34e3a55a2e62cad2001f1cc39ca10fcce856a2320e9e0",
+    "byte": 8448441,
+    "scaricato_il": "2026-11-12T04:48:21",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   },
   {
@@ -419,7 +419,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "d53dd70236024925ecaaa4e26d94a35d7cdc2ba68c267a48a5a98533b526804d",
     "byte": 18885615,
-    "scaricato_il": "2026-11-07T04:51:14",
+    "scaricato_il": "2026-11-12T04:51:52",
     "titolo": "Sottocosto",
     "valido_dal": "2026-11-06",
     "valido_al": "2026-11-15"
@@ -433,7 +433,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "2baedc70bc89bc1a1595caade0d8261dcdaae94e5481d41332691989daaae8ef",
     "byte": 3313679,
-    "scaricato_il": "2026-11-07T04:51:14",
+    "scaricato_il": "2026-11-12T04:51:52",
     "titolo": "Speciale Aia",
     "valido_dal": "2026-09-29",
     "valido_al": "2026-11-15"
@@ -447,7 +447,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "c7dd637a44972ed8bc6cb24b0df9cb51d2d2c88cd5072b4c4e3e6427bd019f0f",
     "byte": 979329,
-    "scaricato_il": "2026-11-07T04:51:14",
+    "scaricato_il": "2026-11-12T04:51:52",
     "titolo": "Speciale detersivi",
     "valido_dal": "2026-11-06",
     "valido_al": "2026-11-15"
@@ -580,7 +580,7 @@
     "negozio": "iN's Mercato Via Ugo La Malfa 9",
     "sha256": "14df3de172f0f3a28a0020a552e4c7baad99bc815f3576d6c092796e603980c2",
     "byte": 7250872,
-    "scaricato_il": "2026-11-10T04:55:38",
+    "scaricato_il": "2026-11-12T04:52:10",
     "titolo": "Volantino 23",
     "valido_dal": "2026-11-04",
     "valido_al": "2026-11-15"
@@ -592,12 +592,12 @@
     "cap": "00048",
     "catena": "lidl",
     "negozio": "volantino nazionale",
-    "sha256": "266ee54ac86498a72be17d32448d0bba54b2fde1d0cc884f1b7720c4037c712e",
-    "byte": 20652522,
-    "scaricato_il": "2026-11-06T08:40:29",
-    "valido_dal": "2026-11-02",
-    "valido_al": "2026-11-11",
-    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-2-11-al-11-11-volantino-settimanale-NAZ/view/flyer/page/1"
+    "sha256": "10692b55bd6c7102c5acf3e3dab80882bd75ddebac9fba4eb1bf2c6f525e04a2",
+    "byte": 20140227,
+    "scaricato_il": "2026-11-12T04:51:11",
+    "valido_dal": "2026-11-12",
+    "valido_al": "2026-11-18",
+    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-NAZ/view/flyer/page/1"
   },
   {
     "file": "lazio/nettuno/pam.pdf",
@@ -608,7 +608,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "df44416a3eecf66efb725537049ca3db1c2f8bcb0d73dec9efe02daf5c1fa57a",
     "byte": 8160077,
-    "scaricato_il": "2026-11-11T10:27:29",
+    "scaricato_il": "2026-11-12T04:51:39",
     "titolo": "Offerte valide dal 5 al 18 Novembre"
   },
   {
@@ -620,7 +620,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "e380d97b4fd9eb464397c4fe055e7fff5a9d3ba88ecdebb15fa67078c38632a6",
     "byte": 12569880,
-    "scaricato_il": "2026-11-11T10:27:29",
+    "scaricato_il": "2026-11-12T04:51:40",
     "titolo": "Occasioni Extra"
   },
   {
@@ -630,9 +630,9 @@
     "cap": "00048",
     "catena": "todis",
     "negozio": "volantino Lazio",
-    "sha256": "151ef597b8c83ea7b4d9ae06658ed0370ee8f81f4b6b88a352ad5b236a453ce7",
-    "byte": 7647680,
-    "scaricato_il": "2026-11-06T04:58:02",
+    "sha256": "78358f78d5b7815829c34e3a55a2e62cad2001f1cc39ca10fcce856a2320e9e0",
+    "byte": 8448441,
+    "scaricato_il": "2026-11-12T04:51:12",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   }
 ]

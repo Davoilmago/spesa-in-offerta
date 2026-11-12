@@ -1,0 +1,54 @@
+--- frame: https://www.pampanorama.it/prodotti?query=latina
+0: tag=BUTTON title=None aria-label='Apri Menu' testo='Menu' box={'x': 16, 'y': 29.390625, 'width': 92.234375, 'height': 50}
+1: tag=A title=None aria-label=None testo='Negozi' box={'x': 124.234375, 'y': 35.390625, 'width': 45, 'height': 15}
+2: tag=A title=None aria-label=None testo='Prodotti' box={'x': 185.234375, 'y': 35.390625, 'width': 53, 'height': 15}
+3: tag=A title=None aria-label=None testo='Rubriche' box={'x': 254.234375, 'y': 35.390625, 'width': 56, 'height': 15}
+4: tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 326.234375, 'y': 35.390625, 'width': 78, 'height': 15}
+5: tag=A title=None aria-label=None testo='Pam a casa' box={'x': 124.234375, 'y': 35.390625, 'width': 339.5, 'height': 39}
+6: tag=A title=None aria-label=None testo='' box={'x': 521.046875, 'y': 47.015625, 'width': 263.15625, 'height': 15}
+7: tag=A title=None aria-label=None testo='Parla Con Noi' box={'x': 821, 'y': 42.390625, 'width': 111, 'height': 24}
+8: tag=A title=None aria-label=None testo='Lavora Con Noi' box={'x': 948, 'y': 42.390625, 'width': 122, 'height': 24}
+9: tag=BUTTON title='Cerca' aria-label='Cerca tra Prodotti, Ricette, Negozi o Articoli' testo='' box={'x': 1086, 'y': 43.15625, 'width': 20, 'height': 20}
+10: tag=BUTTON title=None aria-label='Accedi o Registrati' testo='Accedi o Registrati' box={'x': 1122, 'y': 29.390625, 'width': 157.5, 'height': 50}
+11: tag=A title=None aria-label=None testo='Fornitori' box={'x': 1295.5, 'y': 41.890625, 'width': 88.5, 'height': 25}
+12: tag=DIV title=None aria-label=None testo='Prodotti' box={'x': 513.5, 'y': 11, 'width': 110, 'height': 32}
+13: tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 820.5, 'y': 12, 'width': 40, 'height': 30}
+14: tag=BUTTON title=None aria-label='Chiudi la barra di ricerca' testo='' box={'x': 860.5, 'y': 6, 'width': 36, 'height': 42}
+15: tag=BUTTON title=None aria-label=None testo='' box={'x': 210, 'y': 523, 'width': 48, 'height': 48}
+16: tag=A title=None aria-label=None testo='Pam Panorama Insalatina A Filetti In Ace' box={'x': 200.5, 'y': 579, 'width': 249.75, 'height': 315}
+17: tag=A title=None aria-label=None testo='Pam Panorama Dessert Vaniglia 320 G\npam ' box={'x': 450.25, 'y': 579, 'width': 249.75, 'height': 315}
+18: tag=A title=None aria-label=None testo="Barbaresco Docg - Ca' Del Plin\nbarbaresc" box={'x': 700, 'y': 579, 'width': 249.75, 'height': 315}
+19: tag=A title=None aria-label=None testo='Pam Panorama Coni Panna E Cioccolato 450' box={'x': 949.75, 'y': 579, 'width': 249.75, 'height': 315}
+20: tag=A title=None aria-label=None testo='Pam Panorama Paella Di Pesce Surgelata 6' box={'x': 200.5, 'y': 894, 'width': 249.75, 'height': 315}
+21: tag=A title=None aria-label=None testo='Proviene Dal Vitigno Nebbiolo, Influenza' box={'x': 450.25, 'y': 894, 'width': 249.75, 'height': 315}
+22: tag=A title=None aria-label=None testo='Bocconcini In Salsa Con Pollo E Tacchino' box={'x': 700, 'y': 894, 'width': 249.75, 'height': 315}
+23: tag=A title=None aria-label=None testo='Pam Qualità Per Te Cola Caramelle Gommos' box={'x': 949.75, 'y': 894, 'width': 249.75, 'height': 315}
+24: tag=A title=None aria-label=None testo="Tesori Dell'arca Torrone Friabile Alle M" box={'x': 200.5, 'y': 1209, 'width': 249.75, 'height': 283}
+25: tag=A title=None aria-label=None testo="Tesori Dell'arca Torroncini Friabili All" box={'x': 450.25, 'y': 1209, 'width': 249.75, 'height': 283}
+26: tag=A title=None aria-label=None testo='Chi siamo' box={'x': 295, 'y': 1649, 'width': 53, 'height': 14}
+27: tag=A title=None aria-label=None testo='Prodotti' box={'x': 295, 'y': 1671.5, 'width': 45, 'height': 14}
+28: tag=A title=None aria-label=None testo='Ricette' box={'x': 295, 'y': 1694, 'width': 39, 'height': 14}
+29: tag=A title=None aria-label=None testo='Rubriche' box={'x': 295, 'y': 1716.5, 'width': 49, 'height': 14}
+30: tag=A title=None aria-label=None testo='Negozi' box={'x': 295, 'y': 1739, 'width': 39, 'height': 14}
+31: tag=A title=None aria-label=None testo='Carta Per Te' box={'x': 295, 'y': 1761.5, 'width': 65, 'height': 14}
+32: tag=A title=None aria-label=None testo='I nostri freschi' box={'x': 295, 'y': 1784, 'width': 77, 'height': 14}
+33: tag=A title=None aria-label=None testo='I nostri marchi' box={'x': 295, 'y': 1806.5, 'width': 78, 'height': 14}
+34: tag=A title=None aria-label=None testo='Scopri Carta Per Te' box={'x': 570, 'y': 1671.5, 'width': 102, 'height': 14}
+35: tag=A title=None aria-label=None testo='Lavora con noi' box={'x': 570, 'y': 1740.5, 'width': 79, 'height': 14}
+36: tag=A title=None aria-label=None testo='Parla con noi' box={'x': 570, 'y': 1763, 'width': 70, 'height': 14}
+37: tag=A title=None aria-label=None testo='Area stampa' box={'x': 570, 'y': 1785.5, 'width': 68, 'height': 14}
+38: tag=A title=None aria-label=None testo='Concorsi e iniziative' box={'x': 570, 'y': 1808, 'width': 108, 'height': 14}
+39: tag=A title=None aria-label=None testo='' box={'x': 875, 'y': 1652.625, 'width': 93.828125, 'height': 15}
+40: tag=A title=None aria-label=None testo='' box={'x': 968.828125, 'y': 1652.625, 'width': 106.703125, 'height': 15}
+41: tag=A title=None aria-label='Facebook' testo='' box={'x': 875, 'y': 1750, 'width': 54, 'height': 34}
+42: tag=A title=None aria-label='Instagram' testo='' box={'x': 949, 'y': 1750, 'width': 54, 'height': 34}
+43: tag=A title=None aria-label='Youtube' testo='' box={'x': 1023, 'y': 1750, 'width': 54, 'height': 34}
+44: tag=A title=None aria-label=None testo='Accedi al portale fornitori' box={'x': 875, 'y': 1852, 'width': 182, 'height': 37}
+45: tag=A title=None aria-label=None testo='Modello Organizzativo - Codice Etico' box={'x': 293, 'y': 1933, 'width': 204, 'height': 14}
+46: tag=A title=None aria-label=None testo='Garanzia legale' box={'x': 517, 'y': 1933, 'width': 83, 'height': 14}
+47: tag=A title=None aria-label=None testo='Legal e Privacy' box={'x': 620, 'y': 1933, 'width': 79, 'height': 14}
+48: tag=A title=None aria-label=None testo='Provvedimenti e Richiami' box={'x': 719, 'y': 1933, 'width': 137, 'height': 14}
+49: tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 1020, 'y': 1933, 'width': 87, 'height': 14}
+50: tag=A title=None aria-label=None testo='Fornace' box={'x': 713, 'y': 2153.5, 'width': 41, 'height': 14}
+51: tag=BUTTON title=None aria-label=None testo='' box={'x': 1324, 'y': 1040, 'width': 60, 'height': 60}
+52: tag=BUTTON title=None aria-label=None testo='Cookie' box={'x': 1314.1875, 'y': 856, 'width': 79.8125, 'height': 38}
