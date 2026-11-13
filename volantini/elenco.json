@@ -60,18 +60,6 @@
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228"
   },
   {
-    "file": "lazio/anzio/conad_6.pdf",
-    "regione": "Lazio",
-    "citta": "Anzio",
-    "cap": "00042",
-    "catena": "conad",
-    "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
-    "sha256": "592f31ae1778b75963a1a67b07f0637a9d3f585d070bacd28d84e03f7588e843",
-    "byte": 2600928,
-    "scaricato_il": "2026-11-11T04:46:26",
-    "indirizzo": "https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228"
-  },
-  {
     "file": "lazio/anzio/crai.pdf",
     "regione": "Lazio",
     "citta": "Anzio",
@@ -344,21 +332,6 @@
     "valido_al": "2026-11-14"
   },
   {
-    "file": "lazio/latina/elite.pdf",
-    "regione": "Lazio",
-    "citta": "Latina",
-    "cap": "04100",
-    "catena": "elite",
-    "negozio": "Elite Via Priverno 28",
-    "sha256": "9636a184c397a0ef08808e022bb2b8f971be70a06b5072002718e16f189707ba",
-    "byte": 1521201,
-    "scaricato_il": "2026-11-11T10:26:09",
-    "titolo": "Novembre Conveniente",
-    "indirizzo": "https://superelite.it/promozioni/novembre-conveniente-2",
-    "valido_dal": "2026-10-30",
-    "valido_al": "2026-11-12"
-  },
-  {
     "file": "lazio/latina/elite_2.pdf",
     "regione": "Lazio",
     "citta": "Latina",
@@ -569,36 +542,6 @@
     "byte": 401574,
     "scaricato_il": "2026-11-13T04:59:11",
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443"
-  },
-  {
-    "file": "lazio/nettuno/elite.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "elite",
-    "negozio": "Elite Via De Gasperi 14",
-    "sha256": "db883f4d1b3010632aeecc7e4eaec029cb3441badd6e97a0d752fce10e7fdcfb",
-    "byte": 4659088,
-    "scaricato_il": "2026-11-11T10:28:19",
-    "titolo": "PREZZI TONDI 1€ e 2€",
-    "indirizzo": "https://superelite.it/promozioni/prezzi-tondi-1eur-e-2eur-2",
-    "valido_dal": "2026-10-30",
-    "valido_al": "2026-11-12"
-  },
-  {
-    "file": "lazio/nettuno/elite_2.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "elite",
-    "negozio": "Elite Via De Gasperi 14",
-    "sha256": "f8f027cb8160cade4386a06121e9072b459301ed63916428ebcd35c14e2ff2aa",
-    "byte": 1521194,
-    "scaricato_il": "2026-11-11T10:28:19",
-    "titolo": "Novembre Conveniente",
-    "indirizzo": "https://superelite.it/promozioni/novembre-conveniente-2",
-    "valido_dal": "2026-10-30",
-    "valido_al": "2026-11-12"
   },
   {
     "file": "lazio/nettuno/elite_3.pdf",
