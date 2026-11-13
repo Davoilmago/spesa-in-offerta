@@ -1,6 +1,2 @@
-    PDF: https://insmercato-cdn.it/insmercato/volantino/23/rtifjd/pdf/volantino-A.pdf
-    date lette dalla copertina: 2026-11-04 - 2026-11-15
-[ok] ins_anzio: PDF scaricato (7080 KB)
-    PDF: https://insmercato-cdn.it/insmercato/volantino/23/rtifjd/pdf/volantino-A.pdf
-    date lette dalla copertina: 2026-11-04 - 2026-11-15
-[ok] ins_nettuno: PDF scaricato (7080 KB)
+[ERRORE] ins_anzio: Locator.evaluate: Timeout 30000ms exceeded.
+[ERRORE] ins_nettuno: Locator.evaluate: Timeout 30000ms exceeded.

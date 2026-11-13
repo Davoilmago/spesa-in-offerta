@@ -1,10 +1,119 @@
-Catene previste per oggi: carrefour, crai, deco, dpiu, elite, ins, lidl, md, pam, tigre, todis
+Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, md, pam, tigre, todis
     apro https://www.todis.it/volantini/lazio/
 [ok] todis_lazio: pulsante trovato (testo 'Scarica il volantino in PDF')
-    elemento: tag=A title=None aria-label=None testo='Scarica il volantino in PDF' box={'x': 616, 'y': 994.59375, 'width': 191, 'height': 18}
+    elemento: tag=A title=None aria-label=None testo='Scarica il volantino in PDF' box={'x': 474, 'y': 994.59375, 'width': 191, 'height': 18}
     indirizzo del pulsante: https://www.todis.it/wp-content/uploads/2026/11/OS_24_2026_BASE_RM-LZ.pdf?x72032
     PDF scaricato direttamente dall'indirizzo
 [salvato] lazio/anzio/todis.pdf (volantino Lazio)
+    apro https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte-Catalogo-Giocattolo2?anacanId=008625
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008625
+      https://www.conad.it/volantini/Offerte-Catalogo-Benessere-Lazio?anacanId=008625
+      https://www.conad.it/volantini/Offerte-Catalogo-Idee-Regalo?anacanId=008625
+[ok] conad_008625_Spazio-Conad-Fascia2: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1737267/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008625&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FSpazio-Conad-
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[salvato] lazio/anzio/conad.pdf (Spazio Conad, Viale Antium 4)
+    apro https://www.conad.it/volantini/Spazio-Conad-Fascia2-Bis?anacanId=008625
+    pagina non trovata (stato 404)
+[ERRORE] conad_008625_Spazio-Conad-Fascia2-Bis: pulsante di download non trovato
+    --- elementi visibili
+    tag=BUTTON title=None aria-label='Salta al contenuto' testo='Salta al contenuto' box={'x': 16, 'y': -72, 'width': 211.609375, 'height': 56}
+    tag=A title=None aria-label=None testo='Seleziona il punto vendita per scoprire ' box={'x': 68.203125, 'y': 15.421875, 'width': 278, 'height': 17.15625}
+    tag=A title=None aria-label=None testo='Spesa Online' box={'x': 960.75, 'y': 15.515625, 'width': 119.8125, 'height': 16.953125}
+    tag=A title='Assicurazioni' aria-label=None testo='Assicurazioni' box={'x': 1080.5625, 'y': 15.515625, 'width': 119.015625, 'height': 16.953125}
+    tag=A title='Viaggi' aria-label=None testo='Viaggi' box={'x': 1199.578125, 'y': 15.515625, 'width': 79.609375, 'height': 16.953125}
+    tag=A title=None aria-label=None testo='' box=None
+    tag=A title=None aria-label=None testo='Spesa Online' box={'x': 960.75, 'y': 15.515625, 'width': 119.8125, 'height': 16.953125}
+    tag=A title='Assicurazioni' aria-label=None testo='Assicurazioni' box={'x': 1080.5625, 'y': 15.515625, 'width': 119.015625, 'height': 16.953125}
+    tag=A title='Viaggi' aria-label=None testo='Viaggi' box={'x': 1199.578125, 'y': 15.515625, 'width': 79.609375, 'height': 16.953125}
+    tag=A title=None aria-label=None testo='Sapori&' box={'x': 1279.1875, 'y': 15.515625, 'width': 80.8125, 'height': 16.953125}
+    tag=A title=None aria-label=None testo='' box={'x': 40, 'y': 72, 'width': 131, 'height': 40}
+    tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 870.390625, 'y': 64, 'width': 24.203125, 'height': 56}
+    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 926.59375, 'y': 84, 'width': 56.203125, 'height': 16}
+    tag=A title=None aria-label='Registrati' testo='Registrati' box={'x': 998.796875, 'y': 64, 'width': 140, 'height': 56}
+    tag=BUTTON title=None aria-label='Vantaggi per te' testo='Vantaggi per te' box={'x': 1154.796875, 'y': 64, 'width': 205.203125, 'height': 56}
+    tag=A title=None aria-label=None testo='Negozi e volantini' box={'x': 40, 'y': 144, 'width': 134.609375, 'height': 30}
+    tag=A title=None aria-label=None testo='HeyConad' box={'x': 198.609375, 'y': 144, 'width': 80.609375, 'height': 30}
+    tag=BUTTON title=None aria-label=None testo='Prodotti' box={'x': 303.21875, 'y': 144, 'width': 86.8125, 'height': 30}
+    tag=BUTTON title=None aria-label=None testo='Carte e Premi' box={'x': 414.03125, 'y': 144, 'width': 128.8125, 'height': 30}
+    tag=BUTTON title=None aria-label=None testo='Servizi' box={'x': 566.84375, 'y': 144, 'width': 73.609375, 'height': 30}
+    tag=BUTTON title=None aria-label=None testo='Bene Insieme' box={'x': 664.453125, 'y': 144, 'width': 125.609375, 'height': 30}
+    tag=A title=None aria-label=None testo='Contattaci' box={'x': 814.0625, 'y': 144, 'width': 82, 'height': 30}
+    tag=A title='Clicca qui per entrare nel sito Spesaonline di Conad' aria-label=None testo='Spesa online' box={'x': 40, 'y': 338, 'width': 144, 'height': 90}
+    tag=A title=None aria-label=None testo='Assicurazioni' box={'x': 192, 'y': 338, 'width': 144, 'height': 90}
+    tag=A title='Clicca qui per visitare il sito Sapori&' aria-label=None testo='Sapori&' box={'x': 344, 'y': 338, 'width': 144, 'height': 90}
+    tag=A title='Clicca qui per visitare il sito Chi Siamo Conad' aria-label=None testo='Istituzionale' box={'x': 496, 'y': 338, 'width': 144, 'height': 90}
+    tag=A title='Clicca qui per visitare il sito Hey Conad Viaggi' aria-label=None testo='Viaggi' box={'x': 648, 'y': 338, 'width': 144, 'height': 90}
+    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 440, 'y': 548, 'width': 243, 'height': 14}
+    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 440, 'y': 586, 'width': 243, 'height': 14}
+    tag=A title=None aria-label=None testo='Impostazioni Cookie' box={'x': 440, 'y': 624, 'width': 243, 'height': 14}
+    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 440, 'y': 662, 'width': 243, 'height': 14}
+    tag=A title='D&I e Parità di Genere' aria-label=None testo='D&I e Parità di Genere' box={'x': 440, 'y': 700, 'width': 243, 'height': 14}
+    tag=A title='Strategia Fiscale' aria-label=None testo='Strategia Fiscale' box={'x': 440, 'y': 738, 'width': 243, 'height': 14}
+    tag=A title=None aria-label=None testo='Lavora con noi' box={'x': 683, 'y': 548, 'width': 243, 'height': 14}
+    tag=A title=None aria-label=None testo='Le cooperative' box={'x': 683, 'y': 586, 'width': 243, 'height': 14}
+    tag=A title=None aria-label=None testo='News & Approfondimenti' box={'x': 683, 'y': 624, 'width': 243, 'height': 14}
+    tag=A title=None aria-label=None testo='Richiami prodotto' box={'x': 683, 'y': 662, 'width': 243, 'height': 14}
+    tag=A title='Whistleblowing' aria-label=None testo='Whistleblowing' box={'x': 683, 'y': 700, 'width': 243, 'height': 14}
+    tag=A title=None aria-label='Servizio clienti' testo='Servizio clienti' box={'x': 40, 'y': 644, 'width': 150.203125, 'height': 40}
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-via-delle-fonderie-snc-00042-anzio--006228
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006228
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=006228
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+[ok] conad_006228_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735205/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+[ok] conad_006228_Offerte23-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1728767/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Sup
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+[ok] conad_006228_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731789/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
+[ok] conad_006228_Catalogo-Scelte-Benessere-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716794/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Scel
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[salvato] lazio/anzio/conad_2.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
+[salvato] lazio/anzio/conad_3.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
+[salvato] lazio/anzio/conad_4.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
+[salvato] lazio/anzio/conad_5.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
   == pagina iniziale: https://www.1leadermarketing.it/volantino/
     testo: '1 / 36 ▦ 1 / 36 © MD Anzio ‹ › ☎ PDF PDF SCARICA 🍽️ ACCETTIAMO BUONI PASTO'
     frame: https://www.1leadermarketing.it/volantino/
@@ -15,20 +124,11 @@ Catene previste per oggi: carrefour, crai, deco, dpiu, elite, ins, lidl, md, pam
     link utili (1/3): [['https://www.1leadermarketing.it/volantino/volantino.pdf', 'PDF\nPDF\nSCARICA']]
 [ok] md_unico: https://www.1leadermarketing.it/volantino/volantino.pdf (21790 KB)
 [salvato] lazio/anzio/md.pdf (MD Via Goldoni 62)
-    PDF: https://insmercato-cdn.it/insmercato/volantino/23/rtifjd/pdf/volantino-A.pdf
-    date lette dalla copertina: 2026-11-04 - 2026-11-15
-[ok] ins_anzio: PDF scaricato (7080 KB)
-[salvato] lazio/anzio/ins.pdf (iN's Mercato Via di Villa Claudia 7)
-    viewer: https://deco.volantinopiu.com/ws/pv003499.php
-    testo viewer: '0 \xa0 \xa0 \xa0'
-    cartella pagine: https://resources.volantinopiu.it/flyer/2/9/3/7/0; richieste viste: [('https://deco.volantinopiu.com/ws/pre003499.php', 301), ('https://deco.volantinopiu.com/ws/thumb.php?refer=/ws/pre003499.php', 302), ('https://resources.volantinopiu.it/flyer/2/9/3/7/0/pagine/1.webp', 200), ('https://deco.volantinopiu.com/ws/pv003499.php', 301), ('https://deco.volantinopiu.com/ws/redirect.php?refer=/ws/pv003499.php', 302), ('https://deco.volantinopiu.com/volantino2937000pv695.html', 200), ('https://deco.volantinopiu.com//public/fontawesome/css/solid.min.css', 200), ('https://deco.volantinopiu.com//public/fontawesome/css/brands.min.css', 200)]
-    pagine scaricate: 43 (12739 KB)
-    dimensione pagina: [1152, 1695]; jpeg totale 17955 KB
-[ok] deco_unico: 43 pagine unite in PDF (13494 KB)
-[salvato] lazio/anzio/deco.pdf (Decò Via di Valle Schioia 67)
+[ERRORE] ins_anzio: Locator.evaluate: Timeout 30000ms exceeded.
+[ERRORE] deco_unico: link 'SFOGLIA IL VOLANTINO' non trovato
     volantini nella pagina: [['A24_2026', 'https://www.calameo.com/read/0019400027f35d40e6c02', 'Tigre Amico - Anzio Valido fino al 19 novembre 2026 Sfoglia volantino'], ['Buoni e Fissi 6_2026', 'https://www.calameo.com/read/001940002470fd9abc74c', 'Tigre Amico - Anzio Valido fino al 31 dicembre 2026 Sfoglia volantino']]
     libro 0019400027f35d40e6c02: pagine=12 key=261111120034-7f434f2bad37d2bc704357ff8b2e1fbe svgz visti=8
-    token: _token_=exp=1794502054~acl=%2F261111120034-7f434f2bad37d2bc704357ff8b2e1fbe%2F%2A~hmac=5baa9a84380f5c55f72eefd940804a19590a2acb9ed7958584d833dde1579588
+    token: _token_=exp=1794588460~acl=%2F261111120034-7f434f2bad37d2bc704357ff8b2e1fbe%2F%2A~hmac=ae630f07d06ac4107589d3323734258dd5f2af4a6e758b3de8513930161bb679
     pagine SVG scaricate: 12 (3995 KB)
     inizio svg 1: b'<svg viewBox="0 0 1282 1600" version="1.1" preserveAspectRatio="xMinYMin meet" text-rendering="geometricPrecision" class="p1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">text{white-space:pre;font-size:16px;font-weight:normal;font-style:normal;fill:none;unicode-bidi:bidi-override}</style></defs><image width="1282" height="1600" preserveAspectRatio="none" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBw'
     href esterni svg 1: 0; immagini incorporate: 1
@@ -51,11 +151,11 @@ Catene previste per oggi: carrefour, crai, deco, dpiu, elite, ins, lidl, md, pam
     JSON https://eu-cdn.acsbapp.com/config/crai.it/config.json (1034 car.)
     API https://crai.it/api/store-locator/all?filters=%5B%22volantino%22%5D: stato 200, tipo dict
     NEGOZIO: {"id": "456", "slug": "2049-crai-anzio", "nomeCommerciale": "CRAI ANZIO", "ragioneSociale": "IPERBON ANZIO", "location": {"coordinates": {"lat": "41.513591", "lng": "12.606097"}}, "indirizzo": "VIA DELLE CINQUE MIGLIA 58/60", "comune": "Fondi", "cap": "04022", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29872", "inizioOrarioInvernale": "01/10", "fineOrarioInvernale": "31/03", "inizioOrarioEstivo": "01/04", "fineOrarioEstivo": "30/09", "orarioInverno": {"lunedi": "08:00-21:00", "martedi": "08:00-21:00", "mercoledi": "08:00-21:00", "giovedi": "08:00-21:00", "venerdi": "08:00-21:00", "sabato": "08:00-21:00", "domenica": "08:00-21:00"}, "orarioEstate": {"lunedi": "08:00-22:00", "martedi": "08:00-22:00", "mercoledi": "08:00-22:00", "giovedi": "08:00-22:00", "venerdi": "08:00-22:00", "sabato": "08:00-22:00", "domenica": "08:00-22:00"}}}
-    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "", "lng": ""}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31695", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
+    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "40.435319", "lng": "18.031415"}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31727", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
     negozi nell'elenco: 682
     API https://crai.it/api/store-locator/all: stato 200, tipo dict
     NEGOZIO: {"id": "356", "slug": "3212-crai-parco-della-gallinara", "nomeCommerciale": "CRAI PARCO DELLA GALLINARA", "ragioneSociale": "COA SOC. COOP", "location": {"coordinates": {"lat": "41.531369", "lng": "12.561778"}}, "indirizzo": "VIA VECCHIARELLI N°2", "comune": "Anzio", "cap": "00042", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29319", "inizioOrarioInvernale": "01/01", "fineOrarioInvernale": "31/12", "inizioOrarioEstivo": "01/01", "fineOrarioEstivo": "31/12", "orarioInverno": {"lunedi": "8:30-12:30/15:00-19:00", "martedi": "8:30-12:30/15:00-19:00", "mercoledi": "8:30-12:30/15:00-19:00", "giovedi": "8:30-12:30/15:00-19:00", "venerdi": "8:30-12:30/15:00-19:00", "sabato": "8:30-12:30/15:00-19:00", "domenica": "8:30-12:30/15:00-19:00"}, "orarioEstate": {"lunedi": "8:30-12:30/15:00-19:00", "martedi": "8:30-12:30/15:00-19:00", "mercoledi": "8:30-12:30/15:00-19:00", "giovedi": "8:30-12:30/15:00-19:00", "venerdi": "8:30-12:30/15:00-19:00", "sabato": "8:30-12:30/15:00-19:00", "domenica": "8:30-12:30/15:00-19:00"}}}
-    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "", "lng": ""}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31695", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
+    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "40.435319", "lng": "18.031415"}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31727", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
     NEGOZIO: {"id": "456", "slug": "2049-crai-anzio", "nomeCommerciale": "CRAI ANZIO", "ragioneSociale": "IPERBON ANZIO", "location": {"coordinates": {"lat": "41.513591", "lng": "12.606097"}}, "indirizzo": "VIA DELLE CINQUE MIGLIA 58/60", "comune": "Fondi", "cap": "04022", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29872", "inizioOrarioInvernale": "01/10", "fineOrarioInvernale": "31/03", "inizioOrarioEstivo": "01/04", "fineOrarioEstivo": "30/09", "orarioInverno": {"lunedi": "08:00-21:00", "martedi": "08:00-21:00", "mercoledi": "08:00-21:00", "giovedi": "08:00-21:00", "venerdi": "08:00-21:00", "sabato": "08:00-21:00", "domenica": "08:00-21:00"}, "orarioEstate": {"lunedi": "08:00-22:00", "martedi": "08:00-22:00", "mercoledi": "08:00-22:00", "giovedi": "08:00-22:00", "venerdi": "08:00-22:00", "sabato": "08:00-22:00", "domenica": "08:00-22:00"}}}
     negozi nell'elenco: 997
     PDF visti dalla rete: []
@@ -81,50 +181,621 @@ Catene previste per oggi: carrefour, crai, deco, dpiu, elite, ins, lidl, md, pam
     link utili (1/3): [['https://www.1leadermarketing.it/volantino/volantino.pdf', 'PDF\nPDF\nSCARICA']]
 [ok] md_unico: https://www.1leadermarketing.it/volantino/volantino.pdf (21790 KB)
 [salvato] lazio/latina/md.pdf (MD Viale Le Corbusier snc)
-    volantini alimentari trovati per 0459: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi')]
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=001223
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=001223
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=001223
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=001223
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223
+[ok] conad_001223_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735187/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=001223&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=001223
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=001223
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223
+[ok] conad_001223_Offerte23-City-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730880/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=001223&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Cit
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=001223
+      https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=001223
+[ok] conad_001223_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1133.84375, 'y': 188, 'width': 160.15625, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731821/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=001223&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[salvato] lazio/latina/conad.pdf (Conad City Via F.lli Bandiera 15)
+[salvato] lazio/latina/conad_2.pdf (Conad City Via F.lli Bandiera 15)
+[salvato] lazio/latina/conad_3.pdf (Conad City Via F.lli Bandiera 15)
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-via-ezio-47-04100-latina--008038
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008038
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008038
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008038
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008038
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008038
+[ok] conad_008038_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735205/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008038&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008038
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008038
+[ok] conad_008038_Offerte23-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1728767/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008038&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Sup
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008038
+[ok] conad_008038_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731789/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008038&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008038
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
+[ok] conad_008038_Catalogo-Scelte-Benessere-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716794/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008038&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Scel
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Superstore Via Ezio 47): stesso volantino di conad.pdf, non lo duplico
+[salvato] lazio/latina/conad_4.pdf (Conad Superstore Via Ezio 47)
+[uguale] Latina conad (Conad Superstore Via Ezio 47): stesso volantino di conad_3.pdf, non lo duplico
+[salvato] lazio/latina/conad_5.pdf (Conad Superstore Via Ezio 47)
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-don-carlo-torello-51-04100-latina--006232
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006232
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=006232
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006232
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
+[ok] conad_006232_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006232&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=006232
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
+[ok] conad_006232_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006232&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
+[ok] conad_006232_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006232&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
+[ok] conad_006232_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006232&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Via Don Carlo Torello 51): stesso volantino di conad.pdf, non lo duplico
+[salvato] lazio/latina/conad_6.pdf (Conad Via Don Carlo Torello 51)
+[uguale] Latina conad (Conad Via Don Carlo Torello 51): stesso volantino di conad_3.pdf, non lo duplico
+[salvato] lazio/latina/conad_7.pdf (Conad Via Don Carlo Torello 51)
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-via-pier-luigi-nervi-c-o-c-c-le-torri-76-04100-latina--008449
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008449
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008449
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008449
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008449
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008449
+[ok] conad_008449_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735205/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008449&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008449
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008449
+[ok] conad_008449_Offerte23-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1728767/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008449&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Sup
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008449
+[ok] conad_008449_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731789/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008449&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008449
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
+[ok] conad_008449_Catalogo-Scelte-Benessere-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716794/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008449&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Scel
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad_4.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad_5.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-viale-pier-luigi-nervi-snc-04100-latina--010397
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010397
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=010397
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=010397
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010397
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=010397
+[ok] conad_010397_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735205/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010397&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=010397
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=010397
+[ok] conad_010397_Offerte23-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1728767/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010397&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Sup
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=010397
+[ok] conad_010397_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731789/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010397&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=010397
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
+[ok] conad_010397_Catalogo-Scelte-Benessere-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1716794/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010397&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Scel
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad_4.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad_5.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-isonzo-157-04100-latina--009866
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009866
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009866
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009866
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
+[ok] conad_009866_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009866&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009866
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
+[ok] conad_009866_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009866&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
+[ok] conad_009866_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1133.84375, 'y': 188, 'width': 160.15625, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009866&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
+[ok] conad_009866_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009866&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad_7.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-viale-picasso-c-o-centro-commerciale-morbella-snc-04100-latina--008450
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008450
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008450
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008450
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
+[ok] conad_008450_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008450&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008450
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
+[ok] conad_008450_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008450&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
+[ok] conad_008450_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008450&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
+[ok] conad_008450_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008450&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad_7.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-viale-nicolo-paganini-41-47-04100-latina--008926
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008926
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008926
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008926
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
+[ok] conad_008926_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008926&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008926
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
+[ok] conad_008926_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008926&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
+[ok] conad_008926_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008926&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
+[ok] conad_008926_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008926&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad_7.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-city-via-capograssa-325-04010-latina--009124
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009124
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=009124
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009124
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009124
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=009124
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009124
+[ok] conad_009124_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735187/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009124&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=009124
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009124
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009124
+[ok] conad_009124_Offerte23-City-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730880/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009124&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Cit
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009124
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009124
+      https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=009124
+[ok] conad_009124_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731821/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009124&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad City Via Capograssa 325): stesso volantino di conad.pdf, non lo duplico
+[uguale] Latina conad (Conad City Via Capograssa 325): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad City Via Capograssa 325): stesso volantino di conad_3.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-foce-verde-211-04100-latina--008811
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008811
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008811
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008811
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
+[ok] conad_008811_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008811&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008811
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
+[ok] conad_008811_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008811&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
+[ok] conad_008811_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008811&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
+[ok] conad_008811_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008811&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad_7.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-strada-delle-ferriere-4-04100-latina--009340
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009340
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009340
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009340
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
+[ok] conad_009340_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009340&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009340
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
+[ok] conad_009340_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009340&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
+[ok] conad_009340_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009340&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
+[ok] conad_009340_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009340&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad.pdf, non lo duplico
+[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad_7.pdf, non lo duplico
+    volantini alimentari trovati per 0459: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi'), ('57084', "Speciale le stagioni d'Italia"), ('57085', 'Speciale pulito')]
 [ok] carrefour_0459_57073: PDF scaricato (14175 KB) - 'Sottocosto' 2026-11-06..2026-11-15
 [ok] carrefour_0459_56973: PDF scaricato (3236 KB) - 'Speciale Aia' 2026-09-29..2026-11-15
 [ok] carrefour_0459_57049: PDF scaricato (956 KB) - 'Speciale detersivi' 2026-11-06..2026-11-15
+[ok] carrefour_0459_57084: PDF scaricato (1069 KB) - "Speciale le stagioni d'Italia" 2026-11-17..2026-11-30
+[ok] carrefour_0459_57085: PDF scaricato (1297 KB) - 'Speciale pulito' 2026-11-17..2026-11-29
 [salvato] lazio/latina/carrefour.pdf (Carrefour Market Viale Petrarca 41)
 [salvato] lazio/latina/carrefour_2.pdf (Carrefour Market Viale Petrarca 41)
 [salvato] lazio/latina/carrefour_3.pdf (Carrefour Market Viale Petrarca 41)
-    volantini alimentari trovati per 0357: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi')]
+[salvato] lazio/latina/carrefour_4.pdf (Carrefour Market Viale Petrarca 41)
+[salvato] lazio/latina/carrefour_5.pdf (Carrefour Market Viale Petrarca 41)
+    volantini alimentari trovati per 0357: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi'), ('57084', "Speciale le stagioni d'Italia"), ('57085', 'Speciale pulito')]
 [ok] carrefour_0357_57073: PDF scaricato (14175 KB) - 'Sottocosto' 2026-11-06..2026-11-15
 [ok] carrefour_0357_56973: PDF scaricato (3236 KB) - 'Speciale Aia' 2026-09-29..2026-11-15
 [ok] carrefour_0357_57049: PDF scaricato (956 KB) - 'Speciale detersivi' 2026-11-06..2026-11-15
+[ok] carrefour_0357_57084: PDF scaricato (1069 KB) - "Speciale le stagioni d'Italia" 2026-11-17..2026-11-30
+[ok] carrefour_0357_57085: PDF scaricato (1297 KB) - 'Speciale pulito' 2026-11-17..2026-11-29
 [uguale] Latina carrefour (Carrefour Market Via Capograssa 5): stesso volantino di carrefour.pdf, non lo duplico
 [uguale] Latina carrefour (Carrefour Market Via Capograssa 5): stesso volantino di carrefour_2.pdf, non lo duplico
 [uguale] Latina carrefour (Carrefour Market Via Capograssa 5): stesso volantino di carrefour_3.pdf, non lo duplico
-    volantini alimentari trovati per 3722: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi')]
+[uguale] Latina carrefour (Carrefour Market Via Capograssa 5): stesso volantino di carrefour_4.pdf, non lo duplico
+[uguale] Latina carrefour (Carrefour Market Via Capograssa 5): stesso volantino di carrefour_5.pdf, non lo duplico
+    volantini alimentari trovati per 3722: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi'), ('57084', "Speciale le stagioni d'Italia"), ('57085', 'Speciale pulito')]
 [ok] carrefour_3722_57073: PDF scaricato (14175 KB) - 'Sottocosto' 2026-11-06..2026-11-15
 [ok] carrefour_3722_56973: PDF scaricato (3236 KB) - 'Speciale Aia' 2026-09-29..2026-11-15
 [ok] carrefour_3722_57049: PDF scaricato (956 KB) - 'Speciale detersivi' 2026-11-06..2026-11-15
+[ok] carrefour_3722_57084: PDF scaricato (1069 KB) - "Speciale le stagioni d'Italia" 2026-11-17..2026-11-30
+[ok] carrefour_3722_57085: PDF scaricato (1297 KB) - 'Speciale pulito' 2026-11-17..2026-11-29
 [uguale] Latina carrefour (Carrefour Market Via del Lido 21): stesso volantino di carrefour.pdf, non lo duplico
 [uguale] Latina carrefour (Carrefour Market Via del Lido 21): stesso volantino di carrefour_2.pdf, non lo duplico
 [uguale] Latina carrefour (Carrefour Market Via del Lido 21): stesso volantino di carrefour_3.pdf, non lo duplico
-    volantini alimentari trovati per 2253: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi')]
+[uguale] Latina carrefour (Carrefour Market Via del Lido 21): stesso volantino di carrefour_4.pdf, non lo duplico
+[uguale] Latina carrefour (Carrefour Market Via del Lido 21): stesso volantino di carrefour_5.pdf, non lo duplico
+    volantini alimentari trovati per 2253: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi'), ('57084', "Speciale le stagioni d'Italia"), ('57085', 'Speciale pulito')]
 [ok] carrefour_2253_57073: PDF scaricato (14175 KB) - 'Sottocosto' 2026-11-06..2026-11-15
 [ok] carrefour_2253_56973: PDF scaricato (3236 KB) - 'Speciale Aia' 2026-09-29..2026-11-15
 [ok] carrefour_2253_57049: PDF scaricato (956 KB) - 'Speciale detersivi' 2026-11-06..2026-11-15
+[ok] carrefour_2253_57084: PDF scaricato (1069 KB) - "Speciale le stagioni d'Italia" 2026-11-17..2026-11-30
+[ok] carrefour_2253_57085: PDF scaricato (1297 KB) - 'Speciale pulito' 2026-11-17..2026-11-29
 [uguale] Latina carrefour (Carrefour Market Via Isonzo 39): stesso volantino di carrefour.pdf, non lo duplico
 [uguale] Latina carrefour (Carrefour Market Via Isonzo 39): stesso volantino di carrefour_2.pdf, non lo duplico
 [uguale] Latina carrefour (Carrefour Market Via Isonzo 39): stesso volantino di carrefour_3.pdf, non lo duplico
-    volantini alimentari trovati per 3282: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi')]
+[uguale] Latina carrefour (Carrefour Market Via Isonzo 39): stesso volantino di carrefour_4.pdf, non lo duplico
+[uguale] Latina carrefour (Carrefour Market Via Isonzo 39): stesso volantino di carrefour_5.pdf, non lo duplico
+    volantini alimentari trovati per 3282: [('57073', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi'), ('57084', "Speciale le stagioni d'Italia"), ('57085', 'Speciale pulito')]
 [ok] carrefour_3282_57073: PDF scaricato (14175 KB) - 'Sottocosto' 2026-11-06..2026-11-15
 [ok] carrefour_3282_56973: PDF scaricato (3236 KB) - 'Speciale Aia' 2026-09-29..2026-11-15
 [ok] carrefour_3282_57049: PDF scaricato (956 KB) - 'Speciale detersivi' 2026-11-06..2026-11-15
+[ok] carrefour_3282_57084: PDF scaricato (1069 KB) - "Speciale le stagioni d'Italia" 2026-11-17..2026-11-30
+[ok] carrefour_3282_57085: PDF scaricato (1297 KB) - 'Speciale pulito' 2026-11-17..2026-11-29
 [uguale] Latina carrefour (Carrefour Market Via del Lido 122): stesso volantino di carrefour.pdf, non lo duplico
 [uguale] Latina carrefour (Carrefour Market Via del Lido 122): stesso volantino di carrefour_2.pdf, non lo duplico
 [uguale] Latina carrefour (Carrefour Market Via del Lido 122): stesso volantino di carrefour_3.pdf, non lo duplico
+[uguale] Latina carrefour (Carrefour Market Via del Lido 122): stesso volantino di carrefour_4.pdf, non lo duplico
+[uguale] Latina carrefour (Carrefour Market Via del Lido 122): stesso volantino di carrefour_5.pdf, non lo duplico
     volantini alimentari trovati per 4336: [('57081', 'Super Offerte')]
 [ok] carrefour_4336_57081: PDF scaricato (8539 KB) - 'Super Offerte' 2026-11-05..2026-11-16
-[salvato] lazio/latina/carrefour_4.pdf (Carrefour Express Strada Macchia Grande 141)
-    promozioni trovate: 3 (link totali 9): ['https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2']
-    salto https://superelite.it/promozioni/grandi-marche-al-costo-2: non vale per latina
-    https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a592e9a18f27be38 Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_latina_2: link PDF non trovato in https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio
-    https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a592e9b81d1abe38 Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_latina_3: link PDF non trovato in https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2
+[salvato] lazio/latina/carrefour_6.pdf (Carrefour Express Strada Macchia Grande 141)
+    promozioni trovate: 5 (link totali 15): ['https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2']
+[ERRORE] elite_latina_1: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20201&pdf=1&Itemid=0 non e' un PDF (stato 200)
+    salto https://superelite.it/promozioni/sconti-fino-al-53: non vale per latina
+[ERRORE] elite_latina_3: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20151&pdf=1&Itemid=0 non e' un PDF (stato 200)
+[ERRORE] elite_latina_4: https://www.superelite.it/index.php?option=com_myegojwt&view=flyer&id=2538&pdf=1&Itemid=0 non e' un PDF (stato 200)
+[ERRORE] elite_latina_5: https://www.superelite.it/index.php?option=com_myegojwt&view=flyer&id=20206&pdf=1&Itemid=0 non e' un PDF (stato 200)
     volantini trovati per latina-latina: 0 (pagina: 'Pagina non trovata')
     volantini trovati per latina-latina-fiori: 0 (pagina: 'Pagina non trovata')
     volantini trovati per latina-latina-1: 0 (pagina: 'Pagina non trovata')
@@ -132,7 +803,7 @@ Catene previste per oggi: carrefour, crai, deco, dpiu, elite, ins, lidl, md, pam
     collegamenti dell'elenco con 'latina': []
     tutti i collegamenti punti-vendita (primi 15): []
 [ERRORE] pam_['latina-latina', 'latina-latina-fiori', 'latina-latina-1', 'roma-latina']: nessun link ai volantini nella pagina del negozio
-    pagina https://www.d-piu.com/: 'Funzionalità di accessibilità disponibili: premi Alt+0 per aprire Skip to content DPiù La tua spesa vale di più PUNTI VENDITA SFOGLIA IL VOLANTINO PRODOTTI INIZIATIVE AZIENDA LAVORA CON NOI GIFT CARD PRENOTA&RITIRA Prenota&Ritira Le offerte si fanno maxi Sfoglia il catalogo di prodotti per la casa e il tempo libero, seleziona il punto vendita e ritira lì il tuo ordine Scopri di più Vedi tutte le iniziative Cerca il punto vendita più vicino Vai alla mappa dei nostri punti vendita per trovare quello più vicino a te Vai alla mappa Sfoglia le nostre offerte Trova il volantino delle offerte in base'
+    pagina https://www.d-piu.com/: 'Skip to content DPiù La tua spesa vale di più PUNTI VENDITA SFOGLIA IL VOLANTINO PRODOTTI INIZIATIVE AZIENDA LAVORA CON NOI GIFT CARD PRENOTA&RITIRA Vedi tutte le iniziative Cerca il punto vendita più vicino Vai alla mappa dei nostri punti vendita per trovare quello più vicino a te Vai alla mappa Sfoglia le nostre offerte Trova il volantino delle offerte in base al punto vendita di fiducia Vai alle offerte Amore a prima spesa Con Everli, Dpiù ti consegna la spesa a casa, anche in giornata. Sconto di 10€ sulla prima spesa e consegna gratuita per i successivi tre ordini con il codice DPIUSPESA1 '
     PDF candidati: ['https://www.d-piu.com/flyer/flyer-1.pdf', 'https://www.d-piu.com/flyer/flyer-2.pdf', 'https://www.d-piu.com/flyer/flyer-3.pdf', 'https://www.d-piu.com/flyer/flyer-4.pdf', 'https://www.d-piu.com/flyer/flyer-5.pdf', 'https://www.d-piu.com/flyer/flyer-6.pdf', 'https://www.d-piu.com/flyer/flyer-7.pdf', 'https://www.d-piu.com/flyer/flyer-8.pdf']
 [ok] dpiu_unico_1: https://www.d-piu.com/flyer/flyer-1.pdf dal 2026-11-05 al 2026-11-14 (3226 KB)
     https://www.d-piu.com/flyer/flyer-2.pdf: non e' un PDF (stato 200)
@@ -147,27 +818,294 @@ Catene previste per oggi: carrefour, crai, deco, dpiu, elite, ins, lidl, md, pam
 [salvato] lazio/nettuno/lidl.pdf (volantino nazionale)
 [condiviso] todis Nettuno: uso il volantino gia' scaricato (lazio)
 [salvato] lazio/nettuno/todis.pdf (volantino Lazio)
-    volantini trovati per roma-nettuno: 2 (pagina: 'Nettuno - Via Ugo La Malfa, 48')
-[ok] pam_roma-nettuno_1: PDF scaricato (7968 KB) - 'Offerte valide dal 5 al 18 Novembre'
-[ok] pam_roma-nettuno_2: PDF scaricato (12275 KB) - 'Occasioni Extra'
-[salvato] lazio/nettuno/pam.pdf (Pam Via Ugo La Malfa 48)
-[salvato] lazio/nettuno/pam_2.pdf (Pam Via Ugo La Malfa 48)
-    volantini alimentari trovati per 5208: [('57066', 'Sottocosto'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi')]
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-carlo-cattaneo-22-00048-nettuno--010443
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010443
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010443
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+[ok] conad_010443_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+[ok] conad_010443_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+[ok] conad_010443_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
+[ok] conad_010443_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[salvato] lazio/nettuno/conad.pdf (Conad Via Carlo Cattaneo 22)
+[salvato] lazio/nettuno/conad_2.pdf (Conad Via Carlo Cattaneo 22)
+[salvato] lazio/nettuno/conad_3.pdf (Conad Via Carlo Cattaneo 22)
+[salvato] lazio/nettuno/conad_4.pdf (Conad Via Carlo Cattaneo 22)
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-scipione-borghese-c-o-centro-comm-le-vele-snc-00048-nettuno--008451
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008451
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008451
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+[ok] conad_008451_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+[ok] conad_008451_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+[ok] conad_008451_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
+[ok] conad_008451_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_4.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-santa-barbara-174-00048-nettuno--010683
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010683
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010683
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+[ok] conad_010683_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+[ok] conad_010683_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+[ok] conad_010683_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
+[ok] conad_010683_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_4.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-traunreut-44-00048-nettuno--005520
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=005520
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=005520
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+[ok] conad_005520_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+[ok] conad_005520_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+[ok] conad_005520_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
+[ok] conad_005520_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_4.pdf, non lo duplico
+    apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-aldo-moro-19-00048-nettuno--010694
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010694
+      indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010694
+      indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
+      indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+    apro https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+[ok] conad_010694_Integrativa23-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1735185/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa23
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+[ok] conad_010694_Offerte23-Conad-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1730898/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte23-Con
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+[ok] conad_010694_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+    apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
+[ok] conad_010694_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731875/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FLazio-conad-p
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_4.pdf, non lo duplico
+    volantini trovati per roma-nettuno: 0 (pagina: 'Nettuno - Via Ugo La Malfa, 48')
+[ERRORE] pam_roma-nettuno: nessun link ai volantini nella pagina del negozio
+    volantini alimentari trovati per 5208: [('57066', 'Sottocosto'), ('57098', 'Prezzi da black friday'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi'), ('57084', "Speciale le stagioni d'Italia"), ('57085', 'Speciale pulito')]
 [ok] carrefour_5208_57066: PDF scaricato (18442 KB) - 'Sottocosto' 2026-11-06..2026-11-15
+[ok] carrefour_5208_57098: PDF scaricato (22403 KB) - 'Prezzi da black friday' 2026-11-17..2026-11-26
 [ok] carrefour_5208_56973: PDF scaricato (3236 KB) - 'Speciale Aia' 2026-09-29..2026-11-15
 [ok] carrefour_5208_57049: PDF scaricato (956 KB) - 'Speciale detersivi' 2026-11-06..2026-11-15
+[ok] carrefour_5208_57084: PDF scaricato (1069 KB) - "Speciale le stagioni d'Italia" 2026-11-17..2026-11-30
+[ok] carrefour_5208_57085: PDF scaricato (1297 KB) - 'Speciale pulito' 2026-11-17..2026-11-29
 [salvato] lazio/nettuno/carrefour.pdf (Carrefour Market Via Trieste 78)
 [salvato] lazio/nettuno/carrefour_2.pdf (Carrefour Market Via Trieste 78)
 [salvato] lazio/nettuno/carrefour_3.pdf (Carrefour Market Via Trieste 78)
-    PDF: https://insmercato-cdn.it/insmercato/volantino/23/rtifjd/pdf/volantino-A.pdf
-    date lette dalla copertina: 2026-11-04 - 2026-11-15
-[ok] ins_nettuno: PDF scaricato (7080 KB)
-[salvato] lazio/nettuno/ins.pdf (iN's Mercato Via Ugo La Malfa 9)
-    promozioni trovate: 3 (link totali 9): ['https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/grandi-marche-al-costo-2', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2']
-    salto https://superelite.it/promozioni/grandi-marche-al-costo-2: non vale per nettuno
-    https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a592ed3f9b24e926 Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_nettuno_2: link PDF non trovato in https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio
-    https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a592ed562ceee926 Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_nettuno_3: link PDF non trovato in https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2
+[salvato] lazio/nettuno/carrefour_4.pdf (Carrefour Market Via Trieste 78)
+[salvato] lazio/nettuno/carrefour_5.pdf (Carrefour Market Via Trieste 78)
+[salvato] lazio/nettuno/carrefour_6.pdf (Carrefour Market Via Trieste 78)
+[ERRORE] ins_nettuno: Locator.evaluate: Timeout 30000ms exceeded.
+    promozioni trovate: 5 (link totali 15): ['https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2']
+[ERRORE] elite_nettuno_1: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20201&pdf=1&Itemid=0 non e' un PDF (stato 429)
+    https://superelite.it/promozioni/sconti-fino-al-53: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a59b3b25fc2e1598 Prestazioni e sicurezza di Cloudflare Privacy'
+[ERRORE] elite_nettuno_2: link PDF non trovato in https://superelite.it/promozioni/sconti-fino-al-53
+[ERRORE] elite_nettuno_3: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20151&pdf=1&Itemid=0 non e' un PDF (stato 200)
+[ERRORE] elite_nettuno_4: https://www.superelite.it/index.php?option=com_myegojwt&view=flyer&id=2538&pdf=1&Itemid=0 non e' un PDF (stato 200)
+    https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a59b3ba84bcb1598 Prestazioni e sicurezza di Cloudflare Privacy'
+[ERRORE] elite_nettuno_5: link PDF non trovato in https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2
 
-Fatto: 22 file salvati, 5 errori.
+Fatto: 38 file salvati, 15 errori.

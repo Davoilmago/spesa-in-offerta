@@ -8,7 +8,7 @@
     "negozio": "Spazio Conad, Viale Antium 4",
     "sha256": "358a257e1d364798941873378856a20c60fabb7a4a66821aaeb10cc3eb43b7cc",
     "byte": 17082111,
-    "scaricato_il": "2026-11-11T04:45:47",
+    "scaricato_il": "2026-11-13T04:45:48",
     "indirizzo": "https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625"
   },
   {
@@ -17,11 +17,11 @@
     "citta": "Anzio",
     "cap": "00042",
     "catena": "conad",
-    "negozio": "Spazio Conad, Viale Antium 4 (secondo volantino)",
-    "sha256": "9e0afc452ed7ace9457a1ead164a6de7fbc8b34deb42c9c6c35a5abf86a2fe3d",
-    "byte": 15507435,
-    "scaricato_il": "2026-11-11T04:45:53",
-    "indirizzo": "https://www.conad.it/volantini/Spazio-Conad-Fascia2-Bis?anacanId=008625"
+    "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
+    "sha256": "afe304ffbd4ad0ccba7afb0ed90e87e500480c8efaa5658bece48815863c81c8",
+    "byte": 15447177,
+    "scaricato_il": "2026-11-13T04:46:28",
+    "indirizzo": "https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006228"
   },
   {
     "file": "lazio/anzio/conad_3.pdf",
@@ -30,10 +30,10 @@
     "cap": "00042",
     "catena": "conad",
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
-    "sha256": "afe304ffbd4ad0ccba7afb0ed90e87e500480c8efaa5658bece48815863c81c8",
-    "byte": 15447177,
-    "scaricato_il": "2026-11-11T04:46:25",
-    "indirizzo": "https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=006228"
+    "sha256": "eae2ba58a0687fb18fa8bc4f4a4e4af555319fc07b1c9d9738b1dfd97a0acaa1",
+    "byte": 17697570,
+    "scaricato_il": "2026-11-13T04:46:28",
+    "indirizzo": "https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=006228"
   },
   {
     "file": "lazio/anzio/conad_4.pdf",
@@ -42,10 +42,10 @@
     "cap": "00042",
     "catena": "conad",
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
-    "sha256": "eae2ba58a0687fb18fa8bc4f4a4e4af555319fc07b1c9d9738b1dfd97a0acaa1",
-    "byte": 17697570,
-    "scaricato_il": "2026-11-11T04:46:25",
-    "indirizzo": "https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=006228"
+    "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
+    "byte": 4353579,
+    "scaricato_il": "2026-11-13T04:46:28",
+    "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228"
   },
   {
     "file": "lazio/anzio/conad_5.pdf",
@@ -54,10 +54,10 @@
     "cap": "00042",
     "catena": "conad",
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
-    "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
-    "byte": 4353579,
-    "scaricato_il": "2026-11-11T04:46:26",
-    "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228"
+    "sha256": "592f31ae1778b75963a1a67b07f0637a9d3f585d070bacd28d84e03f7588e843",
+    "byte": 2600928,
+    "scaricato_il": "2026-11-13T04:46:28",
+    "indirizzo": "https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=006228"
   },
   {
     "file": "lazio/anzio/conad_6.pdf",
@@ -80,7 +80,7 @@
     "negozio": "Crai Via delle Cinque Miglia 58/60",
     "sha256": "4a1f29a8d67b807bcd305df404b182636f6d543e61febbf42f1704a7c40c4b06",
     "byte": 5567976,
-    "scaricato_il": "2026-11-12T04:48:09",
+    "scaricato_il": "2026-11-13T04:48:17",
     "titolo": "Volantino Crai",
     "indirizzo": "https://strapi.crai.it/uploads/LR_AP_25_EXTRA_BASE_TIRRENO_627df97d66.pdf"
   },
@@ -131,7 +131,7 @@
     "negozio": "MD Via Goldoni 62",
     "sha256": "9e502f9360ba64734a6126643b1f07a99ccf9b21657002e5396e7403cdd0d2dc",
     "byte": 22313104,
-    "scaricato_il": "2026-11-12T04:46:30",
+    "scaricato_il": "2026-11-13T04:46:41",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -142,9 +142,9 @@
     "cap": "00042",
     "catena": "tigre",
     "negozio": "Tigre Amico Via Matteotti 18",
-    "sha256": "0b710a9e1fbcc5b378d60f17562c044428d705f485352c9c741b6f53383a0b0f",
+    "sha256": "570879cc59ac239daebf0fe122847924cee055c5576bdc9386e55e4923d3b5a9",
     "byte": 2938278,
-    "scaricato_il": "2026-11-12T04:47:50",
+    "scaricato_il": "2026-11-13T04:47:57",
     "titolo": "Volantino Tigre Amico A24_2026",
     "indirizzo": "https://www.calameo.com/read/0019400027f35d40e6c02"
   },
@@ -157,7 +157,7 @@
     "negozio": "volantino Lazio",
     "sha256": "78358f78d5b7815829c34e3a55a2e62cad2001f1cc39ca10fcce856a2320e9e0",
     "byte": 8448441,
-    "scaricato_il": "2026-11-12T04:46:19",
+    "scaricato_il": "2026-11-13T04:45:38",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   },
   {
@@ -169,7 +169,7 @@
     "negozio": "Carrefour Market Viale Petrarca 41",
     "sha256": "57449de46a86b83ae1ff8264792fc172ca0af0de3f0e8daa4540bebe16203d2c",
     "byte": 14515848,
-    "scaricato_il": "2026-11-12T04:48:42",
+    "scaricato_il": "2026-11-13T04:54:41",
     "titolo": "Sottocosto",
     "valido_dal": "2026-11-06",
     "valido_al": "2026-11-15"
@@ -183,7 +183,7 @@
     "negozio": "Carrefour Market Viale Petrarca 41",
     "sha256": "2baedc70bc89bc1a1595caade0d8261dcdaae94e5481d41332691989daaae8ef",
     "byte": 3313679,
-    "scaricato_il": "2026-11-12T04:48:42",
+    "scaricato_il": "2026-11-13T04:54:41",
     "titolo": "Speciale Aia",
     "valido_dal": "2026-09-29",
     "valido_al": "2026-11-15"
@@ -197,7 +197,7 @@
     "negozio": "Carrefour Market Viale Petrarca 41",
     "sha256": "c7dd637a44972ed8bc6cb24b0df9cb51d2d2c88cd5072b4c4e3e6427bd019f0f",
     "byte": 979329,
-    "scaricato_il": "2026-11-12T04:48:42",
+    "scaricato_il": "2026-11-13T04:54:41",
     "titolo": "Speciale detersivi",
     "valido_dal": "2026-11-06",
     "valido_al": "2026-11-15"
@@ -208,10 +208,38 @@
     "citta": "Latina",
     "cap": "04100",
     "catena": "carrefour",
+    "negozio": "Carrefour Market Viale Petrarca 41",
+    "sha256": "98f7dbdc65deeb5b0cb1737711164a5071c043d8a63f540d3d0482620db7694d",
+    "byte": 1094774,
+    "scaricato_il": "2026-11-13T04:54:41",
+    "titolo": "Speciale le stagioni d'Italia",
+    "valido_dal": "2026-11-17",
+    "valido_al": "2026-11-30"
+  },
+  {
+    "file": "lazio/latina/carrefour_5.pdf",
+    "regione": "Lazio",
+    "citta": "Latina",
+    "cap": "04100",
+    "catena": "carrefour",
+    "negozio": "Carrefour Market Viale Petrarca 41",
+    "sha256": "f6a6959a987fdfa5bffff84fc7d280613a1f9b928d623aeb8056d01b1be69217",
+    "byte": 1328397,
+    "scaricato_il": "2026-11-13T04:54:41",
+    "titolo": "Speciale pulito",
+    "valido_dal": "2026-11-17",
+    "valido_al": "2026-11-29"
+  },
+  {
+    "file": "lazio/latina/carrefour_6.pdf",
+    "regione": "Lazio",
+    "citta": "Latina",
+    "cap": "04100",
+    "catena": "carrefour",
     "negozio": "Carrefour Express Strada Macchia Grande 141",
     "sha256": "4511680ec63064a8e31b6aba5c3e04305cd9c68f03a73b5fefdd1bbae29b123b",
     "byte": 8744252,
-    "scaricato_il": "2026-11-12T04:49:41",
+    "scaricato_il": "2026-11-13T04:55:42",
     "titolo": "Super Offerte",
     "valido_dal": "2026-11-05",
     "valido_al": "2026-11-16"
@@ -225,7 +253,7 @@
     "negozio": "Conad City Via F.lli Bandiera 15",
     "sha256": "afe304ffbd4ad0ccba7afb0ed90e87e500480c8efaa5658bece48815863c81c8",
     "byte": 15447177,
-    "scaricato_il": "2026-11-11T04:46:51",
+    "scaricato_il": "2026-11-13T04:49:04",
     "indirizzo": "https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=001223"
   },
   {
@@ -237,7 +265,7 @@
     "negozio": "Conad City Via F.lli Bandiera 15",
     "sha256": "7a7791879042ffbc6b35e6ec891e7075152d501ac8c48357cf358b70ff08602f",
     "byte": 2409895,
-    "scaricato_il": "2026-11-11T04:46:51",
+    "scaricato_il": "2026-11-13T04:49:04",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=001223"
   },
   {
@@ -249,7 +277,7 @@
     "negozio": "Conad City Via F.lli Bandiera 15",
     "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
     "byte": 4353579,
-    "scaricato_il": "2026-11-11T04:46:51",
+    "scaricato_il": "2026-11-13T04:49:05",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223"
   },
   {
@@ -261,7 +289,7 @@
     "negozio": "Conad Superstore Via Ezio 47",
     "sha256": "eae2ba58a0687fb18fa8bc4f4a4e4af555319fc07b1c9d9738b1dfd97a0acaa1",
     "byte": 17697570,
-    "scaricato_il": "2026-11-11T04:47:22",
+    "scaricato_il": "2026-11-13T04:49:37",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-Superstore-Lazio?anacanId=008038"
   },
   {
@@ -273,7 +301,7 @@
     "negozio": "Conad Superstore Via Ezio 47",
     "sha256": "592f31ae1778b75963a1a67b07f0637a9d3f585d070bacd28d84e03f7588e843",
     "byte": 2600928,
-    "scaricato_il": "2026-11-11T04:47:22",
+    "scaricato_il": "2026-11-13T04:49:37",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Scelte-Benessere-Lazio?anacanId=008038"
   },
   {
@@ -285,7 +313,7 @@
     "negozio": "Conad Via Don Carlo Torello 51",
     "sha256": "1a421dd4c05de0fcbfd81181c0a85b0010ba616246f693ac1937f678e6f9ab63",
     "byte": 5522490,
-    "scaricato_il": "2026-11-11T04:47:53",
+    "scaricato_il": "2026-11-13T04:50:14",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=006232"
   },
   {
@@ -297,7 +325,7 @@
     "negozio": "Conad Via Don Carlo Torello 51",
     "sha256": "5b07c7d4286aba949a7048551908702ca8d0176ed01200ef9bd4671e26baaef9",
     "byte": 401574,
-    "scaricato_il": "2026-11-11T04:47:53",
+    "scaricato_il": "2026-11-13T04:50:14",
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232"
   },
   {
@@ -309,7 +337,7 @@
     "negozio": "Dpiù Borgo Sabotino, Via G. Bortolotti 3",
     "sha256": "ed434400de9a633751c9e8aa1c8ad63607aba023459fbc25be59706455718807",
     "byte": 3303649,
-    "scaricato_il": "2026-11-12T04:51:11",
+    "scaricato_il": "2026-11-13T04:58:37",
     "titolo": "Volantino Dpiù",
     "indirizzo": "https://www.d-piu.com/flyer/flyer-1.pdf",
     "valido_dal": "2026-11-05",
@@ -378,9 +406,9 @@
     "cap": "04100",
     "catena": "lidl",
     "negozio": "volantino nazionale",
-    "sha256": "10692b55bd6c7102c5acf3e3dab80882bd75ddebac9fba4eb1bf2c6f525e04a2",
-    "byte": 20140227,
-    "scaricato_il": "2026-11-12T04:48:21",
+    "sha256": "8f8ea12ea95f5cecdd2fc18a82ed65d68c31f6b2b5e61622dd3749fb6527b2a7",
+    "byte": 20322984,
+    "scaricato_il": "2026-11-13T04:48:29",
     "valido_dal": "2026-11-12",
     "valido_al": "2026-11-18",
     "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-NAZ/view/flyer/page/1"
@@ -394,7 +422,7 @@
     "negozio": "MD Viale Le Corbusier snc",
     "sha256": "9e502f9360ba64734a6126643b1f07a99ccf9b21657002e5396e7403cdd0d2dc",
     "byte": 22313104,
-    "scaricato_il": "2026-11-12T04:48:29",
+    "scaricato_il": "2026-11-13T04:48:36",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -407,7 +435,7 @@
     "negozio": "volantino Lazio",
     "sha256": "78358f78d5b7815829c34e3a55a2e62cad2001f1cc39ca10fcce856a2320e9e0",
     "byte": 8448441,
-    "scaricato_il": "2026-11-12T04:48:21",
+    "scaricato_il": "2026-11-13T04:48:29",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   },
   {
@@ -419,7 +447,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "d53dd70236024925ecaaa4e26d94a35d7cdc2ba68c267a48a5a98533b526804d",
     "byte": 18885615,
-    "scaricato_il": "2026-11-12T04:51:52",
+    "scaricato_il": "2026-11-13T05:01:49",
     "titolo": "Sottocosto",
     "valido_dal": "2026-11-06",
     "valido_al": "2026-11-15"
@@ -431,12 +459,12 @@
     "cap": "00048",
     "catena": "carrefour",
     "negozio": "Carrefour Market Via Trieste 78",
-    "sha256": "2baedc70bc89bc1a1595caade0d8261dcdaae94e5481d41332691989daaae8ef",
-    "byte": 3313679,
-    "scaricato_il": "2026-11-12T04:51:52",
-    "titolo": "Speciale Aia",
-    "valido_dal": "2026-09-29",
-    "valido_al": "2026-11-15"
+    "sha256": "94adc76677a16eab853dac708f64d695c7952fba1456650e76e4e30d1dc19c34",
+    "byte": 22941091,
+    "scaricato_il": "2026-11-13T05:01:49",
+    "titolo": "Prezzi da black friday",
+    "valido_dal": "2026-11-17",
+    "valido_al": "2026-11-26"
   },
   {
     "file": "lazio/nettuno/carrefour_3.pdf",
@@ -445,12 +473,54 @@
     "cap": "00048",
     "catena": "carrefour",
     "negozio": "Carrefour Market Via Trieste 78",
+    "sha256": "2baedc70bc89bc1a1595caade0d8261dcdaae94e5481d41332691989daaae8ef",
+    "byte": 3313679,
+    "scaricato_il": "2026-11-13T05:01:49",
+    "titolo": "Speciale Aia",
+    "valido_dal": "2026-09-29",
+    "valido_al": "2026-11-15"
+  },
+  {
+    "file": "lazio/nettuno/carrefour_4.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "carrefour",
+    "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "c7dd637a44972ed8bc6cb24b0df9cb51d2d2c88cd5072b4c4e3e6427bd019f0f",
     "byte": 979329,
-    "scaricato_il": "2026-11-12T04:51:52",
+    "scaricato_il": "2026-11-13T05:01:49",
     "titolo": "Speciale detersivi",
     "valido_dal": "2026-11-06",
     "valido_al": "2026-11-15"
+  },
+  {
+    "file": "lazio/nettuno/carrefour_5.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "carrefour",
+    "negozio": "Carrefour Market Via Trieste 78",
+    "sha256": "98f7dbdc65deeb5b0cb1737711164a5071c043d8a63f540d3d0482620db7694d",
+    "byte": 1094774,
+    "scaricato_il": "2026-11-13T05:01:49",
+    "titolo": "Speciale le stagioni d'Italia",
+    "valido_dal": "2026-11-17",
+    "valido_al": "2026-11-30"
+  },
+  {
+    "file": "lazio/nettuno/carrefour_6.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "carrefour",
+    "negozio": "Carrefour Market Via Trieste 78",
+    "sha256": "f6a6959a987fdfa5bffff84fc7d280613a1f9b928d623aeb8056d01b1be69217",
+    "byte": 1328397,
+    "scaricato_il": "2026-11-13T05:01:49",
+    "titolo": "Speciale pulito",
+    "valido_dal": "2026-11-17",
+    "valido_al": "2026-11-29"
   },
   {
     "file": "lazio/nettuno/conad.pdf",
@@ -461,7 +531,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "afe304ffbd4ad0ccba7afb0ed90e87e500480c8efaa5658bece48815863c81c8",
     "byte": 15447177,
-    "scaricato_il": "2026-11-11T04:52:26",
+    "scaricato_il": "2026-11-13T04:59:11",
     "indirizzo": "https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010443"
   },
   {
@@ -473,7 +543,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "1a421dd4c05de0fcbfd81181c0a85b0010ba616246f693ac1937f678e6f9ab63",
     "byte": 5522490,
-    "scaricato_il": "2026-11-11T04:52:26",
+    "scaricato_il": "2026-11-13T04:59:11",
     "indirizzo": "https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010443"
   },
   {
@@ -485,7 +555,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
     "byte": 4353579,
-    "scaricato_il": "2026-11-11T04:52:27",
+    "scaricato_il": "2026-11-13T04:59:11",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443"
   },
   {
@@ -497,7 +567,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "5b07c7d4286aba949a7048551908702ca8d0176ed01200ef9bd4671e26baaef9",
     "byte": 401574,
-    "scaricato_il": "2026-11-11T04:52:27",
+    "scaricato_il": "2026-11-13T04:59:11",
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443"
   },
   {
@@ -592,9 +662,9 @@
     "cap": "00048",
     "catena": "lidl",
     "negozio": "volantino nazionale",
-    "sha256": "10692b55bd6c7102c5acf3e3dab80882bd75ddebac9fba4eb1bf2c6f525e04a2",
-    "byte": 20140227,
-    "scaricato_il": "2026-11-12T04:51:11",
+    "sha256": "8f8ea12ea95f5cecdd2fc18a82ed65d68c31f6b2b5e61622dd3749fb6527b2a7",
+    "byte": 20322984,
+    "scaricato_il": "2026-11-13T04:58:37",
     "valido_dal": "2026-11-12",
     "valido_al": "2026-11-18",
     "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-NAZ/view/flyer/page/1"
@@ -632,7 +702,7 @@
     "negozio": "volantino Lazio",
     "sha256": "78358f78d5b7815829c34e3a55a2e62cad2001f1cc39ca10fcce856a2320e9e0",
     "byte": 8448441,
-    "scaricato_il": "2026-11-12T04:51:12",
+    "scaricato_il": "2026-11-13T04:58:37",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
   }
 ]
