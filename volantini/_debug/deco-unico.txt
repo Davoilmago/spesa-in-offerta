@@ -1,6 +1,0 @@
---- frame: https://puntivenditadeco.multicedi.it/it/italia/roma/anzio
-0: tag=A title='Indietro' aria-label=None testo='Indietro' box={'x': 35, 'y': 40.203125, 'width': 49, 'height': 19.59375}
-1: tag=A title='Home' aria-label=None testo='Home' box={'x': 1328, 'y': 40.203125, 'width': 37, 'height': 19.59375}
-2: tag=A title=None aria-label=None testo='06 97846692' box={'x': 731.734375, 'y': 329.1875, 'width': 84, 'height': 19.59375}
-3: tag=BUTTON title=None aria-label=None testo='PORTAMI QUI' box={'x': 703.734375, 'y': 408.375, 'width': 133.5, 'height': 42}
-4: tag=A title=None aria-label=None testo='Powered by RetailTune srl' box={'x': 70, 'y': 1480.9375, 'width': 1260, 'height': 20.59375}

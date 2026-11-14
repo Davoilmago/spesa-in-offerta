@@ -1,10 +1,4 @@
-Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, md, pam, tigre, todis
-    apro https://www.todis.it/volantini/lazio/
-[ok] todis_lazio: pulsante trovato (testo 'Scarica il volantino in PDF')
-    elemento: tag=A title=None aria-label=None testo='Scarica il volantino in PDF' box={'x': 474, 'y': 994.59375, 'width': 191, 'height': 18}
-    indirizzo del pulsante: https://www.todis.it/wp-content/uploads/2026/11/OS_24_2026_BASE_RM-LZ.pdf?x72032
-    PDF scaricato direttamente dall'indirizzo
-[salvato] lazio/anzio/todis.pdf (volantino Lazio)
+Catene previste per oggi: carrefour, conad, pam
     apro https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625
     altri indirizzi 'volantini' nella pagina (4):
       https://www.conad.it/volantini/Offerte-Catalogo-Giocattolo2?anacanId=008625
@@ -27,10 +21,10 @@ Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, 
     tag=A title=None aria-label=None testo='Spesa Online' box={'x': 960.75, 'y': 15.515625, 'width': 119.8125, 'height': 16.953125}
     tag=A title='Assicurazioni' aria-label=None testo='Assicurazioni' box={'x': 1080.5625, 'y': 15.515625, 'width': 119.015625, 'height': 16.953125}
     tag=A title='Viaggi' aria-label=None testo='Viaggi' box={'x': 1199.578125, 'y': 15.515625, 'width': 79.609375, 'height': 16.953125}
-    tag=A title=None aria-label=None testo='' box=None
-    tag=A title=None aria-label=None testo='Spesa Online' box={'x': 960.75, 'y': 15.515625, 'width': 119.8125, 'height': 16.953125}
-    tag=A title='Assicurazioni' aria-label=None testo='Assicurazioni' box={'x': 1080.5625, 'y': 15.515625, 'width': 119.015625, 'height': 16.953125}
-    tag=A title='Viaggi' aria-label=None testo='Viaggi' box={'x': 1199.578125, 'y': 15.515625, 'width': 79.609375, 'height': 16.953125}
+    tag=A title=None aria-label=None testo='Sapori&' box={'x': 1279.1875, 'y': 15.515625, 'width': 80.8125, 'height': 16.953125}
+    tag=A title=None aria-label=None testo='' box={'x': 40, 'y': 72, 'width': 131, 'height': 40}
+    tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 870.390625, 'y': 64, 'width': 24.203125, 'height': 56}
+    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 926.59375, 'y': 84, 'width': 56.203125, 'height': 16}
     tag=A title=None aria-label=None testo='Sapori&' box={'x': 1279.1875, 'y': 15.515625, 'width': 80.8125, 'height': 16.953125}
     tag=A title=None aria-label=None testo='' box={'x': 40, 'y': 72, 'width': 131, 'height': 40}
     tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 870.390625, 'y': 64, 'width': 24.203125, 'height': 56}
@@ -114,73 +108,6 @@ Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, 
 [salvato] lazio/anzio/conad_3.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
 [salvato] lazio/anzio/conad_4.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
 [salvato] lazio/anzio/conad_5.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
-  == pagina iniziale: https://www.1leadermarketing.it/volantino/
-    testo: '1 / 36 ▦ 1 / 36 © MD Anzio ‹ › ☎ PDF PDF SCARICA 🍽️ ACCETTIAMO BUONI PASTO'
-    frame: https://www.1leadermarketing.it/volantino/
-    link utili (1/3): [['https://www.1leadermarketing.it/volantino/volantino.pdf', 'PDF\nPDF\nSCARICA']]
-  == dopo la scelta: https://www.1leadermarketing.it/volantino/
-    testo: '1 / 36 ▦ 1 / 36 © MD Anzio ‹ › ☎ PDF PDF SCARICA 🍽️ ACCETTIAMO BUONI PASTO'
-    frame: https://www.1leadermarketing.it/volantino/
-    link utili (1/3): [['https://www.1leadermarketing.it/volantino/volantino.pdf', 'PDF\nPDF\nSCARICA']]
-[ok] md_unico: https://www.1leadermarketing.it/volantino/volantino.pdf (21790 KB)
-[salvato] lazio/anzio/md.pdf (MD Via Goldoni 62)
-[ERRORE] ins_anzio: Locator.evaluate: Timeout 30000ms exceeded.
-[ERRORE] deco_unico: link 'SFOGLIA IL VOLANTINO' non trovato
-    volantini nella pagina: [['A24_2026', 'https://www.calameo.com/read/0019400027f35d40e6c02', 'Tigre Amico - Anzio Valido fino al 19 novembre 2026 Sfoglia volantino'], ['Buoni e Fissi 6_2026', 'https://www.calameo.com/read/001940002470fd9abc74c', 'Tigre Amico - Anzio Valido fino al 31 dicembre 2026 Sfoglia volantino']]
-    libro 0019400027f35d40e6c02: pagine=12 key=261111120034-7f434f2bad37d2bc704357ff8b2e1fbe svgz visti=8
-    token: _token_=exp=1794588460~acl=%2F261111120034-7f434f2bad37d2bc704357ff8b2e1fbe%2F%2A~hmac=ae630f07d06ac4107589d3323734258dd5f2af4a6e758b3de8513930161bb679
-    pagine SVG scaricate: 12 (3995 KB)
-    inizio svg 1: b'<svg viewBox="0 0 1282 1600" version="1.1" preserveAspectRatio="xMinYMin meet" text-rendering="geometricPrecision" class="p1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">text{white-space:pre;font-size:16px;font-weight:normal;font-style:normal;fill:none;unicode-bidi:bidi-override}</style></defs><image width="1282" height="1600" preserveAspectRatio="none" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBw'
-    href esterni svg 1: 0; immagini incorporate: 1
-    PDF tigre-6507_0e6c02.pdf: 12 pagine, 2869 KB
-[ok] tigre_6507: 1 volantino/i
-[salvato] lazio/anzio/tigre.pdf (Tigre Amico Via Matteotti 18)
-  == pagina iniziale: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / CRAI ANZIO CRAI ANZIO Centro di distribuzione Crai Tirreno VIA DELLE CINQUE MIGLIA 58/60 06/9819599 041166@pdv.craitirreno.com Oggi: 08:00-21:00 Vedi tutti gli orari Le nostre offerte SCONTI FINO AL 50% Leggi il volantino Condividi Scarica Iniziative Scopri le ultime iniziative in corso Il Datterino si tinge di rosa Scopri di più Orari di apertura Lunedi: 08:00-21:00 Martedi: 08:00-21:00 Mercoledi: 08:00-21:00 Giovedi: 08:00-21:00 Venerdi: 08:00-21:00 Sabato: 08:00-21:00 Domenica: 08:00-21:00 Indicazioni stradali Servizi Carta Fedeltà Bancomat Carta di Credito Parcheggio Reparti Macelleria Pescheria Ortofrutta Panetteria Salumi e Formaggi Gastronomia Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea Bio "
-    frame: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    link utili (15/129): [['https://crai.it/negozi-e-volantini/2049-crai-anzio#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/LR_AP_25_EXTRA_BASE_TIRRENO_627df97d66.pdf', 'Leggi il volantino'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Condividi'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Scarica'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio#acsbContent', 'Salta al contenuto\n↵\nENTER']]
-    frame: about:srcdoc
-    link utili (0/0): []
-    cliccato 'Volantino' -> https://crai.it/negozi-e-volantini/2049-crai-anzio
-  == dopo clic 'Volantino': https://crai.it/negozi-e-volantini/2049-crai-anzio
-    testo: "Premi Alt+1 per la modalità lettore dello schermo, Alt+0 per annullare Guida all'accessibilità per lettori dello schermo, feedback e segnalazione dei problemi | Nuova finestra Salta al contenuto principale Contatti Associati a CRAI Lavora con noi Spesa online \u200b \u200b Trova il tuo negozio CartaPiù Negozi e Volantini CRAI Energy Crai per te I Prodotti CRAI Sostenibilità Chi Siamo Home / CRAI ANZIO CRAI ANZIO Centro di distribuzione Crai Tirreno VIA DELLE CINQUE MIGLIA 58/60 06/9819599 041166@pdv.craitirreno.com Oggi: 08:00-21:00 Vedi tutti gli orari Le nostre offerte SCONTI FINO AL 50% Leggi il volantino Condividi Scarica Iniziative Scopri le ultime iniziative in corso Il Datterino si tinge di rosa Scopri di più Orari di apertura Lunedi: 08:00-21:00 Martedi: 08:00-21:00 Mercoledi: 08:00-21:00 Giovedi: 08:00-21:00 Venerdi: 08:00-21:00 Sabato: 08:00-21:00 Domenica: 08:00-21:00 Indicazioni stradali Servizi Carta Fedeltà Bancomat Carta di Credito Parcheggio Reparti Macelleria Pescheria Ortofrutta Panetteria Salumi e Formaggi Gastronomia Crai per la comunità Ci dedichiamo con cura alle persone, al territorio e all’ambiente, promuovendo iniziative sociali Scopri cosa facciamo Filiera garantita Mettiamo in primo piano i prodotti di stagione e assicuriamo che ogni fase della filiera rispetti i nostri standard di qualità Scopri la filiera garantita CRAI Comunicati stampa Storie, iniziative e approfondimenti sui progetti, le persone e i valori che rendono CRAI una grande famiglia Leggi i nostri comunicati Copyright @ 2025 CRAI Secom S.p.A. P.IVA 12641600155 - Via Monfalcone 22 - 20132 Milano MI. Tel: +39 02 21.01.091 - Fax: +39 02 210.804.01 Se ci vuoi nel tuo feed Conosci già la nostra app? La spesa smart su misura per te Linee CRAI Piaceri Italiani Crai Sport Crai Proteico Linea Bio "
-    frame: https://crai.it/negozi-e-volantini/2049-crai-anzio
-    link utili (15/129): [['https://crai.it/negozi-e-volantini/2049-crai-anzio#main-content', 'Salta al contenuto principale'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://crai.it/negozi-e-volantini', 'Trova il tuo negozio'], ['https://strapi.crai.it/uploads/LR_AP_25_EXTRA_BASE_TIRRENO_627df97d66.pdf', 'Leggi il volantino'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Condividi'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio', 'Scarica'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/Company_Profile_CRAI_14_8x14_8_20250823_2_d73833faef.pdf', 'Company profile'], ['https://crai.it/negozi-e-volantini', 'Negozi e Volantini'], ['https://strapi.crai.it/uploads/50x70_prontuario_aic_2026_crai_7251d21150.pdf', 'Prontuario'], ['https://strapi.crai.it/uploads/codice_etico_f73500bebf.pdf', 'Codice etico'], ['https://crai.it/negozi-e-volantini/2049-crai-anzio#acsbContent', 'Salta al contenuto\n↵\nENTER']]
-    frame: about:srcdoc
-    link utili (0/0): []
-    JSON https://eu-cdn.acsbapp.com/config/crai.it/config.json (1034 car.)
-    API https://crai.it/api/store-locator/all?filters=%5B%22volantino%22%5D: stato 200, tipo dict
-    NEGOZIO: {"id": "456", "slug": "2049-crai-anzio", "nomeCommerciale": "CRAI ANZIO", "ragioneSociale": "IPERBON ANZIO", "location": {"coordinates": {"lat": "41.513591", "lng": "12.606097"}}, "indirizzo": "VIA DELLE CINQUE MIGLIA 58/60", "comune": "Fondi", "cap": "04022", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29872", "inizioOrarioInvernale": "01/10", "fineOrarioInvernale": "31/03", "inizioOrarioEstivo": "01/04", "fineOrarioEstivo": "30/09", "orarioInverno": {"lunedi": "08:00-21:00", "martedi": "08:00-21:00", "mercoledi": "08:00-21:00", "giovedi": "08:00-21:00", "venerdi": "08:00-21:00", "sabato": "08:00-21:00", "domenica": "08:00-21:00"}, "orarioEstate": {"lunedi": "08:00-22:00", "martedi": "08:00-22:00", "mercoledi": "08:00-22:00", "giovedi": "08:00-22:00", "venerdi": "08:00-22:00", "sabato": "08:00-22:00", "domenica": "08:00-22:00"}}}
-    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "40.435319", "lng": "18.031415"}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31727", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
-    negozi nell'elenco: 682
-    API https://crai.it/api/store-locator/all: stato 200, tipo dict
-    NEGOZIO: {"id": "356", "slug": "3212-crai-parco-della-gallinara", "nomeCommerciale": "CRAI PARCO DELLA GALLINARA", "ragioneSociale": "COA SOC. COOP", "location": {"coordinates": {"lat": "41.531369", "lng": "12.561778"}}, "indirizzo": "VIA VECCHIARELLI N°2", "comune": "Anzio", "cap": "00042", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29319", "inizioOrarioInvernale": "01/01", "fineOrarioInvernale": "31/12", "inizioOrarioEstivo": "01/01", "fineOrarioEstivo": "31/12", "orarioInverno": {"lunedi": "8:30-12:30/15:00-19:00", "martedi": "8:30-12:30/15:00-19:00", "mercoledi": "8:30-12:30/15:00-19:00", "giovedi": "8:30-12:30/15:00-19:00", "venerdi": "8:30-12:30/15:00-19:00", "sabato": "8:30-12:30/15:00-19:00", "domenica": "8:30-12:30/15:00-19:00"}, "orarioEstate": {"lunedi": "8:30-12:30/15:00-19:00", "martedi": "8:30-12:30/15:00-19:00", "mercoledi": "8:30-12:30/15:00-19:00", "giovedi": "8:30-12:30/15:00-19:00", "venerdi": "8:30-12:30/15:00-19:00", "sabato": "8:30-12:30/15:00-19:00", "domenica": "8:30-12:30/15:00-19:00"}}}
-    NEGOZIO: {"id": "3027", "slug": "6333-crai-extra-squinzano-raffaello-sanzio", "nomeCommerciale": "CRAI EXTRA SQUINZANO  RAFFAELLO SANZIO", "ragioneSociale": "SUPERGEST.DUE SRL", "location": {"coordinates": {"lat": "40.435319", "lng": "18.031415"}}, "indirizzo": "VIA RAFFAELLO SANZIO 124", "comune": "Squinzano", "cap": "73018", "cedis": {"data": [{"titolo": "Crai Supercentro"}]}, "orari": {"id": "31727", "inizioOrarioInvernale": "15/09", "fineOrarioInvernale": "03/05", "inizioOrarioEstivo": "04/05", "fineOrarioEstivo": "14/09", "orarioInverno": {"lunedi": "8:00-20:00", "martedi": "8:00-20:00", "mercoledi": "8:00-20:00", "giovedi": "8:00-20:00", "venerdi": "8:00-20:00", "sabato": "8:00-20:00", "domenica": "8:00-13:00"}, "orarioEstate": {"lunedi": "8:00-20:30", "martedi": "8:00-20:30", "mercoledi": "8:00-20:30", "giovedi": "8:00-20:30", "venerdi": "8:00-20:30", "sabato": "8:00-20:30", "domenica": "8:00-13:00"}}}
-    NEGOZIO: {"id": "456", "slug": "2049-crai-anzio", "nomeCommerciale": "CRAI ANZIO", "ragioneSociale": "IPERBON ANZIO", "location": {"coordinates": {"lat": "41.513591", "lng": "12.606097"}}, "indirizzo": "VIA DELLE CINQUE MIGLIA 58/60", "comune": "Fondi", "cap": "04022", "cedis": {"data": [{"titolo": "Crai Tirreno"}]}, "orari": {"id": "29872", "inizioOrarioInvernale": "01/10", "fineOrarioInvernale": "31/03", "inizioOrarioEstivo": "01/04", "fineOrarioEstivo": "30/09", "orarioInverno": {"lunedi": "08:00-21:00", "martedi": "08:00-21:00", "mercoledi": "08:00-21:00", "giovedi": "08:00-21:00", "venerdi": "08:00-21:00", "sabato": "08:00-21:00", "domenica": "08:00-21:00"}, "orarioEstate": {"lunedi": "08:00-22:00", "martedi": "08:00-22:00", "mercoledi": "08:00-22:00", "giovedi": "08:00-22:00", "venerdi": "08:00-22:00", "sabato": "08:00-22:00", "domenica": "08:00-22:00"}}}
-    negozi nell'elenco: 997
-    PDF visti dalla rete: []
-[ok] crai_unico: https://strapi.crai.it/uploads/LR_AP_25_EXTRA_BASE_TIRRENO_627df97d66.pdf (5437 KB)
-[salvato] lazio/anzio/crai.pdf (Crai Via delle Cinque Miglia 58/60)
-    provo il volantino Lidl dal 12/11 al 18/11: https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-NAZ/view/flyer/page/1
-    pagina aperta: https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-NAZ/view/flyer/page/1  titolo: 'Offerte valide dal 12/11 al 18/11 - Volantino settimanale | Lidl Italia - lidl.it'
-    Menu aperto con: clic normale
-[ok] lidl_nazionale: pulsante trovato (testo 'Scarica il PDF')
-    elemento: tag=SPAN title=None aria-label=None testo='Scarica il PDF' box={'x': 1090, 'y': 132.109375, 'width': 91, 'height': 22}
-    indirizzo del pulsante: https://assets.leaflets.schwarz/leaflets/pdfs/01a1b151-5d16-7df1-9139-2d4ee4b79bbf/Offerte-valide-dal-12-11-al-18-11-Volantino-settimanale-00.pdf
-    PDF scaricato direttamente dall'indirizzo
-[salvato] lazio/latina/lidl.pdf (volantino nazionale)
-[condiviso] todis Latina: uso il volantino gia' scaricato (lazio)
-[salvato] lazio/latina/todis.pdf (volantino Lazio)
-  == pagina iniziale: https://www.1leadermarketing.it/volantino/
-    testo: '1 / 36 ▦ 1 / 36 © MD Anzio ‹ › ☎ PDF PDF SCARICA 🍽️ ACCETTIAMO BUONI PASTO'
-    frame: https://www.1leadermarketing.it/volantino/
-    link utili (1/3): [['https://www.1leadermarketing.it/volantino/volantino.pdf', 'PDF\nPDF\nSCARICA']]
-  == dopo la scelta: https://www.1leadermarketing.it/volantino/
-    testo: '1 / 36 ▦ 1 / 36 © MD Anzio ‹ › ☎ PDF PDF SCARICA 🍽️ ACCETTIAMO BUONI PASTO'
-    frame: https://www.1leadermarketing.it/volantino/
-    link utili (1/3): [['https://www.1leadermarketing.it/volantino/volantino.pdf', 'PDF\nPDF\nSCARICA']]
-[ok] md_unico: https://www.1leadermarketing.it/volantino/volantino.pdf (21790 KB)
-[salvato] lazio/latina/md.pdf (MD Viale Le Corbusier snc)
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223
       indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=001223
       indirizzo trovato: https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=001223
@@ -210,7 +137,7 @@ Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, 
       https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=001223
       https://www.conad.it/volantini/Offerte23-City-Lazio?anacanId=001223
 [ok] conad_001223_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
-    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1133.84375, 'y': 188, 'width': 160.15625, 'height': 36}
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
     indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731821/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=001223&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
@@ -463,7 +390,7 @@ Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, 
       https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=009866
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
 [ok] conad_009866_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
-    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1133.84375, 'y': 188, 'width': 160.15625, 'height': 36}
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
     indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1731793/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009866&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FCatalogo-Cest
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
@@ -790,12 +717,6 @@ Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, 
     volantini alimentari trovati per 4336: [('57081', 'Super Offerte')]
 [ok] carrefour_4336_57081: PDF scaricato (8539 KB) - 'Super Offerte' 2026-11-05..2026-11-16
 [salvato] lazio/latina/carrefour_6.pdf (Carrefour Express Strada Macchia Grande 141)
-    promozioni trovate: 5 (link totali 15): ['https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2']
-[ERRORE] elite_latina_1: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20201&pdf=1&Itemid=0 non e' un PDF (stato 200)
-    salto https://superelite.it/promozioni/sconti-fino-al-53: non vale per latina
-[ERRORE] elite_latina_3: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20151&pdf=1&Itemid=0 non e' un PDF (stato 200)
-[ERRORE] elite_latina_4: https://www.superelite.it/index.php?option=com_myegojwt&view=flyer&id=2538&pdf=1&Itemid=0 non e' un PDF (stato 200)
-[ERRORE] elite_latina_5: https://www.superelite.it/index.php?option=com_myegojwt&view=flyer&id=20206&pdf=1&Itemid=0 non e' un PDF (stato 200)
     volantini trovati per latina-latina: 0 (pagina: 'Pagina non trovata')
     volantini trovati per latina-latina-fiori: 0 (pagina: 'Pagina non trovata')
     volantini trovati per latina-latina-1: 0 (pagina: 'Pagina non trovata')
@@ -803,21 +724,6 @@ Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, 
     collegamenti dell'elenco con 'latina': []
     tutti i collegamenti punti-vendita (primi 15): []
 [ERRORE] pam_['latina-latina', 'latina-latina-fiori', 'latina-latina-1', 'roma-latina']: nessun link ai volantini nella pagina del negozio
-    pagina https://www.d-piu.com/: 'Skip to content DPiù La tua spesa vale di più PUNTI VENDITA SFOGLIA IL VOLANTINO PRODOTTI INIZIATIVE AZIENDA LAVORA CON NOI GIFT CARD PRENOTA&RITIRA Vedi tutte le iniziative Cerca il punto vendita più vicino Vai alla mappa dei nostri punti vendita per trovare quello più vicino a te Vai alla mappa Sfoglia le nostre offerte Trova il volantino delle offerte in base al punto vendita di fiducia Vai alle offerte Amore a prima spesa Con Everli, Dpiù ti consegna la spesa a casa, anche in giornata. Sconto di 10€ sulla prima spesa e consegna gratuita per i successivi tre ordini con il codice DPIUSPESA1 '
-    PDF candidati: ['https://www.d-piu.com/flyer/flyer-1.pdf', 'https://www.d-piu.com/flyer/flyer-2.pdf', 'https://www.d-piu.com/flyer/flyer-3.pdf', 'https://www.d-piu.com/flyer/flyer-4.pdf', 'https://www.d-piu.com/flyer/flyer-5.pdf', 'https://www.d-piu.com/flyer/flyer-6.pdf', 'https://www.d-piu.com/flyer/flyer-7.pdf', 'https://www.d-piu.com/flyer/flyer-8.pdf']
-[ok] dpiu_unico_1: https://www.d-piu.com/flyer/flyer-1.pdf dal 2026-11-05 al 2026-11-14 (3226 KB)
-    https://www.d-piu.com/flyer/flyer-2.pdf: non e' un PDF (stato 200)
-    https://www.d-piu.com/flyer/flyer-3.pdf: non e' un PDF (stato 200)
-    https://www.d-piu.com/flyer/flyer-4.pdf: non e' un PDF (stato 200)
-    https://www.d-piu.com/flyer/flyer-5.pdf: non e' un PDF (stato 200)
-    https://www.d-piu.com/flyer/flyer-6.pdf: non e' un PDF (stato 200)
-    https://www.d-piu.com/flyer/flyer-7.pdf: non e' un PDF (stato 200)
-    https://www.d-piu.com/flyer/flyer-8.pdf: non e' un PDF (stato 200)
-[salvato] lazio/latina/dpiu.pdf (Dpiù Borgo Sabotino, Via G. Bortolotti 3)
-[condiviso] lidl Nettuno: uso il volantino gia' scaricato (nazionale)
-[salvato] lazio/nettuno/lidl.pdf (volantino nazionale)
-[condiviso] todis Nettuno: uso il volantino gia' scaricato (lazio)
-[salvato] lazio/nettuno/todis.pdf (volantino Lazio)
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-carlo-cattaneo-22-00048-nettuno--010443
       indirizzo trovato: https://www.conad.it/volantini/Integrativa23-Lazio?anacanId=010443
       indirizzo trovato: https://www.conad.it/volantini/Offerte23-Conad-Lazio?anacanId=010443
@@ -1083,8 +989,11 @@ Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, 
 [uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_2.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_3.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_4.pdf, non lo duplico
-    volantini trovati per roma-nettuno: 0 (pagina: 'Nettuno - Via Ugo La Malfa, 48')
-[ERRORE] pam_roma-nettuno: nessun link ai volantini nella pagina del negozio
+    volantini trovati per roma-nettuno: 2 (pagina: 'Nettuno - Via Ugo La Malfa, 48')
+[ok] pam_roma-nettuno_1: PDF scaricato (7968 KB) - 'Offerte valide dal 5 al 18 Novembre'
+[ok] pam_roma-nettuno_2: PDF scaricato (12275 KB) - 'Occasioni Extra'
+[salvato] lazio/nettuno/pam.pdf (Pam Via Ugo La Malfa 48)
+[salvato] lazio/nettuno/pam_2.pdf (Pam Via Ugo La Malfa 48)
     volantini alimentari trovati per 5208: [('57066', 'Sottocosto'), ('57098', 'Prezzi da black friday'), ('56973', 'Speciale Aia'), ('57049', 'Speciale detersivi'), ('57084', "Speciale le stagioni d'Italia"), ('57085', 'Speciale pulito')]
 [ok] carrefour_5208_57066: PDF scaricato (18442 KB) - 'Sottocosto' 2026-11-06..2026-11-15
 [ok] carrefour_5208_57098: PDF scaricato (22403 KB) - 'Prezzi da black friday' 2026-11-17..2026-11-26
@@ -1098,14 +1007,5 @@ Catene previste per oggi: carrefour, conad, crai, deco, dpiu, elite, ins, lidl, 
 [salvato] lazio/nettuno/carrefour_4.pdf (Carrefour Market Via Trieste 78)
 [salvato] lazio/nettuno/carrefour_5.pdf (Carrefour Market Via Trieste 78)
 [salvato] lazio/nettuno/carrefour_6.pdf (Carrefour Market Via Trieste 78)
-[ERRORE] ins_nettuno: Locator.evaluate: Timeout 30000ms exceeded.
-    promozioni trovate: 5 (link totali 15): ['https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2'] | ['https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-52', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/sconti-fino-al-53', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/super-risparmio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2', 'https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2']
-[ERRORE] elite_nettuno_1: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20201&pdf=1&Itemid=0 non e' un PDF (stato 429)
-    https://superelite.it/promozioni/sconti-fino-al-53: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a59b3b25fc2e1598 Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_nettuno_2: link PDF non trovato in https://superelite.it/promozioni/sconti-fino-al-53
-[ERRORE] elite_nettuno_3: https://superelite.it/index.php?option=com_myegojwt&view=flyer&id=20151&pdf=1&Itemid=0 non e' un PDF (stato 200)
-[ERRORE] elite_nettuno_4: https://www.superelite.it/index.php?option=com_myegojwt&view=flyer&id=2538&pdf=1&Itemid=0 non e' un PDF (stato 200)
-    https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2: date non trovate, la tengo comunque: 'superelite.it Esecuzione della verifica di sicurezza  Questo sito web utilizza un servizio di sicurezza per la protezione dai bot dannosi. Questa è la pagina che viene visualizzata durante la verifica del sito web.  Ray ID: a59b3ba84bcb1598 Prestazioni e sicurezza di Cloudflare Privacy'
-[ERRORE] elite_nettuno_5: link PDF non trovato in https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2
 
-Fatto: 38 file salvati, 15 errori.
+Fatto: 30 file salvati, 2 errori.

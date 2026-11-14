@@ -79,7 +79,7 @@
 77: tag=BUTTON title=None aria-label='Chiudi' testo='' box=None
 78: tag=BUTTON title=None aria-label='Cerca' testo='' box=None
 79: tag=BUTTON title=None aria-label='Elimina' testo='' box=None
---- frame: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeX2lQaAAAAAKDBeCJJrCx2rqMJMEt0gbbX657F&co=aHR0cHM6Ly93d3cuY29uYWQuaXQ6NDQz&hl=it&v=0lEGiwO4Qwx5R9ArxUy0mBpf&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=ow5lcd59iyvp
+--- frame: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LeX2lQaAAAAAKDBeCJJrCx2rqMJMEt0gbbX657F&co=aHR0cHM6Ly93d3cuY29uYWQuaXQ6NDQz&hl=it&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=ny70o3gov7cj
 --- frame: about:srcdoc
 --- frame: about:blank
 --- frame: about:blank
