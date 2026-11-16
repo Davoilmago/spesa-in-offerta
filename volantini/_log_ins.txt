@@ -1,2 +1,6 @@
-[ERRORE] ins_anzio: Locator.evaluate: Timeout 30000ms exceeded.
-[ERRORE] ins_nettuno: Locator.evaluate: Timeout 30000ms exceeded.
+    PDF: https://insmercato-cdn.it/insmercato/volantino/24/hfuwjs/pdf/volantino-A.pdf
+    date lette dalla copertina: 2026-11-20 - 2026-11-21
+[ok] ins_anzio: PDF scaricato (13592 KB)
+    PDF: https://insmercato-cdn.it/insmercato/volantino/24/hfuwjs/pdf/volantino-A.pdf
+    date lette dalla copertina: 2026-11-20 - 2026-11-21
+[ok] ins_nettuno: PDF scaricato (13592 KB)

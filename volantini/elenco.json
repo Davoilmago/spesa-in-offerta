@@ -68,7 +68,7 @@
     "negozio": "Crai Via delle Cinque Miglia 58/60",
     "sha256": "4a1f29a8d67b807bcd305df404b182636f6d543e61febbf42f1704a7c40c4b06",
     "byte": 5567976,
-    "scaricato_il": "2026-11-13T04:48:17",
+    "scaricato_il": "2026-11-16T05:22:37",
     "titolo": "Volantino Crai",
     "indirizzo": "https://strapi.crai.it/uploads/LR_AP_25_EXTRA_BASE_TIRRENO_627df97d66.pdf"
   },
@@ -92,9 +92,9 @@
     "cap": "00042",
     "catena": "eurospin",
     "negozio": "Via Nerone 15",
-    "sha256": "63fcd410047466ecd9995894cbe479deba20d6146c1ce83bf2e206ace088cdeb",
-    "byte": 13736992,
-    "scaricato_il": "2026-11-10T04:41:00"
+    "sha256": "36df8db5df3f47e3bdf9a644328d9d778c27070e942c00aca2b8a9f452309394",
+    "byte": 15020120,
+    "scaricato_il": "2026-11-16T05:20:42"
   },
   {
     "file": "lazio/anzio/ins.pdf",
@@ -103,12 +103,12 @@
     "cap": "00042",
     "catena": "ins",
     "negozio": "iN's Mercato Via di Villa Claudia 7",
-    "sha256": "14df3de172f0f3a28a0020a552e4c7baad99bc815f3576d6c092796e603980c2",
-    "byte": 7250872,
-    "scaricato_il": "2026-11-12T04:46:50",
-    "titolo": "Volantino 23",
-    "valido_dal": "2026-11-04",
-    "valido_al": "2026-11-15"
+    "sha256": "c9116397a9ce865b2c2469e0b16a23cda9b0404c94733783b03a5bd7e43968ca",
+    "byte": 13918343,
+    "scaricato_il": "2026-11-16T05:21:41",
+    "titolo": "Volantino 24",
+    "valido_dal": "2026-11-20",
+    "valido_al": "2026-11-21"
   },
   {
     "file": "lazio/anzio/md.pdf",
@@ -119,7 +119,7 @@
     "negozio": "MD Via Goldoni 62",
     "sha256": "9e502f9360ba64734a6126643b1f07a99ccf9b21657002e5396e7403cdd0d2dc",
     "byte": 22313104,
-    "scaricato_il": "2026-11-13T04:46:41",
+    "scaricato_il": "2026-11-16T05:21:20",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -130,9 +130,9 @@
     "cap": "00042",
     "catena": "tigre",
     "negozio": "Tigre Amico Via Matteotti 18",
-    "sha256": "570879cc59ac239daebf0fe122847924cee055c5576bdc9386e55e4923d3b5a9",
+    "sha256": "07601ddc1f30d07721d4e4adfa4c12934f151e1feb1efb9a1b18032be6a5b3ac",
     "byte": 2938278,
-    "scaricato_il": "2026-11-13T04:47:57",
+    "scaricato_il": "2026-11-16T05:22:17",
     "titolo": "Volantino Tigre Amico A24_2026",
     "indirizzo": "https://www.calameo.com/read/0019400027f35d40e6c02"
   },
@@ -332,19 +332,34 @@
     "valido_al": "2026-11-14"
   },
   {
+    "file": "lazio/latina/elite.pdf",
+    "regione": "Lazio",
+    "citta": "Latina",
+    "cap": "04100",
+    "catena": "elite",
+    "negozio": "Elite Via Priverno 28",
+    "sha256": "a153a4baa0d2e238b0c5addd12b41de13f7cbc4358cc51a4c856e466d2b180d3",
+    "byte": 4631661,
+    "scaricato_il": "2026-11-16T05:28:02",
+    "titolo": "Sconti fino al 50%",
+    "indirizzo": "https://superelite.it/promozioni/sconti-fino-al-52",
+    "valido_dal": "2026-11-13",
+    "valido_al": "2026-11-26"
+  },
+  {
     "file": "lazio/latina/elite_2.pdf",
     "regione": "Lazio",
     "citta": "Latina",
     "cap": "04100",
     "catena": "elite",
     "negozio": "Elite Via Priverno 28",
-    "sha256": "c05672d77537a2151d2db948d5e4f983d4896260fc37514ecd255a61d40f3e20",
-    "byte": 2759132,
-    "scaricato_il": "2026-11-11T10:26:09",
-    "titolo": "Spesa Difesa Selex - Prezzi Bloccati - Settembre",
-    "indirizzo": "https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio",
-    "valido_dal": "2026-09-01",
-    "valido_al": "2026-12-31"
+    "sha256": "8454804d6fb95256e1ae1b5a08a3aac74fb3deab7a0543f4a3c19b403150120b",
+    "byte": 1837544,
+    "scaricato_il": "2026-11-16T05:28:02",
+    "titolo": "Super Risparmio",
+    "indirizzo": "https://superelite.it/promozioni/super-risparmio",
+    "valido_dal": "2026-11-13",
+    "valido_al": "2026-11-26"
   },
   {
     "file": "lazio/latina/elite_3.pdf",
@@ -353,13 +368,13 @@
     "cap": "04100",
     "catena": "elite",
     "negozio": "Elite Via Priverno 28",
-    "sha256": "746c9a02270cc12aa91fad96b06d68491c1d632b8b0abd55301efb25bf3c79d2",
-    "byte": 1823041,
-    "scaricato_il": "2026-11-11T10:26:09",
-    "titolo": "Tutti in Campo - Grande Raccolta Fila - Ultima puntata",
-    "indirizzo": "https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2",
-    "valido_dal": "2026-10-26",
-    "valido_al": "2026-11-15"
+    "sha256": "502a6ce6c22453fb9043827e0f9567194803bbb2dc8eb1af3c425a3d6d08bbf1",
+    "byte": 2759170,
+    "scaricato_il": "2026-11-16T05:28:02",
+    "titolo": "Spesa Difesa Selex - Prezzi Bloccati - Settembre",
+    "indirizzo": "https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio",
+    "valido_dal": "2026-09-01",
+    "valido_al": "2026-12-31"
   },
   {
     "file": "lazio/latina/eurospin.pdf",
@@ -368,9 +383,9 @@
     "cap": "04100",
     "catena": "eurospin",
     "negozio": "Eurospin Via Epitaffio 6",
-    "sha256": "63fcd410047466ecd9995894cbe479deba20d6146c1ce83bf2e206ace088cdeb",
-    "byte": 13736992,
-    "scaricato_il": "2026-11-10T04:48:51"
+    "sha256": "36df8db5df3f47e3bdf9a644328d9d778c27070e942c00aca2b8a9f452309394",
+    "byte": 15020120,
+    "scaricato_il": "2026-11-16T05:23:08"
   },
   {
     "file": "lazio/latina/lidl.pdf",
@@ -395,7 +410,7 @@
     "negozio": "MD Viale Le Corbusier snc",
     "sha256": "9e502f9360ba64734a6126643b1f07a99ccf9b21657002e5396e7403cdd0d2dc",
     "byte": 22313104,
-    "scaricato_il": "2026-11-13T04:48:36",
+    "scaricato_il": "2026-11-16T05:22:44",
     "titolo": "Volantino MD",
     "indirizzo": "https://www.1leadermarketing.it/volantino/volantino.pdf"
   },
@@ -544,34 +559,49 @@
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443"
   },
   {
+    "file": "lazio/nettuno/elite.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "elite",
+    "negozio": "Elite Via De Gasperi 14",
+    "sha256": "8cdf1a3a4afce98de3cd93473872830d9d3fcfdaf0567c89accb48aebcc1db07",
+    "byte": 4631663,
+    "scaricato_il": "2026-11-16T05:30:04",
+    "titolo": "Sconti fino al 50%",
+    "indirizzo": "https://superelite.it/promozioni/sconti-fino-al-52",
+    "valido_dal": "2026-11-13",
+    "valido_al": "2026-11-26"
+  },
+  {
+    "file": "lazio/nettuno/elite_2.pdf",
+    "regione": "Lazio",
+    "citta": "Nettuno",
+    "cap": "00048",
+    "catena": "elite",
+    "negozio": "Elite Via De Gasperi 14",
+    "sha256": "811fa897775ceb6e3d01583d34f21517eeb41e5f7e4d7c40c06cc2dfc88fc169",
+    "byte": 1837541,
+    "scaricato_il": "2026-11-16T05:30:04",
+    "titolo": "Super Risparmio",
+    "indirizzo": "https://superelite.it/promozioni/super-risparmio",
+    "valido_dal": "2026-11-13",
+    "valido_al": "2026-11-26"
+  },
+  {
     "file": "lazio/nettuno/elite_3.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",
     "cap": "00048",
     "catena": "elite",
     "negozio": "Elite Via De Gasperi 14",
-    "sha256": "d866a9eab719a9a3003958c59e3728b8ed679f01e70eb3f204291ad2e6c32e55",
-    "byte": 2759139,
-    "scaricato_il": "2026-11-11T10:28:19",
+    "sha256": "60027996c4d9200084e2dcccc4932ea456df771159aba73fc06452de08a52fc9",
+    "byte": 2759173,
+    "scaricato_il": "2026-11-16T05:30:04",
     "titolo": "Spesa Difesa Selex - Prezzi Bloccati - Settembre",
     "indirizzo": "https://superelite.it/promozioni/spesa-difesa-selex-prezzi-bloccati-gennaio",
     "valido_dal": "2026-09-01",
     "valido_al": "2026-12-31"
-  },
-  {
-    "file": "lazio/nettuno/elite_4.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "elite",
-    "negozio": "Elite Via De Gasperi 14",
-    "sha256": "d12beefc82525878e69ccd9220582aa4063b4daca65829d996b3ca39a3c08f6a",
-    "byte": 1823054,
-    "scaricato_il": "2026-11-11T10:28:19",
-    "titolo": "Tutti in Campo - Grande Raccolta Fila - Ultima puntata",
-    "indirizzo": "https://superelite.it/promozioni/tutti-in-campo-grande-raccolta-fila-ultima-puntata-2",
-    "valido_dal": "2026-10-26",
-    "valido_al": "2026-11-15"
   },
   {
     "file": "lazio/nettuno/eurospin.pdf",
@@ -580,9 +610,9 @@
     "cap": "00048",
     "catena": "eurospin",
     "negozio": "Via Scipione Borghese 35",
-    "sha256": "63fcd410047466ecd9995894cbe479deba20d6146c1ce83bf2e206ace088cdeb",
-    "byte": 13736992,
-    "scaricato_il": "2026-11-10T04:52:29"
+    "sha256": "36df8db5df3f47e3bdf9a644328d9d778c27070e942c00aca2b8a9f452309394",
+    "byte": 15020120,
+    "scaricato_il": "2026-11-16T05:29:10"
   },
   {
     "file": "lazio/nettuno/ins.pdf",
@@ -591,12 +621,12 @@
     "cap": "00048",
     "catena": "ins",
     "negozio": "iN's Mercato Via Ugo La Malfa 9",
-    "sha256": "14df3de172f0f3a28a0020a552e4c7baad99bc815f3576d6c092796e603980c2",
-    "byte": 7250872,
-    "scaricato_il": "2026-11-12T04:52:10",
-    "titolo": "Volantino 23",
-    "valido_dal": "2026-11-04",
-    "valido_al": "2026-11-15"
+    "sha256": "c9116397a9ce865b2c2469e0b16a23cda9b0404c94733783b03a5bd7e43968ca",
+    "byte": 13918343,
+    "scaricato_il": "2026-11-16T05:29:28",
+    "titolo": "Volantino 24",
+    "valido_dal": "2026-11-20",
+    "valido_al": "2026-11-21"
   },
   {
     "file": "lazio/nettuno/lidl.pdf",
