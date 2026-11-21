@@ -8,7 +8,7 @@
     "negozio": "Spazio Conad, Viale Antium 4 (secondo volantino)",
     "sha256": "64e81f163c0bb4f25db25d0d6e06800d1560a8cb0e40279b6a440726922ace22",
     "byte": 16637611,
-    "scaricato_il": "2026-11-20T04:49:42",
+    "scaricato_il": "2026-11-21T04:45:24",
     "indirizzo": "https://www.conad.it/volantini/Spazio-Conad-Fascia2-Bis?anacanId=008625"
   },
   {
@@ -20,7 +20,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "b0c9ba414713b2b5a4d178e2fdcb1eef5fd32ef8bcbdd12be7e4a8e44c9a7528",
     "byte": 9858089,
-    "scaricato_il": "2026-11-20T04:50:15",
+    "scaricato_il": "2026-11-21T04:45:51",
     "indirizzo": "https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=006228"
   },
   {
@@ -32,7 +32,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
     "byte": 4353579,
-    "scaricato_il": "2026-11-20T04:50:15",
+    "scaricato_il": "2026-11-21T04:45:51",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228"
   },
   {
@@ -44,7 +44,7 @@
     "negozio": "Conad Superstore, Via delle Fonderie (Lo Zodiaco)",
     "sha256": "3eec638ec3eb6e662b8255573c420d5f657a0c7a9f1e81287b87174aa7e2f65e",
     "byte": 10237067,
-    "scaricato_il": "2026-11-20T04:50:15",
+    "scaricato_il": "2026-11-21T04:45:51",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=006228"
   },
   {
@@ -155,12 +155,12 @@
     "cap": "04100",
     "catena": "carrefour",
     "negozio": "Carrefour Market Viale Petrarca 41",
-    "sha256": "98f7dbdc65deeb5b0cb1737711164a5071c043d8a63f540d3d0482620db7694d",
-    "byte": 1094774,
-    "scaricato_il": "2026-11-20T04:57:24",
-    "titolo": "Speciale le stagioni d'Italia",
+    "sha256": "e5478d570b47338e0b5ebfda342e9beac1d0487d95d6bed66b2f94edb47e1581",
+    "byte": 17373319,
+    "scaricato_il": "2026-11-21T04:50:37",
+    "titolo": "Prezzi da black friday",
     "valido_dal": "2026-11-17",
-    "valido_al": "2026-11-30"
+    "valido_al": "2026-11-26"
   },
   {
     "file": "lazio/latina/carrefour_2.pdf",
@@ -169,12 +169,12 @@
     "cap": "04100",
     "catena": "carrefour",
     "negozio": "Carrefour Market Viale Petrarca 41",
-    "sha256": "f6a6959a987fdfa5bffff84fc7d280613a1f9b928d623aeb8056d01b1be69217",
-    "byte": 1328397,
-    "scaricato_il": "2026-11-20T04:57:24",
-    "titolo": "Speciale pulito",
+    "sha256": "98f7dbdc65deeb5b0cb1737711164a5071c043d8a63f540d3d0482620db7694d",
+    "byte": 1094774,
+    "scaricato_il": "2026-11-21T04:50:37",
+    "titolo": "Speciale le stagioni d'Italia",
     "valido_dal": "2026-11-17",
-    "valido_al": "2026-11-29"
+    "valido_al": "2026-11-30"
   },
   {
     "file": "lazio/latina/carrefour_3.pdf",
@@ -182,13 +182,13 @@
     "citta": "Latina",
     "cap": "04100",
     "catena": "carrefour",
-    "negozio": "Carrefour Express Strada Macchia Grande 141",
-    "sha256": "44032b46065c2d843b3cfd85a13e2944ff3094a57762c0b4e3bceee41539cb76",
-    "byte": 7069468,
-    "scaricato_il": "2026-11-20T04:58:22",
-    "titolo": "Sconti fino al 50%",
-    "valido_dal": "2026-11-18",
-    "valido_al": "2026-12-01"
+    "negozio": "Carrefour Market Viale Petrarca 41",
+    "sha256": "f6a6959a987fdfa5bffff84fc7d280613a1f9b928d623aeb8056d01b1be69217",
+    "byte": 1328397,
+    "scaricato_il": "2026-11-21T04:50:37",
+    "titolo": "Speciale pulito",
+    "valido_dal": "2026-11-17",
+    "valido_al": "2026-11-29"
   },
   {
     "file": "lazio/latina/carrefour_4.pdf",
@@ -197,9 +197,23 @@
     "cap": "04100",
     "catena": "carrefour",
     "negozio": "Carrefour Express Strada Macchia Grande 141",
+    "sha256": "44032b46065c2d843b3cfd85a13e2944ff3094a57762c0b4e3bceee41539cb76",
+    "byte": 7069468,
+    "scaricato_il": "2026-11-21T04:51:40",
+    "titolo": "Sconti fino al 50%",
+    "valido_dal": "2026-11-18",
+    "valido_al": "2026-12-01"
+  },
+  {
+    "file": "lazio/latina/carrefour_5.pdf",
+    "regione": "Lazio",
+    "citta": "Latina",
+    "cap": "04100",
+    "catena": "carrefour",
+    "negozio": "Carrefour Express Strada Macchia Grande 141",
     "sha256": "63408eb2398fbc7471cb33baf47a0ad6296cd26ac8feb7a112e60f32dadd462d",
     "byte": 1406383,
-    "scaricato_il": "2026-11-20T04:58:22",
+    "scaricato_il": "2026-11-21T04:51:40",
     "titolo": "Speciale Frosta",
     "valido_dal": "2026-11-18",
     "valido_al": "2026-12-01"
@@ -213,7 +227,7 @@
     "negozio": "Conad City Via F.lli Bandiera 15",
     "sha256": "ceca64e1a351224e29fc5f02161feca02b087a275c0a8c5db4d86a21e46a51a6",
     "byte": 2363320,
-    "scaricato_il": "2026-11-20T04:52:54",
+    "scaricato_il": "2026-11-21T04:46:12",
     "indirizzo": "https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=001223"
   },
   {
@@ -225,7 +239,7 @@
     "negozio": "Conad City Via F.lli Bandiera 15",
     "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
     "byte": 4353579,
-    "scaricato_il": "2026-11-20T04:52:54",
+    "scaricato_il": "2026-11-21T04:46:12",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223"
   },
   {
@@ -237,7 +251,7 @@
     "negozio": "Conad Superstore Via Ezio 47",
     "sha256": "b0c9ba414713b2b5a4d178e2fdcb1eef5fd32ef8bcbdd12be7e4a8e44c9a7528",
     "byte": 9858089,
-    "scaricato_il": "2026-11-20T04:53:20",
+    "scaricato_il": "2026-11-21T04:46:38",
     "indirizzo": "https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008038"
   },
   {
@@ -249,7 +263,7 @@
     "negozio": "Conad Superstore Via Ezio 47",
     "sha256": "3eec638ec3eb6e662b8255573c420d5f657a0c7a9f1e81287b87174aa7e2f65e",
     "byte": 10237067,
-    "scaricato_il": "2026-11-20T04:53:20",
+    "scaricato_il": "2026-11-21T04:46:38",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008038"
   },
   {
@@ -261,7 +275,7 @@
     "negozio": "Conad Via Don Carlo Torello 51",
     "sha256": "9c51638c96c8f8d13f8cb05f57bca04868f4c6942076eb171de3a8f7bb03f150",
     "byte": 5316636,
-    "scaricato_il": "2026-11-20T04:53:49",
+    "scaricato_il": "2026-11-21T04:47:04",
     "indirizzo": "https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=006232"
   },
   {
@@ -273,7 +287,7 @@
     "negozio": "Conad Via Don Carlo Torello 51",
     "sha256": "2eb694f2e817b50c36929dc3071048242498b08e69a1a28964fa9b18117a7ee6",
     "byte": 532910,
-    "scaricato_il": "2026-11-20T04:53:49",
+    "scaricato_il": "2026-11-21T04:47:04",
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232"
   },
   {
@@ -395,7 +409,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "94adc76677a16eab853dac708f64d695c7952fba1456650e76e4e30d1dc19c34",
     "byte": 22941091,
-    "scaricato_il": "2026-11-20T05:04:12",
+    "scaricato_il": "2026-11-21T04:55:38",
     "titolo": "Prezzi da black friday",
     "valido_dal": "2026-11-17",
     "valido_al": "2026-11-26"
@@ -409,7 +423,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "98f7dbdc65deeb5b0cb1737711164a5071c043d8a63f540d3d0482620db7694d",
     "byte": 1094774,
-    "scaricato_il": "2026-11-20T05:04:12",
+    "scaricato_il": "2026-11-21T04:55:38",
     "titolo": "Speciale le stagioni d'Italia",
     "valido_dal": "2026-11-17",
     "valido_al": "2026-11-30"
@@ -423,7 +437,7 @@
     "negozio": "Carrefour Market Via Trieste 78",
     "sha256": "f6a6959a987fdfa5bffff84fc7d280613a1f9b928d623aeb8056d01b1be69217",
     "byte": 1328397,
-    "scaricato_il": "2026-11-20T05:04:12",
+    "scaricato_il": "2026-11-21T04:55:38",
     "titolo": "Speciale pulito",
     "valido_dal": "2026-11-17",
     "valido_al": "2026-11-29"
@@ -437,7 +451,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "9c51638c96c8f8d13f8cb05f57bca04868f4c6942076eb171de3a8f7bb03f150",
     "byte": 5316636,
-    "scaricato_il": "2026-11-20T05:01:29",
+    "scaricato_il": "2026-11-21T04:52:59",
     "indirizzo": "https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010443"
   },
   {
@@ -449,7 +463,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "7dd56b4969abd9c11b2ab50753f171ad5433a3696b698c3af1fba97a70859fca",
     "byte": 4353579,
-    "scaricato_il": "2026-11-20T05:01:29",
+    "scaricato_il": "2026-11-21T04:52:59",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443"
   },
   {
@@ -461,7 +475,7 @@
     "negozio": "Conad Via Carlo Cattaneo 22",
     "sha256": "2eb694f2e817b50c36929dc3071048242498b08e69a1a28964fa9b18117a7ee6",
     "byte": 532910,
-    "scaricato_il": "2026-11-20T05:01:29",
+    "scaricato_il": "2026-11-21T04:52:59",
     "indirizzo": "https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443"
   },
   {
@@ -473,7 +487,7 @@
     "negozio": "Conad Via Scipione Borghese (Le Vele)",
     "sha256": "3eec638ec3eb6e662b8255573c420d5f657a0c7a9f1e81287b87174aa7e2f65e",
     "byte": 10237067,
-    "scaricato_il": "2026-11-20T05:02:03",
+    "scaricato_il": "2026-11-21T04:53:32",
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008451"
   },
   {
@@ -569,7 +583,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "06baea657dd8f0da2ce7739cc592d9a51f8b4821826a17cbfa46c33da44e3122",
     "byte": 5626664,
-    "scaricato_il": "2026-11-20T05:03:58",
+    "scaricato_il": "2026-11-21T04:55:25",
     "titolo": "Offerte valide dal 19 Novembre al 2 Dicembre",
     "valido_dal": "2026-11-19",
     "valido_al": "2026-12-02"
@@ -583,7 +597,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "f32e696dae7b97feb74fa078fd3f7023482980feea7081dc22d5fa67a80eed38",
     "byte": 7908881,
-    "scaricato_il": "2026-11-20T05:03:58",
+    "scaricato_il": "2026-11-21T04:55:25",
     "titolo": "Offerte Extra"
   },
   {
@@ -595,7 +609,7 @@
     "negozio": "Pam Via Ugo La Malfa 48",
     "sha256": "b0144920b90e6e023c921d56fd3ffc00cc97060c0fd12261ded9ae5fce12f423",
     "byte": 2181,
-    "scaricato_il": "2026-11-20T05:03:58",
+    "scaricato_il": "2026-11-21T04:55:25",
     "titolo": "Offerte valide dal 19 Novembre al 6 Gennaio",
     "valido_dal": "2026-11-19",
     "valido_al": "2027-01-06"
