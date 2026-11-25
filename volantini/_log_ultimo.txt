@@ -1,142 +1,4 @@
-Catene previste per oggi: conad, eurospin, ins
-[ok] eurospin_anzio: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nAnzio (RM) -' box={'x': 576.984375, 'y': 153, 'width': 246, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[salvato] lazio/anzio/eurospin.pdf (Via Nerone 15)
-[ok] eurospin_anzio-2: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nAnzio (RM) -' box={'x': 563.984375, 'y': 153, 'width': 272, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Anzio eurospin (Via del Cinema 26): stesso volantino di eurospin.pdf, non lo duplico
+Catene previste per oggi: conad
     apro https://www.conad.it/volantini/Spazio-Conad-Fascia2?anacanId=008625
     pagina non trovata (stato 404)
 [ERRORE] conad_008625_Spazio-Conad-Fascia2: pulsante di download non trovato
@@ -150,12 +12,13 @@ Catene previste per oggi: conad, eurospin, ins
     tag=A title=None aria-label=None testo='' box={'x': 40, 'y': 72, 'width': 131, 'height': 40}
     tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 870.390625, 'y': 64, 'width': 24.203125, 'height': 56}
     tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 926.59375, 'y': 84, 'width': 56.203125, 'height': 16}
-    tag=A title=None aria-label=None testo='Sapori&' box={'x': 1279.1875, 'y': 15.515625, 'width': 80.8125, 'height': 16.953125}
-    tag=A title=None aria-label=None testo='' box={'x': 40, 'y': 72, 'width': 131, 'height': 40}
-    tag=BUTTON title=None aria-label='Cerca' testo='' box={'x': 870.390625, 'y': 64, 'width': 24.203125, 'height': 56}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 926.59375, 'y': 84, 'width': 56.203125, 'height': 16}
     tag=A title=None aria-label='Registrati' testo='Registrati' box={'x': 998.796875, 'y': 64, 'width': 140, 'height': 56}
     tag=BUTTON title=None aria-label='Vantaggi per te' testo='Vantaggi per te' box={'x': 1154.796875, 'y': 64, 'width': 205.203125, 'height': 56}
+    tag=A title=None aria-label=None testo='Negozi e volantini' box={'x': 40, 'y': 144, 'width': 134.609375, 'height': 30}
+    tag=A title=None aria-label=None testo='HeyConad' box={'x': 198.609375, 'y': 144, 'width': 80.609375, 'height': 30}
+    tag=BUTTON title=None aria-label=None testo='Prodotti' box={'x': 303.21875, 'y': 144, 'width': 86.8125, 'height': 30}
+    tag=BUTTON title=None aria-label=None testo='Carte e Premi' box={'x': 414.03125, 'y': 144, 'width': 128.8125, 'height': 30}
+    tag=BUTTON title=None aria-label=None testo='Vantaggi per te' box=None
     tag=A title=None aria-label=None testo='Negozi e volantini' box={'x': 40, 'y': 144, 'width': 134.609375, 'height': 30}
     tag=A title=None aria-label=None testo='HeyConad' box={'x': 198.609375, 'y': 144, 'width': 80.609375, 'height': 30}
     tag=BUTTON title=None aria-label=None testo='Prodotti' box={'x': 303.21875, 'y': 144, 'width': 86.8125, 'height': 30}
@@ -194,11 +57,24 @@ Catene previste per oggi: conad, eurospin, ins
     download partito con: clic normale
 [salvato] lazio/anzio/conad.pdf (Spazio Conad, Viale Antium 4 (secondo volantino))
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-via-delle-fonderie-snc-00042-anzio--006228
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006228
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=006228
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=006228
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006228
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
+      https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=006228
+[ok] conad_006228_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750757/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006228&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=006228
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006228
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=006228
 [ok] conad_006228_Offerte24-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
@@ -208,7 +84,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006228
       https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=006228
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=006228
 [ok] conad_006228_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -218,7 +95,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=006228
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006228
       https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=006228
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006228
 [ok] conad_006228_Catalogo-Giocattolo-2026: pulsante trovato (testo 'Download PDF')
@@ -230,15 +108,24 @@ Catene previste per oggi: conad, eurospin, ins
 [salvato] lazio/anzio/conad_2.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
 [salvato] lazio/anzio/conad_3.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
 [salvato] lazio/anzio/conad_4.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
-    PDF: https://insmercato-cdn.it/insmercato/volantino/24/hfuwjs/pdf/volantino-A.pdf
-    date lette dalla copertina: 2026-11-20 - 2026-11-21
-[ok] ins_anzio: PDF scaricato (13592 KB)
-[salvato] lazio/anzio/ins.pdf (iN's Mercato Via di Villa Claudia 7)
+[salvato] lazio/anzio/conad_5.pdf (Conad Superstore, Via delle Fonderie (Lo Zodiaco))
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-city-via-flli-bandiera-15-04100-latina--001223
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=001223
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=001223
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=001223
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=001223
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223
+[ok] conad_001223_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750771/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=001223&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=001223
-    altri indirizzi 'volantini' nella pagina (1):
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=001223
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223
 [ok] conad_001223_Offerte24-City-Lazio: pulsante trovato (testo 'Download PDF')
     elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
@@ -247,7 +134,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=001223
-    altri indirizzi 'volantini' nella pagina (1):
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=001223
       https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=001223
 [ok] conad_001223_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
     elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
@@ -257,12 +145,26 @@ Catene previste per oggi: conad, eurospin, ins
     download partito con: clic normale
 [salvato] lazio/latina/conad.pdf (Conad City Via F.lli Bandiera 15)
 [salvato] lazio/latina/conad_2.pdf (Conad City Via F.lli Bandiera 15)
+[salvato] lazio/latina/conad_3.pdf (Conad City Via F.lli Bandiera 15)
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-via-ezio-47-04100-latina--008038
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008038
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008038
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008038
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008038
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
+      https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008038
+[ok] conad_008038_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750757/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008038&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008038
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008038
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008038
 [ok] conad_008038_Offerte24-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
@@ -272,7 +174,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008038
       https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008038
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008038
 [ok] conad_008038_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -282,7 +185,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008038
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008038
       https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008038
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008038
 [ok] conad_008038_Catalogo-Giocattolo-2026: pulsante trovato (testo 'Download PDF')
@@ -291,15 +195,29 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[salvato] lazio/latina/conad_3.pdf (Conad Superstore Via Ezio 47)
-[uguale] Latina conad (Conad Superstore Via Ezio 47): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Via Ezio 47): stesso volantino di conad.pdf, non lo duplico
 [salvato] lazio/latina/conad_4.pdf (Conad Superstore Via Ezio 47)
+[uguale] Latina conad (Conad Superstore Via Ezio 47): stesso volantino di conad_3.pdf, non lo duplico
+[salvato] lazio/latina/conad_5.pdf (Conad Superstore Via Ezio 47)
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-don-carlo-torello-51-04100-latina--006232
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006232
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=006232
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006232
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
+[ok] conad_006232_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=006232&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=006232
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006232
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
 [ok] conad_006232_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -309,7 +227,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006232
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=006232
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
 [ok] conad_006232_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -319,7 +238,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=006232
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=006232
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=006232
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=006232
 [ok] conad_006232_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -328,15 +248,29 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[salvato] lazio/latina/conad_5.pdf (Conad Via Don Carlo Torello 51)
-[uguale] Latina conad (Conad Via Don Carlo Torello 51): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Don Carlo Torello 51): stesso volantino di conad.pdf, non lo duplico
 [salvato] lazio/latina/conad_6.pdf (Conad Via Don Carlo Torello 51)
+[uguale] Latina conad (Conad Via Don Carlo Torello 51): stesso volantino di conad_3.pdf, non lo duplico
+[salvato] lazio/latina/conad_7.pdf (Conad Via Don Carlo Torello 51)
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-via-pier-luigi-nervi-c-o-c-c-le-torri-76-04100-latina--008449
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008449
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008449
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008449
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008449
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
+      https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008449
+[ok] conad_008449_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750757/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008449&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008449
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008449
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008449
 [ok] conad_008449_Offerte24-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
@@ -346,7 +280,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008449
       https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008449
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008449
 [ok] conad_008449_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -356,7 +291,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008449
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008449
       https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=008449
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008449
 [ok] conad_008449_Catalogo-Giocattolo-2026: pulsante trovato (testo 'Download PDF')
@@ -365,15 +301,29 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad_3.pdf, non lo duplico
-[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad.pdf, non lo duplico
 [uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad_4.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Via Pier Luigi Nervi 76 (Le Torri)): stesso volantino di conad_5.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-superstore-viale-pier-luigi-nervi-snc-04100-latina--010397
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010397
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=010397
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=010397
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010397
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
+      https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=010397
+[ok] conad_010397_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750757/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010397&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=010397
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010397
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=010397
 [ok] conad_010397_Offerte24-Superstore-Lazio: pulsante trovato (testo 'Download PDF')
@@ -383,7 +333,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010397
       https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=010397
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=010397
 [ok] conad_010397_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -393,7 +344,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=010397
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010397
       https://www.conad.it/volantini/Offerte24-Superstore-Lazio?anacanId=010397
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010397
 [ok] conad_010397_Catalogo-Giocattolo-2026: pulsante trovato (testo 'Download PDF')
@@ -402,15 +354,29 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad_3.pdf, non lo duplico
-[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad.pdf, non lo duplico
 [uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad_4.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Superstore Viale Pier Luigi Nervi snc): stesso volantino di conad_5.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-isonzo-157-04100-latina--009866
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009866
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009866
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009866
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
+[ok] conad_009866_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009866&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009866
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009866
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
 [ok] conad_009866_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -420,7 +386,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009866
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009866
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
 [ok] conad_009866_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -430,7 +397,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009866
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009866
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009866
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009866
 [ok] conad_009866_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -439,15 +407,29 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad_5.pdf, non lo duplico
-[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad.pdf, non lo duplico
 [uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Isonzo 157): stesso volantino di conad_7.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-viale-picasso-c-o-centro-commerciale-morbella-snc-04100-latina--008450
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008450
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008450
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008450
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
+[ok] conad_008450_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008450&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008450
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008450
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
 [ok] conad_008450_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -457,7 +439,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008450
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008450
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
 [ok] conad_008450_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -467,7 +450,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008450
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008450
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008450
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008450
 [ok] conad_008450_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -476,15 +460,29 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad_5.pdf, non lo duplico
-[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad.pdf, non lo duplico
 [uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Picasso (Morbella)): stesso volantino di conad_7.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-viale-nicolo-paganini-41-47-04100-latina--008926
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008926
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008926
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008926
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
+[ok] conad_008926_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008926&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008926
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008926
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
 [ok] conad_008926_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -494,7 +492,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008926
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008926
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
 [ok] conad_008926_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -504,7 +503,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008926
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008926
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008926
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008926
 [ok] conad_008926_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -513,14 +513,27 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad_5.pdf, non lo duplico
-[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad.pdf, non lo duplico
 [uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Viale Nicolò Paganini 41-47): stesso volantino di conad_7.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-city-via-capograssa-325-04010-latina--009124
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009124
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=009124
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009124
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009124
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=009124
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009124
+[ok] conad_009124_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750771/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009124&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=009124
-    altri indirizzi 'volantini' nella pagina (1):
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009124
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009124
 [ok] conad_009124_Offerte24-City-Lazio: pulsante trovato (testo 'Download PDF')
     elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
@@ -529,7 +542,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009124
-    altri indirizzi 'volantini' nella pagina (1):
+    altri indirizzi 'volantini' nella pagina (2):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009124
       https://www.conad.it/volantini/Offerte24-City-Lazio?anacanId=009124
 [ok] conad_009124_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
     elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
@@ -539,12 +553,26 @@ Catene previste per oggi: conad, eurospin, ins
     download partito con: clic normale
 [uguale] Latina conad (Conad City Via Capograssa 325): stesso volantino di conad.pdf, non lo duplico
 [uguale] Latina conad (Conad City Via Capograssa 325): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad City Via Capograssa 325): stesso volantino di conad_3.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-foce-verde-211-04100-latina--008811
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008811
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008811
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008811
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
+[ok] conad_008811_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008811&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008811
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008811
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
 [ok] conad_008811_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -554,7 +582,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008811
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008811
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
 [ok] conad_008811_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -564,7 +593,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008811
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008811
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008811
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008811
 [ok] conad_008811_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -573,25 +603,40 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad_5.pdf, non lo duplico
-[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad.pdf, non lo duplico
 [uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad_6.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Via Foce Verde 211): stesso volantino di conad_7.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-strada-delle-ferriere-4-04100-latina--009340
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009340
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009340
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009340
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
+[ok] conad_009340_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009340&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009340
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009340
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
 [ok] conad_009340_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
-    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1133.84375, 'y': 188, 'width': 160.15625, 'height': 36}
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
     indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1744311/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=009340&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FOfferte24-Con
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009340
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009340
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
 [ok] conad_009340_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -601,7 +646,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=009340
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=009340
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=009340
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=009340
 [ok] conad_009340_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -610,705 +656,29 @@ Catene previste per oggi: conad, eurospin, ins
     l'indirizzo non e' un PDF (stato 200)
     clic normale: eseguito
     download partito con: clic normale
-[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad_5.pdf, non lo duplico
-[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad_2.pdf, non lo duplico
+[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad.pdf, non lo duplico
 [uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad_6.pdf, non lo duplico
-[ok] eurospin_latina-7: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 579.984375, 'y': 153, 'width': 240, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[salvato] lazio/latina/eurospin.pdf (Eurospin Via Epitaffio 6)
-[ok] eurospin_latina-2: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 545.484375, 'y': 153, 'width': 309, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Latina eurospin (Eurospin Viale Le Corbusier 85/91): stesso volantino di eurospin.pdf, non lo duplico
-[ok] eurospin_latina-6: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 541.484375, 'y': 153, 'width': 317, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Latina eurospin (Eurospin Via Don Luigi Sturzo 9/12): stesso volantino di eurospin.pdf, non lo duplico
-[ok] eurospin_latina-5: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 502.484375, 'y': 153, 'width': 395, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Latina eurospin (Eurospin Via Piave km 69,200): stesso volantino di eurospin.pdf, non lo duplico
-[ok] eurospin_latina-8: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 534.484375, 'y': 153, 'width': 331, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Latina eurospin (Eurospin Via del Lido ang. SS Pontina): stesso volantino di eurospin.pdf, non lo duplico
-[ok] eurospin_latina-3: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 470.484375, 'y': 153, 'width': 459, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Latina eurospin (Eurospin Via Capograssa 2): stesso volantino di eurospin.pdf, non lo duplico
-[ok] eurospin_latina-1: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 579.984375, 'y': 153, 'width': 240, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Latina eurospin (Eurospin Viale Paganini): stesso volantino di eurospin.pdf, non lo duplico
-[ok] eurospin_latina: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 552.484375, 'y': 153, 'width': 295, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Latina eurospin (Eurospin Via della Stazione 229): stesso volantino di eurospin.pdf, non lo duplico
-[ok] eurospin_latina-4: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nLatina (LT) ' box={'x': 501.984375, 'y': 153, 'width': 396, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[uguale] Latina eurospin (Eurospin SS 148 Pontina km 80,800): stesso volantino di eurospin.pdf, non lo duplico
-[ok] eurospin_nettuno: pulsante trovato (selettore [title*="scarica" i])
-    elemento: tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    clic normale: non riuscito ('Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator("[title*=\\"scarica\\" i]").first\n    - locator resolved to <button tabindex="0" type="button" data-v-63313825="" data-v-e396e38f="" data-v-e4830ee8="" title="Scarica il volantino" class="smt-ui-form-button bg-transparent cursor-pointer flex h-10 items-center justify-center px-4 space-x-2 min-w-0 iconic md rounded-full relative">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - don')
-    --- elementi visibili dopo il primo clic fallito
-    tag=A title=None aria-label=None testo='Passa al contenuto principale' box={'x': 16, 'y': -51, 'width': 326, 'height': 51}
-    tag=A title=None aria-label=None testo='Le nostre offerte' box={'x': 16, 'y': 8, 'width': 118, 'height': 41}
-    tag=A title=None aria-label=None testo='Ricette' box={'x': 158, 'y': 8, 'width': 50, 'height': 41}
-    tag=A title=None aria-label=None testo='Compra Online' box={'x': 232, 'y': 8, 'width': 107, 'height': 41}
-    tag=A title=None aria-label=None testo='Seleziona il tuo negozio' box={'x': 939, 'y': 18, 'width': 191, 'height': 21}
-    tag=A title=None aria-label=None testo='Contatti' box={'x': 1163, 'y': 18, 'width': 87, 'height': 21}
-    tag=BUTTON title=None aria-label=None testo='Italy |\nIT' box={'x': 1283, 'y': 14, 'width': 101, 'height': 29}
-    tag=A title=None aria-label=None testo='' box={'x': 16, 'y': 73, 'width': 56.5, 'height': 56}
-    tag=A title=None aria-label=None testo='Volantino' box={'x': 104.5, 'y': 81, 'width': 75, 'height': 40}
-    tag=A title=None aria-label=None testo='Prodotti' box={'x': 211.5, 'y': 81, 'width': 64, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='I nostri marchi' box={'x': 307.5, 'y': 81, 'width': 137, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Eurospin Family' box={'x': 476.5, 'y': 81, 'width': 146, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='Gruppo Eurospin' box={'x': 654.5, 'y': 81, 'width': 156, 'height': 40}
-    tag=A title=None aria-label=None testo='Scopri Amo Essere' box={'x': 842.5, 'y': 81.046875, 'width': 222, 'height': 39.90625}
-    tag=BUTTON title=None aria-label='Ricerca' testo='' box={'x': 1229, 'y': 81, 'width': 40, 'height': 40}
-    tag=A title=None aria-label='Accedi' testo='Accedi' box={'x': 1277, 'y': 82.5, 'width': 107, 'height': 37}
-    tag=A title=None aria-label=None testo='informativa privacy\nsi apre in una nuova' box={'x': 765.65625, 'y': 1167, 'width': 146, 'height': 20}
-    tag=BUTTON title=None aria-label=None testo='Iscriviti' box={'x': 1165.890625, 'y': 1093, 'width': 210.109375, 'height': 48}
-    tag=A title=None aria-label='Homepage' testo='' box={'x': 16, 'y': 1462, 'width': 90.53125, 'height': 89.703125}
-    tag=BUTTON title=None aria-label=None testo='Scopri Eurospin' box={'x': 226.53125, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='News' box={'x': 226.53125, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Bilanci di Sostenibilità' box={'x': 226.53125, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Link utili' box={'x': 462.015625, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Area fornitori' box={'x': 462.015625, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Franchising' box={'x': 462.015625, 'y': 1565, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Immobiliare' box={'x': 462.015625, 'y': 1605, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Ricambi Enkho\nsi apre in una nuova sched' box={'x': 462.015625, 'y': 1645, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Schede di sicurezza' box={'x': 462.015625, 'y': 1685, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Download Manuali' box={'x': 462.015625, 'y': 1725, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Informazioni' box={'x': 697.515625, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=A title=None aria-label=None testo='Termini e condizioni' box={'x': 697.515625, 'y': 1525, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Accessibilità' box={'x': 697.515625, 'y': 1565, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Privacy Policy' box={'x': 697.515625, 'y': 1605, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Cookie Policy' box={'x': 697.515625, 'y': 1645, 'width': 215.484375, 'height': 24}
-    tag=A title=None aria-label=None testo='Whistleblowing' box={'x': 697.515625, 'y': 1685, 'width': 215.484375, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Lavora con noi' box={'x': 933, 'y': 1462, 'width': 215.5, 'height': 63}
-    tag=A title=None aria-label=None testo='Posizioni aperte in ufficio' box={'x': 933, 'y': 1525, 'width': 215.5, 'height': 24}
-    tag=A title=None aria-label=None testo='Posizioni aperte nei punti vendita' box={'x': 933, 'y': 1565, 'width': 215.5, 'height': 48}
-    tag=A title=None aria-label=None testo='Autocandidatura' box={'x': 933, 'y': 1629, 'width': 215.5, 'height': 24}
-    tag=BUTTON title=None aria-label=None testo='Contatti' box={'x': 1168.5, 'y': 1462, 'width': 215.484375, 'height': 63}
-    tag=BUTTON title=None aria-label=None testo='arrow_back_ios_new' box={'x': 241.328125, 'y': 153, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='expand_more\nSAPORI IN FESTA\nNettuno (RM)' box={'x': 530.484375, 'y': 153, 'width': 339, 'height': 40}
-    tag=BUTTON title='Volantino' aria-label=None testo='home' box={'x': 8, 'y': 495, 'width': 40, 'height': 40}
-    tag=BUTTON title='Cerca' aria-label=None testo='search' box={'x': 8, 'y': 535, 'width': 40, 'height': 40}
-    tag=BUTTON title='Scarica il volantino' aria-label=None testo='download' box={'x': 8, 'y': 575, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Punti vendita' aria-label=None testo='pin_drop' box={'x': 8, 'y': 615, 'width': 40, 'height': 40}
-    tag=BUTTON title='Condividi' aria-label=None testo='share' box={'x': 8, 'y': 655, 'width': 40, 'height': 40}
-    tag=A title=None aria-label=None testo='' box={'x': 445.3125, 'y': 539.0625, 'width': 81.71875, 'height': 77}
-    tag=A title=None aria-label=None testo='' box={'x': 740.671875, 'y': 403.484375, 'width': 84.25, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 772.078125, 'y': 755.046875, 'width': 94.1875, 'height': 76.984375}
-    tag=A title=None aria-label=None testo='' box={'x': 784.140625, 'y': 550.734375, 'width': 89.796875, 'height': 76.859375}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='arrow_forward_ios' box={'x': 1316, 'y': 595, 'width': 56, 'height': 56}
-    tag=BUTTON title='Preview pages' aria-label=None testo='gallery_thumbnail' box={'x': 500, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina precedente' aria-label=None testo='chevron_left' box={'x': 548, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Pagina successiva' aria-label=None testo='chevron_right' box={'x': 684, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Diminuisci livello di zoom' aria-label=None testo='zoom_out' box={'x': 732, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Aumenta livello di zoom' aria-label=None testo='zoom_in' box={'x': 772, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Centra' aria-label=None testo='picture_in_picture_center' box={'x': 812, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title='Attiva la modalità a schermo intero' aria-label=None testo='fullscreen' box={'x': 860, 'y': 997, 'width': 40, 'height': 40}
-    tag=BUTTON title=None aria-label=None testo='more_vert' box={'x': 908, 'y': 997, 'width': 40, 'height': 40}
-    clic forzato: eseguito
-    clic con JavaScript: eseguito
-    download partito con: clic con JavaScript
-[salvato] lazio/nettuno/eurospin.pdf (Via Scipione Borghese 35)
+[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Latina conad (Conad Strada delle Ferriere 4 (Borgo Montello)): stesso volantino di conad_7.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-carlo-cattaneo-22-00048-nettuno--010443
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010443
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010443
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010443
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
+[ok] conad_010443_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010443&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010443
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010443
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
 [ok] conad_010443_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -1318,7 +688,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010443
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010443
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
 [ok] conad_010443_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -1328,7 +699,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010443
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010443
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010443
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010443
 [ok] conad_010443_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -1340,13 +712,28 @@ Catene previste per oggi: conad, eurospin, ins
 [salvato] lazio/nettuno/conad.pdf (Conad Via Carlo Cattaneo 22)
 [salvato] lazio/nettuno/conad_2.pdf (Conad Via Carlo Cattaneo 22)
 [salvato] lazio/nettuno/conad_3.pdf (Conad Via Carlo Cattaneo 22)
+[salvato] lazio/nettuno/conad_4.pdf (Conad Via Carlo Cattaneo 22)
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-scipione-borghese-c-o-centro-comm-le-vele-snc-00048-nettuno--008451
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008451
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008451
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008451
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008451
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
+      https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008451
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
+[ok] conad_008451_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=008451&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008451
-    altri indirizzi 'volantini' nella pagina (3):
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008451
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008451
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
@@ -1357,7 +744,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
-    altri indirizzi 'volantini' nella pagina (3):
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008451
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008451
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008451
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
@@ -1368,7 +756,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008451
-    altri indirizzi 'volantini' nella pagina (3):
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008451
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008451
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
@@ -1379,7 +768,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=008451
-    altri indirizzi 'volantini' nella pagina (3):
+    altri indirizzi 'volantini' nella pagina (4):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=008451
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=008451
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=008451
       https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008451
@@ -1391,14 +781,28 @@ Catene previste per oggi: conad, eurospin, ins
     download partito con: clic normale
 [uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_2.pdf, non lo duplico
-[salvato] lazio/nettuno/conad_4.pdf (Conad Via Scipione Borghese (Le Vele))
 [uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_3.pdf, non lo duplico
+[salvato] lazio/nettuno/conad_5.pdf (Conad Via Scipione Borghese (Le Vele))
+[uguale] Nettuno conad (Conad Via Scipione Borghese (Le Vele)): stesso volantino di conad_4.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-santa-barbara-174-00048-nettuno--010683
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010683
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010683
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010683
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
+[ok] conad_010683_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010683&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010683
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010683
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
 [ok] conad_010683_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -1408,7 +812,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010683
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010683
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
 [ok] conad_010683_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -1418,7 +823,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010683
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010683
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010683
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010683
 [ok] conad_010683_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -1430,12 +836,26 @@ Catene previste per oggi: conad, eurospin, ins
 [uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_2.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Santa Barbara 174): stesso volantino di conad_4.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-traunreut-44-00048-nettuno--005520
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=005520
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=005520
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=005520
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
+[ok] conad_005520_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=005520&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=005520
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=005520
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
 [ok] conad_005520_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -1445,7 +865,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=005520
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=005520
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
 [ok] conad_005520_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -1455,7 +876,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=005520
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=005520
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=005520
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=005520
 [ok] conad_005520_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -1467,12 +889,26 @@ Catene previste per oggi: conad, eurospin, ins
 [uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_2.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_3.pdf, non lo duplico
+[uguale] Nettuno conad (Conad Via Traunreut 44): stesso volantino di conad_4.pdf, non lo duplico
     apro la scheda del negozio https://www.conad.it/ricerca-negozi/conad-via-aldo-moro-19-00048-nettuno--010694
+      indirizzo trovato: https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010694
       indirizzo trovato: https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010694
       indirizzo trovato: https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
       indirizzo trovato: https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+    apro https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010694
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
+      https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
+[ok] conad_010694_Integrativa24-Lazio: pulsante trovato (testo 'Download PDF')
+    elemento: tag=SPAN title=None aria-label=None testo='Download PDF' box={'x': 1134, 'y': 188, 'width': 160, 'height': 36}
+    indirizzo del pulsante: https://viewer-whitelabel.shopfully.cloud/flyer/1750759/1?language=it_it&propertyId=5b3b8d85-e7f4-442b-9e52-2046ac1f5264&storeId=010694&originURL=https%3A%2F%2Fwww.conad.it%2Fvolantini%2FIntegrativa24
+    l'indirizzo non e' un PDF (stato 200)
+    clic normale: eseguito
+    download partito con: clic normale
     apro https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010694
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010694
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
 [ok] conad_010694_Offerte24-Conad-Lazio: pulsante trovato (testo 'Download PDF')
@@ -1482,7 +918,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010694
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010694
       https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
 [ok] conad_010694_Catalogo-Ceste-Regalo-Lazio: pulsante trovato (testo 'Download PDF')
@@ -1492,7 +929,8 @@ Catene previste per oggi: conad, eurospin, ins
     clic normale: eseguito
     download partito con: clic normale
     apro https://www.conad.it/volantini/Lazio-conad-piuofferte?anacanId=010694
-    altri indirizzi 'volantini' nella pagina (2):
+    altri indirizzi 'volantini' nella pagina (3):
+      https://www.conad.it/volantini/Integrativa24-Lazio?anacanId=010694
       https://www.conad.it/volantini/Offerte24-Conad-Lazio?anacanId=010694
       https://www.conad.it/volantini/Catalogo-Ceste-Regalo-Lazio?anacanId=010694
 [ok] conad_010694_Lazio-conad-piuofferte: pulsante trovato (testo 'Download PDF')
@@ -1504,9 +942,6 @@ Catene previste per oggi: conad, eurospin, ins
 [uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_2.pdf, non lo duplico
 [uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_3.pdf, non lo duplico
-    PDF: https://insmercato-cdn.it/insmercato/volantino/24/hfuwjs/pdf/volantino-A.pdf
-    date lette dalla copertina: 2026-11-20 - 2026-11-21
-[ok] ins_nettuno: PDF scaricato (13592 KB)
-[salvato] lazio/nettuno/ins.pdf (iN's Mercato Via Ugo La Malfa 9)
+[uguale] Nettuno conad (Conad Via Aldo Moro 19): stesso volantino di conad_4.pdf, non lo duplico
 
-Fatto: 19 file salvati, 1 errori.
+Fatto: 17 file salvati, 1 errori.
