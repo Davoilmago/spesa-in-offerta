@@ -60,19 +60,6 @@
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=006228"
   },
   {
-    "file": "lazio/anzio/crai.pdf",
-    "regione": "Lazio",
-    "citta": "Anzio",
-    "cap": "00042",
-    "catena": "crai",
-    "negozio": "Crai Via delle Cinque Miglia 58/60",
-    "sha256": "4a1f29a8d67b807bcd305df404b182636f6d543e61febbf42f1704a7c40c4b06",
-    "byte": 5567976,
-    "scaricato_il": "2026-11-20T04:52:12",
-    "titolo": "Volantino Crai",
-    "indirizzo": "https://strapi.crai.it/uploads/LR_AP_25_EXTRA_BASE_TIRRENO_627df97d66.pdf"
-  },
-  {
     "file": "lazio/anzio/deco.pdf",
     "regione": "Lazio",
     "citta": "Anzio",
@@ -84,17 +71,6 @@
     "scaricato_il": "2026-11-26T13:24:10",
     "titolo": "Volantino Decò",
     "indirizzo": "https://deco.volantinopiu.com/ws/pv003499.php"
-  },
-  {
-    "file": "lazio/anzio/eurospin.pdf",
-    "regione": "Lazio",
-    "citta": "Anzio",
-    "cap": "00042",
-    "catena": "eurospin",
-    "negozio": "Via Nerone 15",
-    "sha256": "36df8db5df3f47e3bdf9a644328d9d778c27070e942c00aca2b8a9f452309394",
-    "byte": 15020120,
-    "scaricato_il": "2026-11-24T04:54:40"
   },
   {
     "file": "lazio/anzio/ins.pdf",
@@ -147,20 +123,6 @@
     "byte": 9536537,
     "scaricato_il": "2026-11-26T13:23:08",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
-  },
-  {
-    "file": "lazio/latina/carrefour.pdf",
-    "regione": "Lazio",
-    "citta": "Latina",
-    "cap": "04100",
-    "catena": "carrefour",
-    "negozio": "Carrefour Market Viale Petrarca 41",
-    "sha256": "e5478d570b47338e0b5ebfda342e9beac1d0487d95d6bed66b2f94edb47e1581",
-    "byte": 17373319,
-    "scaricato_il": "2026-11-26T13:28:45",
-    "titolo": "Prezzi da black friday",
-    "valido_dal": "2026-11-17",
-    "valido_al": "2026-11-26"
   },
   {
     "file": "lazio/latina/carrefour_2.pdf",
@@ -332,21 +294,6 @@
     "valido_al": "2026-11-29"
   },
   {
-    "file": "lazio/latina/elite.pdf",
-    "regione": "Lazio",
-    "citta": "Latina",
-    "cap": "04100",
-    "catena": "elite",
-    "negozio": "Elite Via Priverno 28",
-    "sha256": "aa2e1fb6b5e887c19ad52237ad4e513df187116bc009a061268033e30601c97f",
-    "byte": 1837534,
-    "scaricato_il": "2026-11-20T05:00:01",
-    "titolo": "Super Risparmio",
-    "indirizzo": "https://superelite.it/promozioni/super-risparmio",
-    "valido_dal": "2026-11-13",
-    "valido_al": "2026-11-26"
-  },
-  {
     "file": "lazio/latina/elite_2.pdf",
     "regione": "Lazio",
     "citta": "Latina",
@@ -377,31 +324,6 @@
     "valido_al": "2026-12-31"
   },
   {
-    "file": "lazio/latina/eurospin.pdf",
-    "regione": "Lazio",
-    "citta": "Latina",
-    "cap": "04100",
-    "catena": "eurospin",
-    "negozio": "Eurospin Via Epitaffio 6",
-    "sha256": "36df8db5df3f47e3bdf9a644328d9d778c27070e942c00aca2b8a9f452309394",
-    "byte": 15020120,
-    "scaricato_il": "2026-11-24T05:01:14"
-  },
-  {
-    "file": "lazio/latina/lidl.pdf",
-    "regione": "Lazio",
-    "citta": "Latina",
-    "cap": "04100",
-    "catena": "lidl",
-    "negozio": "volantino nazionale",
-    "sha256": "0f6774dbae83d5f33ffdd4dbf597d018d27d8b9ce09dc12379203e2343bc99e4",
-    "byte": 29073835,
-    "scaricato_il": "2026-11-20T04:52:25",
-    "valido_dal": "2026-11-19",
-    "valido_al": "2026-11-25",
-    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-19-11-al-25-11-volantino-settimanale-NAZ/view/flyer/page/1"
-  },
-  {
     "file": "lazio/latina/md.pdf",
     "regione": "Lazio",
     "citta": "Latina",
@@ -425,20 +347,6 @@
     "byte": 9536537,
     "scaricato_il": "2026-11-26T13:28:22",
     "indirizzo": "https://www.todis.it/volantini/lazio/"
-  },
-  {
-    "file": "lazio/nettuno/carrefour.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "carrefour",
-    "negozio": "Carrefour Market Via Trieste 78",
-    "sha256": "94adc76677a16eab853dac708f64d695c7952fba1456650e76e4e30d1dc19c34",
-    "byte": 22941091,
-    "scaricato_il": "2026-11-26T13:31:53",
-    "titolo": "Prezzi da black friday",
-    "valido_dal": "2026-11-17",
-    "valido_al": "2026-11-26"
   },
   {
     "file": "lazio/nettuno/carrefour_2.pdf",
@@ -543,36 +451,6 @@
     "indirizzo": "https://www.conad.it/volantini/Catalogo-Giocattolo-2026?anacanId=008451"
   },
   {
-    "file": "lazio/nettuno/elite.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "elite",
-    "negozio": "Elite Via De Gasperi 14",
-    "sha256": "c23403f314d07518cdd635a68a19ce171268a98fc6ca4d7a4b5096983e8f9b4e",
-    "byte": 4631665,
-    "scaricato_il": "2026-11-23T05:10:05",
-    "titolo": "Sconti fino al 50%",
-    "indirizzo": "https://superelite.it/promozioni/sconti-fino-al-52",
-    "valido_dal": "2026-11-13",
-    "valido_al": "2026-11-26"
-  },
-  {
-    "file": "lazio/nettuno/elite_2.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "elite",
-    "negozio": "Elite Via De Gasperi 14",
-    "sha256": "a39180e1a7e88188288a25418ba6c8eccc5c6b4c22f3f305c3476b67a6d8410d",
-    "byte": 1837540,
-    "scaricato_il": "2026-11-23T05:10:05",
-    "titolo": "Super Risparmio",
-    "indirizzo": "https://superelite.it/promozioni/super-risparmio",
-    "valido_dal": "2026-11-13",
-    "valido_al": "2026-11-26"
-  },
-  {
     "file": "lazio/nettuno/elite_3.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",
@@ -588,17 +466,6 @@
     "valido_al": "2026-12-31"
   },
   {
-    "file": "lazio/nettuno/eurospin.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "eurospin",
-    "negozio": "Via Scipione Borghese 35",
-    "sha256": "36df8db5df3f47e3bdf9a644328d9d778c27070e942c00aca2b8a9f452309394",
-    "byte": 15020120,
-    "scaricato_il": "2026-11-24T05:04:51"
-  },
-  {
     "file": "lazio/nettuno/ins.pdf",
     "regione": "Lazio",
     "citta": "Nettuno",
@@ -611,20 +478,6 @@
     "titolo": "Volantino 24",
     "valido_dal": "2026-11-20",
     "valido_al": "2026-11-21"
-  },
-  {
-    "file": "lazio/nettuno/lidl.pdf",
-    "regione": "Lazio",
-    "citta": "Nettuno",
-    "cap": "00048",
-    "catena": "lidl",
-    "negozio": "volantino nazionale",
-    "sha256": "0f6774dbae83d5f33ffdd4dbf597d018d27d8b9ce09dc12379203e2343bc99e4",
-    "byte": 29073835,
-    "scaricato_il": "2026-11-20T05:01:01",
-    "valido_dal": "2026-11-19",
-    "valido_al": "2026-11-25",
-    "indirizzo": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-19-11-al-25-11-volantino-settimanale-NAZ/view/flyer/page/1"
   },
   {
     "file": "lazio/nettuno/pam.pdf",
