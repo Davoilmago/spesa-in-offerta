@@ -52,31 +52,31 @@
 50: tag=BUTTON title=None aria-label=None testo='Chi Siamo' box={'x': 1029.03125, 'y': 113.125, 'width': 106.359375, 'height': 20}
 51: tag=A title=None aria-label=None testo='Trova il tuo negozio' box=None
 52: tag=A title=None aria-label=None testo='Home' box={'x': 28, 'y': 161.625, 'width': 34.453125, 'height': 15}
-53: tag=A title=None aria-label=None testo='Scopri di più' box={'x': 28, 'y': 1109.359375, 'width': 138.203125, 'height': 40.5}
-54: tag=BUTTON title=None aria-label=None testo='Indicazioni stradali' box={'x': 28, 'y': 1525.859375, 'width': 185, 'height': 40.5}
-55: tag=A title=None aria-label=None testo='Scopri cosa facciamo' box={'x': 153.96875, 'y': 2588.046875, 'width': 130, 'height': 17}
-56: tag=A title=None aria-label=None testo='Scopri la filiera garantita CRAI' box={'x': 583.625, 'y': 2588.046875, 'width': 182, 'height': 17}
-57: tag=A title=None aria-label=None testo='Leggi i nostri comunicati' box={'x': 1079.640625, 'y': 2588.046875, 'width': 152, 'height': 17}
-58: tag=A title=None aria-label=None testo='' box={'x': 639, 'y': 2797.953125, 'width': 30, 'height': 34}
-59: tag=A title=None aria-label=None testo='' box={'x': 685, 'y': 2797.953125, 'width': 30, 'height': 34}
-60: tag=A title=None aria-label=None testo='' box={'x': 731, 'y': 2797.953125, 'width': 30, 'height': 34}
-61: tag=A title=None aria-label=None testo='' box={'x': 1070.65625, 'y': 2762.953125, 'width': 40, 'height': 44}
-62: tag=A title=None aria-label=None testo='' box={'x': 1034.65625, 'y': 2822.953125, 'width': 120, 'height': 44}
-63: tag=A title=None aria-label=None testo='' box={'x': 1162.65625, 'y': 2822.953125, 'width': 120, 'height': 44}
-64: tag=A title=None aria-label=None testo='Piaceri Italiani' box={'x': 32, 'y': 3002.859375, 'width': 77.8125, 'height': 18}
-65: tag=A title=None aria-label=None testo='Crai Sport' box={'x': 32, 'y': 3024.859375, 'width': 57.140625, 'height': 18}
-66: tag=A title=None aria-label=None testo='Crai Proteico' box={'x': 32, 'y': 3046.859375, 'width': 74.46875, 'height': 18}
-67: tag=A title=None aria-label=None testo='Linea Bio' box={'x': 32, 'y': 3068.859375, 'width': 51.015625, 'height': 18}
-68: tag=A title=None aria-label=None testo='Linea Eco' box={'x': 32, 'y': 3090.859375, 'width': 53.015625, 'height': 18}
-69: tag=A title=None aria-label=None testo='Linea In Armonia' box={'x': 32, 'y': 3112.859375, 'width': 93.8125, 'height': 18}
-70: tag=A title=None aria-label=None testo='Linea In Armonia corpo e capelli' box={'x': 32, 'y': 3134.859375, 'width': 175.609375, 'height': 18}
-71: tag=A title=None aria-label=None testo='Filiera Ortofrutta' box={'x': 32, 'y': 3156.859375, 'width': 96.03125, 'height': 18}
-72: tag=A title=None aria-label=None testo='Filiera Carni' box={'x': 32, 'y': 3178.859375, 'width': 67.46875, 'height': 18}
-73: tag=A title=None aria-label=None testo='La nostra storia' box={'x': 447.140625, 'y': 3002.859375, 'width': 86.8125, 'height': 18}
-74: tag=A title=None aria-label=None testo='Identità e valori' box={'x': 447.140625, 'y': 3024.859375, 'width': 85.921875, 'height': 18}
-75: tag=A title=None aria-label=None testo='Bilancio di sostenibilità' box={'x': 447.140625, 'y': 3046.859375, 'width': 127.828125, 'height': 18}
-76: tag=A title=None aria-label=None testo='Il nostro impegno' box={'x': 447.140625, 'y': 3068.859375, 'width': 97.921875, 'height': 18}
-77: tag=A title=None aria-label=None testo='Filiera garantita' box={'x': 447.140625, 'y': 3090.859375, 'width': 87.921875, 'height': 18}
-78: tag=A title=None aria-label=None testo='Modello organizzativo' box={'x': 447.140625, 'y': 3112.859375, 'width': 123.375, 'height': 18}
-79: tag=A title=None aria-label=None testo='Ambiente' box={'x': 447.140625, 'y': 3134.859375, 'width': 56.90625, 'height': 18}
+53: tag=A title=None aria-label=None testo='Leggi il volantino' box={'x': 880, 'y': 436.375, 'width': 172.203125, 'height': 42.5}
+54: tag=A title=None aria-label=None testo='Condividi' box={'x': 885, 'y': 507.875, 'width': 97, 'height': 21}
+55: tag=A title=None aria-label=None testo='Scarica' box={'x': 1024, 'y': 507.875, 'width': 80, 'height': 21}
+56: tag=A title=None aria-label=None testo='Scopri di più' box={'x': 28, 'y': 1109.359375, 'width': 138.203125, 'height': 40.5}
+57: tag=BUTTON title=None aria-label=None testo='Indicazioni stradali' box={'x': 28, 'y': 1525.859375, 'width': 185, 'height': 40.5}
+58: tag=A title=None aria-label=None testo='Scopri cosa facciamo' box={'x': 153.96875, 'y': 2588.046875, 'width': 130, 'height': 17}
+59: tag=A title=None aria-label=None testo='Scopri la filiera garantita CRAI' box={'x': 583.625, 'y': 2588.046875, 'width': 182, 'height': 17}
+60: tag=A title=None aria-label=None testo='Leggi i nostri comunicati' box={'x': 1079.640625, 'y': 2588.046875, 'width': 152, 'height': 17}
+61: tag=A title=None aria-label=None testo='' box={'x': 639, 'y': 2797.953125, 'width': 30, 'height': 34}
+62: tag=A title=None aria-label=None testo='' box={'x': 685, 'y': 2797.953125, 'width': 30, 'height': 34}
+63: tag=A title=None aria-label=None testo='' box={'x': 731, 'y': 2797.953125, 'width': 30, 'height': 34}
+64: tag=A title=None aria-label=None testo='' box={'x': 1070.65625, 'y': 2762.953125, 'width': 40, 'height': 44}
+65: tag=A title=None aria-label=None testo='' box={'x': 1034.65625, 'y': 2822.953125, 'width': 120, 'height': 44}
+66: tag=A title=None aria-label=None testo='' box={'x': 1162.65625, 'y': 2822.953125, 'width': 120, 'height': 44}
+67: tag=A title=None aria-label=None testo='Piaceri Italiani' box={'x': 32, 'y': 3002.859375, 'width': 77.8125, 'height': 18}
+68: tag=A title=None aria-label=None testo='Crai Sport' box={'x': 32, 'y': 3024.859375, 'width': 57.140625, 'height': 18}
+69: tag=A title=None aria-label=None testo='Crai Proteico' box={'x': 32, 'y': 3046.859375, 'width': 74.46875, 'height': 18}
+70: tag=A title=None aria-label=None testo='Linea Bio' box={'x': 32, 'y': 3068.859375, 'width': 51.015625, 'height': 18}
+71: tag=A title=None aria-label=None testo='Linea Eco' box={'x': 32, 'y': 3090.859375, 'width': 53.015625, 'height': 18}
+72: tag=A title=None aria-label=None testo='Linea In Armonia' box={'x': 32, 'y': 3112.859375, 'width': 93.8125, 'height': 18}
+73: tag=A title=None aria-label=None testo='Linea In Armonia corpo e capelli' box={'x': 32, 'y': 3134.859375, 'width': 175.609375, 'height': 18}
+74: tag=A title=None aria-label=None testo='Filiera Ortofrutta' box={'x': 32, 'y': 3156.859375, 'width': 96.03125, 'height': 18}
+75: tag=A title=None aria-label=None testo='Filiera Carni' box={'x': 32, 'y': 3178.859375, 'width': 67.46875, 'height': 18}
+76: tag=A title=None aria-label=None testo='La nostra storia' box={'x': 447.140625, 'y': 3002.859375, 'width': 86.8125, 'height': 18}
+77: tag=A title=None aria-label=None testo='Identità e valori' box={'x': 447.140625, 'y': 3024.859375, 'width': 85.921875, 'height': 18}
+78: tag=A title=None aria-label=None testo='Bilancio di sostenibilità' box={'x': 447.140625, 'y': 3046.859375, 'width': 127.828125, 'height': 18}
+79: tag=A title=None aria-label=None testo='Il nostro impegno' box={'x': 447.140625, 'y': 3068.859375, 'width': 97.921875, 'height': 18}
 --- frame: about:srcdoc
